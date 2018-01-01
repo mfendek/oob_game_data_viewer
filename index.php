@@ -86,7 +86,7 @@ try {
         $filters = json_decode($_GET['f'], true);
         if (!is_null($filters)) {
             foreach ($filters as $name => $value) {
-                if (in_array($name, $validFilters) && mb_strlen($value) < 100) {
+                if (in_array($name, $validFilters) && mb_strlen($value) < 500) {
                     $selectedFilters[$name] = $value;
                 }
             }
@@ -526,8 +526,8 @@ try {
 
     $itemsTotal = count($units);
     $pagesTotal = ceil($itemsTotal / $itemsPerPage);
-    if (array_key_exists('page', $_GET)) {
-        $currentPage = filter_var($_GET['page'], FILTER_VALIDATE_INT, [
+    if (array_key_exists('p', $_GET)) {
+        $currentPage = filter_var($_GET['p'], FILTER_VALIDATE_INT, [
             'options' => [
                 'default' => 0,
                 'min_range' => 0,
@@ -539,6 +539,15 @@ try {
 
     // store ordered ids so we can use them to sort later, JS will change the order of the unit data when parsing JSON
     $unitsOrdered = array_keys($units);
+
+    // preselected compare unit
+    if (array_key_exists('c', $_GET)) {
+        $compare = filter_var($_GET['c'], FILTER_VALIDATE_INT);
+        $compare = ($compare !== false && in_array($compare, $unitsOrdered)) ? $compare : -1;
+    } else {
+        $compare = -1;
+    }
+
     $unitsOrdered = json_encode($unitsOrdered);
     $units = json_encode($units);
     sort($filterCategories);
@@ -652,6 +661,10 @@ try {
 
     if (count($selectedFilters) > 0) {
         $html.= '<div id="preselected-filters" class="hidden">' . json_encode($selectedFilters) .'</div>';
+    }
+
+    if ($compare >= 0) {
+        $html.= '<div id="preselected-compare" class="hidden">' . $compare .'</div>';
     }
 
     $html.= '<div id="spinner" class="spinner"><img src="src/img/spinner.gif" alt="spinner"/></div>';

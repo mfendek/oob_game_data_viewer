@@ -47,6 +47,13 @@ body {
   justify-content: center;
 }
 
+.change-break-line {
+  span {
+    display: block;
+    text-align: center;
+  }
+}
+
 .units-list {
   align-items: stretch;
   display: flex;
@@ -141,8 +148,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 
-    &--square-small
-    {
+    &--square-small {
       height: 32px;
       width: 32px;
     }

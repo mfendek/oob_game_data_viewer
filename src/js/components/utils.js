@@ -133,6 +133,7 @@ export default function () {
         const terrain = $('#terrain-data-file');
         const pagesTotal = $('#pages-total');
         const preselectedFilters = $('#preselected-filters');
+        const preselectedCompare = $('#preselected-compare');
 
         // pagination data
         manager.pagesTotal = parseInt(pagesTotal.text());
@@ -146,7 +147,11 @@ export default function () {
         manager.terrain = JSON.parse(terrain.text());
         manager.unitsOrder = JSON.parse(order.text());
         manager.unitsFiltered = manager.unitsOrder;
-        const orderedIds = manager.unitsOrder;
+
+        // pre selected unit compare
+        if (preselectedCompare.length > 0) {
+          manager.startCompare(parseInt(preselectedCompare.text()));
+        }
 
         if (preselectedFilters.length > 0) {
           // preselected filters are present
@@ -208,23 +213,31 @@ export default function () {
       },
 
       /**
-       * generate url with provided filters
+       * generate url with provided params
        *
-       * @param {Object} filters
-       * @param {number} page
+       * @param {Object} data
        * @returns {string}
        */
-      getFilterUrl: function (filters, page) {
-        if (typeof page === 'undefined') {
-          page = 0;
+      getUrlWithParams: function (data) {
+        let params = {};
+
+        // filters
+        if (typeof data['f'] !== 'undefined') {
+          params['f'] = JSON.stringify(data['f']);
         }
 
-        let params = {
-          f: JSON.stringify(filters)
-        };
+        // pagination
+        if (typeof data['p'] !== 'undefined') {
+          params['p'] = data['p'];
+        }
 
-        if (page > 0) {
-          params['page'] = page;
+        // unit comparison
+        if (typeof data['c'] !== 'undefined') {
+          params['c'] = data['c'];
+        }
+
+        if (Object.keys(params).length === 0) {
+          return '';
         }
 
         return '?'.concat($.param(params));
@@ -273,10 +286,34 @@ export default function () {
         }
 
         // determine if change needs to be highlighted
-        if (manager.unitsData[manager.compareId][property] > value) {
+        const baseValue = manager.unitsData[manager.compareId][property];
+        let subElement;
+        if (baseValue > value) {
           element.addClass((reversed) ? 'positive-change' : 'negative-change');
-        } else if (manager.unitsData[manager.compareId][property] < value) {
+
+          // wrap text inside an element
+          subElement = $('<span></span>');
+          subElement.text(element.text());
+          element.text('');
+          element.append(subElement);
+
+          const diff = baseValue - value;
+          subElement = $('<span></span>');
+          subElement.text(' -'.concat(diff.toString()));
+          element.append(subElement);
+        } else if (baseValue < value) {
           element.addClass((reversed) ? 'negative-change' : 'positive-change');
+
+          // wrap text inside an element
+          subElement = $('<span></span>');
+          subElement.text(element.text());
+          element.text('');
+          element.append(subElement);
+
+          const diff = value - baseValue;
+          subElement = $('<span></span>');
+          subElement.text(' +'.concat(diff.toString()));
+          element.append(subElement);
         }
       },
 
@@ -307,10 +344,21 @@ export default function () {
         }
 
         // determine if change needs to be highlighted
+        let subElement;
         if (points > value) {
           element.addClass('negative-change');
+
+          const diff = points - value;
+          subElement = $('<span></span>');
+          subElement.text(' -'.concat(diff.toString()));
+          element.append(subElement);
         } else if (points < value) {
           element.addClass('positive-change');
+
+          const diff = value - points;
+          subElement = $('<span></span>');
+          subElement.text(' +'.concat(diff.toString()));
+          element.append(subElement);
         }
       },
 
@@ -341,10 +389,21 @@ export default function () {
         }
 
         // determine if change needs to be highlighted
+        let subElement;
         if (points > value) {
           element.addClass('negative-change');
+
+          const diff = points - value;
+          subElement = $('<span></span>');
+          subElement.text(' -'.concat(diff.toString()));
+          element.append(subElement);
         } else if (points < value) {
           element.addClass('positive-change');
+
+          const diff = value - points;
+          subElement = $('<span></span>');
+          subElement.text(' +'.concat(diff.toString()));
+          element.append(subElement);
         }
       },
 
@@ -384,7 +443,7 @@ export default function () {
         let element = $('<div></div>');
         element.addClass('unit-item__detail-title');
         let subElement = $('<a></a>');
-        subElement.attr('href', manager.getFilterUrl({id : id}));
+        subElement.attr('href', manager.getUrlWithParams({f:{id : id}}));
         subElement.text(data['name_real'].concat(' (', id, ')'));
         element.append(subElement);
         contentRow.append(element);
@@ -405,6 +464,14 @@ export default function () {
         element.attr('title', data['type'].concat(' unit type'));
         contentRow.append(element);
 
+        // chassis
+        element = $('<div></div>');
+        element.addClass('unit-item__content-icon');
+        element.addClass('unit-item__content-icon--square-small');
+        element.attr('style', manager.getBackgroundImg('chassis', data['chassis']));
+        element.attr('title', 'unit has '.concat(data['chassis'], ' movement type'));
+        contentRow.append(element);
+
         // cost
         element = $('<div></div>');
         element.addClass('unit-item__content-icon');
@@ -414,16 +481,9 @@ export default function () {
         element.attr('title', 'unit costs '.concat(data['cost'].toString(), ' resource points'));
         subElement = $('<span></span>');
         subElement.text(data['cost']);
+        subElement.addClass('change-break-line');
         manager.compareCoreAttribute(subElement, 'cost', data['cost'], true);
         element.append(subElement);
-        contentRow.append(element);
-
-        // chassis
-        element = $('<div></div>');
-        element.addClass('unit-item__content-icon');
-        element.addClass('unit-item__content-icon--square-small');
-        element.attr('style', manager.getBackgroundImg('chassis', data['chassis']));
-        element.attr('title', 'unit has '.concat(data['chassis'], ' movement type'));
         contentRow.append(element);
 
         // supply
@@ -1004,7 +1064,7 @@ export default function () {
 
               // transport unit is properly linked
               subElement = $('<a></a>');
-              subElement.attr('href', manager.getFilterUrl({id : item['id']}));
+              subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
               subElement.text(realName);
               element.attr(
                   'title',
@@ -1108,6 +1168,7 @@ export default function () {
         element.text('Compare');
         element.click(function () {
           manager.startCompare($(this).data('unit-id'));
+          manager.refreshPage();
         });
         contentRow.append(element);
 
@@ -1232,9 +1293,7 @@ export default function () {
 
         const comparedUnit = manager.unitsData[unitId];
         compareLabel.find('span').text(comparedUnit['name_real']);
-        compareLabel.attr('href', manager.getFilterUrl({id : comparedUnit['id']}));
-
-        manager.refreshPage();
+        compareLabel.attr('href', manager.getUrlWithParams({f:{id : comparedUnit['id']}}));
       },
 
       /**
@@ -1250,8 +1309,6 @@ export default function () {
         compareLabel.addClass('hidden');
         compareLabel.find('span').text('');
         compareLabel.attr('href', '');
-
-        manager.refreshPage();
       },
 
       /**
@@ -1336,7 +1393,12 @@ export default function () {
        * update permalink based on current filters and page
        */
       updatePermalink: function () {
-        $('#filter-permalink').find('a').attr('href', manager.getFilterUrl(manager.filters, manager.currentPage));
+        const params = {f:manager.filters, p:manager.currentPage};
+        if (manager.compareId >= 0) {
+          params['c'] = manager.compareId;
+        }
+
+        $('#filter-permalink').find('a').attr('href', manager.getUrlWithParams(params));
       },
 
       /**
@@ -1588,6 +1650,7 @@ export default function () {
 
       $('button[name="clear-compare"]').click(function () {
         manager.clearCompare();
+        manager.refreshPage();
       });
     });
   });
