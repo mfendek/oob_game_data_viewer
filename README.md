@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Unit Navigator - Order of Battle is a game data viewer tool that provides in depth unit data access and advanced unit comparison functionality.
+Order Of Battle is a turn based war game. It has great game mechanics but UI is lacking. This application tries to remedy that and  functions as
+ a game data viewer tool that provides in depth unit data access and advanced unit comparison functionality.
 
 ## Installation
 
@@ -24,6 +25,8 @@ Checkout GIT repository from `https://github.com/mfendek/oob_game_data_viewer.gi
  
  ## Links
  
+ * Order Of Battle product page - http://www.slitherine.com/products/516/details/Order.of.Battle:.World.War.II
+ * Order Of Battle forum - http://www.slitherine.com/forum/viewforum.php?f=264
  * Node - https://nodejs.org/
  * Yarn - https://yarnpkg.com/
  * PSR-1 - http://www.php-fig.org/psr/psr-1/
@@ -32,4 +35,3 @@ Checkout GIT repository from `https://github.com/mfendek/oob_game_data_viewer.gi
  * BEM - http://getbem.com/naming/
  * Color Names - http://www.colorhexa.com/
  * Flex box - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
- 
