@@ -183,6 +183,7 @@ export default function () {
         } else {
           // default page load
           manager.loadPage();
+          manager.refreshPagination();
         }
 
         // cleanup used data sources
@@ -1513,22 +1514,26 @@ export default function () {
       $('.filter-bar').removeClass('hidden');
 
       // first page button
-      $('.first-page').click(function () {
+      $('.first-page').click(function (e) {
+        e.preventDefault();
         manager.firstPage();
       });
 
       // last page button
-      $('.last-page').click(function () {
+      $('.last-page').click(function (e) {
+        e.preventDefault();
         manager.lastPage();
       });
 
       // next page button
-      $('.next-page').click(function () {
+      $('.next-page').click(function (e) {
+        e.preventDefault();
         manager.nextPage();
       });
 
       // previous page button
-      $('.previous-page').click(function () {
+      $('.previous-page').click(function (e) {
+        e.preventDefault();
         manager.previousPage();
       });
 
