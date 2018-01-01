@@ -1,0 +1,117 @@
+﻿commander_95 = Hans Valentin Hube
+commander_96 = Theodor Scherer
+commander_97 = Franz Wegmann
+
+tutorial_content_afrika_title = [New content] Afrika
+tutorial_content_afrika = North African campaign 1941-1943
+
+tooltip_remove_variable = Remove this campaign variable
+campaign_default_defeat_title = DEFEAT
+campaign_default_defeat_text = We have been defeated.
+campaign_default_victory_title = VICTORY
+campaign_default_victory_text = We have defeated the enemy.
+
+commander_undetachable_text = This commander cannot be detached from its parent unit.
+
+editor_import_experience_perfect = Core import experience
+tooltip_add_core = Create a new core definition
+core_name = Core name
+unlocked = Unlocked
+editor_importable_cores = Importable Cores
+editor_core_definitions = Core Definitions
+
+trigger_condition_24 = Check Specialization
+
+editor_count_transports = Count transports?
+editor_missing_unit = Missing unit
+
+
+// COMING SOON
+
+spec_home_guard_title = Home Guard
+spec_home_guard_descr = Organizing and arming civilians to resist enemy invasion.
+spec_home_guard_effect = • Auxiliary Home Guard and Armadillo units are available at the start of each battle
+
+spec_free_french_title = Free French
+spec_free_french_descr = French troops and equipment evacuated to Britain
+spec_free_french_effect = • A Somua S35 medium tank is added to the core force
+
+spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_descr = Armed resistance in occupied territories can help with sabotage and harassment operations.
+spec_resistance_fighters_effect = • Auxiliary Resistance Fighters can be deployed anywhere outside of the fog of war
+
+spec_rationing_title = Rationing
+spec_rationing_descr = ?
+spec_rationing_effect = •
+
+spec_rocket_balistics_title = Rocket Ballistics
+spec_rocket_balistics_descr = ?
+spec_rocket_balistics_effect = •
+
+spec_waffen_ss_iii_title = Waffen SS III
+spec_waffen_ss_iii_descr = ?
+spec_waffen_ss_iii_effect = •
+
+spec_volkssturm_title = Volkssturm
+spec_volkssturm_descr = ?
+spec_volkssturm_effect = •
+
+spec_home_guard_title = Home Guard
+spec_home_guard_descr = ?
+spec_home_guard_effect = •
+
+spec_free_french_title = Free French Forces
+spec_free_french_descr = ?
+spec_free_french_effect = •
+
+spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_descr = ?
+spec_resistance_fighters_effect = •
+
+spec_maskirovka_title = Maskirovka
+spec_maskirovka_descr = ?
+spec_maskirovka_effect = •
+
+spec_beaching_title = Beaching
+spec_beaching_descr = ?
+spec_beaching_effect = •
+
+spec_armed_merchants_title = Armed Merchants
+spec_armed_merchants_descr = ?
+spec_armed_merchants_effect = •
+
+spec_homing_torpedo_title = Homing Torpedo
+spec_homing_torpedo_descr = ?
+spec_homing_torpedo_effect = •
+
+spec_supply_submarines_title = Supply Submarines
+spec_supply_submarines_descr = ?
+spec_supply_submarines_effect = •
+
+spec_magnetic_mines_title = Magnetic Mines
+spec_magnetic_mines_descr = ?
+spec_magnetic_mines_effect = •
+
+spec_floating_dry_docks_title = Floating Dry Docks
+spec_floating_dry_docks_descr = ?
+spec_floating_dry_docks_effect = •
+
+spec_advanced_minesweeping_title = Advanced Minesweeping
+spec_advanced_minesweeping_descr = ?
+spec_advanced_minesweeping_effect = •
+
+spec_destroyers_for_bases_title = Destroyers-for-Bases
+spec_destroyers_for_bases_descr = ?
+spec_destroyers_for_bases_effect = •
+
+spec_atlantic_bomber_title = Atlantic Bomber
+spec_atlantic_bomber_descr = ?
+spec_atlantic_bomber_effect = •
+
+spec_night_witches_title = Night Witches
+spec_night_witches_descr = ?
+spec_night_witches_effect = • Adds a Po-2 tactical bomber to your air force|• Adds a Night Witch air commander to your air force
+
+spec_mulberry_harbour_title = Mulberry Harbour
+spec_mulberry_harbour_descr = ?
+spec_mulberry_harbour_effect = • 

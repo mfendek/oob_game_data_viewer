@@ -1,0 +1,190 @@
+[TRANSPORT_LAND]
+id = 18
+category = land
+stats = 1, 12, 13, 3, 2, 4, 17, 10, 15, 14
+group = transport
+noPurchase
+transport
+
+[RECON]
+id = 1
+category = land
+stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
+quickRetreat
+spotter
+noCapture
+noSupply
+armoured
+noEntrench
+
+[INFANTRY]
+id = 0
+category = land
+stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
+transportable
+spotter
+lightFreight
+
+[TANK]
+id = 2
+category = land
+stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
+armourPiercing
+armoured
+
+[ANTI_TANK]
+id = 3
+category = land
+stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
+transportable
+supportAT
+armourPiercing
+
+[ARTILLERY]
+id = 4
+category = land
+stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
+transportable
+bombard
+
+[ANTI_AIR]
+id = 5
+category = land
+stats = 0, 1, 13, 3, 2, 4, 17, 5, 15, 14
+targetAir
+supportAA
+transportable
+
+[FIGHTER]
+id = 6
+category = air
+stats = 0, 1, 13, 3, 2, 4, 17, 10, 15, 14
+targetAir
+escort
+radar
+
+[TACTICAL_BOMBER]
+id = 7
+category = air
+stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
+defensiveFire
+bombingRun
+
+[STRATEGIC_BOMBER]
+id = 8
+category = air
+stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
+defensiveFire
+strategicAttack
+bombingRun
+
+[TRANSPORT_AIR]
+id = 19
+category = air
+stats = 1, 12, 13, 3, 2, 4, 17, 10, 15, 14
+group = transport
+noPurchase
+transport
+
+[DESTROYER]
+id = 12
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+supportAA
+navalEvacuation
+coastalSupply
+spotter
+hardToHit
+radar
+
+[CRUISER]
+id = 11
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+AAFire
+navalEvacuation
+coastalSupply
+spotter
+broadside
+radar
+
+[BATTLESHIP]
+id = 10
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+AAFire
+navalEvacuation
+coastalSupply
+spotter
+broadside
+radar
+slowRepair
+
+[CARRIER]
+id = 13
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+group = carrier
+supportAA
+airCarrier
+spotter
+radar
+slowRepair
+
+[TENDER]
+id = 20
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+group = carrier
+supportAA
+airLauncher
+spotter
+radar
+
+[SUBMARINE]
+id = 14
+category = naval
+stats = 6, 7, 12, 3, 2, 10, 11, 4, 15, 14
+coastalSupply
+undetectable
+
+[TRANSPORT_NAVAL]
+id = 9
+category = naval
+stats = 1, 12, 13, 3, 2, 4, 17, 10, 15, 14
+group = transport
+noPurchase
+coastalSupply
+transport
+
+[STRUCTURE]
+id = 15
+category = land
+stats = 6, 7, 13, 3, 2, 10, 17, 5, 15, 14
+noPurchase
+noEntrench
+noRepair
+noUpgrade
+riverImmune
+navalFoundation
+
+[MINES]
+id = 16
+category = various
+stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
+fixedFacing
+noPurchase
+noCapture
+noEntrench
+noRepair
+noUpgrade
+mines
+undetectable
+
+[MISSILE]
+id = 17
+category = air
+stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
+noPurchase
+noCapture
+missile

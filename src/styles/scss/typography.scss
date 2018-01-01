@@ -1,0 +1,12 @@
+// Typography
+
+@import "variables";
+
+$font-family-arial: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-times: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace !default;
+
+h1 {
+  font-family: $font-family-arial;
+  text-align: center;
+}

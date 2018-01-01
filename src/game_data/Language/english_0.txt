@@ -1,0 +1,126 @@
+﻿unit_502 = Gunboat
+unit_503 = M2 90mm AA Gun
+unit_455 = M2 90mm AA Gun
+unit_150 = P47C Thunderbolt
+unit_151 = P51B Mustang
+unit_258 = Supermarine Seafire XV
+unit_346 = A6M5 Zero
+unit_348 = Ki-44 II Shoki
+
+unitclass_infantry_descr = Infantry
+unitclass_recon_descr = Recon
+unitclass_tank_descr = Tanks and other types of combat vehicles generally perform well against infantry and other tank class units.
+unitclass_artillery_descr = Artillery units fire from long range to break the enemy efficiency and keeping them pinned down.
+unitclass_anti_tank_descr = Anti-Tank units provide fire-support when an adjacent friendly unit is attacked by a Tank-class unit.
+unitclass_anti_air_descr = Anti-Air
+unitclass_fighter_descr = Fighter
+unitclass_tactical_bomber_descr = Tactical Bomber
+unitclass_strategic_bomber_descr = Strategic Bomber
+unitclass_transport_descr = Transport
+unitclass_battleship_descr = Battleship
+unitclass_cruiser_descr = Cruiser
+unitclass_destroyer_descr = The Destroyer class contains fast destroyers and other types of small, light warships.
+unitclass_carrier_descr = Carrier
+unitclass_submarine_descr = Submarine
+unitclass_structure_descr = Structure
+unitclass_mines_descr = Mine
+unitclass_missile_descr = Missile
+
+turn_confirm_title = End Turn
+turn_confirm_text = Are you sure you want to end the turn and upload it to the next player?
+
+send = Send
+
+split_fields = Always adjust unit size to current ground/air focus
+unit_efficiency = Efficiency
+
+tutorial_torpedo_launch_2 = After a unit fires a torpedo, it has to wait one or more turns for the ability to recharge. The amount of turns the reload takes is then displayed in the top left corner of the ability button.
+
+pbem_error_server_down = The Online server is currently under maintainance, please try again later.
+
+pbem_reserved_slot = Reserved Slot
+pbem_date = Date Last Turn
+
+kick_player_title = Kick Player
+kick_player_text = A player who has been inactive for over 7 days can be kicked from the game. This will pass the turn to the next active player.||Are you sure you want to kick the current player?
+claim_game_title = Claim Victory
+claim_game_text = The current player in this match has failed to complete his/her turn ||Are you sure you want to continue?
+
+tutorial_mp_matches_title = Opponent Moves First
+tutorial_mp_matches = The challenge you just accepted starts with another player's turn. This is indicated with an orange puppit icon in front of the list.||When your opponent has finished playing his/her turn, this icon will turn green indicating the game is ready for you to play your turn.
+tutorial_mp_waiting_for_more_players_title = Waiting for other Players
+tutorial_mp_waiting_for_more_players = The challenge you just accepted requires additional players to join before it is ready to play.||When the match is ready for you to play your turn, its icon will turn into a green puppit.
+tutorial_player_not_found_title = Player Not Found
+tutorial_player_not_found = The player name you entered could not be found in the active player database. Note that a player must have logged into multiplayer at least once in order to appear in this database.||Player names are not case sensitive.
+tutorial_supply_cut_1_title = Cut from Supply
+tutorial_supply_cut_1 = The currently selected unit is cut off from all supply sources, as indicated by the red dot next to the unit's strength number. This is because there are no supply sources available in its current territory.
+tutorial_supply_cut_2_title = Reconnecting Supply
+tutorial_supply_cut_2 = To get the unit back in supply you must capture enemy hexes to reconnect the unit's territory with one of your supply sources. Press and hold <SPACEBAR> to see which hexes or coastal ships are providing supply.
+tutorial_supply_cut_3_title = Supply Indicator
+tutorial_supply_cut_3 = When viewing the supply display mode indicators will appear on the map. The big number in the center of the icon determines how many supply a hex is providing. For territory without any supply source, an indicator with a "-" symbol will be displayed.
+tutorial_supply_cut_4_title = Supply Balance
+tutorial_supply_cut_4 = The small number on the supply indicators is the sum of all supply sources in the territory minus the amount of supply required by the units in the territory. If this number is negative then there is not enough supply available to support all units.
+tutorial_advance_move_title = Advance Move
+tutorial_advance_move = When destroying an enemy land unit in combat or forcing it to retreat, the attacking unit can choose to advance into the now vacant hex. This move is only available right after the attack and will disappear after issuing any other order.
+tutorial_pbem_lobby_title = PBEM Lobby
+tutorial_pbem_lobby = Welcome to the PBEM++ Multiplayer lobby. Here you can find a list of all open challenges and all matches you are involved in. The four tabs at the top of the panel act as filters for the games list.
+tutorial_pbem_lobby_2_title = Host or Join
+tutorial_pbem_lobby_2 = You can choose to join an existing open challenge - if there are any - or host your own challenge. To join a challenge, select it in the list and click "Join" button in the bottom right corner of the panel. The host your own, simply click the "Host Challenge" button.
+tutorial_submarine_attack_title = Submarine Attacks
+tutorial_submarine_attack = When a submerged submarine attacks it will not be revealed to the enemy, but an alarm sound will accompany the explosions. The only way to detect a submarine is by using the Sonar ability, or by attempting to move to the submarine's current position.
+tutorial_campaign_variables = Some scenario events have a lasting effect in the campaign, affecting what happens in later scenarios. The state of these campaign events are marked on the Campaign Map.||The colour of these pushpins indicates who benefits from the event.
+
+
+tooltip_construct_unit_disabled_3 = Not enough Resource Points to construct @.
+
+tooltip_claim_match_timer = If the current player remains inactive for @ days, you can claim victory.
+tooltip_kick_player_timer = If the current player remains inactive for @ days, you can kick them from the game.
+tooltip_state_claimable = Match State: Current player has been inactive for over @ days and can be kicked from the game.
+
+tooltip_state_available_invited = Challenge State: You have been invited to this open challenge.
+tooltip_state_available_private_invited = Challenge State: You have been invited to this private challenge.
+
+tooltip_batch_2 = Publisher (Slitherine/Matrix)
+tooltip_batch_3 = Community Contributor
+tooltip_no_save_mp = Cannot access savegames during multiplayer games.
+
+tooltip_clear_reserved = Remove the invited player.
+tooltip_reserve_slot = Reserve slot for specific player.
+tooltip_reserved_slot = This slot is reserved for another player.
+tooltip_fixed_slot = You have been invited to this challenge and cannot change your player slot.
+tooltip_repair_wounds = Damage Control: Recover a limited number of the unit's strength points.
+tooltip_repair_wounds_disabled_1 = Damage Control: Not enough Resources to repair the damage.
+tooltip_repair_wounds_disabled_2 = Damage Control: Cannot repair after attacking.
+tooltip_repair_wounds_disabled_3 = Damage Control: Cannot repair when submerged.
+tooltip_torpedo_launch_disabled_5 = Torpedoes can only be launched from a water hex.
+tooltip_air_lift_disabled_1 = Unit cannot take-off on transport plane after attacking.
+tooltip_repair_friendly_disabled_3 = Can only repair adjacent units which have not been involved in combat since the previous turn.
+tooltip_repair_friendly_disabled_4 = Unit can only repair others if it was not involved in combat since the previous turn.
+tooltip_switch_air_field = Set focus on Air layer [@]
+tooltip_switch_ground_field = Set focus on Ground layer [@]
+tooltip_shared_flags = Allow any team member to deploy units around any friendly Capture or Victory Point.
+tooltip_stat_efficiency = Efficiency: Efficiency affects a unit's performance in combat, representing fatigue, disruption and low morale.
+tooltip_stat_assault = Assault: Reduction of enemy fortification level.
+
+reserve_title = Reserve Slot
+reserve_text = You can reserve a slot for a specific player. This will prevent any player other than the invited one from taking this slot.
+search = Search
+
+editor_strength_difficulty_compensation = Difficulty bonus compensation
+editor_shared_flags = Teams share Victory Points
+editor_undeploy_unit = Undeploy Unit
+
+commander_1_descr = Sgt. P. Simpson has been promoted in the field after demonstrating extreme valor and coolheadedness facing off several Japanese infantry attacks.
+
+faction_ijn = Imperial Japan
+
+trait_49_title = Planing Hull
+trait_49_descr = Unit is immune to torpedo attacks
+trait_50_title = Defensive Weapon
+trait_50_descr = Unit is less effective at attacking
+trait_51_title = Dogfighter
+trait_51_descr = Aircraft excels against combat fighters and tactical bombers
+trait_52_title = Interceptor
+trait_52_descr = Aircraft is designed to destroy strategic bombers
+trait_53_title = Ground-Attack
+trait_53_descr = Aircraft is designed to attack ground targets

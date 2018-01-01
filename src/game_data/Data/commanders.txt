@@ -1,0 +1,795 @@
+//////////////////////////
+//	    USA		//
+//////////////////////////
+
+[JIMMY_CHAPMAN]
+id = 0
+category = land
+faction = usa, usarmy, marine_corps
+range = 1
+
+[PETE_SIMPSON]
+id = 1
+category = land
+faction = usa, usarmy, marine_corps
+range = 1
+weapon = infantry_attack, 1
+
+[JAMES_WALKER]
+id = 2
+category = land
+faction = usa, usarmy, marine_corps
+range = 2
+defense = bombard_defense, 3
+
+[JOHN_BROWN]
+id = 3
+category = land
+faction = usa, usarmy, marine_corps
+range = 1
+weapon = infantry_attack, 1
+defense = infantry_defense, 2
+
+[ROBERT_LEWIS]
+id = 4
+category = land
+faction = usa, usarmy, marine_corps
+range = 1
+weapon = infantry_attack, 2
+
+[MICHAEL_WILLIAMS]
+id = 5
+category = land
+faction = usa, usarmy, marine_corps
+range = 2
+
+// Given at okinawa for taking Shuri castle
+[WILLIAM_DAVIES]
+id = 6
+category = land
+faction = usa, usarmy, marine_corps
+assault = 2
+range = 0
+
+[DAVID_CARTER]
+id = 7
+category = land
+faction = usa, usarmy, marine_corps
+assault = 2
+shock = 10
+range = 1
+
+[RICHARD_BENNETT]
+id = 8
+category = land
+faction = usa, usarmy, marine_corps
+range = 2
+
+[CHARLES_SMITH]
+id = 9
+category = land
+faction = usa, usarmy, marine_corps
+range = 2
+
+[JOSEPH_WRIGHT]
+id = 10
+category = naval
+faction = usa, usarmy, marine_corps
+weapon = naval_large_attack, 2
+range = 2
+
+[THOMAS_PATTEL]
+id = 11
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+[DANIEL_MORRIS]
+id = 12
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+[PAUL_CLARK]
+id = 13
+category = naval
+faction = usa, usarmy, marine_corps
+range = 0
+weapon = air_small_attack, 1
+weapon = air_large_attack, 1
+
+[KENNETH_JOHNSON]
+id = 14
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+[GEORGE_ALLEN]
+id = 15
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+// Midway: Do not lose warships
+[STEVEN_COX]
+id = 16
+category = naval
+faction = usa, usarmy, marine_corps
+defense = air_defense, 2
+defense = naval_defense, 2
+range = 0
+
+[EDWARD_COLLINS]
+id = 17
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+[BRIAN_HARRIS]
+id = 18
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+[RONALD_PARKER]
+id = 19
+category = naval
+faction = usa, usarmy, marine_corps
+range = 2
+
+// Guadalcanal for 5 air kills
+[ANTHONY_HUGHES]
+id = 20
+category = air
+faction = usa, usarmy, marine_corps
+weapon = air_small_attack, 2
+range = 2
+
+// Midway for killing 3 warships
+[KEVIN_WILSON]
+id = 21
+category = air
+faction = usa, usarmy, marine_corps
+weapon = naval_small_attack, 2
+weapon = naval_large_attack, 2
+range = 1
+
+// Given at Coral Sea after killing 1 aircraft
+[JASON_WARD]
+id = 22
+category = air
+faction = usa, usarmy, marine_corps
+defense = air_defense, 2
+range = 0
+
+[JEFF_MARTIN]
+id = 23
+category = air
+faction = usa, usarmy, marine_corps
+weapon = air_large_attack, 4
+range = 0
+
+// Philippine Sea for killing aircraft
+[PAUL_CUNDY]
+id = 24
+category = air
+faction = usa, usarmy, marine_corps
+weapon = air_small_attack, 3
+range = 0
+
+[WARREN_ELWOOD]
+id = 25
+category = air
+faction = usa, usarmy, marine_corps
+range = 1
+
+[ARTHUR_DOYLE]
+id = 26
+category = air
+faction = usa, usarmy, marine_corps
+range = 1
+
+[VIRGIL_DRAKE]
+id = 27
+category = air
+faction = usa, usarmy, marine_corps
+weapon = air_small_attack, 2
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 2
+range = 1
+
+[KENNETH_CURTIS]
+id = 28
+category = air
+faction = usa, usarmy, marine_corps
+range = 1
+
+[JOSPEH_DORRIS]
+id = 29
+category = air
+faction = usa, usarmy, marine_corps
+range = 1
+
+
+
+
+//////////////////////////
+//	  JAPAN		//
+//////////////////////////
+
+// 
+[TADASHI_OTAKE]
+id = 30
+category = land
+faction = japan, ijn
+shock = 10
+range = 0
+
+// Brisbane forts destroyed
+[SACHIO_WATANABE]
+id = 31
+category = land
+faction = japan, ijn
+shock = 10
+assault = 2
+range = 0
+
+// Given after killing all raiders in Guadalcanal
+[MITSUGU_SUDO]
+id = 32
+category = land
+faction = japan, ijn
+range = 1
+weapon = infantry_attack, 2
+
+[KAZUSHI_GOMI]
+id = 33
+category = land
+faction = japan, ijn
+range = 2
+
+[YASUHIKO_MORINIO]
+id = 34
+category = land
+faction = japan, ijn
+range = 2
+
+// New Zealand, keeping general aramaki alive
+[KEISAKU_ARAMAKI]
+id = 35
+category = land
+faction = japan, ijn
+defense = infantry_defense, 1
+defense = vehicle_defense, 1
+range = 3
+
+[JIRO_HAYASHI]
+id = 36
+category = land
+faction = japan, ijn
+defense = infantry_defense, 2
+defense = vehicle_defense, 2
+range = 1
+
+// used in Sino-Japanese DLC
+[KISAJI_KAMIHARA]
+id = 37
+category = land
+faction = japan, ijn
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+defense = vehicle_defense, 1
+
+// Given at for free at Bataan
+// used in Sino-Japanese DLC
+[HIDEO_ENDO]
+id = 38
+category = land
+faction = japan, ijn
+weapon = infantry_attack, 2
+range = 2
+
+[MOMOTO_SHIMIZU]
+id = 39
+category = land
+faction = japan, ijn
+range = 2
+
+[KENISHI_HINOKI]
+id = 40
+category = naval
+faction = japan, ijn
+range = 1
+weapon = naval_large_attack, 3
+
+[HIDEAKI_KATO]
+id = 41
+category = naval
+faction = japan, ijn
+range = 2
+defense = air_defense, 2
+defense = naval_defense, 2
+
+[IWATARO_IZUKA]
+id = 42
+category = naval
+faction = japan, ijn
+range = 2
+
+[TOMIO_INAYAMA]
+id = 43
+category = naval
+faction = japan, ijn
+range = 2
+
+[MASOA_SUGIYAMA]
+id = 44
+category = naval
+faction = japan, ijn
+range = 2
+
+[MITZUSO_ISHIKAMA]
+id = 45
+category = naval
+faction = japan, ijn
+range = 2
+weapon = air_small_attack, 1
+weapon = air_large_attack, 2
+
+[KICHIGORO_KIMURA]
+id = 46
+category = naval
+faction = japan, ijn
+range = 2
+
+[YONISUKE_YAMOTO]
+id = 47
+category = naval
+faction = japan, ijn
+range = 2
+
+[KENSUI_TANAKA]
+id = 48
+category = naval
+faction = japan, ijn
+defense = naval_defense, 2
+range = 0
+
+// Given at midway for killing 10 warships
+[KENJI_TOKUIJI]
+id = 49
+category = naval
+faction = japan, ijn
+weapon = naval_small_attack, 1
+weapon = naval_large_attack, 1
+range = 2
+
+// Bonus for owning Morning Sun
+[TAKEYOSHI_SAITO]
+id = 50
+category = air
+faction = japan, ijn
+defense = air_defense, 1
+steps = 2
+
+// Given at pearl harbor
+[SABURO_MATSUKI]
+id = 51
+category = air
+faction = japan, ijn
+range = 0
+weapon = air_small_attack, 2
+defense = air_defense, 1
+
+[RYOJI_OISHI]
+id = 52
+category = air
+faction = japan, ijn
+range = 2
+weapon = air_small_attack, 2
+
+[KIYOTO_TAKAHASHI]
+id = 53
+category = air
+faction = japan, ijn
+range = 1
+weapon = air_large_attack, 3
+
+[YUKIHARU_OBARA]
+id = 54
+category = air
+faction = japan, ijn
+range = 1
+
+// used in Sino-Japanese DLC
+[GITARO_SHIBUKAWA]
+id = 55
+category = air
+faction = japan, ijn
+weapon = air_small_attack, 2
+weapon = air_large_attack, 1
+
+[KOKI_YONEKAWA]
+id = 56
+category = air
+faction = japan, ijn
+range = 1
+
+[TOMOJI_NEGISHI]
+id = 57
+category = air
+faction = japan, ijn
+range = 1
+
+// Used in Morning Sun
+[HIDEO_FUKUYAMA]
+id = 58
+category = air
+faction = japan, ijn
+weapon = air_small_attack, 1
+weapon = air_large_attack, 2
+
+// used in Sino-Japanese DLC
+[TEDZUKO_HIROSE]
+id = 59
+category = air
+faction = japan, ijn
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+defense = air_defense, 1
+
+
+//////////////////////////
+//	 SPECIAL	//
+//////////////////////////
+
+[DRILL_INSTRUCTOR]
+id = 60
+category = land
+faction = usa, usarmy, marine_corps
+range = 1
+weapon = infantry_attack, 1
+noAvatar
+
+[LIEUTENANT_LENA]
+id = 61
+category = land
+faction = usa
+range = 0
+shock = 100
+noAvatar
+noEditor
+
+//////////////////////////
+//	  DUTCH		//
+//////////////////////////
+
+[KAREL_DOORMAN]
+id = 62
+category = naval
+faction = netherlands
+range = 4
+defense = naval_defense, 1
+noAvatar
+
+
+//////////////////////////
+//	   USSR		//
+//////////////////////////
+
+[IVAN_ZAKHAROV]
+id = 63
+category = air
+faction = ussr
+weapon = air_small_attack, 2
+range = 0
+
+[LEV_KOZACHENKOV]
+id = 64
+category = air
+faction = ussr
+weapon = air_small_attack, 1
+weapon = air_large_attack, 2
+range = 0
+
+[COMMISSAR]
+id = 93
+category = land
+faction = ussr
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 1
+defense = infantry_defense, -2
+defense = vehicle_defense, -2
+range = 0
+generic
+noRetreat
+
+[KACIARYNA_KASYANOVA]
+id = 94
+category = air
+faction = ussr
+weapon = infantry_attack, 1
+defense = air_defense, 2
+shock = 10
+range = 0
+camouflaged
+undetachable
+
+
+//////////////////////////
+//	    CHINA	//
+//////////////////////////
+
+[CHIANG_KAI_SHEK]
+id = 65
+category = land
+faction = china
+range = 0
+weapon = infantry_attack, 1
+
+
+//////////////////////////
+//	    FINLAND	//
+//////////////////////////
+
+[MANNERHEIM]
+id = 66
+category = land
+faction = finland
+range = 5
+defense = infantry_defense, 2
+
+// Never lost a wingman = defensive range
+[ILMARI_JUUTILAINEN]
+id = 67
+category = air
+faction = finland
+range = 1
+defense = air_defense, 3
+
+[OLLI_PUHAKKA]
+id = 68
+category = air
+faction = finland
+range = 0
+weapon = air_small_attack, 2
+weapon = air_large_attack, 2
+defense = air_defense, 2
+
+[PAAVO_TALVELA]
+id = 69
+category = land
+faction = finland
+range = 2
+shock = 10
+weapon = infantry_attack, 2
+
+// Motti Matti
+[MATTI_AARNIO]
+id = 70
+category = land
+faction = finland
+range = 1
+assault = 2
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+
+[HJALMAR_SIILASVUO]
+id = 71
+category = land
+faction = finland
+range = 3
+defense = vehicle_defense, 1
+defense = infantry_defense, 1
+
+// Artillery guy?
+[UNTO_PETAJA]
+id = 72
+category = land
+faction = finland
+range = 0
+shock = 20
+
+[YRJO_KINNUNEN]
+id = 73
+category = land
+faction = finland
+range = 1
+weapon = vehicle_attack, 2
+defense = vehicle_defense, 1
+
+
+//////////////////////////
+//	 GERMANY 	//
+//////////////////////////
+
+// 6) 
+[HEINZ_GUDERIAN]
+id = 74
+category = land
+faction = germany, waffenss
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+shock = 5
+assault = 1
+range = 3
+
+[JOHANNES_BOLTER]
+id = 75
+category = land
+faction = germany, waffenss
+defense = vehicle_defense, 2
+weapon = vehicle_attack, 1
+
+[HERMANN_BALCK]
+id = 76
+category = land
+faction = germany, waffenss
+weapon = infantry_attack, 2
+range = 1
+
+[MANFRED_EISENBERGER]
+id = 77
+category = land
+faction = germany, waffenss
+weapon = infantry_attack, 2
+defense = infantry_defense, 2
+
+// 4) Belgium (fighter damage)
+[GERHARD_BARKHORN]
+id = 78
+category = air
+faction = germany, waffenss
+weapon = air_small_attack, 2
+defense = air_defense, 2
+
+// 3) Norway OR 5) Dunkirk
+[HANSGEORG_BATCHER]
+id = 79
+category = air
+faction = germany, waffenss
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 2
+weapon = naval_small_attack, 2
+weapon = naval_large_attack, 2
+
+[GUNTHER_RALL]
+id = 80
+category = air
+faction = germany, waffenss
+weapon = air_small_attack, 1
+weapon = air_large_attack, 1
+defense = air_defense, 1
+range = 1
+
+[HANS_VALENTIN_HUBE]
+id = 95
+category = land
+faction = germany, waffenss
+defense = infantry_defense, 2
+defense = vehicle_defense, 2
+range = 3
+
+[THEODOR_SCHERER]
+id = 96
+category = land
+faction = germany, waffenss
+defense = infantry_defense, 2
+entrenchment = 1
+range = 1
+
+[FRANZ_WEGMANN]
+id = 97
+category = air
+faction = germany, waffenss
+fuel = 2
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+defense = air_defense, 2
+precisionStrike
+
+
+/////////////////////////
+//    KRIEGSMARINE    //
+////////////////////////
+
+[GÜNTHER_LÜTJENS]
+id = 81
+category = naval
+faction = germany, kriegsmarine
+weapon = naval_large_attack, 2
+range = 2
+
+[HUBERT_SCHMUNDT]
+id = 82
+category = naval
+faction = germany, kriegsmarine
+defense = naval_defense, 2
+range = 1
+
+[HANS_ERDMENGER]
+id = 83
+category = naval
+faction = germany, kriegsmarine
+weapon = naval_small_attack, 1
+defense = submarine_defense, 2
+range = 0
+
+[OTTO_KRETSCHMER]
+id = 84
+category = naval
+faction = germany, kriegsmarine
+weapon = naval_large_attack, 2 
+weapon = naval_small_attack, 2
+range = 0
+
+[HEINRICH_EHRLER]
+id = 85
+category = air
+faction = germany, kriegsmarine
+weapon = air_small_attack, 2
+range = 2
+
+[FRITZ_FLIEGEL]
+id = 86
+category = air
+faction = germany, kriegsmarine
+weapon = naval_large_attack, 2
+defense = naval_defense, 2
+range = 0
+
+
+//////////////////
+//    BRITISH	//
+//////////////////
+
+[PAUL_CHARLTON]
+id = 87
+category = naval
+faction = britain
+weapon = naval_large_attack, 2
+range = 2
+
+// High level commander
+[WILLIAM_SLIM]
+id = 88
+category = land
+faction = britain, raf, australia, new_zealand, canada, india
+defense = infantry_defense, 2
+range = 4
+
+// Chindits commander
+[ORDE_WINGATE]
+id = 89
+category = land
+faction = britain, raf, australia, new_zealand, canada, india
+weapon = infantry_attack, 2
+defense = infantry_defense, 1
+range = 2
+fuel = 1
+
+// Fictional "tanker"
+[HENRY_SANDERS]
+id = 90
+category = land
+faction = britain, raf, australia, new_zealand, canada, india
+weapon = vehicle_attack, 3
+defense = vehicle_defense, 2
+range = 0
+
+// Fighter pilot
+[THOMAS_ELSDON]
+id = 91
+category = air
+faction = britain, raf, australia, new_zealand, canada, india
+defense = air_defense, 2
+range = 1
+
+// Ground attacker
+[OLIVER_MCDOWALL]
+id = 92
+category = air
+faction = britain, raf, australia, new_zealand, canada, india
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 2
+range = 0

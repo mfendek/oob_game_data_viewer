@@ -1,0 +1,179 @@
+﻿unit_5000 = Berseglieri
+unit_5001 = Alpini
+unit_5002 = Cab Italiana
+unit_5003 = Camión Italiano
+unit_5004 = Sahariana
+unit_5005 = AB 40
+unit_5006 = AB 41
+unit_5007 = AB 43
+unit_5008 = Carro Armato M11/39
+unit_5009 = Carro Armato M13/40
+unit_5010 = Carro Armato M14/41
+unit_5011 = Carro Armato P26/40
+unit_5012 = Carro Armato P43 bis
+unit_5013 = Autocannone Blindato 90-53
+unit_5014 = Semovente da 47/32
+unit_5015 = Semovente da 75/46
+unit_5016 = Semovente da 90/53
+unit_5017 = Semovente da 149/40
+unit_5018 = Semovente da 75/18
+unit_5019 = Semovente M43 da 105/25
+unit_5020 = 75mm 75/18
+unit_5021 = 105mm 105/28
+unit_5022 = 149mm 149/19
+unit_5023 = 75/46 C.A. m34
+unit_5024 = Cannone da 90/53
+unit_5025 = Lancia 90/53
+unit_5026 = Breda 20mm AA
+unit_5027 = Re2000
+unit_5028 = CR.42 Falco
+unit_5029 = MC.200 Saetta
+unit_5030 = MC.202 Folgore
+unit_5031 = MC.205 Veltro
+unit_5032 = G.55 Centauro
+unit_5033 = Breda Ba.65
+unit_5034 = SM.79
+unit_5035 = Piaggio P.108
+unit_5036 = BB Italiano
+unit_5037 = BB_P  Italiano
+unit_5038 = CA Italiano
+unit_5039 = DD Italiano
+unit_5040 = Infantería Italiana '42
+unit_5041 = Infantería Italiana '43
+unit_5042 = Inf. Pesada Italiana '42
+unit_5043 = Inf. Pesada Italiana '43
+unit_5044 = Inf. con Morteros Italiana
+unit_5045 = Ingenieros Italianos '41 
+unit_5046 = Ingenieros Italianos '42
+unit_5047 = Ingenieros Italianos '43
+unit_2153 = AB 41
+unit_2154 = 75/46 C.A. m34
+unit_2155 = Cannone da 90/53
+unit_2156 = Lancia 90/53
+unit_2157 = SM.89
+unit_2158 = Breda Ba.201
+unit_2159 = Ingenieros Japoneses '39
+unit_2160 = Ingenieros Japoneses '42
+unit_2161 = Ingenieros Japoneses '43
+unit_2162 = Ingenieros Japoneses '44
+unit_2163 = Ingenieros Japoneses '45
+unit_2164 = Breda 91
+unit_2165 = IMAM Ro.37
+unit_2166 = Carro Armato M15/42
+unit_2167 = Barcaza
+unit_2168 = SU-122
+unit_2169 = SU-122
+unit_2170 = Bautruppe
+unit_2171 = KV-1
+unit_2172 = Polikarpov Po-2
+
+spec_organisation_todt_title = Organización Todt
+spec_organisation_todt_descr = Nombrado por su fundador, Fritz Todt, este grupo de ingeniería se puede desplegarse en primera línea para reparar y construir defensas e infraestructura.
+spec_organisation_todt_effect = • Se agregará una unidad Bautruppe al núcleo de tu ejército
+
+spec_waffen_ss_ii_title = Waffen SS II
+spec_waffen_ss_ii_descr = Al expandir aún más las nacionalidades y poblaciones viables para el reclutamiento en las Waffen SS, varias divisiones más pueden desplegarse en el campo de batalla.
+spec_waffen_ss_ii_effect = • +6 PC de Tierra para la facción Waffen SS|• +10 PR por turno para la facción Waffen SS
+
+spec_synthetic_fuel_plants_title = Plantas de Combustible Sintético
+spec_synthetic_fuel_plants_descr = Grandes cantidades de plantas de fabricación podrán producir en masa petróleo crudo sintético mediante la conversión de carbón, agua y otras sustancias a través de diversos procesos químicos.
+spec_synthetic_fuel_plants_effect = • +2 Puntos de Mando Aéreo
+
+spec_command_vehicle_title = AEC Vehículo Blindado de Mando
+spec_command_vehicle_descr = Vehículos de comando con un diseño específico - esencialmente, autobuses blindados basados en un chasis de camión, ofrecen protección y un ambiente de trabajo cómodo para nuestros comandantes en el campo.
+spec_command_vehicle_effect = • Probabilidad de que los Comandantes de tierra sean heridos se reduce un 70%
+
+spec_baukommando_becker_title = Baukommando Becker
+spec_baukommando_becker_descr = El mayor Becker, un ingeniero mecánico, establecerá un centro de modificación y fabricación de vehículos para convertir y combinar vehículos capturados y armas en instrumentos útiles para el ejército alemán.
+spec_baukommando_becker_effect = • Los destructores de tanques Marder están disponibles para la compra|• Artillería motorizada Sd Kfz 135/1 está disponible para la compra
+
+spec_goliath_mine_title = Goliath
+spec_goliath_mine_descr = Este vehículo de demolición autopropulsado tiene una poderosa carga explosiva y puede dirigirse a su objetivo de forma remota a través de una caja de control o joystick, conectado por cable al dispositivo.
+spec_goliath_mine_effect = • Ingenieros +2 asalto|• Ingenieros +2 ataque en terreno con alta cobertura
+
+trait_74_title = Alijo de Suministros
+trait_74_descr = Esta unidad lleva un alijo limitado de suministros, utilizado en caso de que no tenga acceso a otras fuentes de suministro.
+trait_75_title = Atacante de la Noche
+trait_75_descr = Esta unidad recibe y hace menos daño cuando es atacada por aviones de combate enemigos.
+
+commander_traits = Rasgos del comandante
+commander_no_traits = Este comandantes no tiene rasgos especiales.
+
+content_panzerkrieg = Panzerkrieg
+
+tutorial_content_panzerkrieg_title = [Nuevo contenido] Panzerkrieg
+tutorial_content_panzerkrieg = Después de los gloriosos años de la blitzkrieg, la invasión alemana de la URSS se ha estancado en las puertas de Moscú. Con los soviéticos lanzando sus propios contraataques en el crudo invierno de 1942, parece que este conflicto se ha convertido en una guerra total de sangre y acero.
+
+tutorial_revert_vp_capture_title = Captura revertida
+tutorial_revert_vp_capture = Si aún no se ha capturado completamente un punto de victoria mientras está completamente aislado del suministro, se requiere una unidad amiga dentro o adyacente a él. Sin dicha guarnición para continuar el proceso de captura, el punto será reclamado automáticamente por su propietario anterior.
+
+trigger_condition_23 = Verificar Suministros del Hex
+
+commander_status_available = Disponible
+commander_status_attached = Unido
+commander_status_recovering = Sin acciones
+commander_status_wounded = Herido
+commander_status_imprisoned = Prisionero
+commander_status_reserve = Reserva
+commander_status_null = Sin desbloquear
+
+construction_status_alive = Operacional
+construction_status_destroyed = Destruido
+
+skirmish_unlocks = Modo Escaramuza desbloquea:
+
+unit_status_imported = Importado
+
+editor_core_units = Unidades núcleo
+
+tooltip_insufficient_resources_to_revive = No hay suficientes Puntos de Recursos para volver a reactivar esta importada unidad núcleo.
+tooltip_core_import_required_resources = Para volver a poner en servicio esta importada unidad núcleo, debe haber  suficientes Puntos de Recursos disponibles.
+
+scenario_editor = Editor de Escenario
+campaign_editor = Editor de Campaña
+scenario_editor_descr = Crea tu propio escenario.
+campaign_editor_descr = Crea tu propia campaña
+
+ceditor_map_info = Info
+climate_wet = Mojado
+campaign_branch = Ramificada
+tooltip_add_campaign_branch = Añadir nueva ramificación
+tooltip_remove_campaign_branch = Borrar esta ramificación
+new_campaign = Nueva Campaña
+editor_branches = Ramificaciones
+editor_cores = Cores
+editor_variables = Variables
+tooltip_starting_branch = Establecer esta ramificación como ramificación de inicio.
+tooltip_delete_branch = Borrar esta ramificación.
+tooltip_add_variable = Crear una nueva variable de campaña.
+tooltip_remove_branch_event = Borrar este popup de evento de la ramificación seleccionada
+tooltip_remove_branch_scenario = Borrar este escenario de la ramificación seleccionada
+tooltip_doubleclick_for_layout = Doble clic para entrar en el modo diseño
+active_in_branch = Mostrado en ramificación 
+set_location = Establecer localización
+add_core_faction = Añadir nación
+tooltip_remove_core = Eliminar esta fuerza principal (core)
+tooltip_remove_core_faction = Eliminar esta nación de la fuerza principal (core) 
+tooltip_set_outcome = Clic y arrastrar a una ramificación en la columna de la izquierda para establecerla como resultado para este escenario.
+add_branch_scenario = Añadir escenario
+add_campaign_event = Añadir evento
+new_event_title = Mi evento
+new_event_picture = imagen
+//core_value = Valor de fuerza principal (core)
+tooltip_core_value = Si el valor de la fuerza principal o core excede este número, un popup preguntará sobre incrementar el nivel de dificultad. No usado si el valor es cero.
+name = Nombre
+scenario = Escenario
+remove_scenario_text = ¿Estás seguro que quieres eliminar este escenario?
+editor_specialisations = Especializaciones 
+tooltip_specialisations_switch = Comprueba si esta nación puede o no adquirir especializaciones.
+editor_toggle_spec_availability = Activa o desactiva esta especialización para la campaña actual.
+editor_set_starting_spec_points = Establece la cantidad de puntos de especialización para el comienzo en esta nación.
+core_name = Nombre de la fuerza principal (core)
+font_size = Tamaño de fuente
+map_text_default = Insertar texto aquí
+new_campaign_confirm = ¿Seguro que quieres crear una nueva campaña?
+editor_info_0 = CLIC IZQUIERDO: Seleccionar objeto - RIGHT CLICK: Eliminar objeto
+editor_info_1 = TECLAS DE FLECHA: Mover objeto seleccionado - PAGEUP/PAGEDOWN: Subir/Bajar elemento seleccionado
+editor_info_2 = TECLA R + TECLAS DE FLECHA o AVPAG/REPAG: Rotar objeto seleccionado
+
+commander_94 = Kaciaryna Kasyanova

@@ -1,0 +1,179 @@
+﻿unit_5000 = Bersaglieri
+unit_5001 = Alpini
+unit_5002 = Ital. Kavallerie
+unit_5003 = Ital. LKW
+unit_5004 = Sahariana
+unit_5005 = AB 40
+unit_5006 = AB 41
+unit_5007 = AB 43
+unit_5008 = Carro Armato M11/39
+unit_5009 = Carro Armato M13/40
+unit_5010 = Carro Armato M14/41
+unit_5011 = Carro Armato P26/40
+unit_5012 = Carro Armato P43 bis
+unit_5013 = Autocannone Blindato 90-53
+unit_5014 = Semovente da 47/32
+unit_5015 = Semovente da 75/46
+unit_5016 = Semovente da 90/53
+unit_5017 = Semovente da 149/40
+unit_5018 = Semovente da 75/18
+unit_5019 = Semovente M43 da 105/25
+unit_5020 = 75/18 75mm
+unit_5021 = 105/28 105mm
+unit_5022 = 149/19 149mm
+unit_5023 = Cannone da 75/46 m34
+unit_5024 = Cannone da 90/53
+unit_5025 = Lancia 90/53
+unit_5026 = Breda FlaK 20mm
+unit_5027 = Re2000
+unit_5028 = CR.42 Falco
+unit_5029 = MC.200 Saetta
+unit_5030 = MC.202 Folgore
+unit_5031 = MC.205 Veltro
+unit_5032 = G.55 Centauro
+unit_5033 = Breda Ba.65
+unit_5034 = SM.79
+unit_5035 = Piaggio P.108
+unit_5036 = Ital. Schlachtschiff
+unit_5037 = Ital. Schlachtschiff (Hauptbatterie)
+unit_5038 = Ital. Kreuzer
+unit_5039 = Ital. Zerstörer
+unit_5040 = Ital. Infanterie '42
+unit_5041 = Ital. Infanterie '43
+unit_5042 = Ital. Schw. Infanterie '42
+unit_5043 = Ital. Schw. Infanterie '43
+unit_5044 = Ital. Mörserinfanterie
+unit_5045 = Ital. Pioniere '41
+unit_5046 = Ital. Pioniere '42
+unit_5047 = Ital. Pioniere '43
+unit_2153 = AB 41
+unit_2154 = Cannone da 75/46 m34
+unit_2155 = Cannone da 90/53
+unit_2156 = Lancia 90/53
+unit_2157 = SM.89
+unit_2158 = Breda Ba.201
+unit_2159 = Jap. Pioniere '39
+unit_2160 = Jap. Pioniere '42
+unit_2161 = Jap. Pioniere '43
+unit_2162 = Jap. Pioniere '44
+unit_2163 = Jap. Pioniere '45
+unit_2164 = Breda 91
+unit_2165 = IMAM Ro.37
+unit_2166 = Carro Armato M15/42
+unit_2167 = Barge
+unit_2168 = SU-122
+unit_2169 = SU-122
+unit_2170 = Bautruppe
+unit_2171 = KW-1
+unit_2172 = Polikarpow Po-2
+
+spec_organisation_todt_title = Organisation Todt
+spec_organisation_todt_descr = Eine Bautruppe, benannt nach ihrem Gründer Fritz Todt, wird zur Frontlinie beordert, um Verteidigungsstellungen zu errichten und zu reparieren und die Infrastruktur zu unterstützen.
+spec_organisation_todt_effect = • Eine Bautruppeneinheit wird Ihrer Kernarmee hinzugefügt
+
+spec_waffen_ss_ii_title = Waffen-SS II
+spec_waffen_ss_ii_descr = Da weitere Nationalitäten und Volksgruppen für den Beitritt zur Waffen-SS zugelassen wurden, können mehrere zusätzliche Divisionen aufgeboten werden.
+spec_waffen_ss_ii_effect = • +6 Landbefehlspunkte für die Waffen-SS|• +10 Ressourcenpunkte pro Runde für die Waffen-SS
+
+spec_synthetic_fuel_plants_title = Werke für synthetischen Kraftstoff
+spec_synthetic_fuel_plants_descr = In großen Fabrikationsstätten kann mithilfe von unterschiedlichen chemischen Prozessen aus Kohle, Wassergas und anderen Substanzen synthetischer Kraftstoff hergestellt werden.
+spec_synthetic_fuel_plants_effect = • +2 Luftbefehlspunkte
+
+spec_command_vehicle_title = AEC Kommandofahrzeug
+spec_command_vehicle_descr = Dieses speziell angefertigte Kommandofahrzeug, das man als gepanzerten Bus auf einem LKW-Fahrgestell bezeichnen könnte, bietet Befehlshabern an der Front Schutz und bequeme Arbeitsbedingungen.
+spec_command_vehicle_effect = • 70% geringere Wahrscheinlichkeit, dass Landeinheiten-Kommandanten im Kampf verwundet werden
+
+spec_baukommando_becker_title = Baukommando Becker
+spec_baukommando_becker_descr = Der Maschinenbau-Diplomingenieur Major Becker erhält den Befehl, erbeutete Fahrzeuge und Waffen instand zu setzen und zu modifizieren, damit daraus neue Divisionen für die deutschen Streitkräfte gebildet werden können.
+spec_baukommando_becker_effect = • Panzerjäger des Typs Marder stehen zum Kauf bereit|• Selbstfahrlafetten des Typs Sd.Kfz. 135/1 stehen zum Kauf bereit
+
+spec_goliath_mine_title = Sprengpanzer Goliath
+spec_goliath_mine_descr = Dieser durch Funk- oder Kabelsteuerung betriebene Kleinstpanzer ist mit einer starken Sprengladung bestückt und kann direkt zu seinem Angriffsziel gelenkt werden.
+spec_goliath_mine_effect = • Pioniere +2 Sturmangriff|• Pioniere +2 Angriff in Gelände mit hoher Deckung
+
+trait_74_title = Vorräte
+trait_74_descr = Diese Einheit führt einen begrenzten Vorrat an Versorgungsgütern mit sich, die sie nutzen kann, falls sie von anderen Versorgungsquellen abgeschnitten wird.
+trait_75_title = Nachtschlachtflugzeug
+trait_75_descr = Diese Einheit erleidet und verursacht weniger Schaden, wenn sie von feindlichen Jagdflugzeugen angegriffen wird.
+
+commander_traits = Eigenschaften des Kommandanten
+commander_no_traits = Dieser Kommandant verfügt über keine besonderen Eigenschaften.
+
+content_panzerkrieg = Panzerkrieg
+
+tutorial_content_panzerkrieg_title = [Neuer Inhalt] Panzerkrieg
+tutorial_content_panzerkrieg = Nach den ruhmreichen Jahren des Blitzkriegs kam die Invasion der Deutschen in der Sowjetunion vor den Toren Moskaus zum Erliegen. Im strengen Winter des Jahres 1942 starten die Sowjets nun ihre Gegenangriffe und eine blutige Materialschlacht hat begonnen.
+
+tutorial_revert_vp_capture_title = Abgebrochene Eroberung
+tutorial_revert_vp_capture = Ist ein Siegfeld noch nicht vollständig erobert und völlig von der Versorgung abgeschnitten, muss sich eine verbündete Einheit auf dem Feld oder daneben befinden. Ohne derartige Besatzungstruppen, die den Eroberungsprozess fortsetzen, fällt das Feld automatisch an seinen vorherigen Besitzer zurück.
+
+trigger_condition_23 = Hexfeld-Versorgung überprüfen
+
+commander_status_available = Verfügbar
+commander_status_attached = Zugeteilt
+commander_status_recovering = Erholt sich
+commander_status_wounded = Verwundet
+commander_status_imprisoned = In Gefangenschaft
+commander_status_reserve = Reserve
+commander_status_null = Nicht freigeschaltet
+
+construction_status_alive = Intakt
+construction_status_destroyed = Zerstört
+
+skirmish_unlocks = Durch Einzelschlachtenmodus freigeschaltet:
+
+unit_status_imported = Importiert
+
+editor_core_units = Kerneinheiten
+
+tooltip_insufficient_resources_to_revive = Nicht genügend Ressourcenpunkte, um diese importierte Kerneinheit wieder einzusetzen.
+tooltip_core_import_required_resources = Es müssen ausreichend Ressourcenpunkte vorhanden sein, um diese importierte Kerneinheit wieder einsetzen zu können.
+
+scenario_editor = Szenarioeditor
+campaign_editor = Kampagneneditor
+scenario_editor_descr = Erstellen Sie Ihr eigenes Szenario.
+campaign_editor_descr = Erstellen Sie Ihre eigene Kampagne.
+
+ceditor_map_info = Info
+climate_wet = Feucht
+campaign_branch = Zweig
+tooltip_add_campaign_branch = Neuen Zweig hinzufügen.
+tooltip_remove_campaign_branch = Diesen Zweig löschen.
+new_campaign = Neue Kampagne
+editor_branches = Zweige
+editor_cores = Kernarmeen
+editor_variables = Variablen
+tooltip_starting_branch = Diesen Zweig als Startzweig festlegen.
+tooltip_delete_branch = Diesen Zweig löschen.
+tooltip_add_variable = Eine neue Kampagnenvariable erstellen.
+tooltip_remove_branch_event = Diese Ereignis-Einblendung aus dem ausgewählten Zweig entfernen.
+tooltip_remove_branch_scenario = Dieses Szenario aus dem ausgewählten Zweig löschen.
+tooltip_doubleclick_for_layout = Doppelklicken, um in den Layout-Modus zu wechseln.
+active_in_branch = Im Zweig angezeigt
+set_location = Position festlegen
+add_core_faction = Nation hinzufügen
+tooltip_remove_core = Diese Kernarmee entfernen.
+tooltip_remove_core_faction = Diese Nation aus der Kernarmee entfernen.
+tooltip_set_outcome = Zum Festlegen als Szenario-Ausgang anklicken und auf einen Zweig in der linken Spalte ziehen.
+add_branch_scenario = Szenario hinzufügen
+add_campaign_event = Ereignis hinzufügen
+new_event_title = Mein Ereignis
+new_event_picture = Bild
+editor_core_value = Kernarmeewert
+tooltip_core_value = Wenn der Kernarmeewert des Spielers diesen Wert überschreitet, wird ein Fenster mit der Aufforderung eingeblendet, den Schwierigkeitsgrad zu erhöhen. Beträgt der Wert 0, kommt diese Funktion nicht zum Einsatz.
+name = Name
+scenario = Szenario
+remove_scenario_text = Möchten Sie dieses Szenario wirklich entfernen?
+editor_specialisations = Spezialisierungen
+tooltip_specialisations_switch = Aktivieren, falls diese Nation Spezialisierungen erwerben können soll.
+editor_toggle_spec_availability = Diese Spezialisierung für die aktuelle Kampagne aktivieren oder deaktivieren.
+editor_set_starting_spec_points = Anzahl der anfänglichen Spezialisierungspunkte für diese Nation festlegen.
+core_name = Name der Kernarmee
+font_size = Schriftgröße
+map_text_default = Hier Text eingeben
+new_campaign_confirm = Möchten Sie wirklich eine neue Kampagne erstellen?
+editor_info_0 = LINKSKLICK: Objekt auswählen - RECHTSKLICK: Objekt entfernen
+editor_info_1 = PFEILTASTEN: Ausgewähltes Objekt bewegen - BILDAUF/BILDAB: Ausgewähltes Objekt anheben/absenken
+editor_info_2 = R GEDRÜCKT HALTEN + PFEILTASTEN oder BILDAUF/BILDAB: Ausgewähltes Objekt drehen
+
+commander_94 = Kazjarina Kasjanowa

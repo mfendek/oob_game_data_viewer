@@ -1,0 +1,1606 @@
+// [<name>]
+// independent = <type> <scale>
+// attached = <type> <scale>
+// sfx = <type> <volume>
+// "independents" are not attached/parented to the model's weaponpoint transform, "attached" are.
+
+
+// Shot & Combat effects
+
+[ShellCaseSmall]
+independent = ShellCase 0.7
+attached = ShellEjectSmokeSmall 1.0
+sfx = ShellEjectLarge 0.5
+
+[ShellCaseLarge]
+independent = ShellCase 1.0
+attached = ShellEjectSmoke 1.0
+sfx = ShellEjectLarge 0.7
+
+[BarrelSmoke]
+attached = ShellEjectSmoke 1.0
+
+[BarrelFlame]
+attached = BarrelFlame 1.0
+
+[ART_Shell]
+independent = ArtilleryShell 0.6
+sfx = ShellWhizz_[10] 1.0
+
+[ART_Shell_Light]
+independent = ArtilleryShellLight 0.6
+sfx = ShellWhizz_[10] 1.0
+
+[AT_Shell]
+independent = ATShell 1.0
+
+[HE_Shell]
+independent = HEShell 1.0
+
+[AT_37mm_01]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_01 0.7
+recoil
+
+[AT_37mm_02]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_02 0.7
+recoil
+
+[AT_37mm_03]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_03 0.7
+recoil
+
+[AT_37mm_04]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_04 0.7
+recoil
+
+[AT_37mm_05]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_05 0.7
+recoil
+
+[AT_37mm_06]
+attached = CannonFlash 0.5
+independent = CannonSmokeSmall 1.0
+sfx = 37mm_06 0.7
+recoil
+
+[AT_47mm_01]
+attached = CannonFlash 0.55
+independent = CannonSmokeSmall 1.0
+sfx = 47mm_01 0.8
+recoil
+
+[AT_47mm_02]
+attached = CannonFlash 0.55
+independent = CannonSmokeSmall 1.0
+sfx = 47mm_02 0.8
+recoil
+
+[AT_57mm_01]
+attached = CannonFlash 0.6
+independent = CannonSmokeSmall 1.0
+sfx = 57mm_01 1.0
+recoil
+
+[AT_75mm_01]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_01 1.0
+recoil
+
+[AT_75mm_02]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_02 1.0
+recoil
+
+[AT_75mm_03]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_03 1.0
+recoil
+
+[AT_75mm_04]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_04 1.0
+recoil
+
+[AT_75mm_05]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_05 1.0
+recoil
+
+[AT_75mm_06]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_06 1.0
+recoil
+
+[AT_75mm_07]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_07 1.0
+recoil
+
+[AT_75mm_08]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_08 1.0
+recoil
+
+[AT_75mm_09]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_09 1.0
+recoil
+
+[AT_75mm_10]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_10 1.0
+recoil
+
+[AT_75mm_11]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_11 1.0
+recoil
+
+[AT_75mm_12]
+attached = CannonFlash 0.7
+independent = CannonSmokeSmall 1.0
+sfx = 75mm_12 1.0
+recoil
+
+[AT_76mm_01]
+attached = CannonFlash 0.72
+independent = CannonSmokeSmall 1.0
+sfx = 76mm_01 1.0
+recoil
+
+[AT_76.2mm_01]
+attached = CannonFlash 0.72
+independent = CannonSmokeSmall 1.0
+sfx = 76.2mm_01 1.0
+recoil
+
+[AT_76.2mm_02]
+attached = CannonFlash 0.72
+independent = CannonSmokeSmall 1.0
+sfx = 76.2mm_02 1.0
+recoil
+
+[AT_90mm_01]
+attached = CannonFlash 0.75
+independent = CannonSmokeSmall 1.0
+sfx = 90mm_01 1.0
+recoil
+
+[AT_105mm_01]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_01 1.0
+recoil
+
+[AT_105mm_02]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_02 1.0
+recoil
+
+[AT_105mm_03]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_03 1.0
+recoil
+
+[AT_105mm_04]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_04 1.0
+recoil
+
+[AT_105mm_05]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_05 1.0
+recoil
+
+[AT_105mm_06]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 105mm_06 1.0
+recoil
+
+[AT_150mm_01]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 150mm_01 1.0
+recoil
+
+[AT_150mm_02]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 150mm_01 1.0
+recoil
+
+[AT_155mm_01]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 155mm_01 1.0
+recoil
+
+[AT_155mm_02]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 155mm_02 1.0
+recoil
+
+[AT_155mm_03]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 155mm_03 1.0
+recoil
+
+[AT_155mm_04]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 155mm_04 1.0
+recoil
+
+[AT_203mm_01]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 203mm_01 1.0
+recoil
+
+[MG]
+attached = MGFlash 0.2
+sfx = M1917Browning_[2] 1.0
+
+[MG_Flashes]
+attached = MGFlash 0.2
+
+[Cannon_Flash_Small]
+attached = CannonFlash 0.1
+independent = CannonSmokeSmall 1.0
+
+[Type97LMG]
+attached = MGFlash 0.2
+sfx = Type97LMG_[2] 1.0
+
+[Type99LMG]
+attached = MGFlash 0.2
+sfx = Type99LMG_[2] 1.0
+
+[Type11LMG]
+attached = MGFlash 0.2
+sfx = Type11LMG_[2] 1.0
+
+[Vickers303]
+attached = MGFlash 0.2
+sfx = Vickers303_[2] 1.0
+
+[M2Browning]
+attached = MGFlash 0.2
+sfx = M2Browning_[2] 1.0
+
+[M1917Browning]
+attached = MGFlash 0.2
+sfx = M1917Browning_[2] 1.0
+
+[MG34]
+attached = MGFlash 0.2
+sfx = MG34LMG_[2] 1.0
+
+[MG42]
+attached = MGFlash 0.2
+sfx = MG42MLG_[2] 1.0
+
+[BredaM30LMG]
+attached = MGFlash 0.2
+sfx = BredaM30LMG_[2] 1.0
+
+[AirMG]
+attached = MGFlash 0.07
+sfx = MG 1.0
+
+[MGFlash_Small]
+attached = MGFlash 0.13
+
+[CannonFlash_Small]
+attached = CannonFlash 0.5
+recoil
+
+[CannonFlash_Medium]
+attached = CannonFlash 0.7
+recoil
+
+[CannonFlash_Large]
+attached = CannonFlash 1.0
+recoil
+
+[AircraftDefensiveMG]
+attached = MGFlash 0.13
+attached = AircraftMG 0.10
+attached = AA_Burst 5.0
+
+[AircraftMG]
+attached = MGFlash 0.15
+attached = AircraftMG 0.15
+attached = AA_Burst 2.0
+
+[AircraftStrafeMG]
+attached = MGFlash 0.15
+attached = AircraftMG 0.15
+
+[AirDef30M1919_01]
+attached = AA_Burst 1.0
+sfx = AirDef30M1919_01 1.0
+
+[AirDef30M1919Twin_01]
+sfx = AirDef30M1919Twin_01 1.0
+
+[AirDef50M2AN_01]
+sfx = AirDef50M2AN_01 1.0
+
+[AirDef50M2ANTwin_01]
+sfx = AirDef50M2ANTwin_01 1.0
+
+[AirDef77Type92_01]
+sfx = AirDef77Type92_01 1.0
+
+[AirDef77Type97_01]
+sfx = AirDef77Type97_01 1.0
+
+[AirDef127Ho-103_01]
+sfx = AirDef127Ho-103_01 1.0
+
+[Air20mmHispano_01]
+sfx = Air20mmHispano_01 1.0
+sfx = MGSubLayer 1.0
+
+[Air20mmHispano_02]
+sfx = Air20mmHispano_02 1.0
+sfx = MGSubLayer 1.0
+
+[Air20mmHo-5_01]
+sfx = Air20mmHo-5_01 1.0
+sfx = MGSubLayer 1.0
+
+[Air20mmHo-5_02]
+sfx = Air20mmHo-5_02 1.0
+sfx = MGSubLayer 1.0
+
+[Air30mmType5_01]
+sfx = Air30mmType5_01 1.0
+sfx = MGSubLayer 1.0
+
+[AirNose50Brown_01]
+sfx = AirNose50Brown_01 1.0
+sfx = MGSubLayer 1.0
+
+[AirNose50Ho-103_01]
+sfx = AirNose50Ho-103_01 1.0
+sfx = MGSubLayer 1.0
+
+[AirWings50Brown_01]
+sfx = AirWings50Brown_01 1.0
+sfx = MGSubLayer 1.0
+
+[AirWings50Ho-103_01]
+sfx = AirWings50Ho-103_01 1.0
+sfx = MGSubLayer 1.0
+
+[Fighter_FlyBy]
+sfx = AlB_RadSin_[3] 1.5
+
+[Bomber_Dive]
+sfx = AlB_RadFour_[3] 1.0
+
+[Bomber_FlyBy]
+sfx = AlB_RadFour_[3] 1.0
+
+[Bomber-Heavy_01]
+sfx = Bomber-Heavy_[5] 1.0
+
+// AA Fire
+
+[AA_Burst]
+//attached = MGFlash 0.2
+attached = AA_Burst 5.0
+
+[20mmAA_01]
+sfx = 20mmAA_01 0.7
+
+[20mmAA_02]
+sfx = 20mmAA_02 0.7
+
+[20mmAA_03]
+sfx = 20mmAA_03 0.7
+
+[25mmAA_01]
+sfx = 25mmAA_01 0.7
+
+[25mmAATwin_01]
+sfx = 25mmAATwin_01 0.7
+
+[37mmAA_01]
+sfx = 37mmAA_01 0.7
+
+[37mmAATwin_01]
+sfx = 37mmAATwin_01 0.7
+
+[40mmAA_01]
+sfx = 40mmAA_01 1.0
+
+[75mmAA_01]
+sfx = 75mmAA_01 1.0
+
+[120mmAA_01]
+sfx = 120mmAA_01 1.0
+
+[Flamethrower]
+attached = Flamethrower 1.0
+sfx = Flamethrower_[4] 1.0
+
+[GunFlash&Smoke]
+attached = CannonFlash 0.60
+independent = CannonSmokeSmall 1.0
+
+[GunFlash&Smoke_Small]
+attached = CannonFlash 0.40
+independent = CannonSmokeSmall 1.0
+
+[3Inch_01]
+independent = CannonFlash 0.3
+independent = CannonSmokeSmall 1.0
+sfx = 76.2mm_01 1.0
+
+[4Inch_01]
+independent = CannonFlash 0.34
+independent = CannonSmokeSmall 1.0
+sfx = 4Inches_01 1.0
+
+[5Inch_01]
+independent = CannonFlash 0.4
+independent = CannonSmokeSmall 1.0
+sfx = 5Inches_[2] 1.0
+
+[6Inch_01]
+independent = CannonFlash 0.4
+independent = CannonSmokeSmall 1.0
+sfx = 6Inches_[2] 1.0
+
+[8Inch_01]
+independent = CannonFlash 0.6
+independent = CannonSmokeLarge 1.0
+sfx = 8Inches_[2] 1.0
+
+[11Inch_01]
+independent = CannonFlash 0.6
+independent = CannonSmokeLarge 1.0
+sfx = 11Inches_[2] 1.0
+
+[16Inch_01]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 16Inches_a[2] 1.4
+
+[16Inch_02]
+independent = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 16Inches_b[2] 1.4
+
+[18Inch_01]
+independent = CannonFlash 0.9
+independent = CannonSmokeLarge 1.0
+sfx = 18Inches_01 1.4
+
+[ART_16Inch_01]
+attached = CannonFlash 0.8
+independent = CannonSmokeLarge 1.0
+sfx = 16Inches_a[2] 1.4
+recoil
+
+[Volley2Shots]
+independent = VolleyFire 2.0
+
+[Volley3Shots]
+independent = VolleyFire 3.0
+
+[Volley4Shots]
+independent = VolleyFire 4.0
+
+[Volley5Shots]
+independent = VolleyFire 5.0
+
+[Volley2ShotsLight]
+independent = VolleyFireLight 2.0
+
+[Volley3ShotsLight]
+independent = VolleyFireLight 3.0
+
+[Volley4ShotsLight]
+independent = VolleyFireLight 4.0
+
+[Volley5ShotsLight]
+independent = VolleyFireLight 5.0
+
+[BulletImpact10x]
+independent = BulletImpact 5.0
+
+[StrafeAttack]
+independent = StrafeAttack 2.0
+
+[StrafeAttackQuad]
+independent = StrafeAttack 4.0
+
+[Grenade]
+independent = Grenade 1.0
+
+[StickGrenade]
+independent = StickGrenade 1.0
+
+[RifleGrenade]
+independent = RifleGrenade 1.0
+sfx = RifleGrenade_01 1.0
+
+[SatchelCharge]
+independent = SatchelCharge 1.0
+
+[BundleGrenade]
+independent = BundleGrenade 1.0
+
+[Molotov]
+independent = Molotov 1.0
+
+[Mortar_300mm]
+attached = CannonFlash 1.0
+independent = MortarShell 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 300mmMortar_01 1.0
+recoil
+
+[Mortar_600mm]
+attached = CannonFlash 1.0
+independent = MortarShellHuge 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 600mmMortar_01 1.0
+recoil
+
+[Sword]
+audio = Sword_[3] 0.5
+
+[Spear]
+audio = Spear_[4] 0.5
+
+[Bayonet]
+audio = Bayonet_[3] 0.5
+
+[LauncherBarrelSmoke]
+independent = LauncherBarrelSmoke 1.0
+
+[LauncherExhaustSmoke]
+independent = LauncherExhaustSmoke 1.0
+
+[DepthCharge]
+attached = CannonFlash 0.1
+independent = DepthCharge 1.0
+sfx = Depth_Charge_Launch 0.3
+
+[Bomb]
+independent = Bomb 0.5
+sfx = BombWhistle_[2] 1.0
+
+[BombLight]
+independent = BombLight 0.4
+sfx = BombWhistle_[2] 1.0
+
+[AirGroundRocket]
+independent = AirGroundRocket 0.5
+sfx = Rocket_[4] 0.7
+
+[AirLauncherBarrelSmoke]
+independent = AirLauncherBarrelSmoke 1.0
+
+[AirLauncherExhaustSmoke]
+independent = AirLauncherExhaustSmoke 1.0
+
+[Fighter_Bomber]
+sfx = Bomber-Dive_01 1.0
+
+[Torpedo]
+independent = Torpedo 1.0
+sfx = torpedo_launch 0.1
+
+[AirTorpedo]
+independent = AirTorpedo 1.0
+sfx = BombWhistle_[2] 1.0
+
+[SurfaceTorpedo]
+independent = SurfaceTorpedo 1.0
+sfx = torpedo_launch 0.8
+
+[HedgehogLand]
+attached = CannonFlash 0.1
+independent = CannonSmokeSmall 1.0
+independent = HedgehogLand 1.0
+
+[Hedgehog]
+attached = CannonFlash 0.1
+independent = Hedgehog 1.0
+
+[HedgehogSound]
+sfx = hedgehog_launch 0.5
+
+[MortarRound]
+independent = CannonSmokeSmall 1.0
+independent = MortarRound 1.0
+sfx = Mortar_[2] 0.5
+
+[KamikazeDive]
+sfx = KamikazeDive 1.0
+
+[Rocket]
+independent = Rocket 1.0
+sfx = Rocket_[4] 0.7
+
+[T34Rocket]
+independent = T34Rocket 1.0
+sfx = Rocket_[4] 1.0
+
+[KatyushaVolleySFX]
+audio = KatyushaVolley_[2]
+
+[KatyushaRocket]
+independent = T34Rocket 1.0
+
+[RocketExhaust]
+attached = CannonFlash 0.1
+
+[Rifle]
+attached = MuzzleFlash 1.0
+independent = RifleSmoke 0.1
+sfx = Rifle_[3] 1.0
+
+[SMG]
+attached = SMGFlash 0.5
+independent = RifleSmoke 0.1
+sfx = SMG_[3] 1.0
+
+[HMG_50Cal]
+attached = SMGFlash 0.7
+independent = RifleSmoke 0.1
+sfx = M2Browning_[2] 1.0
+
+[Bazooka]
+independent = BazookaSmoke 1.0
+independent = BazookaRocket 1.0
+independent = BazookaFlames 1.0
+sfx = Rocket_[4] 1.0
+sfx = Bazooka_[3] 1.0
+
+[SuperBazooka]
+independent = BazookaSmoke 1.0
+independent = SuperBazookaRocket 1.0
+independent = BazookaFlames 1.0
+sfx = Rocket_[4] 1.0
+sfx = Bazooka_[3] 1.0
+
+[PIAT]
+independent = PIAT 1.0
+sfx = PIAT_01 1.0
+
+[M18RecRifle]
+independent = BazookaSmoke 1.0
+independent = ATShell 1.0
+independent = BazookaFlames 1.0
+sfx = M18RR_57mm_01 1.0
+
+[BazookaExhaust]
+independent = BazookaSmoke 1.0
+independent = BazookaFlames 1.0
+
+[BulletImpact10x]
+independent = BulletImpact 10.0
+
+[BulletImpact5x]
+independent = BulletImpact 5.0
+
+[BulletImpact1x]
+independent = BulletImpact 1.0
+
+[CavalryAttack]
+sfx = CavalryAttack_[4] 1.0
+
+
+
+// Movement
+
+[InfantryMove]
+attached = MoveDustLight 1.0
+sfx = Infantry_[3] 1.0
+
+[EngineerMove]
+attached = MoveDustLight 1.0
+sfx = Engineer_[3] 1.0
+
+[HeavyInfantryMove]
+attached = MoveDustLight 1.0
+sfx = HInfantry_[3] 1.0
+
+[CavalryMove]
+attached = MoveDustLight 1.0
+sfx = CavalryMove_[4] 1.0
+
+[HorseTransportMove]
+attached = MoveDustLight 1.0
+sfx = HorseTransportMove_[3] 1.0
+
+[RailMove]
+attached = RailMove 1.0
+sfx = RailMove 1.0
+
+[TowedHeavy]
+attached = MoveDustLight 1.0
+sfx = TowedHeavy_[2] 1.0
+
+[TowedLight]
+attached = MoveDustLight 1.0
+sfx = TowedLight_01 1.0
+
+[WakeSmall]
+attached = WakeSmall 1.0
+
+[PaddlingMove]
+sfx = PaddlingMove_01 1.0
+
+[ShipLargeMove]
+attached = WakeMedium 1.0
+sfx = ShipLarge_[4] 1.0
+
+[ShipSmallMove]
+attached = WakeMedium 1.0
+sfx = ShipSmall_[5] 1.0
+
+[ShipTransportMove]
+attached = WakeMedium 1.0
+sfx = ShipTransport_[6] 1.0
+
+[PTBoatMove]
+attached = WakeMedium 1.0
+sfx = PTBoatMove_[3] 1.0
+
+[KamikazeBoatMove]
+attached = WakeKamikaze 0.3
+sfx = PTBoatMove_[3] 1.0
+
+[SubmergedMove]
+attached = SubmergedMove 1.0
+sfx = SubmergedMove_[5] 1.0
+
+[SurfacedMove]
+attached = WakeMedium 1.0
+sfx = SubLgSurfMove_[6] 1.0
+
+[LCVPMove]
+attached = WakeMedium 1.0
+sfx = LCVPMove_[2] 1.0
+
+[FloaterMove]
+attached = WakeMedium 1.0
+sfx = FloaterMove 1.0
+
+
+
+[Willys]
+attached = MoveDust 1.0
+attached = SkidMarks 0.14
+sfx = Willys_[3] 1.0
+
+[Bulldozer]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = Bulldozer_[2] 1.0
+
+[LVT]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = LVT_[3] 1.0
+
+[LVT_Naval]
+attached = WakeMedium 1.0
+sfx = LVT_Ocean_[2] 1.0
+
+[AxLVT_Naval]
+attached = WakeMedium 1.0
+sfx = AxLVT_[2] 1.0
+
+[AlTankette]
+attached = MoveDust 1.0
+attached = SkidMarks 0.14
+sfx = AlTankette_[3] 1.0
+
+[AlHalftrack]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlHTrack_[3] 1.0
+
+[AlTankLightVEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlVEarlyTankLight_[2] 1.0
+
+[AlTankLightEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlEarlyTankLight_[5] 1.0
+
+[AlTankMediumEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.18
+sfx = AlEarlyTankMedium_[4] 1.0
+
+[AlTankLight]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlTankLight_[4] 1.0
+
+[AlTankMedium]
+attached = MoveDust 1.0
+attached = SkidMarks 0.18
+sfx = AlTankMedium_[7] 1.0
+
+[AlTankHeavy]
+attached = MoveDust 1.0
+attached = SkidMarks 0.22
+sfx = AlTankHeavy_[7] 1.0
+
+[AlTankSHeavy]
+attached = MoveDust 1.0
+attached = SkidMarks 0.25
+sfx = AlTankSHeavy_[3] 1.0
+
+[AlACar]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlACar_[3] 1.0
+
+[AlTruck]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AlTruck_[3] 1.0
+
+[AxTankette]
+attached = MoveDust 1.0
+attached = SkidMarks 0.14
+sfx = AxTankette_[3] 1.0
+
+[AxHalftrack]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxHTrack_[3] 1.0
+
+[AxTankLightEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxEarlyTankLight_[4] 1.0
+
+[AxTankLightEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxEarlyEarlyTankLight_[4] 1.0
+
+[AxTankMediumEarly]
+attached = MoveDust 1.0
+attached = SkidMarks 0.18
+sfx = AxEarlyTankMedium_[4] 1.0
+
+[AxTankLight]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxTankLight_[4] 1.0
+
+[AxTankMedium]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxTankMedium_[7] 1.0
+
+[AxTankHeavy]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxTankHeavy_[6] 1.0
+
+[AxTankSHeavy]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxTankSHeavy_[3] 1.0
+
+[AxACar]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxACar_[3] 1.0
+
+[AxTruck]
+attached = MoveDust 1.0
+attached = SkidMarks 0.16
+sfx = AxTruck_[3] 1.0
+
+[RailgunMove]
+sfx = RailMove 1.0
+
+
+[AlAirT]
+attached = AirMove 1.0
+sfx = AlAirT_01 1.0
+
+[Al_EarlyFast_RadSin]
+attached = AirMove 1.0
+sfx = Al_EarlyFast_RadSin_[3] 1.0
+
+[Al_EarlySlow_RadSin]
+attached = AirMove 1.0
+sfx = Al_EarlySlow_RadSin_[3] 1.0
+
+[AlB_RadFour]
+attached = AirMove 1.0
+sfx = AlB_RadFour_[3] 1.0
+
+[AlB_RadSin]
+attached = AirMove 1.0
+sfx = AlB_RadSin_[3] 1.0
+
+[AlB_RadTwin]
+attached = AirMove 1.0
+sfx = AlB_RadTwin_[3] 1.0
+
+[AlB_VeeSin]
+attached = AirMove 1.0
+sfx = AlB_VeeSin_[2] 1.0
+
+[AlF_Jet]
+attached = AirMove 1.0
+sfx = AlF_Jet_[2] 1.0
+
+[AlF_RadSin]
+attached = AirMove 1.0
+sfx = AlF_RadSin_[3] 1.0
+
+[AlF_RadTw]
+attached = AirMove 1.0
+sfx = AlF_RadTw_[2] 1.0
+
+[AlF_VeeSin]
+attached = AirMove 1.0
+sfx = AlF_VeeSin_[3] 1.0
+
+[AlF_VeeTw]
+attached = AirMove 1.0
+sfx = AlF_VeeTw_[3] 1.0
+
+[Ax_Rocket]
+attached = AirMove 1.0
+sfx = Ax_Rocket_[2] 1.0
+
+[AxAirT]
+attached = AirMove 1.0
+sfx = AxAirT_02 1.0
+
+[Ax_EarlyFast_RadSin]
+attached = AirMove 1.0
+sfx = Ax_EarlyFast_RadSin_[5] 1.0
+
+[Ax_EarlySlow_RadSin]
+attached = AirMove 1.0
+sfx = Ax_EarlySlow_RadSin_[3] 1.0
+
+[AxB_RadFour]
+attached = AirMove 1.0
+sfx = AxB_RadFour_[3] 1.0
+
+[AxB_RadSin]
+attached = AirMove 1.0
+sfx = AxB_RadSin_[3] 1.0
+
+[AxB_RadTwin]
+attached = AirMove 1.0
+sfx = AxB_RadTwin_[3] 1.0
+
+[AxF_Jet]
+attached = AirMove 1.0
+sfx = AxF_Jet_[2] 1.0
+
+[AxF_RadSin]
+attached = AirMove 1.0
+sfx = AxF_RadSin_[3] 1.0
+
+[AxF_RadTw]
+attached = AirMove 1.0
+sfx = AxF_RadTw_[2] 1.0
+
+[Ax_EarlyFast_VeeSin]
+attached = AirMove 1.0
+sfx = Ax_EarlyFast_VeeSin_[2] 1.0
+
+[Ax_EarlySlow_VeeSin]
+attached = AirMove 1.0
+sfx = Ax_EarlySlow_VeeSin_[2] 1.0
+
+[AxF_VeeSin]
+attached = AirMove 1.0
+sfx = AxF_VeeSin_[3] 1.0
+
+[OutOfFuel]
+sfx = Out_of_Fuel 1.0
+
+[RotCavalry]
+rotation = CavalryRot_01 1.0
+
+[RotHorseTransport]
+rotation = HorseTransportRot_01 1.0
+
+[RotBulldozer]
+rotation = RotBulldozer_01 0.0
+
+[RotAALMechanical]
+rotation = RotAALMech_[3] 1.0
+
+[RotAAHMechanical]
+rotation = RotAAHMech_[3] 1.0
+
+[RotAlTruck]
+rotation = RotAlTruck_[4] 1.0
+
+[RotAlCar]
+rotation = RotAlCar_[4] 1.0
+
+[RotAlHtrack]
+rotation = RotAlHTrack_[2] 1.0
+
+[RotAlTankette]
+rotation = RotBren_[2] 1.0
+
+[RotAlLTank]
+rotation = RotAlLTank_[6] 1.0
+
+[RotAlMTank]
+rotation = RotAlMTank_[7] 1.0
+
+[RotAlHTank]
+rotation = RotAlHTank_[4] 1.0
+
+[RotAlLVT]
+rotation = RotAlLVT_[2] 1.0
+
+[RotAlLVT_Naval]
+rotation = RotAlLVTNav_[2] 1.0
+
+[RotAxTruck]
+rotation = RotAxTruck_[3] 1.0
+
+[RotAxCar]
+rotation = RotAxCar_[4] 1.0
+
+[RotAxHtrack]
+rotation = RotAxHTrack_[2] 1.0
+
+[RotAxTankette]
+rotation = RotAxTankette_[2] 1.0
+
+[RotAxLTank]
+rotation = RotAxLTank_[6] 1.0
+
+[RotAxMTank]
+rotation = RotAxMTank_[7] 1.0
+
+[RotAxHTank]
+rotation = RotAxHTank_[4] 1.0
+
+[RotAxLVT_Naval]
+rotation = RotAxLVTNav_[2] 1.0
+
+[RotLTow]
+rotation = RotLTow_[3] 0.0
+
+[RotMTow]
+rotation = RotMTow_[4] 0.0
+
+[RotHTow]
+rotation = RotHTow_[3] 0.0
+
+[RotHArtCoastal]
+rotation = RotHArtCoastal_[3] 1.0
+
+[RotAxShipSmall]
+rotation = RotAxShipSmall_[5] 1.0
+
+[RotAxShipLarge]
+rotation = RotAxShipLarge_[4] 1.0
+
+[RotAlShipSmall]
+rotation = RotAlShipSmall_[5] 1.0
+
+[RotAlShipLarge]
+rotation = RotAlShipLarge_[4] 1.0
+
+[RotShipTransport]
+rotation = RotShipTransport_[6] 1.0
+
+[RotPTBoat]
+rotation = RotPTBoat_[2] 1.0
+
+[RotLCVP]
+rotation = RotLCVP_[2] 1.0
+
+[RotSubLgSurf]
+rotation = RotSubLgSurf_[4] 1.0
+
+[RotSubSmSubmerged]
+rotation = RotSubSSubmerge_[2] 1.0
+
+[RotSubLgSubmerged]
+rotation = RotSubLSubmerge_[3] 1.0
+
+
+// Explosions & Hits
+
+[LandMines]
+independent = LandMines 0.0
+
+[NavalMines]
+independent = NavalMines 0.0
+
+[BlackSmoke]
+attached = BlackSmoke 1.0
+
+[VehicleHit]
+independent = VehicleHit 1.0
+independent = LightFlash 0.2
+sfx = VehiclePenetrated_[7] 1.0
+
+[ATRicochet]
+independent = ATRicochet 1.0
+independent = LightFlash 0.5
+audio = VehicleRicochet_[10] 1.0
+
+[ExplosionHE]
+independent = ExplosionHE 1.0
+independent = Crater 0.2
+sfx = LightExp_[9] 1.0
+
+[VehicleBurning]
+attached = VehicleBurning 1.0
+
+[ShipSinking]
+independent = ShipSinking 1.0
+
+[SubmarineSinking]
+audio = SubmarineDying_01 1.0
+
+[AircraftSmoking]
+attached = AircraftSmoking 1.0
+
+[AircraftBurning]
+attached = AircraftBurning 1.0
+
+[AircraftSmokingSmall]
+attached = AircraftSmokingSmall 1.0
+
+[AircraftBurningSmall]
+attached = AircraftBurningSmall 1.0
+
+[AircraftDieing]
+sfx = AircraftDie_[4] 1.0
+
+[AircraftCrash]
+independent = VehicleExplosion 1.0
+independent = CraterBlack 0.3
+independent = LightFlash 1.0
+sfx = AircraftCrash_[2] 1.0
+
+[AircraftCrashWater]
+independent = WaterSplashSmall 1.0
+audio = AircraftCrashWater_[4] 1.0
+
+[KamikazeExplosion]
+independent = VehicleExplosion 1.0
+independent = Crater 0.4
+independent = LightFlash 1.5
+sfx = KamikazeExplosion_[3] 1.0
+
+[TowedExplosion]
+independent = TowedExplosion 1.0
+attached = CraterBlack 0.4
+independent = LightFlash 1.0
+sfx = TowedExp_[6] 1.0
+
+[TankExplosion]
+independent = VehicleExplosion 1.0
+attached = CraterBlack 0.6
+independent = LightFlash 2.0
+sfx = TankExp_[5] 1.0
+
+[VehicleExplosion]
+independent = VehicleExplosion 1.0
+attached = CraterBlack 0.6
+independent = LightFlash 2.0
+sfx = VehicleExp_[4] 1.0
+
+[BuildingExplosion]
+independent = VehicleExplosion 1.0
+attached = CraterBlack 0.6
+independent = LightFlash 2.0
+sfx = BuildingExplosion_[3] 1.0
+
+[ShipExplosion]
+independent = ShipExplosion 1.0
+independent = LightFlash 1.2
+sfx = NavalHitHeavy_[7] 1.0
+
+[ShipExplosionLight]
+independent = ShipExplosionLight 1.0
+independent = LightFlash 0.8
+sfx = NavalHitLight_[6] 0.6
+
+[GrenadeExplosion]
+independent = GrenadeExplosion 1.0
+independent = Crater 0.2
+independent = LightFlash 0.5
+sfx = GrenadeExp_a[8] 1.0
+
+[MolotovExplosion]
+independent = MolotovExplosion 1.0
+independent = Crater 0.4
+independent = LightFlash 0.8
+sfx = MolotovExplosion_[2] 1.0
+
+[ExplosionLight]
+independent = ExplosionMedium 1.0
+independent = Crater 0.2
+independent = LightFlash 0.8
+sfx = LightExp_[9] 1.0
+
+[ExplosionMedium]
+independent = ExplosionMedium 1.0
+independent = Crater 0.2
+independent = LightFlash 0.8
+sfx = LightExp_[9] 1.0
+
+[ExplosionHeavy]
+independent = ExplosionHeavy 1.0
+independent = Crater 0.5
+independent = LightFlash 1.2
+sfx = HeavyExp_[9] 1.0
+
+[BombExplosionLight]
+independent = ExplosionMedium 1.0
+independent = Crater 0.3
+independent = LightFlash 0.8
+sfx = TactBomb_[6] 1.0
+
+[BombExplosionHeavy]
+independent = ExplosionMedium 1.0
+independent = Crater 0.5
+independent = LightFlash 1.2
+sfx = HeavyBomb_[3] 1.0
+
+[ShipHitHeavy]
+independent = ExplosionHeavyNaval 1.0
+independent = LightFlash 1.2
+sfx = NavalHitHeavy_[7] 1.0
+
+[ShipHitLight]
+independent = ExplosionLightNaval 1.0
+independent = LightFlash 0.8
+sfx = NavalHitLight_[6] 0.6
+
+[ExplosionDirt]
+independent = ExplosionDirt 1.0
+
+[LandMineExplosion]
+independent = LandMineExplosion 1.0
+independent = Crater 0.2
+sfx = GrenadeExp_a[8] 1.0
+
+[NavalMineExplosion]
+independent = NavalMineExplosion 1.0
+sfx = NavalHitHeavy_[7] 0.6
+sfx = ShellHitWater_[4] 1.0
+
+[ShellHitWater]
+independent = WaterSplash 1.0
+sfx = ShellHitWater_[4] 1.0
+
+[WaterSplash]
+independent = WaterSplash 1.0
+sfx = Water_Splash 1.0
+
+[WaterSplashSmall]
+independent = WaterSplashSmall 1.0
+sfx = Water_Splash 1.0
+
+[ExplosionUnderwater]
+independent = UnderWaterExplosion 1.0
+sfx = Underwater_Explosion_[6] 1.0
+
+[Nuke]
+independent = Nuke 1.0
+audio = BombWhistleHeavy 1.0
+
+[NukeExplosionLarge]
+independent = NukeExplosionLarge 1.0
+independent = Crater 1.2
+sfx = NukeExplosion_02 1.0
+
+[NukeExplosion]
+independent = NukeExplosion 1.0
+independent = Crater 1.0
+sfx = NukeExplosion_02 1.0
+
+[Flak]
+independent = Flak 1.0
+sfx = Flak_[4] 1.0
+
+[FlakLarge]
+independent = FlakLarge 1.0
+sfx = Flak_[4] 1.0
+
+[AAMG]
+attached = MGFlash 0.2
+attached = AA_Burst 5.0
+sfx = M2Browning_[2] 1.0
+
+[AirMGHit]
+independent = AirMGHit 0.0
+
+[BulletGroundHit]
+independent = BulletGroundHit 1.0
+audio = BulletImpact_[12] 0.5
+
+[Crater_50]
+independent = Crater 0.5
+
+[LightFlash]
+independent = LightFlash 0.5
+
+[DustPuff]
+independent = DustPuff 1.0
+
+
+// Specials
+
+[SubmarineAlarm]
+audio = SubAlarm 1.0
+
+[AirRaidAlarm]
+audio = StratAttackAlarm 1.0
+
+[Parachute]
+sfx = Parachute_[4] 1.0
+
+[AircraftLanding]
+sfx = AirLand_[4] 1.0
+
+[AircraftTakeOff]
+sfx = AirTakeOff_[4] 1.0
+
+[MineLaying]
+independent = ClearLandMines 1.0
+audio = MineLaying_01 1.0
+
+[NavalMineLaying]
+independent = ClearNavalMines 1.0
+audio = NavalMineLaying_[3] 1.0
+
+[MineClearing]
+independent = ClearLandMines 1.0
+audio = MineLaying_01 1.0
+
+[MineClearingNaval]
+independent = ClearNavalMines 1.0
+audio = NavalMineLaying_[3] 1.0
+
+[BridgeBuilding]
+audio = BridgeBuilding_01 1.0
+
+[EnterWater]
+independent = WaterSplash 1.0
+audio = EnterWater_[3] 1.0
+
+[ExitWater]
+audio = ExitWater_[3] 1.0
+
+[SonarPulse]
+independent = SonarPulse 1.0
+audio = SonarPulse 1.0
+
+[SonarPulseSilent]
+independent = SonarPulse 1.0
+
+[VPCaptured]
+audio = VP_Captured 1.0
+
+[CarrierCargoParticle]
+independent = MiniatureParticle 1.0
+
+[Sleep]
+attached = Sleep 1.0
+
+[ConstructionDust]
+independent = ConstructionDust 1.0
+audio = BridgeBuilding_01 1.0
+
+[SmallFire]
+attached = SmallFire 1.0
+
+[SmallSmoke]
+attached = SmallSmoke 1.0
+
+[StukaSiren]
+audio = StukaSiren 1.0
+
+[WaterCannon]
+attached = WaterCannon
+sfx = WaterCannon_01 1.0
+
+
+// Animations
+
+[RifleIdle]
+anim = RifleIdle -1
+
+[RifleFire]
+anim = RifleFire 0.1
+
+[RifleAim]
+anim = RifleAim
+
+[RifleIdleKneeled]
+anim = RifleIdleKneeled -1
+
+[RifleFireKneeled]
+anim = RifleFireKneeled 0.1
+
+[RifleMove]
+anim = RifleMove
+
+[GrenadeIdle]
+anim = GrenadeIdle -1
+
+[GrenadeThrow]
+anim = GrenadeFire
+sfx = GrenadeThrow_[8] 1.0
+
+[RifleGrenadeAimKneeled]
+anim = RifleGrenadeAimKneeled
+
+[RifleGrenadeFireKneeled]
+anim = RifleGrenadeFireKneeled 0.1
+sfx = GrenadeThrow_[8] 1.0
+
+[SoldierDie]
+anim = Die_[3]
+
+[BazookaIdle]
+anim = BazookaIdle -1
+
+[BazookaFire]
+anim = BazookaFire 0.1
+
+[BazookaAim]
+anim = BazookaFire
+
+[BazookaMove]
+anim = BazookaMove
+
+[SMGMove]
+anim = SMGMove
+
+[SMGFire]
+anim = SMGFire 0.1
+
+[SMGFireKneeled]
+anim = SMGFireKneeled
+
+[HMGIdleKneeled]
+anim = HMGIdleKneeled -1
+
+[HMGFireKneeled]
+anim = HMGFireKneeled
+
+[SwordIdle_01]
+anim = SwordIdle_01 -1
+
+[SwordIdle_02]
+anim = SwordIdle_02 -1
+
+[SwordIdle]
+anim = SwordIdle -1
+
+[SwordAttack]
+anim = SwordAttack
+
+[SwordAttack_01]
+anim = SwordAttack_01
+
+[SwordAttack_02]
+anim = SwordAttack_02
+
+[SwordMove]
+anim = SwordMove
+
+[FlamethrowerIdleKneeled]
+anim = FlamethrowerIdleKneeled -1
+
+[FlamethrowerFireKneeled]
+anim = FlamethrowerFireKneeled 0.1
+
+[SpearAttack]
+anim = SpearAttack
+
+[HorseTrot]
+anim = HorseTrot
+
+[HorseCanter]
+anim = HorseCanter
+
+[HorseIdle]
+anim = HorseIdle_[2]
+
+[HorseDie_01]
+anim = HorseDie_01
+
+[HorseDie_02]
+anim = HorseDie_02
+
+[RiderTrot]
+anim = RiderTrot
+
+[RiderCanter]
+anim = RiderCanter
+
+[RiderAim]
+anim = RiderAim
+
+[RiderFire]
+anim = RiderFire
+
+[RiderIdle]
+anim = RiderIdle
+
+[RiderDie_01]
+anim = RiderDie_01
+
+[RiderDie_02]
+anim = RiderDie_02
+
+
+// COUNTERS
+
+[CounterSlide]
+sfx = CounterMove_[2]
+
+[AttackArrow]
+independent = ArrowPointer 154017017
+sfx = DiceRoll_[2]
+
+[SupportArrow]
+independent = ArrowPointer 194237255
+
+[OutflankArrow]
+independent = ArrowPointer 224104077
+
+[DamageSplash]
+independent = DamageSplash

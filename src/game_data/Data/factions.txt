@@ -1,0 +1,174 @@
+[GERMANY]
+id = 11
+theme = germany
+skirmish = blitzkrieg, panzerkrieg, kriegsmarine, volkskrieg, afrika
+
+[USA]
+id = 1
+theme = usa
+skirmish = pacificUS, marineCorps, endkrieg, afrika, pacificJapan, 
+
+[BRITAIN]
+id = 2
+theme = britain
+skirmish = burmaRoad, kriegsmarine, afrika, pacificJapan
+
+[FRANCE]
+id = 10
+theme = france
+
+[ITALY]
+id = 12
+theme = italy
+
+[BELGIUM]
+id = 28
+theme = belgium
+
+[NETHERLANDS]
+id = 9
+theme = netherlands
+
+[DENMARK]
+id = 29
+theme = norway
+
+[NORWAY]
+id = 31
+theme = norway
+
+[SWEDEN]
+id = 30
+theme = finland
+
+[FINLAND]
+id = 26
+theme = finland
+skirmish = winterwar
+noNavy
+
+[POLAND]
+id = 27
+theme = poland
+
+[YUGOSLAVIA]
+id = 33
+theme = yugoslavia
+
+[ROMANIA]
+id = 35
+
+[GREECE]
+id = 34
+theme = greece
+
+[JAPAN]
+id = 0
+theme = japan
+skirmish = pacificJapan, morningsun, pacificUS, marineCorps, burmaRoad
+
+[USSR]
+id = 4
+theme = ussr
+skirmish = winterwar, blitzkrieg, panzerkrieg
+noNavy
+
+[CHINA]
+id = 3
+theme = china
+skirmish = morningsun
+noNavy
+
+[CHINA_COMMUNISTS]
+id = 18
+theme = ussr
+noNavy
+
+[CHINA_PUPPET]
+id = 19
+theme = japan
+
+[MENGJIANG]
+id = 20
+theme = japan
+
+[MANCHUKUO]
+id = 21
+theme = japan
+
+[INDIA_NATIONALISTS]
+id = 22
+theme = japan
+
+[INDIA]
+id = 23
+theme = britain
+
+[AUSTRALIA]
+id = 5
+theme = britain
+
+[NEWZEALAND]
+id = 7
+theme = britain
+
+[CANADA]
+id = 6
+theme = britain
+
+[PHILIPPINES]
+id = 16
+theme = usa
+
+[THAILAND]
+id = 8
+theme = japan
+
+[MARINE_CORPS]
+id = 25
+theme = marines
+
+[UNCLAIMED]
+id = 15
+noMansLand
+
+[IMPASSABLE]
+id = 36
+impassable
+
+[WAFFENSS]
+id = 32
+theme = germany
+
+[IJN]
+id = 13
+theme = japan
+noEditor
+
+[REDUSA]
+id = 14
+theme = usa
+noEditor
+skirmish = free
+
+[USARMY]
+id = 17
+theme = usa
+noEditor
+
+[RAF]
+id = 24
+theme = britain
+noEditor
+
+[KRIEGSMARINE]
+id = 37
+theme = kriegsmarine
+
+[BULGARIA]
+id = 38
+theme = germany
+
+[HUNGARY]
+id = 39
+theme = germany

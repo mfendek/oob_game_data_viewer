@@ -1,0 +1,82 @@
+﻿unit_1069 = F2A Buffalo
+unit_1070 = BB Kongo
+unit_1071 = Exploradores Marines
+unit_1072 = Camión de Carga
+unit_1073 = Infantería Alemana '40
+unit_1074 = 75mm PaK 40
+unit_1075 = Inf. con Morteros Japonesa
+unit_1076 = Inf. con Morteros Americana
+unit_1077 = Inf. con Morteros Australiana
+unit_1078 = Inf. con Morteros China
+unit_1079 = Inf. con Morteros Holandesa
+unit_1080 = Inf. con Morteros Finlandesa
+unit_1081 = Inf. con Morteros Alemana
+unit_1082 = Bunker de Cemento
+unit_1083 = Type 97 Shinhoto Chi-Ha
+unit_1084 = Type 92 70mm
+unit_1085 = Type 2 Ka-Mi
+unit_1086 = Type 2 Ka-Mi
+unit_1087 = Inf. con Morteros Soviética
+unit_1091 = Francotiradores japoneses
+
+editor_aggression = Agresión
+
+faction_raf = Gran Bretaña
+
+amount = Cantidad
+damage = Daño
+unit_definitions = Definición de las Unidades
+editor_visible_unit = Unidad(es) Visible(s)
+editor_viewer = Visor(es)
+editor_check_trigger_timer = Comprobar el valor de repetición del desencadenante
+
+difficulty_britain_0 = Oficial de Vuelo
+difficulty_britain_1 = Teniente de Vuelo
+difficulty_britain_2 = Líder de Escuadrón
+difficulty_britain_3 = Capitán de Grupo
+difficulty_britain_4 = Mariscal
+
+terrain_lake = Lago
+terrain_pine_forest = Bosque Espeso
+terrain_rice = Campo de Arroz
+terrain_japanese_village = Poblado Asiático
+
+editor_climate = Clima
+climate_default = Por Defecto
+climate_winter = Invierno
+
+loading_tip_14 = Cuando un avión es desplegado o despega desde un aeródromo o portaaviones, tiene eficiencia reducida. Esto representa su vulnerabilidad debido a la baja velocidad y altitud.||Al inicio del siguiente turno, su eficiencia aumentará al máximo valor.
+loading_tip_15 = Un portaaviones sólo puede lanzar un avión por turno, mientras que desde un aeródromo pueden despegar dos aviones en un solo turno.
+loading_tip_16 = Las unidades equipadas con lanzallamas - así como vehículos dotados de cañones de baja velocidad y cañón corto - funcionan mejor, generalmente, en terreno que ofrece buena cobertura, como ciudades y bosques.
+
+tutorial_content_marinecorps_title = [Nuevo contenido] Marines americanos
+tutorial_content_marinecorps = En agosto de 1942, los Estados Unidos comenzaron su ofensiva terrestre contra el Japón con la invasión de Guadalcanal. Lidera al USMC durante la Operación Cartwheel en 11 escenarios únicos que muestran los desafíos de las batallas saltando de isla en isla durante la Guerra del Pacífico.
+
+custom_name = Nombre de unidad personalizado
+
+trigger_effect_24 = Cambiar Producción de Suministros
+
+generate_preview_title = Generar Vista Previa del Mapa
+generate_preview_text = ¿Deseas generar una nueva vista previa del mapa?
+
+editor_available_turns = Disponible
+
+tooltip_weapon_switch = Cortina de Morteros: Establece una cortina de fuego de mortero contra la unidad enemiga.
+tooltip_weapon_switch_disabled_1 = Cortina de Morteros: Esta unidad ya ha atacado durante este turno.
+
+trait_55_title = Reparaciones de Infraestructura
+trait_55_descr = Esta unidad reparará gradualmente el daño causado a la producción de suministros de su posición actual.
+trait_56_title = Orugas Pesadas
+trait_56_descr = El gran peso y tamaño de esta unidad impiden que atraviese ciertos tipos de terreno.
+
+tutorial_campaign_overview_title = Campañas
+tutorial_campaign_overview = En este panel puedes seleccionar cualquier campaña haciendo clic sobre su icono. Para el contenido desbloqueado solo tendrás que presionar el botón "Lanzar" y comenzará la correspondiente campaña. Para el contenido bloqueado, el botón "comprar contenido" te permitirá obtener más información y hacerte con él.
+
+difficulty_marines_0 = I. Teniente
+difficulty_marines_1 = II. Capitán
+difficulty_marines_2 = III. Coronel
+difficulty_marines_3 = IV. General
+difficulty_marines_4 = V. General de Ejército
+
+trigger_effect_25 = Cambia el Tipo de Unidad
+editor_change_original_unittype = Remplazar el tipo original

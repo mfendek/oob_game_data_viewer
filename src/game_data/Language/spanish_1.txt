@@ -1,0 +1,64 @@
+﻿unit_504 = Inf. australiana '44
+unit_505 = Inf. australiana '45
+unit_506 = Inf. pes. australiana '44
+unit_507 = Inf. pes. australiana '45
+unit_508 = Comandos australianos '44
+unit_509 = CV Hiryu '43
+unit_510 = CV Hiryu '44
+unit_511 = CV Shōkaku '42
+unit_512 = CV Shōkaku '43
+unit_513 = CV Shōkaku '44
+unit_514 = CV Unryu '45
+unit_515 = CV Taiyo '42
+unit_516 = CV Taiyo '43
+unit_517 = CV Taiyo '44
+unit_518 = CV Lexington
+unit_519 = CV Lexington '43
+unit_520 = CV Yorktown '43
+unit_521 = CV Yorktown '44
+unit_522 = CV Essex '44
+
+trigger_condition_22 = Comprobar estado del objetivo
+
+editor_starting_value = Valor de comienzo 
+editor_target_value = Valor de objetivo 
+
+editor_new_folder_name = Nueva carpeta 
+editor_folder_name = Nombre de carpeta 
+unit_status_available = Disponible 
+
+filter = Filtro :
+
+tooltip_create_folder = Crea carpeta 
+tooltip_repair_friendly_disabled_5 = Solo puede reparar unidades adyacentes que no han sido aún atacadas.
+tooltip_repair_disabled_11 = Reparación: Los submarinos deben salir a la superficie para repararse en mar abierto.
+tooltip_elite_repair_disabled_11 = Reparación Élite: Los submarinos deben salir a la superficie para repararse en mar abierto.
+tooltip_repair_friendly_disabled_3 = Solo puede reparar unidades adyacentes que no han sido movidas y que no han combatido desde el turno previo .
+tooltip_upgrade_disabled_4 = Mejora: No se pueden mejorar unidades en territorio enemigo. 
+tooltip_upgrade_disabled_5 = Mejora: No se pueden mejorar unidades cuando están adyacentes a una unidad enemiga.
+tooltip_upgrade_series_disabled_4 = Mejora: No se pueden mejorar unidades en territorio enemigo. 
+tooltip_upgrade_series_disabled_5 = Mejora: No se pueden mejorar unidades cuando están adyacentes a una unidad enemiga.
+tooltip_purchase_carrier_incompatible = Este tipo de unidad no puede ser almacenada en este transporte.
+tooltip_empty_cargo_slot = Espacio de carga vacío.
+tooltip_exit_water = Sale del agua y mueve dentro de la costa.
+tooltip_exit_water_disabled_1 = No puede salir del agua durante la fase de despliegue.
+tooltip_exit_water_disabled_2 = No hay hexágonos de tierra adyacentes válidos para salir del agua.
+tooltip_air_lift_disabled_4 = No se puede lanzar un avión de transporte si el aeródromo está bloqueado por otra unidad aérea 
+
+spec_hidden_nests_effect = • La infantería japonesa puede construir pozos de tirador MG|• La infantería pesada japonesa puede construir Bunkers|• Las unidades de la fuerza principal están atrincheradas en la fase de despliegue.
+
+new_commander_available = Un nuevo Comandante está disponible y puede ser asignado a una de nuestras unidades.
+
+// DIFFICULTY LEVELS
+difficulty_japan_0 = I. Alférez
+difficulty_japan_1 = II. Teniente 
+difficulty_japan_2 = III. Comandante 
+difficulty_japan_3 = IV. Vicealmirante 
+difficulty_japan_4 = V. Kamikaze
+difficulty_usa_0 = I. Alférez 
+difficulty_usa_1 = II. Teniente 
+difficulty_usa_2 = III. Capitán 
+difficulty_usa_3 = IV. Almirante 
+difficulty_usa_4 = V. Almirante de flota 
+
+terrain_scorched = Quemada 

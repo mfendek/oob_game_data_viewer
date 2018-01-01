@@ -1,0 +1,107 @@
+﻿unit_502 = Kanonenboot
+unit_503 = M2 FlaK 90mm
+unit_455 = M2 FlaK 90mm
+unit_150 = P-47C Thunderbolt
+unit_151 = P-51B Mustang
+unit_258 = Supermarine Seafire XV
+unit_346 = A6M5 Zero
+unit_348 = Ki-44 II Shoki
+
+turn_confirm_title = Zug beenden
+turn_confirm_text = Möchten Sie den Zug wirklich beenden und für den nächsten Spieler hochladen?
+
+send = Senden
+
+split_fields = Größe aller Einheiten gemäß der aktuell fokussierten Ebene
+unit_efficiency = Effizienz
+
+tutorial_torpedo_launch_2 = Nachdem eine Einheit einen Torpedo abgefeuert hat, dauert es eine oder mehr Runden, bis neue Torpedos nachgeladen wurden. Die Anzahl der Runden wird in der oberen linken Ecke des Fähigkeiten-Buttons angezeigt.
+
+pbem_error_server_down = Am Online-Server werden derzeit Wartungsarbeiten durchgeführt, bitte versuchen Sie es später wieder.
+
+pbem_reserved_slot = Reservierter Slot
+pbem_date = Datum letzter Zug
+
+kick_player_title = Spieler entfernen
+kick_player_text = Ein Spieler, der bereits mehr als 7 Tage inaktiv ist, kann aus der Partie entfernt werden. Daraufhin ist der nächste aktive Spieler am Zug.||Möchten Sie den aktuellen Spieler wirklich entfernen?
+claim_game_title = Sieg beanspruchen
+claim_game_text = Der aktuelle Spieler in dieser Partie hat seinen Zug nicht abgeschlossen.||Möchten Sie wirklich fortfahren?
+
+tutorial_mp_matches_title = Der Gegner ist zuerst am Zug
+tutorial_mp_matches = Die von Ihnen angenommene Herausforderung beginnt mit dem Zug eines anderen Spielers. Dies erkennen Sie am orangefarbenen Figurensymbol vor der Liste.||Sobald Ihr Gegner seinen Zug gespielt hat, wird das Symbol grün und zeigt damit an, dass Sie nun am Zug sind.
+tutorial_mp_waiting_for_more_players_title = Warten auf andere Spieler
+tutorial_mp_waiting_for_more_players = Der von Ihnen angenommenen Herausforderung müssen weitere Spieler beitreten, bevor sie gestartet werden kann.||Sobald Sie Ihren ersten Zug in dieser Partie spielen können, verwandelt sich ihr Symbol in ein grünes Figurensymbol.
+tutorial_player_not_found_title = Spieler nicht gefunden
+tutorial_player_not_found = Der Spieler, dessen Namen Sie eingegeben haben, konnte in der Datenbank für aktive Spieler nicht gefunden werden. Beachten Sie, dass ein Spieler mindestens ein Mal auf dem Mehrspielerserver angemeldet gewesen sein muss, um in dieser Datenbank zu erscheinen.||Beim Spielernamen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+tutorial_supply_cut_1_title = Von der Versorgung abgeschnitten
+tutorial_supply_cut_1 = Die ausgewählte Einheit ist von allen Versorgungsquellen abgeschnitten, erkennbar am roten Punkt neben der Stärkeanzeige der Einheit. Die Einheit befindet sich in einem Territorium, in dem keine Versorgungsquellen verfügbar sind.
+tutorial_supply_cut_2_title = Versorgung wiederherstellen
+tutorial_supply_cut_2 = Damit Ihre Einheit wieder versorgt werden kann, müssen Sie feindliche Felder erobern und so das Territorium der Einheit mit einer Ihrer Versorgungsquellen verbinden. Halten Sie die <Leertaste> gedrückt, um zu sehen, welche Felder oder Küstenschiffe die Versorgung aufrechterhalten.
+tutorial_supply_cut_3_title = Versorgungsindikator
+tutorial_supply_cut_3 = Wenn Sie in den Versorgungsanzeigemodus wechseln, erscheinen Indikatoren auf der Karte. Die große Zahl in der Mitte des Indikators zeigt an, wie viele Versorgungspunkte ein Feld generiert. Verfügt ein Territorium über keine Versorgungsquelle, wird ein Indikator mit einem Minus-Symbol angezeigt.
+tutorial_supply_cut_4_title = Versorgungsbilanz
+tutorial_supply_cut_4 = Die kleine Zahl auf den Versorgungsindikatoren zeigt die Gesamtversorgungsmenge aller Versorgungsquellen im Territorium abzüglich des Gesamtversorgungsbedarfs aller Einheiten, die sich in diesem Territorium befinden, an. Ist diese Zahl negativ, können nicht alle Einheiten ausreichend versorgt werden.
+tutorial_advance_move_title = Nachrücken
+tutorial_advance_move = Schaltet eine Einheit eine feindliche Landeinheit aus oder zwingt sie zum Rückzug, kann sie auf das freigemachte Feld nachrücken. Diese Bewegung ist nur direkt nach dem Angriff möglich. Erhält die Einheit einen anderen Befehl, kann sie infolgedessen nicht mehr nachrücken.
+tutorial_pbem_lobby_title = PBEM-Lobby
+tutorial_pbem_lobby = Willkommen in der Mehrspieler-Lobby des Serversystems "PBEM++". Hier finden Sie eine Auflistung aller offenen Herausforderungen und Partien, an denen Sie teilnehmen. Die vier Reiter oben im Fenster dienen als Filter für die Partien.
+tutorial_pbem_lobby_2_title = Herausforderung erstellen oder annehmen
+tutorial_pbem_lobby_2 = Sie können eine bereits vorhandene offene Herausforderung annehmen oder Ihre eigene Herausforderung erstellen. Falls Sie einer Herausforderung beitreten möchten, wählen Sie sie in der Liste aus und klicken Sie auf den Button "Beitreten" in der unteren rechten Ecke des Fensters. Falls Sie Ihre eigene Herausforderung erstellen möchten, klicken Sie auf den Button "Herausforderung erstellen".
+tutorial_submarine_attack_title = U-Boot-Angriffe
+tutorial_submarine_attack = Greift ein abgetauchtes U-Boot eine feindliche Einheit an, gibt es dadurch nicht seine Position preis. Lediglich ein Alarmgeräusch ist zusammen mit den Explosionen zu hören. U-Boote können nur mithilfe der Fähigkeit "Sonarabtastung" geortet werden, oder wenn Sie die aktuelle Position des U-Boots überqueren.
+tutorial_campaign_variables = Einige Szenarioereignisse wirken sich auf Folgeszenarios in der Kampagne aus. Der Status derartiger Ereignisse ist anhand von Pinnnadeln auf der Kampagnenkarte einsehbar.||Die Farbe der Pinnnadeln zeigt an, wer von dem jeweiligen Ereignis profitiert.
+
+
+tooltip_construct_unit_disabled_3 = Nicht genügend Ressourcenpunkte für den Bau von: @
+
+tooltip_claim_match_timer = Falls der aktuelle Spieler für @ Tage inaktiv bleibt, können Sie den Sieg für sich beanspruchen.
+tooltip_kick_player_timer = Falls der aktuelle Spieler für @ Tage inaktiv bleibt, können Sie ihn aus der Partie entfernen.
+tooltip_state_claimable = Status der Partie: Der aktuelle Spieler ist seit mehr als @ Tagen inaktiv und kann aus der Partie entfernt werden.
+
+tooltip_state_available_invited = Status der Herausforderung: Sie wurden zu dieser offenen Herausforderung eingeladen.
+tooltip_state_available_private_invited = Status der Herausforderung: Sie wurden zu dieser privaten Herausforderung eingeladen.
+
+tooltip_batch_2 = Publisher (Slitherine/Matrix)
+tooltip_batch_3 = Mitwirkende aus der Community
+tooltip_no_save_mp = Bei Mehrspielerpartien kann nicht auf Spielstände zugegriffen werden.
+
+tooltip_clear_reserved = Eingeladenen Spieler entfernen.
+tooltip_reserve_slot = Slot für bestimmten Spieler reservieren.
+tooltip_reserved_slot = Dieser Slot ist für einen anderen Spieler reserviert.
+tooltip_fixed_slot = Sie wurden zu dieser Herausforderung eingeladen und können den Spieler-Slot nicht wechseln.
+tooltip_repair_wounds = Schiffssicherung: Eine begrenzte Anzahl an Stärkepunkten der Einheit wiederherstellen.
+tooltip_repair_wounds_disabled_1 = Schiffssicherung: Nicht genügend Ressourcen, um den Schaden zu beheben.
+tooltip_repair_wounds_disabled_2 = Schiffssicherung: Die Einheit kann nicht repariert werden, wenn sie angegriffen hat.
+tooltip_repair_wounds_disabled_3 = Schiffssicherung: Die Einheit kann nicht repariert werden, wenn sie abgetaucht ist.
+tooltip_torpedo_launch_disabled_5 = Torpedos können nur von einem Wasserfeld aus abgefeuert werden.
+tooltip_air_lift_disabled_1 = Die Einheit kann nach einem Angriff kein Transportflugzeug nutzen.
+tooltip_repair_friendly_disabled_3 = Die Einheit kann nur angrenzende Einheiten reparieren, die seit der letzten Runde nicht in Kampfhandlungen verwickelt waren.
+tooltip_repair_friendly_disabled_4 = Die Einheit kann nur andere Einheiten reparieren, wenn sie seit der letzten Runde nicht in Kampfhandlungen verwickelt war.
+tooltip_switch_air_field = Fokus auf Luftebene richten [@]
+tooltip_switch_ground_field = Fokus auf Bodenebene richten [@]
+tooltip_shared_flags = Spielern desselben Teams erlauben, Einheiten bei verbündeten Sieg- und Kontrollfeldern aufzustellen.
+tooltip_stat_efficiency = Effizienz: Die Effizienz wirkt sich auf die Kampfleistung einer Einheit aus und repräsentiert ihren Zusammenhalt, ihre Moral und ihre Ermüdung.
+tooltip_stat_assault = Sturmangriff: Verringerung der feindlichen Verschanzungsstufe.
+
+reserve_title = Slot reservieren
+reserve_text = Sie können einen Slot für einen bestimmten Spieler reservieren. Ein reservierter Slot kann nur von dem Spieler belegt werden, für den dieser Slot reserviert wurde.
+search = Suchen
+
+editor_strength_difficulty_compensation = Schwierigkeitsgradkompensation
+editor_shared_flags = Teams teilen sich Siegfelder
+editor_undeploy_unit = Einheit entfernen
+
+commander_1_descr = Sergeant P. Sompson erhielt eine Feldbeförderung, nachdem er beim Zurückschlagen mehrerer japanischer Infanterieangriffe enorme Tapferkeit und Besonnenheit an den Tag gelegt hat.
+
+faction_ijn = Japanisches Kaiserreich
+
+trait_49_title = Gleiterrumpf
+trait_49_descr = Die Einheit ist immun gegen Torpedoangriffe.
+trait_50_title = Defensivwaffe
+trait_50_descr = Die Einheit ist weniger effektiv, wenn sie angreift.
+trait_51_title = Luftüberlegenheitsjäger
+trait_51_descr = Das Flugzeug ist sehr effektiv gegen Jagdflugzeuge und taktische Bomber.
+trait_52_title = Abfangjäger
+trait_52_descr = Das Flugzeug ist für die Zerstörung strategischer Bomber konzipiert.
+trait_53_title = Erdkampfflugzeug
+trait_53_descr = Das Flugzeug eignet sich für den Einsatz gegen Bodenziele.

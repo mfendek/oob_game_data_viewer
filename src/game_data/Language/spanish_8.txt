@@ -1,0 +1,247 @@
+﻿unit_1341 = Heinkel He 59 (T)
+unit_1342 = Blohm & Voss BV 138
+unit_1343 = Dornier Do 18
+unit_1344 = Fairey Barracuda (B)
+unit_1345 = Fairey Swordfish (B)
+unit_1346 = Flottentorpedoboot 39
+unit_1347 = BB H-Klasse
+unit_1348 = DD Type 1936
+unit_1349 = DD Type 1936A
+unit_1350 = DD Type 1936B
+unit_1351 = AV Bussard
+unit_1352 = AV Greif
+unit_1353 = CVE Jade
+unit_1354 = BB H Class
+unit_1355 = BB O Class
+unit_1356 = BB O Class
+unit_1357 = DD Sims
+unit_1358 = DD Gleaves '41
+unit_1359 = DD J Class
+unit_1360 = DD Type 1936A Mob
+unit_1361 = Cañones primarios
+unit_1362 = Cañones primarios
+unit_1363 = BB Deutschland
+unit_1364 = Cañones primarios
+unit_1365 = Ar 196 A-3
+unit_1366 = Schnellboot S-38
+unit_1367 = Schnellboot S-100
+unit_1368 = Schnellboot S-219
+unit_1369 = Schnellboot S-701
+unit_1370 = BB H Class
+unit_1371 = BB H Class
+unit_1372 = Infantería Brit.'42
+unit_1373 = Infantería. Brit.'43
+unit_1374 = Infantería. Brit.'44
+unit_1375 = Infantería. Brit.'45
+unit_1376 = Inf. Pesada Brit.'42
+unit_1377 = Inf. Pesada Brit.'43
+unit_1378 = Inf. Pesada Brit.'44
+unit_1379 = Inf. Pesada Brit.'45
+unit_1380 = Ingenieros Brit.'40
+unit_1381 = Ingenieros Brit.'42
+unit_1382 = Ingenieros Brit.'43
+unit_1383 = Ingenieros Brit.'44
+unit_1384 = Ingenieros Brit.'45
+unit_1385 = Chindits
+unit_1386 = Policía Militar
+unit_1387 = Cañones primarios
+unit_1388 = Cañones primarios
+unit_1389 = Cañones primarios
+unit_1390 = Cañones primarios
+unit_1391 = Ingenieros USA '40
+unit_1392 = Infantería USA '40
+unit_1393 = Inf. Pesada USA '40
+unit_1394 = Marines USA '40
+unit_1395 = Ingenieros USA '39
+unit_1396 = Infantería USA '39
+unit_1397 = Inf. Pesada USA '39
+unit_1398 = Marines USA '40
+unit_1399 = Ingenieros Brit.'39
+unit_1400 = Infantería Brit.'39
+unit_1401 = Inf. Pesada Brit.'39
+unit_1402 = Fortaleza naval
+unit_1403 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1402 = Cañones primarios
+unit_1412 = Cañones primarios
+unit_1413 = Ingenieros USA '43
+unit_1414 = Ingenieros USA '44
+unit_1416 = Ingenieros USA '45
+
+unit_4105 = CA Admiral Hipper
+unit_4142 = SS Type VII
+unit_4143 = SS Type VII
+
+unit_3100 = SS Orzel
+unit_3101 = SS Orzel
+unit_3102 = DD Wicher
+unit_3103 = SS Type 1
+unit_3104 = SS Type 1
+unit_3106 = CA Deutschland
+unit_3107 = CL Konigsberg
+unit_3108 = BB Scharnhorst
+unit_3109 = BB Bismarck
+unit_3110 = CVL Graf Zeppelin
+unit_3111 = SS Type XXI
+unit_3112 = SS Type XXI
+unit_3113 = Fw 200 Condor
+unit_3114 = Bf 109 T
+unit_3115 = Ju 87C (B)
+unit_3116 = Ju 87C (T)
+unit_3117 = Heinkel He 59 (B)
+unit_3119 = CL Town
+unit_3120 = BC Admiral
+unit_3121 = BC Renown
+unit_3122 = CV Illustrious
+unit_3123 = CV Ark Royal
+unit_3124 = SS S-class
+unit_3125 = SS S-class
+unit_3126 = PBY Catalina
+unit_3127 = Sea Hurricane
+unit_3128 = Fairey Swordfish (T)
+unit_3129 = Fairey Barracuda (T)
+unit_3130 = Buque mercante
+
+commander_81 = Gunther Lutjens
+commander_82 = Hubert Schmundt
+commander_83 = Hans Erdmenger
+commander_84 = Otto Kretschmer
+commander_85 = Heinrich Ehrler
+commander_86 = Fritz Fliegel
+
+// Don't translate these ranks
+difficulty_finland_0 = I. Vääpeli
+difficulty_finland_1 = II. Luutnantti
+difficulty_finland_2 = III. Kapteeni
+difficulty_finland_3 = IV. Eversti
+difficulty_finland_4 = V. Kenraali
+
+difficulty_germany_0 = I. Unteroffizier
+difficulty_germany_1 = II. Leutnant
+difficulty_germany_2 = III. Major
+difficulty_germany_3 = IV. Generalmajor
+difficulty_germany_4 = V. Feldmarschall
+
+difficulty_kriegsmarine_0 = I. Kommodore
+difficulty_kriegsmarine_1 = II. Konteradmiral
+difficulty_kriegsmarine_2 = III. Vizeadmiral
+difficulty_kriegsmarine_3 = IV. Admiral
+difficulty_kriegsmarine_4 = V. Grossadmiral
+
+difficulty = Dificultad
+
+replays = Replays
+saved_games = Partidas guardadas
+save_recording_title = Volver a jugar la partida guardada
+save_recording_text = ¿Quieres guardar el replay de esta batalla? Esto te permitirá ver de nuevo tu partida o mostrarla a otros.
+tooltip_delete_replay = Borrar la partida actual.
+tooltip_display_saved_games = Muestra las partidas guardadas
+tooltip_display_saved_replays = Muestra los replays
+delete_replay_title = Borrar Replay
+delete_replay_descr = ¿Estás seguro de que quieres borrar definitivamente este replay?
+recording_finished_title = Reproducción completada
+recording_finished_text = Has llegado al final del replay.
+tooltip_replay_toggle_fow = Activar/desactivar la Niebla de la Guerra.
+tooltip_replay_toggle_camera = Activar/desactivar el enfoque de la cámara a lugares u acciones.
+tooltip_replay_toggle_events = Activar/desactivar las ventanas emergentes de eventos.
+tooltip_replay_toggle_turns = Activar/desactivar los informes sobre el turno.
+tooltip_replay_take_control = Detener el replay y tomar el control directo del juego.
+replay_take_control_title = Tomar el control
+replay_take_control_text = ¿Quieres tomar el control directo de la partida, continuando desde la situación actual del replay?
+
+update_available_title = Actualización disponible
+update_available_text = Está disponible una nueva actualización del juego  ¿Quieres descargarla y aplicarla ahora?
+restart_required_title = Volver a comenzar el juego
+restart_required_text = Una actualización automática se ha ejecutado con éxito. Por favor, reinicia el juego.
+
+spec_plan_z_title = Plan Z
+spec_plan_z_descr = El Plan Z detalla un ambicioso programa para reequipar y expandir la Kriegsmarine. El objetivo final es ganar la paridad con la Royal Navy y desafiar el poderío marítimo de Gran Bretaña.
+spec_plan_z_effect = • Ganas 100 Puntos de Recursos|• +4 Puntos de Mando Navales en cada misión
+
+spec_schlachtschiffe_title = Schlachtschiffe
+spec_schlachtschiffe_descr = Habiendo quedado obsoletos los primeros tratados navales, Alemania puede proyectar un moderno tipo de acorazado sin limitaciones en desplazamientos y calibre del armamento principal.
+spec_schlachtschiffe_effect = • Están disponibles para comprar los acorazados Clase H|• Están disponibles para comprar los cruceros de batalla clase O
+
+spec_flugzeugtrager_title = Flugzeugträger
+spec_flugzeugtrager_descr = Para proyectar por los océanos el poderío naval alemán, se ha dado alta prioridad al desarrollo de portaaviones, así como cazas y bombarderos para dotarlos.
+spec_flugzeugtrager_effect = • Los portaaviones estarán disponibles más pronto durante la guerra|• Los aviones de dotación de portaaviones estarán disponibles más pronto durante la guerra.
+
+spec_torpedo_improvements_title = Mejoras en los torpedos
+spec_torpedo_improvements_descr = Tras las pruebas e informes de combates, se han identificado y solucionado los fallos en los mecanismos de profundidad y detonación.
+spec_torpedo_improvements_effect = • Los ataques con torpedos causan más daños
+
+spec_destroyer_tender_title = Buques Auxiliares
+spec_destroyer_tender_descr = En el futuro, buques auxiliares especializados darán apoyo y mantenimiento a los destructores y otros buques menores para aumentar significativamente su alcance operacional y resistencia.
+spec_destroyer_tender_effect = • Los buques auxiliares repondrán instantáneamente los torpedos a los buques de guerra que tengan adyacentes.
+
+trait_24_title = Sin limitaciones por combustible
+trait_24_descr = Los aviones están diseñados para operar a largas distancias y no requieren repostar regularmente.
+trait_43_title = Avión embarcable
+trait_43_descr = Esta unidad puede aterrizar y suministrarse en portaaviones.
+trait_58_title = Presencia fugaz
+trait_58_descr = Esta unidad no puede capturar hexágonos o Puntos de Victoria.
+trait_59_title = Movimiento Flexible
+trait_59_descr = Esta unidad puede fraccionar sus puntos de movimiento en varios tramos.
+trait_59_title = Barrera de artillería pesada
+trait_59_descr = Esta unidad tiene la habilidad de disparar a objetivos enemigos con cañones de grueso calibre.
+trait_60_title = Barrera de morteros
+trait_60_descr = Esta unidad tiene la habilidad de montar una barrera de fuego de mortero para suprimir al enemigo.
+trait_61_title = Capacidad de Carga: 1
+trait_61_descr = Esta unidad puede transportar otras unidades.
+trait_62_title = Capacidad de Carga: 2
+trait_62_descr = Esta unidad puede transportar otras unidades.
+trait_63_title = Capacidad de Carga: 3
+trait_63_descr = Esta unidad puede transportar otras unidades.
+trait_64_title = Carga ligera
+trait_64_descr = Cuando es transportada por tren, esta unidad puede descargarse en cualquier tipo de terreno.
+trait_65_title = Objetivo difícil
+trait_65_descr = Debido a su tamaño y/o velocidad, esta unidad sufre menos daños del fuego naval realizado a largo alcance.
+trait_66_title = Hidroavión
+trait_66_descr = Esta unidad puede ser embarcada y/o suministrada desde buques portahidroaviones.
+trait_67_title = Portaaviones
+trait_67_descr = Este buque puede lanzar, recoger y suministrar aviones embarcables.
+trait_68_title = Portahidroaviones
+trait_68_descr = Este buque puede lanzar, recoger y suministrar todo tipo de hidroaviones.
+
+tooltip_weapon_switch = Cambia al arma:
+tooltip_weapon_switch_disabled_1 = No puede cambiar de arma si la unidad ya ha sido atacada durante el turno en juego.
+tooltip_weapon_switch_disabled_2 = Cambio de arma: Esta habilidad está desarrollándose y tardará uno o más turnos.
+
+skirmish_mode = Modo escaramuza
+scenario_mode = Modo escenario
+ready_question = ¿Listo?
+
+resource_bonus = Recursos extraordinarios asignados si el escenario se juega fuera del Modo Campaña.
+
+commander_wounded_title = Comandante herido
+commander_wounded_text = Un comandante ha resultado herido en acción y para recuperarlo debe ser hospitalizado.
+commander_imprisoned_title = Comandante capturado
+commander_imprisoned_text = Un comandante ha sido capturado por el enemigo, pero se espera que finalmente pueda escapar del campo de prisioneros.
+tooltip_maximise_commanders = Maximiza los controles de manejo del comandante.
+tooltip_minimise_commanders = Minimiza los controles de manejo del comandante.
+
+unitclass_tender = Portahidroaviones
+
+loading_tip_14 = Después de haber movido, un buque de guerra hace menos daño a un determinado buque enemigo si las distancias entre ellos han variado.
+loading_tip_15 = Mientras más puntos de movimiento consuma un buque en su turno, menos daños recibirá de la artillería naval de los buques enemigos que le disparen durante el suyo siguiente.
+loading_tip_16 = Un submarino enemigo en superficie sólo puede ser detectado por buques y aviones adyacentes. Si se sumerge, sólo puede ser detectado por el sonar o tratando de mover un buque a la posición exacta del submarino.
+loading_tip_17 = Los submarinos sólo pueden permanecer sumergidos un cierto número de turnos. Cuando sus baterías se agoten, automáticamente emergerá. Los submarinos en superficie van recargando sus baterías poco a poco.
+loading_tip_18 = Los acorazados y cruceros de batalla tienen una habilidad especial al disparar sus baterías principales. Estos grandes cañones tienen mucho alcance y ocasionan daños elevados, pero tardan 2 turnos en recargar.
+loading_tip_19 = Los portahidroaviones sólo pueden abastecer a hidroaviones, mientras que los portaaviones suministran tanto a hidroaviones como a aviones embarcables. Los aeródromos pueden abastecer a cualquier tipo de avión. Sin una fuente válida de abastecimientos, no pueden desplegarse aviones en el mapa.
+
+tutorial_naval_moving_targets_title = Eludiendo impactos
+tutorial_naval_moving_targets = Mientras más puntos de movimiento consuma un buque en su turno, menos daños recibirá de la artillería naval de los buques enemigos que le disparen durante el suyo siguiente.
+tutorial_bb_primary_guns_title = Cañones de acorazados
+tutorial_bb_primary_guns = Los acorazados y cruceros de batalla tienen una habilidad especial al disparar sus baterías principales. Estos grandes cañones tienen mucho alcance y ocasionan daños elevados, pero tardan 2 turnos en recargar.
+tutorial_submarine_battery_title = Baterías de los submarinos
+tutorial_submarine_battery = Los submarinos sólo pueden permanecer sumergidos un cierto número de turnos. Cuando sus baterías se agoten, automáticamente emergerá. Los submarinos en superficie van recargando sus baterías poco a poco.
+tutorial_submarine_detection_title = Detección de submarinos
+tutorial_submarine_detection = Un submarino enemigo en superficie sólo puede ser detectado por buques y aviones adyacentes. Si se sumerge, sólo puede ser detectado por el sonar o tratando de mover un buque a la posición exacta del submarino.
+tutorial_seaplane_tender_title = Tipos de abastecimiento aéreo
+tutorial_seaplane_tender = Los portahidroaviones sólo pueden abastecer a hidroaviones, mientras que los portaaviones suministran tanto a hidroaviones como a aviones embarcables. Los aeródromos pueden abastecer a cualquier tipo de avión. Sin una fuente válida de abastecimientos, no pueden desplegarse aviones en el mapa.

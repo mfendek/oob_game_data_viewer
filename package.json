@@ -1,0 +1,32 @@
+{
+  "name": "OOB_game_viewer_theme",
+  "version": "0.0.1",
+  "description": "Order of Battle game viewer.",
+  "repository": {
+    "url": "https://github.com/mfendek/oob_game_data_viewer.git",
+    "type": "git"
+  },
+  "scripts": {
+    "watch": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "build": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "package": "webpack -p --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "expose-loader": "^0.7.4",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jquery.scrollto": "^2.1.2",
+    "laravel-mix": "^1.7.2",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}

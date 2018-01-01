@@ -1,0 +1,144 @@
+﻿unit_1130 = PzKw. VI Tiger H
+unit_1131 = PzKw. VI B Königstiger
+unit_1132 = PzKw. VIII Maus
+unit_1133 = PzKw. V Panther D
+unit_1134 = PzKw. V Panther A
+unit_1135 = PzKw. V Panther G
+unit_1136 = Inf. soviética '37
+unit_1137 = Inf. soviética '42
+unit_1138 = Inf. soviética '43
+unit_1139 = Inf. soviética '45
+unit_1140 = Inf. pesada soviética '37
+unit_1141 = Inf. pesada soviética '42
+unit_1142 = Inf. pesada soviética '43
+unit_1143 = Inf. pesada soviética '45
+unit_1144 = Paracaidistas soviéticos '39
+unit_1145 = Paracaidistas soviéticos '40
+unit_1146 = Paracaidistas soviéticos '41
+unit_1147 = Paracaidistas soviéticos '42
+unit_1148 = Paracaidistas soviéticos '43
+unit_1149 = Paracaidistas soviéticos '44
+unit_1150 = Paracaidistas soviéticos '45
+unit_1151 = Inf. finlandesa '45
+unit_1152 = Inf. pesada finlandesa '45
+unit_1153 = Tropas de esquí finlandesas '45
+unit_1154 = Inf. alemana '37
+unit_1155 = Inf. alemana '39
+unit_1156 = Inf. alemana '42
+unit_1157 = Inf. alemana '43
+unit_1158 = Inf. alemana '45
+unit_1159 = Inf. pesada alemana '37
+unit_1160 = Inf. pesada alemana '39
+unit_1161 = Inf. pesada alemana '40
+unit_1162 = Inf. pesada alemana '41
+unit_1163 = Inf. pesada alemana '42
+unit_1164 = Inf. pesada alemana '43
+unit_1165 = Inf. pesada alemana '44
+unit_1166 = Inf. pesada alemana '45
+unit_1167 = Paracaidistas alemanes '37
+unit_1168 = Paracaidistas alemanes '39
+unit_1169 = Paracaidistas alemanes '40
+unit_1170 = Paracaidistas alemanes '41
+unit_1171 = Paracaidistas alemanes '42
+unit_1172 = Paracaidistas alemanes '43
+unit_1173 = Paracaidistas alemanes '44
+unit_1174 = Paracaidistas alemanes '45
+unit_1175 = Inf. finlandesa '37
+unit_1176 = Inf. pesada finlandesa '37
+unit_1177 = Ingenieros finlandeses '41
+unit_1178 = Ingenieros finlandeses '44
+unit_1179 = Ingenieros finlandeses '45
+unit_1180 = 76mm M1927
+unit_1181 = Inf. finlandesa '38
+unit_1182 = PzKw. IV F2
+unit_1183 = PzKw. IV H
+unit_1183 = PzKw. IV H
+
+faction_sweden = Suecia
+faction_norway = Noruega
+faction_denmark = Dinamarca
+faction_waffenss = Waffen SS
+faction_greece = Grecia
+faction_yugoslavia = Yugoslavia
+faction_romania = Rumanía
+
+ceditor_layout_location = Localización
+ceditor_layout_core = Central
+ceditor_layout_flag = Bandera
+ceditor_layout_arrow = Flecha
+
+ceditor_map_dimensions = Dimensiones
+ceditor_map_rotation = Rotación
+ceditor_map_text = Texto de mapa
+ceditor_campaign_variable = variable
+
+option_tcp = Online en directo
+option_tcp_descr = Conecta con el servidor en vivo y prepara una partida con otros jugadores en el chat.
+
+tcp_host = Creador de la partida
+tcp_join = Únete a una partida
+tooltip_tcp_host = Empieza una nueva partida multijugador.
+tooltip_tcp_join = Únete a una partida multijugador existente.
+tooltip_tcp_not_all_ready = Todos los jugadores tienen que confirmar que están listos antes de que la partida pueda empezar.
+not_ready = Confirma que estás preparado
+tooltip_tcp_ready = Tienes que confirmar que estás preparado antes de que el creador de la partida pueda lanzarla.
+waiting_players = Esperando...
+tooltip_tcp_waiting_for_players = Esperando a otros jugadores para terminar de cargar la partida.
+tooltip_tcp_not_enough_players = Hay que llenar todos los espacios de jugador antes de poder lanzar la partida.
+tooltip_tcp_choose_slot = Tienes que seleccionar un espacio para jugador libre.
+error_tcp_join_failed = Fallo al unirse a la partida seleccionada.
+error_tcp_game_is_full = Fallo al unirse porque la partida seleccionada ya estaba completa.
+chat = Chat
+no_briefing_available = No hay informe disponible.
+
+tcp_all_games = Todas las partidas
+tcp_scenario_games = Escenarios oficiales
+tcp_skirmish_games = Partidas de escaramuza
+tcp_custom_games = Escenarios personalizados
+tcp_failed_to_get_server_ip = Fallo al obtener la IP del servidor.
+tcp_game_name = Nombre de la partida
+tcp_players = Jugadores
+
+faction_unavailable_skirmish = Requiere DLC
+faction_available_skirmish = Disponible
+faction_selected_skirmish = Seleccionado
+faction_swap_skirmish = Saltar jugador
+
+tooltip_no_single_team = No se puede lanzar la partida si todos los jugadores pertenecen al mismo equipo 
+select_colour = Elige el color
+tooltip_select_colour = Selecciona un color para este jugador
+
+faction_skirmish_incompatible = Incompatible
+tooltip_incompatible_factions = Una o más de las naciones seleccionadas son incompatibles con el tipo de mapa elegido.
+tooltip_faction_no_navy = Esta nación no dispone de armada y por tanto no se puede usar un mapa de tipo naval.
+
+skirmish_event_enemy_points_warning_title = OPERACIÓN CRÍTICA
+skirmish_event_enemy_points_warning_text = El enemigo ha conseguido casi la totalidad de los puntos de control requeridos.
+
+skirmish_event_own_points_warning_title = CASI HECHO
+skirmish_event_own_points_warning_text = Hemos conseguido casi la totalidad de los puntos de control requeridos.
+
+skirmish_event_enemy_points_halfway_title = OPERACIÓN CRÍTICA
+skirmish_event_enemy_points_halfway_text = El enemigo ha conseguido la mitad de los puntos de control requeridos.
+
+skirmish_event_own_points_halfway_title = A MITAD DE CAMINO
+skirmish_event_own_points_halfway_text = Hemos conseguido la mitad de los puntos de control requeridos.
+
+trait_57_title = Atrincheramiento rápido
+trait_57_descr = EL valor de atrincheramiento de esta unidad aumentará más rápido cuando está sin órdenes.
+
+tooltip_objective_enabled = ¿Está el objetivo disponible y visible al comienzo del escenario?
+
+trigger_effect_27 = Activar objetivo
+trigger_effect_28 = AI de equipo dividido
+trigger_effect_29 = Ventana emergente de diálogo
+
+enable = Activar
+disable = Desactivar
+
+tutorial_free_bootcamp_title = Campaña libre
+tutorial_free_bootcamp = La campaña completa de entrenamiento está disponible gratis.||Las demás campañas se pueden probar gratis: tu progreso se guardará una vez terminado el primer escenario, lo que te permitirá seguir jugando desde el mismo punto una vez comprado el pack de campaña. 
+
+trigger_event_7 = Diálogo emergente
+
+editor_focus_camera = Centrar cámara:

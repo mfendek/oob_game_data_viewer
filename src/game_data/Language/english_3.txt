@@ -1,0 +1,74 @@
+﻿unit_1069 = F2A Buffalo
+unit_1070 = BB Kongō
+unit_1071 = Marine Scouts
+unit_1072 = Cargo Truck
+unit_1073 = German Infantry '40
+unit_1074 = 75mm PaK 40
+unit_1075 = Japanese Mortar Infantry
+unit_1076 = US Mortar Infantry
+unit_1077 = Australian Mortar Infantry
+unit_1078 = Chinese Mortar Infantry
+unit_1079 = Dutch Mortar Infantry
+unit_1080 = Finnish Mortar Infantry
+unit_1081 = German Mortar Infantry
+unit_1082 = Concrete Bunker
+unit_1083 = Type 97 Shinhoto Chi-Ha
+unit_1084 = Type 92 70mm
+unit_1085 = Type 2 Ka-Mi
+unit_1086 = Type 2 Ka-Mi
+unit_1087 = Soviet Mortar Infantry
+unit_1091 = Japanese Snipers
+unit_1092 = P47D Thunderbolt
+
+editor_aggression = Aggression
+
+faction_raf = Great Britain
+
+amount = Amount
+damage = Damage
+unit_definitions = Unit definitions
+editor_visible_unit = Visible Unit(s)
+editor_viewer = Viewer(s)
+editor_check_trigger_timer = Check trigger repeat value
+
+terrain_lake = Lake
+terrain_pine_forest = Dense Forest
+terrain_rice = Rice Field
+terrain_japanese_village = Asian Village
+
+editor_climate = Climate
+climate_default = Default
+climate_winter = Winter
+
+loading_tip_14 = When an aircraft is deployed or takes off from an airfield or carrier, it has reduced efficiency. This represents its vulnerability from low speed and altitude.||At the start of the next turn, efficiency will increase to maximum value.
+loading_tip_15 = An aircraft carrier can only launch one aircraft per turn, while two aircraft can take off from an airfield during a single turn.
+loading_tip_16 = Flamethrower-equipped units - as well as vehicles equipped with short-barreled low velocity guns - generally perform better in terrain with high cover values, such as cities and forests.
+
+tutorial_content_marinecorps_title = [New content] US Marines
+tutorial_content_marinecorps = In August 1942, the United States begins its ground offensive against the Japanese with the invasion of Guadalcanal. Lead the US Marine Corps during Operation Cartwheel in 11 unique scenarios illustrating the challenges of the "island hopping" battles during the Pacific War.
+
+custom_name = Custom unit name
+
+trigger_effect_24 = Change Supply Output
+
+generate_preview_title = Generate Map Preview
+generate_preview_text = Do you want to generate a new map preview image?
+
+editor_available_turns = Available
+
+trait_55_title = Infrastructural Repairs
+trait_55_descr = This unit will gradually repair any damage done to the supply output of its current position.
+trait_56_title = Heavy Treading
+trait_56_descr = The heavy weight and large size characteristics of this unit prevents it from entering certain terrain types.
+
+tutorial_campaign_overview_title = Campaigns Overview
+tutorial_campaign_overview = In this overview panel you can select any campaign by clicking on its icon on the world map. For unlocked content, clicking the launch button will start the campaign. Otherwise, the purchase button will allow you to unlock it or get more information on its content.
+
+difficulty_marines_0 = I. Lieutenant
+difficulty_marines_1 = II. Captain
+difficulty_marines_2 = III. Colonel
+difficulty_marines_3 = IV. General
+difficulty_marines_4 = V. Army General
+
+trigger_effect_25 = Change Unit Type
+editor_change_original_unittype = Replace original type

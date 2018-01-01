@@ -1,0 +1,144 @@
+﻿unit_1130 = PzKw. VI Tiger H
+unit_1131 = PzKw. VI B Königstiger
+unit_1132 = PzKw. VIII Maus
+unit_1133 = PzKw. V Panther D
+unit_1134 = PzKw. V Panther A
+unit_1135 = PzKw. V Panther G
+unit_1136 = Infanterie Soviétique '37
+unit_1137 = Infanterie Soviétique '42
+unit_1138 = Infanterie Soviétique '43
+unit_1139 = Infanterie Soviétique '45
+unit_1140 = Infanterie Lourde Soviétique '37
+unit_1141 = Infanterie Lourde Soviétique '42
+unit_1142 = Infanterie Lourde Soviétique '43
+unit_1143 = Infanterie Lourde Soviétique '45
+unit_1144 = Parachutistes Soviétiques '39
+unit_1145 = Parachutistes Soviétiques '40
+unit_1146 = Parachutistes Soviétiques '41
+unit_1147 = Parachutistes Soviétiques '42
+unit_1148 = Parachutistes Soviétiques '43
+unit_1149 = Parachutistes Soviétiques '44
+unit_1150 = Parachutistes Soviétiques '45
+unit_1151 = Infanterie Finlandaise '45
+unit_1152 = Infanterie Lourde Finlandaise '45
+unit_1153 = Chasseurs Alpins Finlandais '45
+unit_1154 = Infanterie Allemande '37
+unit_1155 = Infanterie Allemande '39
+unit_1156 = Infanterie Allemande '42
+unit_1157 = Infanterie Allemande '43
+unit_1158 = Infanterie Allemande '45
+unit_1159 = Infanterie Lourde Allemande '37
+unit_1160 = Infanterie Lourde Allemande '39
+unit_1161 = Infanterie Lourde Allemande '40
+unit_1162 = Infanterie Lourde Allemande '41
+unit_1163 = Infanterie Lourde Allemande '42
+unit_1164 = Infanterie Lourde Allemande '43
+unit_1165 = Infanterie Lourde Allemande '44
+unit_1166 = Infanterie Lourde Allemande '45
+unit_1167 = Parachutistes Allemands '37
+unit_1168 = Parachutistes Allemands '39
+unit_1169 = Parachutistes Allemands '40
+unit_1170 = Parachutistes Allemands '41
+unit_1171 = Parachutistes Allemands '42
+unit_1172 = Parachutistes Allemands '43
+unit_1173 = Parachutistes Allemands '44
+unit_1174 = Parachutistes Allemands '45
+unit_1175 = Infanterie Finlandaise '37
+unit_1176 = Infanterie Lourde Finlandaise '37
+unit_1177 = Génie Finlandais '41
+unit_1178 = Génie Finlandais '44
+unit_1179 = Génie Finlandais '45
+unit_1180 = 76mm M1927
+unit_1181 = Infanterie Finlandaise '38
+unit_1182 = PzKw. IV F2
+unit_1183 = PzKw. IV H
+unit_1183 = PzKw. IV H
+
+faction_sweden = Suède
+faction_norway = Norvège
+faction_denmark = Danemark
+faction_waffenss = Waffen SS
+faction_greece = Grèce
+faction_yugoslavia = Yougoslavie
+faction_romania = Roumanie
+
+ceditor_layout_location = Location
+ceditor_layout_core = Noyau
+ceditor_layout_flag = Drapeau
+ceditor_layout_arrow = Flèche
+
+ceditor_map_dimensions = Dimensions
+ceditor_map_rotation = Rotation
+ceditor_map_text = Texte de la carte
+ceditor_campaign_variable = variable
+
+option_tcp = En ligne live
+option_tcp_descr = Se connecter avec le serveur live et participer au jeu avec d'autres dans le salon de Tchat.
+
+tcp_host = Partie hôte
+tcp_join = Rejoindre partie
+tooltip_tcp_host = Commencer une nouvelle partie multijoueur.
+tooltip_tcp_join = Rejoindre une partie multijoueur existante.
+tooltip_tcp_not_all_ready = Tous les joueurs doivent confirmer qu'ils sont prêts avant de débuter la partie.
+not_ready = Confirmer 
+tooltip_tcp_ready = Vous devez confirmer que vous êtes prêt avant que l'hôte puisse lancer la partie.
+waiting_players = En attente...
+tooltip_tcp_waiting_for_players = En attente d'autres joueurs pour finir de charger la partie.
+tooltip_tcp_not_enough_players = Tous les emplacements de joueur doivent être occupés avant que la partie puisse être lancée.
+tooltip_tcp_choose_slot = Vous devez sélectionner un emplacement libre.
+error_tcp_join_failed = Échec de la connexion à la partie sélectionnée.
+error_tcp_game_is_full = Échec de la connexion parce que la partie sélectionnée est déjà complète.
+chat = Tchat
+no_briefing_available = Pas de briefing disponible
+
+tcp_all_games = Tous les jeux
+tcp_scenario_games = Scénarios officiels
+tcp_skirmish_games = Escarmouches
+tcp_custom_games = Scénarios personnalisés
+tcp_failed_to_get_server_ip = Échec de l'obtention de IP du serveur distant.
+tcp_game_name = Nom du jeu
+tcp_players = Joueurs
+
+faction_unavailable_skirmish = Requiert DLC
+faction_available_skirmish = Disponible
+faction_selected_skirmish = Sélectionner
+faction_swap_skirmish = Échange joueur
+
+tooltip_no_single_team = Ne peut être lancée, si tous les joueurs sont dans la même équipe
+select_colour = Sélectionner la couleur
+tooltip_select_colour = Sélectionner la couleur pour ce joueur
+
+faction_skirmish_incompatible = Incompatible
+tooltip_incompatible_factions = une ou plusieurs nations sont incompatible avec le type de carte choisi.
+tooltip_faction_no_navy = Cette nation n'a pas de marine et ne peut être utilisée sur le type de carte naval.
+
+skirmish_event_enemy_points_warning_title = OPÉRATION CRITIQUE
+skirmish_event_enemy_points_warning_text = L'ennemi a presque rassemblé le montant nécessaire de Points de contrôle.
+
+skirmish_event_own_points_warning_title = ÇA Y EST PRESQUE
+skirmish_event_own_points_warning_text = Nous avons presque rassemblé le montant nécessaire de Points de contrôle.
+
+skirmish_event_enemy_points_halfway_title = OPÉRATION CRITIQUE
+skirmish_event_enemy_points_halfway_text = L'ennemi a rassemblé la moitié du montant nécessaire des points de contrôle.
+
+skirmish_event_own_points_halfway_title = ENCORE LA MOITIÉ
+skirmish_event_own_points_halfway_text = Nous avons rassemblé la moitié du montant nécessaire des points de contrôle.
+
+trait_57_title = Retranchement rapide
+trait_57_descr = La valeur de retranchement de cette unité augmente plus rapidement quand elle est au repos.
+
+tooltip_objective_enabled = Activer l'objectif et le voir au début du scénario ?
+
+trigger_effect_27 = Activer objectif
+trigger_effect_28 = IA équipe divisée
+trigger_effect_29 = Dialogue
+
+enable = Activé
+disable = Désactivé
+
+tutorial_free_bootcamp_title = Campagne libre
+tutorial_free_bootcamp = La campagne complète Boot Camp est disponible gratuitement.||Les autres campagnes sont "free-to-try" : La progression sera sauvé que sur l'achèvement du premier scénario, vous permettant de continuer votre campagne après avoir acheté le jeu.
+
+trigger_event_7 = Fenêtre dialogue
+
+editor_focus_camera = Distance Caméra :

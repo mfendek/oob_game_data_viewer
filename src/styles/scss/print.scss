@@ -1,0 +1,8 @@
+// Print
+
+@media only print {
+  .filter-bar,
+  .navigation-bar {
+    display: none;
+  }
+}

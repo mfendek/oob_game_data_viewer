@@ -1,0 +1,64 @@
+﻿unit_504 = Australian Infantry '44
+unit_505 = Australian Infantry '45
+unit_506 = Australian Heavy Infantry '44
+unit_507 = Australian Heavy Infantry '45
+unit_508 = Australian Commandos '44
+unit_509 = CV Hiryu '43
+unit_510 = CV Hiryu '44
+unit_511 = CV Shōkaku '42
+unit_512 = CV Shōkaku '43
+unit_513 = CV Shōkaku '44
+unit_514 = CV Unryu '45
+unit_515 = CV Taiyo '42
+unit_516 = CV Taiyo '43
+unit_517 = CV Taiyo '44
+unit_518 = CV Lexington
+unit_519 = CV Lexington '43
+unit_520 = CV Yorktown '43
+unit_521 = CV Yorktown '44
+unit_522 = CV Essex '44
+
+trigger_condition_22 = Check Objective State
+
+editor_starting_value = Starting Value
+editor_target_value = Target Value
+
+editor_new_folder_name = New Folder
+editor_folder_name = Folder Name
+unit_status_available = Available
+
+filter = Filter:
+
+tooltip_create_folder = Create Folder
+tooltip_repair_friendly_disabled_5 = Can only repair adjacent units which have not yet attacked.
+tooltip_repair_disabled_11 = Repair: Submarines must surface to repair on the open sea.
+tooltip_elite_repair_disabled_11 = Elite Repair: Submarines must surface to repair on the open sea.
+tooltip_repair_friendly_disabled_3 = Can only repair adjacent units which have not been moved or involved in combat since the previous turn.
+tooltip_upgrade_disabled_4 = Upgrade: Cannot upgrade unit in enemy territory.
+tooltip_upgrade_disabled_5 = Upgrade: Cannot upgrade unit when adjacent to an enemy unit.
+tooltip_upgrade_series_disabled_4 = Upgrade: Cannot upgrade unit in enemy territory.
+tooltip_upgrade_series_disabled_5 = Upgrade: Cannot upgrade unit when adjacent to an enemy unit.
+tooltip_purchase_carrier_incompatible = This unit type cannot be stored in the unit's current carrier.
+tooltip_empty_cargo_slot = Empty cargo slot
+tooltip_exit_water = Exit the water and move into the shoreline.
+tooltip_exit_water_disabled_1 = Cannot exit water during the deployment phase.
+tooltip_exit_water_disabled_2 = No adjacent land hexes are valid to exit the water.
+tooltip_air_lift_disabled_4 = Cannot launch transport plane if airfield hex is blocked by another air unit.
+
+spec_hidden_nests_effect = • Japanese Infantry can construct MG Foxholes|• Japanese Heavy Infantry can construct Bunkers|• Core units are entrenched in the deployment phase
+
+new_commander_available = A new commander is available and can be attached to one of our units.
+
+// DIFFICULTY LEVELS
+difficulty_japan_0 = I. Ensign
+difficulty_japan_1 = II. Lieutenant
+difficulty_japan_2 = III. Commander
+difficulty_japan_3 = IV. Vice-Admiral
+difficulty_japan_4 = V. Kamikaze
+difficulty_usa_0 = I. Ensign
+difficulty_usa_1 = II. Lieutenant
+difficulty_usa_2 = III. Captain
+difficulty_usa_3 = IV. Admiral
+difficulty_usa_4 = V. Fleet Admiral
+
+terrain_scorched = Scorched

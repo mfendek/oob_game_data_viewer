@@ -1,0 +1,51 @@
+[VEHICLE_ATTACK]
+id = 0
+category = land
+target = mechanical
+ui = 12
+
+[INFANTRY_ATTACK]
+id = 1
+category = land
+target = infantry
+ui = 13
+
+[AIR_SMALL_ATTACK]
+id = 2
+category = air
+target = small
+ui = 1
+
+[AIR_LARGE_ATTACK]
+id = 3
+category = air
+target = large
+ui = 0
+
+[NAVAL_SMALL_ATTACK]
+id = 4
+category = naval
+target = small
+ui = 7
+
+[NAVAL_LARGE_ATTACK]
+id = 5
+category = naval
+target = large
+ui = 6
+
+[SUBMARINE_ATTACK]
+id = 6
+category = naval
+target = submarine
+ui = 12
+
+[BOMBARD_ATTACK]
+id = 7
+category = land
+target = any
+
+[MINES_ATTACK]
+id = 8
+category = land, naval
+target = mines

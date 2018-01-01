@@ -1,0 +1,205 @@
+﻿unit_3000 = Infantería finlandesa '35
+unit_3001 = Infantería finlandesa '39
+unit_3002 = Ingenieros finlandeses '39
+unit_3003 = Esquiadores finlandeses '39
+unit_3004 = Infantería pesada finlandesa '39
+unit_3005 = Infantería soviética
+unit_3006 = Ingenieros soviéticos
+unit_3007 = 76.2mm M1939
+unit_3008 = Camión soviético
+unit_3009 = Camión finlandés
+unit_3010 = F2A Buffalo
+unit_3011 = Infantería finlandesa '41
+unit_3012 = Infantería finlandesa '44
+unit_3013 = Infantería pesada finlandesa '41
+unit_3014 = Infantería pesada finlandesa '44
+unit_3015 = Esquiadores finlandeses '41
+unit_3016 = Esquiadores finlandeses '44
+unit_3017 = Reclutas soviéticos
+unit_3018 = Infantería soviética '40
+unit_3019 = Infantería soviética '41
+unit_3020 = Infantería soviética '44
+unit_3021 = Infantería pesada soviética '39
+unit_3022 = Infantería pesada soviética '40
+unit_3023 = Infantería pesada soviética '41
+unit_3024 = Infantería pesada soviética '44
+unit_3025 = OT-130 
+unit_3026 = 37mm M1939
+unit_3027 = 85mm M1939
+unit_3028 = 122mm M1938
+unit_3029 = BM-13 Katyusha
+unit_3030 = T-28B
+unit_3031 = BT-7
+unit_3032 = KV-1
+unit_3033 = KV-2
+unit_3034 = T-34
+unit_3035 = T-34-85
+unit_3036 = MiG-3
+unit_3037 = Yakovlev Yak-7
+unit_3038 = Ilyushin Il-2
+unit_3039 = Ilyushin Il-4
+unit_3040 = Dornier Do-17 Z
+unit_3041 = Bristol Blenheim Mk.I
+unit_3042 = Junkers Ju-88 
+unit_3043 = Messerschmitt Bf 109 G-6
+unit_3044 = Curtis P-36 Hawk
+unit_3045 = MTB Syöksy
+unit_3046 = MO-2 Buque de la Guardia
+unit_3047 = Fokker D.XXI
+unit_3048 = Morane-Saulnier M.S.406
+unit_3049 = Fokker C.X
+unit_3050 = 40 ItK/36
+unit_3051 = 76 ItK/29
+unit_3052 = Landsverk II
+unit_3053 = 122mm M1938
+unit_3054 = 105 K/13
+unit_3055 = 76 K/02
+unit_3056 = 45mm M1937
+unit_3057 = StuG IIIG
+unit_3058 = 7.5 cm Pak 40
+unit_3059 = 37 PstK/36
+unit_3060 = Vickers Mk. F
+unit_3061 = PzKw IVJ
+unit_3062 = T-26 M1939
+unit_3063 = OT-130
+unit_3064 = BT-7
+unit_3065 = KV-1
+unit_3066 = T-34
+unit_3067 = Infantería alemana '41
+unit_3068 = Infantería alemana '44
+unit_3069 = Ingenieros alemanes
+unit_3070 = Infantería de montaña alemana '41
+unit_3071 = StuG IIIG
+unit_3072 = StuH 42
+unit_3073 = Opel Blitz
+unit_3074 = Junkers Ju-87D Stuka
+unit_3075 = Focke-Wulf Fw 190F
+unit_3076 = 150 H/40
+unit_3077 = BT-42
+unit_3078 = VL Myrsky
+unit_3079 = Blackburn Ripon
+unit_3080 = Polikarpov R-5
+unit_3081 = 203mm M1931
+unit_3082 = SU-76
+unit_3083 = Infantería de montaña alemana '44
+unit_3084 = PzKw IVJ
+unit_3085 = SdKfz 7/2
+unit_3086 = Messerschmitt Bf 109 K
+unit_3087 = Landsverk II
+unit_1088 = DD Gnevny
+unit_1089 = CA Kirov
+unit_1090 = SU-76M
+unit_1093 = Camión de transporte
+
+unit_1094 = 10.5 cm leFH 18
+unit_1095 = PzKW II
+unit_1096 = PzKw III E
+unit_1097 = PzKw IV C
+unit_1098 = PzKw IV D
+unit_1099 = PzKw IV E
+unit_1100 = PzKw IV F1
+unit_1101 = PzKw 38(t) A
+unit_1102 = SdKfz 231 6Rad
+unit_1103 = SdKfz 232 8Rad
+unit_1104 = PzKw III F
+unit_1105 = PzKw III G
+unit_1106 = SdKfz 250
+unit_1107 = SdKfz 251
+unit_1108 = 2 cm Flakvierling 38
+unit_1109 = 3.7 cm FlaK 37
+unit_1110 = SdKfz 7/1
+unit_1111 = SdKfz 10/4
+unit_1112 = 7.5 cm leIG 18
+unit_1113 = 5 cm Pak 38
+unit_1114 = Panzerjäger IB
+unit_1115 = Sturmpanzer I
+unit_1116 = 15 cm sFH 18
+unit_1117 = 17 cm K 18
+unit_1118 = 21 cm Mrs 18
+unit_1119 = sIG 38(t) Grille H
+unit_1120 = Tren blindado
+unit_1121 = PzKw III H
+unit_1122 = PzKw III J
+unit_1123 = PzKw III J/1
+unit_1124 = PzKw III L
+unit_1125 = PzKw III M
+unit_1126 = PzKw III N
+unit_1127 = Camión de transporte
+unit_1128 = SU-76
+unit_1129 = SU-76M
+
+
+faction_finland = Finlandia
+faction_poland = Polonia
+faction_belgium = Bélgica
+
+commander_66 = Mannerheim
+commander_67 = Ilmari Juutilainen
+commander_68 = Olli Puhakka
+commander_69 = Paavo Talvela
+commander_70 = Matti Aarnio
+commander_71 = Hjalmar Siilasvuo
+commander_72 = Unto Petaja
+commander_73 = Yrjö Kinnunen
+
+tutorial_content_pacificus_title = [Nuevo contenido] U.S. Pacific
+tutorial_content_pacificjapan_title = [Nuevo contenido] Rising Sun
+tutorial_content_pacificus = Desde el ataque aéreo a Pearl Harbor hasta la invasión de Japón, esta campaña te pone al mando del ejército y la flota de EEUU en algunas de las más famosas batallas terrestres y navales del teatro del Pacífico durante la Segunda Guerra Mundial. 
+tutorial_content_winterwar_title = [Nuevo contenido] Winter War
+tutorial_content_pacificjapan = Lidera al Imperio Japonés en su búsqueda de la hegemonía en todo el Pacífico occidental. Rising Sun ofrece una experiencia única en el teatro del Pacífico durante la Segunda Guerra Mundial, incluyendo batallas históricas claves, una hipotética invasión de Australia y una enorme variedad de armas y prototipos japoneses. 
+tutorial_content_winterwar = En el invierno de 1939, la Unión Soviética comenzó la invasión de Finlandia, con la intención de reclamar para sí partes sustanciales del territorio fronterizo. Toma el control del ejército finlandés -y más tarde también del alemán- en está campaña de invierno única, que incluye 14 escenarios y más de 90 nuevos tipos de unidad. 
+
+tutorial_objective_details_title = Detalles del objetivo
+tutorial_objective_details = Para obtener información más detallada sobre un objetivo y sus posibles recompensas, haz clic en el botón de interrogación azul frente al objetivo. 
+
+scenario_use_upkeep = Usar el coste de mantenimiento de unidad
+tooltip_use_upkeep = Los ingresos por turno del jugador se calcularán de nuevo en función del porcentaje de Puntos de Mando sin usar.
+
+trigger_effect_26 = Añadir puntos de especialización
+
+docs_renamed_title = Documentos renombrados 
+docs_renamed_text = El juego "Order of Battle - Pacific" ahora cubre la totalidad de la Segunda Guerra Mundial y se ha rebautizado como "Order of Battle - WW2".||Todas tus partidas guardadas, escenarios personalizados, mods, etcétera se han movido a la carpeta "My Documents/My Games/Order of Battle - WW2".
+
+editor_locked_title = Editor de escenarios
+editor_locked_text = Esta característica sólo está disponible si tienes al menos uno de los packs de campaña disponible en la pantalla de campañas.||Este editor de escenarios se ha usado para desarrollar todos los escenarios oficiales del juego y te permitirá crear tus propios mapas para uno o varios jugadores. 
+multiplayer_locked_title = Varios jugadores
+multiplayer_locked_text = Esta característica sólo está disponible si tienes al menos uno de los packs de campaña disponible en la pantalla de campañas.||Cada modo multijugador permite jugar hasta a 4 jugadores en modo cooperativo -contra la IA- o en partidas PvP en varios mapas y modos de juego. 
+custom_locked_title = Campañas y escenarios personalizados
+custom_locked_text = Esta característica sólo está disponible si tienes al menos uno de los packs de campaña disponible en la pantalla de campañas.||Puedes crear tu propio contenido personalizado u o tenerlo de otros jugadores a través de los editores de campaña y de escenarios in-game.
+community_locked_title = Descargar contenido de la comunidad
+community_locked_text = Esta característica sólo está disponible si tienes al menos uno de los packs de campaña disponible en la pantalla de campañas.
+mods_locked_title = Modificaciones del juego.
+mods_locked_text = Esta característica sólo está disponible si tienes al menos uno de los packs de campaña disponible en la pantalla de campañas.
+
+content_unlocked_title = Contenido desbloqueado
+content_unlocked_text = Se ha desbloqueado el pack de campaña requerido.
+
+serial_verifying_title = Instalando el contenido
+serial_verifying_text = Verificando el número de serie e instalando el contenido, por favor espera...
+
+try_campaign = Probar la campaña
+tooltip_try_campaign = Juega una parte de esta campaña gratis
+
+content_required_title = Se requiere un pack de campaña 
+content_required_text = Para seguir jugando este escenario se necesita un pack de campaña específico. ¿Quieres visitar la página del producto para obtener más información?
+locked_progress_saved_title = Avances guardados
+locked_progress_saved_text = Tus avances se han guardado y puedes volver a cargarlos para seguir jugando tras desbloquear el pack de campaña requerido.
+
+negative_air_supply_title = Excedido el límite de suministros aéreos
+negative_air_supply_text = Has desplegado más aviones de lo que te permite tu límite de suministros aéreos actual. Repliega unidades aéreas o despliega más portaaviones hasta que el balance de suministros aéreos vuelva a 0 como mínimo.
+
+pbem_error_outdated_server = El servidor aún no ha sido actualizado para dar servicio a tu versión del juego.
+
+temp_ww_coming = Próximamente, en julio de 2016
+
+editor_content_required = Pack de campaña necesario para cargar este escenario:
+
+content_morningsun = Morning Sun
+content_marinecorps = U.S. Marines
+content_pacificus = U.S. Pacific
+content_pacificjapan = Rising Sun
+content_winterwar = Winter War
+content_blitzkrieg = Blitzkrieg
+
+tooltip_disband_unit_error_1 = Las unidades navales solo pueden ser desbandadas en un puerto.
+tooltip_disband_unit_error_2 = Las unidades aéreas solo pueden ser desbandadas en un aeródromo o en un portaaviones.

@@ -1,0 +1,144 @@
+﻿unit_1130 = PzKw. VI Тигр H
+unit_1131 = PzKw. VI B Королевский Тигр
+unit_1132 = PzKw. VIII Маус
+unit_1133 = PzKw. V Пантера D
+unit_1134 = PzKw. V Пантера A
+unit_1135 = PzKw. V Пантера G
+unit_1136 = Советская пехота '37
+unit_1137 = Советская пехота '42
+unit_1138 = Советская пехота '43
+unit_1139 = Советская пехота '45
+unit_1140 = Советская тяж. пехота '37
+unit_1141 = Советская тяж. пехота '42
+unit_1142 = Советская тяж. пехота '43
+unit_1143 = Советская тяж. пехота '45
+unit_1144 = Советские десантники '39
+unit_1145 = Советские десантники '40
+unit_1146 = Советские десантники '41
+unit_1147 = Советские десантники '42
+unit_1148 = Советские десантники '43
+unit_1149 = Советские десантники '44
+unit_1150 = Советские десантники '45
+unit_1151 = Финская пехота '45
+unit_1152 = Финская тяж. пехота '45
+unit_1153 = Финские лыжники '45
+unit_1154 = Немецкая пехота '37
+unit_1155 = Немецкая пехота '39
+unit_1156 = Немецкая пехота '42
+unit_1157 = Немецкая пехота '43
+unit_1158 = Немецкая пехота '45
+unit_1159 = Немецкая тяж. пехота '37
+unit_1160 = Немецкая тяж. пехота '39
+unit_1161 = Немецкая тяж. пехота '40
+unit_1162 = Немецкая тяж. пехота '41
+unit_1163 = Немецкая тяж. пехота '42
+unit_1164 = Немецкая тяж. пехота '43
+unit_1165 = Немецкая тяж. пехота '44
+unit_1166 = Немецкая тяж. пехота '45
+unit_1167 = Немецкие десантники '37
+unit_1168 = Немецкие десантники '39
+unit_1169 = Немецкие десантники '40
+unit_1170 = Немецкие десантники '41
+unit_1171 = Немецкие десантники '42
+unit_1172 = Немецкие десантники '43
+unit_1173 = Немецкие десантники '44
+unit_1174 = Немецкие десантники '45
+unit_1175 = Финская пехота '37
+unit_1176 = Финская тяж. пехота '37
+unit_1177 = Финские инженеры '41
+unit_1178 = Финские инженеры '44
+unit_1179 = Финские инженеры '45
+unit_1180 = 76мм M1927
+unit_1181 = Финская пехота '38
+unit_1182 = PzKw. IV F2
+unit_1183 = PzKw. IV H
+unit_1184 = PzKw. 38(t) E
+
+faction_sweden = Швеция
+faction_norway = Норвегия
+faction_denmark = Дания
+faction_waffenss = Ваффен СС
+faction_greece = Греция
+faction_yugoslavia = Югославия
+faction_romania = Румыния
+
+ceditor_layout_location = Местоположение
+ceditor_layout_core = Ядро
+ceditor_layout_flag = Флаг
+ceditor_layout_arrow = Стрелка
+
+ceditor_map_dimensions = Размеры
+ceditor_map_rotation = Поворот
+ceditor_map_text = Текст на карте
+ceditor_campaign_variable = переменная
+
+option_tcp = Реальный онлайн
+option_tcp_descr = Установить связь с "живым" сервером и играть с другими игроками в настроенном чате.
+
+tcp_host = Хозяин игры
+tcp_join = Присоединившийся к игре
+tooltip_tcp_host = Начать новую многопользовательскую игру.
+tooltip_tcp_join = Присоединиться существующий многопользовательской игре.
+tooltip_tcp_not_all_ready = Все игроки должны подтвердить, что они готовы, прежде чем игра может начаться.
+not_ready = Подтвердите готовность
+tooltip_tcp_ready = Вы должны подтвердить, готовность до того, как хозяин сможет начать игру.
+waiting_players = Ожидание других игроков ...
+tooltip_tcp_waiting_for_players = Ожидание других игроков, чтобы закончить загруженную игру.
+tooltip_tcp_not_enough_players = Все слоты игроков должны быть заполнены до начала игры.
+tooltip_tcp_choose_slot = Вам необходимо выбрать свободный слот игрока.
+error_tcp_join_failed = Не удалось присоединиться к выбранной игре.
+error_tcp_game_is_full = Не удалось присоединиться к выбранной игре так как все слоты уже заняты.
+chat = Чат
+no_briefing_available = Нет доступных брифингов
+
+tcp_all_games = Все игры
+tcp_scenario_games = Официальный сценарий
+tcp_skirmish_games = Игры Перестрелки
+tcp_custom_games = Пользовательский сценарий
+tcp_failed_to_get_server_ip = Не удалось получить IP сервера.
+tcp_game_name = Наименование игры
+tcp_players = Игроки
+
+faction_unavailable_skirmish = Требуется DLC
+faction_available_skirmish = Доступно
+faction_selected_skirmish = Выбрать
+faction_swap_skirmish = Поменять игрока
+
+tooltip_no_single_team = Нельзя стартовать, если все игроки принадлежат к одной команде
+select_colour = Выбор цвета
+tooltip_select_colour = Выбор цвета для этого игрока
+
+faction_skirmish_incompatible = Несовместимо
+tooltip_incompatible_factions = Одна или несколько из выбранных стран несовместимы с выбранным типом карты.
+tooltip_faction_no_navy = Эта страна не имеет морского флота и не может быть сражаться на морском типе карты.
+
+skirmish_event_enemy_points_warning_title = КРИЗИС ОПЕРАЦИИ
+skirmish_event_enemy_points_warning_text = Враг почти собрал необходимое количество Контрольных Очков.
+
+skirmish_event_own_points_warning_title = ПОЧТИ ПОБЕДА
+skirmish_event_own_points_warning_text = Мы почти собрали необходимое количество Контрольных Очков.
+
+skirmish_event_enemy_points_halfway_title = КРИЗИС ОПЕРАЦИИ
+skirmish_event_enemy_points_halfway_text = Враг собрал половину необходимого количества Контрольных Очков.
+
+skirmish_event_own_points_halfway_title = На полпути к победе
+skirmish_event_own_points_halfway_text = Мы собрали половину необходимого количества Контрольных Очков.
+
+trait_57_title = Быстрое окапывание
+trait_57_descr = Значение окопанности данного подразделения увеличивается быстрее, когда оно находится в режиме ожидания.
+
+tooltip_objective_enabled = задачена включена и видна в начале сценария?
+
+trigger_effect_27 = Включить Задачу
+trigger_effect_28 = Разделить ИИ команду
+trigger_effect_29 = Диалог всплывающих окон
+
+enable = Включить
+disable = Выключить
+
+tutorial_free_bootcamp_title = Бесплатная игра
+tutorial_free_bootcamp = Полная кампания Учеьный Лагерь доступна бесплатно.||Другие кампании бесплатно можно попробовать: Прогресс будет сохранен после завершения первого сценария, что позволяет продолжить прохождение после покупки пакета кампании.
+
+trigger_event_7 = Диалог всплывающих окон
+
+editor_focus_camera = Фокус камеры:

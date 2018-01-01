@@ -1,0 +1,64 @@
+﻿unit_504 = Infanterie Australienne '44
+unit_505 = Infanterie Australienne '45
+unit_506 = Infanterie lourde Australienne '44
+unit_507 = Infanterie lourde Australienne '45
+unit_508 = Commandos Australien '44
+unit_509 = CV Hiryu '43
+unit_510 = CV Hiryu '44
+unit_511 = CV Shokaku '42
+unit_512 = CV Shokaku '43
+unit_513 = CV Shokaku '44
+unit_514 = CV Unryu '45
+unit_515 = CV Taiyo '42
+unit_516 = CV Taiyo '43
+unit_517 = CV Taiyo '44
+unit_518 = CV Lexington
+unit_519 = CV Lexington '43
+unit_520 = CV Yorktown '43
+unit_521 = CV Yorktown '44
+unit_522 = CV Essex '44
+
+trigger_condition_22 = Vérifier l'état de l’objectif
+
+editor_starting_value = Valeur de départ
+editor_target_value = Valeur cible
+
+editor_new_folder_name = Nouveau Dossier
+editor_folder_name = Nom du Dossier
+unit_status_available = Disponible
+
+filter = Filtre :
+
+tooltip_create_folder = Créer le dossier
+tooltip_repair_friendly_disabled_5 = Seules les unités adjacentes qui n'ont pas encore attaqué peuvent être réparés.
+tooltip_repair_disabled_11 = Réparation : Les sous-marins doivent faire surface pour réparer en mer.
+tooltip_elite_repair_disabled_11 = Réparation avancée : Les sous-marins doivent faire surface pour réparer en mer.
+tooltip_repair_friendly_disabled_3 = Seules les unités qui n'ont pas bougé ou attaqué depuis le tour précédent peuvent être réparés.
+tooltip_upgrade_disabled_4 = Amélioration : Une unité doit se trouver en territoire ami pour être améliorée.
+tooltip_upgrade_disabled_5 = Amélioration : Une unité adjacente à l'ennemi ne peut être améliorée.
+tooltip_upgrade_series_disabled_4 = Amélioration : Une unité doit se trouver en territoire ami pour être améliorée.
+tooltip_upgrade_series_disabled_5 = Amélioration : Une unité adjacente à l'ennemi ne peut être améliorée.
+tooltip_purchase_carrier_incompatible = Ce type d'unité  ne peut être entreposé dans le porte-avions en cours d’utilisation. 
+tooltip_empty_cargo_slot = Emplacement libre
+tooltip_exit_water = Quitter la partie maritime et accoster.
+tooltip_exit_water_disabled_1 = Impossible de quitter la partie maritime durant la phase de déploiement.
+tooltip_exit_water_disabled_2 = Aucun hexagone adjacent n'est valide pour accoster
+tooltip_air_lift_disabled_4 = Impossible de lancer un avion de transport si l'aérodrome est bloqué par une autre unité.
+
+spec_hidden_nests_effect = • L'infanterie construit des trous mitrailleuses|•L'infanterie lourde construit des bunkers|•Les unités principales se retranchent pendant la phase de déploiement
+
+new_commander_available = Un nouveau commandant est disponible et peut être attaché à une de nos unités.
+
+// DIFFICULTY LEVELS
+difficulty_japan_0 = I. Enseigne
+difficulty_japan_1 = II. Lieutenant
+difficulty_japan_2 = III. Capitaine de frégate
+difficulty_japan_3 = IV. Amiral
+difficulty_japan_4 = V. Kamikaze
+difficulty_usa_0 = I. Enseigne
+difficulty_usa_1 = II. Lieutenant
+difficulty_usa_2 = III. Capitaine
+difficulty_usa_3 = IV. Vice-Amiral
+difficulty_usa_4 = V. Amiral
+
+terrain_scorched = Dévastée

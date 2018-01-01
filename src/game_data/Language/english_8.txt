@@ -1,0 +1,247 @@
+﻿unit_1341 = Heinkel He 59 (T)
+unit_1342 = Blohm & Voss BV 138
+unit_1343 = Dornier Do 18
+unit_1344 = Fairey Barracuda (B)
+unit_1345 = Fairey Swordfish (B)
+unit_1346 = Flottentorpedoboot 39
+unit_1347 = BB H-Klasse
+unit_1348 = DD Type 1936
+unit_1349 = DD Type 1936A
+unit_1350 = DD Type 1936B
+unit_1351 = AV Bussard
+unit_1352 = AV Greif
+unit_1353 = CVE Jade
+unit_1354 = BB H-Klasse
+unit_1355 = BC O-Klasse
+unit_1356 = BC O-Klasse
+unit_1357 = DD Sims
+unit_1358 = DD Gleaves '41
+unit_1359 = DD J-Class
+unit_1360 = DD Type 1936A Mob
+unit_1361 = Primary Guns
+unit_1362 = Primary Guns
+unit_1363 = BB Deutschland
+unit_1364 = Primary Guns
+unit_1365 = Ar 196 A-3
+unit_1366 = Schnellboot S-38
+unit_1367 = Schnellboot S-100
+unit_1368 = Schnellboot S-219
+unit_1369 = Schnellboot S-701
+unit_1370 = BB H-Klasse
+unit_1371 = BB H-Klasse
+unit_1372 = British Infantry '42
+unit_1373 = British Infantry '43
+unit_1374 = British Infantry '44
+unit_1375 = British Infantry '45
+unit_1376 = British Heavy Infantry '42
+unit_1377 = British Heavy Infantry '43
+unit_1378 = British Heavy Infantry '44
+unit_1379 = British Heavy Infantry '45
+unit_1380 = British Engineers '40
+unit_1381 = British Engineers '42
+unit_1382 = British Engineers '43
+unit_1383 = British Engineers '44
+unit_1384 = British Engineers '45
+unit_1385 = Chindits
+unit_1386 = Military Police
+unit_1387 = Primary Guns
+unit_1388 = Primary Guns
+unit_1389 = Primary Guns
+unit_1390 = Primary Guns
+unit_1391 = US Engineers '40
+unit_1392 = US Infantry '40
+unit_1393 = US Heavy Infantry '40
+unit_1394 = US Marines '40
+unit_1395 = US Engineers '39
+unit_1396 = US Infantry '39
+unit_1397 = US Heavy Infantry '39
+unit_1398 = US Marines '39
+unit_1399 = British Engineers '39
+unit_1400 = British Infantry '39
+unit_1401 = British Heavy Infantry '39
+unit_1402 = Sea Fort
+unit_1403 = Primary Guns
+unit_1404 = Primary Guns
+unit_1405 = Primary Guns
+unit_1406 = Primary Guns
+unit_1407 = Primary Guns
+unit_1408 = Primary Guns
+unit_1409 = Primary Guns
+unit_1410 = Primary Guns
+unit_1411 = Primary Guns
+unit_1412 = Primary Guns
+unit_1413 = US Engineers '43
+unit_1414 = US Engineers '44
+unit_1415 = US Engineers '45
+
+unit_4105 = CA Admiral Hipper
+unit_4142 = SS Type VII
+unit_4143 = SS Type VII
+
+unit_3100 = SS Orzel
+unit_3101 = SS Orzel
+unit_3102 = DD Wicher
+unit_3103 = SS Type 1
+unit_3104 = SS Type 1
+unit_3106 = CA Deutschland
+unit_3107 = CL Konigsberg
+unit_3108 = BB Scharnhorst
+unit_3109 = BB Bismarck
+unit_3110 = CVL Graf Zeppelin
+unit_3111 = SS Type XXI
+unit_3112 = SS Type XXI
+unit_3113 = Fw 200 Condor
+unit_3114 = Bf 109 T
+unit_3115 = Ju 87C (B)
+unit_3116 = Ju 87C (T)
+unit_3117 = Heinkel He 59 (B)
+unit_3119 = CL Town
+unit_3120 = BC Admiral
+unit_3121 = BC Renown
+unit_3122 = CV Illustrious
+unit_3123 = CV Ark Royal
+unit_3124 = SS S-class
+unit_3125 = SS S-class
+unit_3126 = PBY Catalina
+unit_3127 = Sea Hurricane Mk.IB
+unit_3128 = Fairey Swordfish (T)
+unit_3129 = Fairey Barracuda (T)
+unit_3130 = Merchant Ship
+
+commander_81 = Gunther Lutjens
+commander_82 = Hubert Schmundt
+commander_83 = Hans Erdmenger
+commander_84 = Otto Kretschmer
+commander_85 = Heinrich Ehrler
+commander_86 = Fritz Fliegel
+
+// Don't translate these ranks
+difficulty_finland_0 = I. Vääpeli
+difficulty_finland_1 = II. Luutnantti
+difficulty_finland_2 = III. Kapteeni
+difficulty_finland_3 = IV. Eversti
+difficulty_finland_4 = V. Kenraali
+
+difficulty_germany_0 = I. Unteroffizier
+difficulty_germany_1 = II. Leutnant
+difficulty_germany_2 = III. Major
+difficulty_germany_3 = IV. Generalmajor
+difficulty_germany_4 = V. Feldmarschall
+
+difficulty_kriegsmarine_0 = I. Kommodore
+difficulty_kriegsmarine_1 = II. Konteradmiral
+difficulty_kriegsmarine_2 = III. Vizeadmiral
+difficulty_kriegsmarine_3 = IV. Admiral
+difficulty_kriegsmarine_4 = V. Grossadmiral
+
+difficulty = Difficulty
+
+replays = Replays
+saved_games = Saved Games
+save_recording_title = Save Replay
+save_recording_text = Do you want to save the replay of this battle? This allows you to review your playthrough or share it with others.
+tooltip_delete_replay = Delete the currently selected replay.
+tooltip_display_saved_games = Display saved games
+tooltip_display_saved_replays = Display replays
+delete_replay_title = Delete Replay
+delete_replay_descr = Are you sure you want to permanently delete this replay?
+recording_finished_title = Playback Completed
+recording_finished_text = The end of the game replay has been reached.
+tooltip_replay_toggle_fow = Toggle fog of war on/off.
+tooltip_replay_toggle_camera = Toggle camera focus on player actions and scenario event locations on/off.
+tooltip_replay_toggle_events = Toggle display of event popups on/off.
+tooltip_replay_toggle_turns = Toggle display of turn reports on/off.
+tooltip_replay_take_control = Stop the replay and take direct control of the game.
+replay_take_control_title = Take Control
+replay_take_control_text = Do you want to take direct control over the game, continuing from the current state in the replay?
+
+update_available_title = Update Available
+update_available_text = A new automatic game update is available. Would you like to download and apply it now?
+restart_required_title = Restart Game
+restart_required_text = An automatic update has been applied successfully. Please restart the game.
+
+spec_plan_z_title = Plan Z
+spec_plan_z_descr = Plan Z specifies a major re-equipment program and expansion of the Kriegsmarine. The end goal is to challenge the naval power of the United Kingdom and achieve parity with the Royal Navy.
+spec_plan_z_effect = • Gain 100 Resource Points|• +4 Naval Command Points in each mission
+
+spec_schlachtschiffe_title = Schlachtschiffe
+spec_schlachtschiffe_descr = With all former naval treaties now obsolete, Germany can design a modern class of battleships without any limitations in displacement and main gun calibre.
+spec_schlachtschiffe_effect = • H-Class battleships become available for purchase|• O-Class battlecruisers become available for purchase
+
+spec_flugzeugtrager_title = Flugzeugträger
+spec_flugzeugtrager_descr = To project Germany's strength across the oceans, a high priority has to be given to the development of aircraft carriers and the fighter and bomber aircraft they will support.
+spec_flugzeugtrager_effect = • Aircraft carriers become available much earlier in the war|• Carrier-based aircraft become available much earlier in the war
+
+spec_torpedo_improvements_title = Torpedo Improvements
+spec_torpedo_improvements_descr = After combat reports and thorough testing procedures, flaws in torpedo depth and detonation mechanisms can be identified and rectified.
+spec_torpedo_improvements_effect = • Torpedo attacks deal more damage
+
+spec_destroyer_tender_title = Destroyer Tender
+spec_destroyer_tender_descr = Specialized auxiliary ships providing maintenance support to destroyers or other small warships can significantly increase the operational range and durability of the latter.
+spec_destroyer_tender_effect = • Support Ships will instantly reset the torpedo cooldown of adjacent warships
+
+trait_24_title = Limitess Fuel
+trait_24_descr = Aircraft is designed for long range operations and does not require regular refueling.
+trait_43_title = Carrier Plane
+trait_43_descr = Unit can be landed on and supplied from aircraft carriers.
+trait_58_title = Fleeting Presence
+trait_58_descr = This unit cannot capture hexes or Victory Points.
+trait_59_title = Flexible Movement
+trait_59_descr = This unit can split its movement points in several moves.
+trait_59_title = Big Gun Barrage
+trait_59_descr = This unit has the ability to fire large calibre guns at enemy targets.
+trait_60_title = Mortar Barrage
+trait_60_descr = This unit can fire a mortar barrage to suppress the enemy.
+trait_61_title = Cargo Capacity: 1
+trait_61_descr = This unit can carry other units.
+trait_62_title = Cargo Capacity: 2
+trait_62_descr = This unit can carry other units.
+trait_63_title = Cargo Capacity: 3
+trait_63_descr = This unit can carry other units.
+trait_64_title = Light Freight
+trait_64_descr = This unit can unload from train transportation on any terrain type.
+trait_65_title = Difficult Target
+trait_65_descr = Due to its size and/or speed, this unit taken less damage from long range naval gunfire.
+trait_66_title = Seaplane
+trait_66_descr = Unit can be landed on and supplied from seaplane tenders.
+trait_67_title = Aircraft Carrier
+trait_67_descr = This ship can launch, recover and supply carrier-based aircraft.
+trait_68_title = Seaplane Tender
+trait_68_descr = This ship can launch, recover and supply floatplanes and flying boats.
+
+tooltip_weapon_switch = Switch to weapon:
+tooltip_weapon_switch_disabled_1 = Cannot switch weapon if the unit has already attacked during the current turn.
+tooltip_weapon_switch_disabled_2 = Weapon switch: This ability is still on cooldown for one or more turns.
+
+skirmish_mode = Skirmish Mode
+scenario_mode = Scenario Mode
+ready_question = Ready?
+
+resource_bonus = Extra resources assigned if this scenario is played outside of the campaign mode.
+
+commander_wounded_title = Commander Wounded
+commander_wounded_text = A commander got wounded in action and has been hospitalized for recovery.
+commander_imprisoned_title = Commander Imprisoned
+commander_imprisoned_text = A commander got captured by the enemy but is expected to break free from the prisoner camp eventually.
+tooltip_maximise_commanders = Maximize commander management controls.
+tooltip_minimise_commanders = Minimize commander management controls.
+
+unitclass_tender = Seaplane Tender
+
+loading_tip_14 = A warship deals less damage to a specific enemy ship after moving if the distance between the previous position and the target is different from the distance between the current position and the target.
+loading_tip_15 = The more movement points a ship consumes during its own turn, the less damage it will take when shot at by naval units during the opponent's next turn.
+loading_tip_16 = A surfaced enemy submarine can only be detected by adjacent ships or aircraft. If submerged, it can only be detected by sonar or by attempting to move a ship to the submarine's exact position.
+loading_tip_17 = Submarines can only stay submerged for a limited amount of turns. When the battery timer runs out, it will automatically resurface. Surfaced submarines will gradually recharge their batteries.
+loading_tip_18 = Battleships and battlecruisers have a special ability to fire their main battery. These large calibre guns have a high range and deal massive damage but take 2 turns to reload.
+loading_tip_19 = Seaplane tenders can only provide supply for seaplanes, while aircraft carriers supply both seaplanes and carrier-based planes. Airfields can supply any type of aircraft. Without a valid source of supply, aircraft cannot be deployed on the map.
+
+tutorial_naval_moving_targets_title = Avoiding Hits
+tutorial_naval_moving_targets = The more movement points a ship consumes during its own turn, the less damage it will take when shot at by naval units during the opponent's next turn.
+tutorial_bb_primary_guns_title = Battleship Guns
+tutorial_bb_primary_guns = Battleships and battlecruisers have a special ability to fire their main battery. These large calibre guns have a high range and deal massive damage but take 2 turns to reload.
+tutorial_submarine_battery_title = Submarine Batteries
+tutorial_submarine_battery = Submarines can only stay submerged for a limited amount of turns. When the battery timer runs out, it will automatically resurface. Surfaced submarines will gradually recharge their batteries.
+tutorial_submarine_detection_title = Submarine Detection
+tutorial_submarine_detection = A surfaced enemy submarine can only be detected by adjacent ships or aircraft. When submerged, it can only be detected by sonar or by attempting to move a ship to the submarine's exact position.
+tutorial_seaplane_tender_title = Air Supply Types
+tutorial_seaplane_tender = Seaplane tenders can only provide supply for seaplanes, while aircraft carriers supply both seaplanes and carrier-based planes. Airfields can supply any type of aircraft.||Without a valid source of supply, aircraft cannot be deployed on the map.

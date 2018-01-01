@@ -1,0 +1,82 @@
+﻿unit_1069 = F2A Buffalo
+unit_1070 = BB Kongō
+unit_1071 = Éclaireur Marines
+unit_1072 = Camion de transport
+unit_1073 = Infanterie Allemande '40
+unit_1074 = 75mm PaK 40
+unit_1075 = Infanterie de Mortier japonaise
+unit_1076 = Infanterie de Mortier US
+unit_1077 = Infanterie de Mortier Australienne
+unit_1078 = Infanterie de Mortier Chinoise
+unit_1079 = Infanterie de Mortier Néerlandaise
+unit_1080 = Infanterie de Mortier Finlandaise
+unit_1081 = Infanterie de Mortier Allemande
+unit_1082 = Soute de Bunker
+unit_1083 = Shinhoto Chi-Ha Type 97
+unit_1084 = 70mm Type 92
+unit_1085 = Ka-Mi Type 2
+unit_1086 = Ka-Mi Type 2
+unit_1087 = Infanterie de Mortier Soviétique
+unit_1091 = Tireurs d'élite japonais
+
+editor_aggression = Agression
+
+faction_raf = Grande-Bretagne
+
+amount = Montant
+damage = Dégâts
+unit_definitions = Définitions d'unité
+editor_visible_unit = Unité(s) Visible(s)
+editor_viewer = Visionneuse(s)
+editor_check_trigger_timer = vérifie le déclenchement de la répétition de la valeur
+
+difficulty_britain_0 = lieutenant d'aviation
+difficulty_britain_1 = Capitaine d'aviation
+difficulty_britain_2 = Commandant d'aviation
+difficulty_britain_3 = Colonel d'aviation
+difficulty_britain_4 = Maréchal de l'air
+
+terrain_lake = Lac
+terrain_pine_forest = Forêt dense
+terrain_rice = Rizière
+terrain_japanese_village = village asiatique
+
+editor_climate = Climat
+climate_default = Défaut
+climate_winter = Hiver
+
+loading_tip_14 = Lorsqu'un avion est déployé, décolle d'un terrain d'aviation ou d'un porte-avions, cela réduit son efficacité. Ceci représente sa vulnérabilité dû à la faible vitesse et l'altitude.||Au début du tour suivant, l'efficacité augmentera à la valeur maximale .
+loading_tip_15 = Un porte-avions peut seulement lancer un avion par tour, alors que deux avions peuvent décoller d'un terrain d'aviation pendant un seul tour.
+loading_tip_16 = Les unités équipées de lance-flammes - aussi bien que les véhicules équipés de canon court à basse vélocité - sont généralement plus performants dans les terrains avec de hautes valeurs de couverture, comme des villes ou des forêts.
+
+tutorial_content_marinecorps_title = [Nouveau contenu] US Marines
+tutorial_content_marinecorps = En août 1942, Les États-Unis débute leur offensive terrestre contre les japonais avec l'invasion de Guadalcanal. Menez le Corps des Marines des États-Unis pendant l'opération Cartwheel en 11 scénarios uniques, illustrant les défis des batailles, "voyageant d'île en île" pendant la Guerre du Pacifique.
+
+custom_name = Nom d'unité personnalisé
+
+trigger_effect_24 = Changer la production de provisions
+
+generate_preview_title = Générer prévisualisation de la carte
+generate_preview_text = Voulez-vous générer une nouvelle image de prévisualisation de la carte ?
+
+editor_available_turns = Disponible
+
+tooltip_weapon_switch = Barrage de mortier : utilisez le feu suppressif du mortier contre une unité ennemie.
+tooltip_weapon_switch_disabled_1 = Barrage de mortier : cette unité a déjà attaqué pendant le tour actuel.
+
+trait_55_title = Réparations Infrastructurelles
+trait_55_descr = Cette unité réparera progressivement n'importe quels dégâts faits à la production de provision de sa position actuelle.
+trait_56_title = Roulement lourd
+trait_56_descr = Le lourd poids et les grandes caractéristiques de cette unité l'empêchent d'entrer dans certains types de terrain.
+
+tutorial_campaign_overview_title = Aperçu des campagnes
+tutorial_campaign_overview = Dans ce panneau d'aperçu vous pouvez choisir n'importe quelle campagne en cliquant sur son icône sur la carte du monde. Pour le contenu débloqué, cliquez sur le bouton de chargement, la campagne débutera. Autrement, le bouton d'achat vous permettra de l'ouvrir ou d'obtenir plus d'informations sur son contenu.
+
+difficulty_marines_0 = I. Lieutenant
+difficulty_marines_1 = II. Capitaine
+difficulty_marines_2 = III. Colonel
+difficulty_marines_3 = IV. Général
+difficulty_marines_4 = V. Général d'armée
+
+trigger_effect_25 = Changer de type d'unité
+editor_change_original_unittype = Remplacer type d’unité d’origine

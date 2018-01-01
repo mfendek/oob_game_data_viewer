@@ -1,0 +1,16 @@
+// Unit Model scales
+landMaxSize = 0.8
+landMinSize = 0.4
+airMaxSize = 0.8
+airMinSize = 0.55
+infantryMaxSize = 0.25
+infantryMinSize = 0.125
+navalMaxSize = 1.2
+navalMinSize = 0.6
+largeScaleFactor = 1.3
+
+// Camera zoom limits
+defaultZoomLevel = 30
+defaultMinZoom = 20
+sefaultMaxZoom = 37
+defaultMaxZoomEditor = 100

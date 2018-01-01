@@ -1,0 +1,179 @@
+﻿unit_5000 = Berseglieri
+unit_5001 = Alpini
+unit_5002 = Italian Cav
+unit_5003 = Italian Truck
+unit_5004 = Sahariana
+unit_5005 = AB 40
+unit_5006 = AB 41
+unit_5007 = AB 43
+unit_5008 = Carro Armato M11/39
+unit_5009 = Carro Armato M13/40
+unit_5010 = Carro Armato M14/41
+unit_5011 = Carro Armato P26/40
+unit_5012 = Carro Armato P43 bis
+unit_5013 = Autocannone Blindato 90-53
+unit_5014 = Semovente da 47/32
+unit_5015 = Semovente da 75/46
+unit_5016 = Semovente da 90/53
+unit_5017 = Semovente da 149/40
+unit_5018 = Semovente da 75/18
+unit_5019 = Semovente M43 da 105/25
+unit_5020 = 75mm 75/18
+unit_5021 = 105mm 105/28
+unit_5022 = 149mm 149/19
+unit_5023 = 75/46 C.A. m34
+unit_5024 = Cannone da 90/53
+unit_5025 = Lancia 90/53
+unit_5026 = Breda 20mm AA
+unit_5027 = Re2000
+unit_5028 = CR.42 Falco
+unit_5029 = MC.200 Saetta
+unit_5030 = MC.202 Folgore
+unit_5031 = MC.205 Veltro
+unit_5032 = G.55 Centauro
+unit_5033 = Breda Ba.65
+unit_5034 = SM.79
+unit_5035 = Piaggio P.108
+unit_5036 = Italian BB
+unit_5037 = Italian BB_P
+unit_5038 = Italian CA
+unit_5039 = Italian DD
+unit_5040 = Italian Infantry '42
+unit_5041 = Italian Infantry '43
+unit_5042 = Italian Heavy Infantry '42
+unit_5043 = Italian Heavy Infantry '43
+unit_5044 = Italian Mortar Infantry
+unit_5045 = Italian Engineer '41
+unit_5046 = Italian Engineer '42
+unit_5047 = Italian Engineer '43
+unit_2153 = AB 41
+unit_2154 = 75/46 C.A. m34
+unit_2155 = Cannone da 90/53
+unit_2156 = Lancia 90/53
+unit_2157 = SM.89
+unit_2158 = Breda Ba.201
+unit_2159 = Japanese Engineers '39
+unit_2160 = Japanese Engineers '42
+unit_2161 = Japanese Engineers '43
+unit_2162 = Japanese Engineers '44
+unit_2163 = Japanese Engineers '45
+unit_2164 = Breda 91
+unit_2165 = IMAM Ro.37
+unit_2166 = Carro Armato M15/42
+unit_2167 = Barge
+unit_2168 = SU-122
+unit_2169 = SU-122
+unit_2170 = Bautruppe
+unit_2171 = KV-1
+unit_2172 = Polikarpov Po-2
+
+spec_organisation_todt_title = Organisation Todt
+spec_organisation_todt_descr = Named after its founder, Fritz Todt, this engineering group will be deployed on the frontline to repair and construct defenses and infrastructure.
+spec_organisation_todt_effect = • A unit of Bautruppe will added to your army core
+
+spec_waffen_ss_ii_title = Waffen SS II
+spec_waffen_ss_ii_descr = By further expanding the nationalities and populations viable for recruitment into the Waffen SS, several more divisions can be fielded on the battlefield.
+spec_waffen_ss_ii_effect = • +6 Ground CP for the Waffen SS faction|• +10 RP per turn for the Waffen SS faction
+
+spec_synthetic_fuel_plants_title = Synthetic Fuel Plants
+spec_synthetic_fuel_plants_descr = Large manufacturing plants will be able to mass produce synthetic crude oil by converting coal, water gas and other substances through various chemical processes.
+spec_synthetic_fuel_plants_effect = • +2 Air Command Points
+
+spec_command_vehicle_title = AEC Armoured Command Vehicle
+spec_command_vehicle_descr = Purpose-built command vehicles - essentially armoured buses based on a truck chassis - would offer both protection and a comfortable work environment for our commanders in the field.
+spec_command_vehicle_effect = • Ground commanders' chance to get wounded in combat reduced by 70%
+
+spec_baukommando_becker_title = Baukommando Becker
+spec_baukommando_becker_descr = Major Becker, a mechanical engineer, will set up a vehicle modification and fabrication center to convert and combine captured vehicles and weapons into usable instruments for the German army.
+spec_baukommando_becker_effect = • Marder tank destroyers become available for purchase|• Sd Kfz 135/1 motorized artillery becomes available for purchase
+
+spec_goliath_mine_title = Goliath Mine
+spec_goliath_mine_descr = This self-propelled demolition vehicle carries a powerful explosive charge and can be steered to its target remotely through a joystick control box, wire-connected to the device.
+spec_goliath_mine_effect = • Engineers +2 assault|• Engineers +2 attack in high cover terrain
+
+trait_74_title = Supply Stash
+trait_74_descr = This unit carries a limited stash of supplies, used in case it is cut off from other supply sources.
+trait_75_title = Night Attacker
+trait_75_descr = This unit takes and deals less damage when attacked by enemy fighter aircraft.
+
+commander_traits = Commander Traits
+commander_no_traits = This commander does not have any special traits.
+
+content_panzerkrieg = Panzerkrieg
+
+tutorial_content_panzerkrieg_title = [New content] Panzerkrieg
+tutorial_content_panzerkrieg = After the glorious years of blitzkrieg, the German invasion of the USSR has bogged down right at the gates of Moscow. With the Soviets now launching their own counter attacks in the harsh winter of 1942, it appears this conflict has slided into total war of blood and steel.
+
+tutorial_revert_vp_capture_title = Capture reverted
+tutorial_revert_vp_capture = If a victory point is not yet fully captured while completely cut off from supply, it requires a friendly unit on or adjacent to it. Without such a garrison to continue the capturing process, the point will automatically be reclaimed by its previous owner.
+
+trigger_condition_23 = Check Hex Supply
+
+commander_status_available = Available
+commander_status_attached = Attached
+commander_status_recovering = Out of action
+commander_status_wounded = Wounded
+commander_status_imprisoned = Imprisoned
+commander_status_reserve = Reserve
+commander_status_null = Not unlocked
+
+construction_status_alive = Operational
+construction_status_destroyed = Destroyed
+
+skirmish_unlocks = Skirmish mode unlocks:
+
+unit_status_imported = Imported
+
+editor_core_units = Core units
+
+tooltip_insufficient_resources_to_revive = Not enough Resource Points to recommission this imported core unit.
+tooltip_core_import_required_resources = To recommission this imported core unit, sufficient Resource Points must be available.
+
+scenario_editor = Scenario Editor
+campaign_editor = Campaign Editor
+scenario_editor_descr = Create your own scenario.
+campaign_editor_descr = Create your own campaign.
+
+ceditor_map_info = Info
+climate_wet = Wet
+campaign_branch = Branch
+tooltip_add_campaign_branch = Add a new branch
+tooltip_remove_campaign_branch = Delete this branch
+new_campaign = New Campaign
+editor_branches = Branches
+editor_cores = Cores
+editor_variables = Variables
+tooltip_starting_branch = Set this branch as the starting branch.
+tooltip_delete_branch = Delete this branch.
+tooltip_add_variable = Create a new campaign variable.
+tooltip_remove_branch_event = Delete this event popup from the selected branch
+tooltip_remove_branch_scenario = Delete this scenario from the selected branch
+tooltip_doubleclick_for_layout = Double-click to enter layout mode
+active_in_branch = Displayed in branch
+set_location = Set location
+add_core_faction = Add Nation
+tooltip_remove_core = Remove this core
+tooltip_remove_core_faction = Remove this nation from the core
+tooltip_set_outcome = Click and drag to a branch in the left side column to set it as outcome for this scenario.
+add_branch_scenario = Add scenario
+add_campaign_event = Add event
+new_event_title = My Event
+new_event_picture = picture
+editor_core_value = Core value
+tooltip_core_value = If the player's core value exceeds this number, a popup will ask to increase the difficulty level. Not used if the value is 0.
+name = Name
+scenario = Scenario
+remove_scenario_text = Are you sure you want to remove this scenario?
+editor_specialisations = Specializations
+tooltip_specialisations_switch = Check whether this nation can acquire specializations or not.
+editor_toggle_spec_availability = Enable or disable this specialization for the current campaign.
+editor_set_starting_spec_points = Set the amount of starting specialization points for this nation.
+core_name = Core name
+font_size = Font size
+map_text_default = Insert text here
+new_campaign_confirm = Are you sure you want to create a new campaign?
+editor_info_0 = LEFT CLICK: Select object - RIGHT CLICK: Remove object
+editor_info_1 = ARROW KEYS: Move selected object - PAGEUP/PAGEDOWN: Raise/lower selected object
+editor_info_2 = Hold R KEY + ARROW KEYS or PAGEUP/PAGEDOWN: Rotate selected object
+
+commander_94 = Kaciaryna Kasyanova

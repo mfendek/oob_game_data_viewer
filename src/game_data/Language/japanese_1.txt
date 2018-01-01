@@ -1,0 +1,62 @@
+unit_504  = オーストラリア歩兵 '44
+unit_505  = オーストラリア歩兵 '45
+unit_506  = オーストラリア重火器歩兵 '44
+unit_507  = オーストラリア重火器歩兵 '45
+unit_508  = オーストラリア特殊部隊 '44
+unit_509  = CV 航空母艦 飛龍 '43
+unit_510  = CV 航空母艦 飛龍 '44
+unit_511  = CV 航空母艦 翔鶴 '42
+unit_512  = CV 航空母艦 翔鶴 '43
+unit_513  = CV 航空母艦 翔鶴 '44
+unit_514  = CV 航空母艦 雲竜 '45
+unit_515  = CV 航空母艦 大鷹 '42
+unit_516  = CV 航空母艦 大鷹 '43
+unit_517  = CV 航空母艦 大鷹 '44
+unit_518  = CV 航空母艦 レキシントン
+unit_519  = CV 航空母艦 レキシントン '43
+unit_520  = CV 航空母艦 ヨークタンウ '43
+unit_521  = CV 航空母艦 ヨークタウン '44
+unit_522  = CV 航空母艦 エセックス '44
+
+trigger_condition_22  = 目標の状態をチェック
+
+editor_starting_value  = 開始値
+editor_target_value  = 目標値
+
+editor_new_folder_name  = 新しいフォルダ
+editor_folder_name  = フォルダ名
+unit_status_available  = 利用可能
+
+filter  = フィルター:
+
+tooltip_create_folder  = フォルダを作成します
+tooltip_repair_friendly_disabled_5  = まだ攻撃を受けていない隣接したユニットだけを修理します。
+tooltip_repair_disabled_11  = 修理:潜水艦は修理する為には浮上しなければなりません。
+tooltip_elite_repair_disabled_11  = エリート修理:潜水艦は修理する為には浮上しなければなりません。
+tooltip_repair_friendly_disabled_3  = 前のターンから戦闘に関わっておらず、移動していない隣接したユニットだけを修理します。
+tooltip_upgrade_disabled_4  = アップグレード:敵テリトリー内のユニットをアップグレードできません。
+tooltip_upgrade_disabled_5  = アップグレード:敵ユニットに隣接したユニットをアップグレードできません。
+tooltip_purchase_carrier_incompatible  = このユニットタイプは、ユニットの現在の経歴には保管できません。
+tooltip_empty_cargo_slot  = 空の貨物スロット
+tooltip_exit_water  = 海を離れて海岸線に移動して下さい
+tooltip_exit_water_disabled_1  = 配置フェーズ中には海を離れられません
+tooltip_exit_water_disabled_2  = 陸地に隣接していないヘックスは海を離れるのに使えます
+tooltip_air_lift_disabled_4  = 飛行場が他の航空ユニットによってブロックされている時には、輸送機を離陸させられません
+
+spec_hidden_nests_effect  = ・大日本帝國陸軍歩兵は機銃座を建設できます。・大日本帝國陸軍重火器歩兵は掩蔽壕を建設できます。・コアユニットは配置フェーズ中に塹壕に入れます。
+
+new_commander_available  = 新しい指揮官が使用可能になり、我々のユニットの一つに配属できます。
+
+// DIFFICULTY LEVELS
+difficulty_japan_0  = 少尉
+difficulty_japan_1  = 中尉
+difficulty_japan_2  = 中佐
+difficulty_japan_3  = 中将
+difficulty_japan_4  = 神風特別攻撃隊
+difficulty_usa_0  = 少尉
+difficulty_usa_1  = 中尉
+difficulty_usa_2  = 大佐
+difficulty_usa_3  = 提督
+difficulty_usa_4  = 艦隊司令官
+
+terrain_scorched  = 焦土化

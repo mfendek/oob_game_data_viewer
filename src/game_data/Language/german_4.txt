@@ -1,0 +1,209 @@
+﻿unit_3000 = Finn. Infanterie '35
+unit_3001 = Finn. Infanterie '39
+unit_3002 = Finn. Pioniere '39
+unit_3003 = Finn. Ski Truppen '39
+unit_3004 = Finn. Schwere Infanterie '39
+unit_3005 = Sowj. Infanterie
+unit_3006 = Sowj. Pioniere
+unit_3007 = 76.2mm M1939
+unit_3008 = Sowjetischer LKW
+unit_3009 = Finnischer LKW
+unit_3010 = F2A Buffalo
+unit_3011 = Finn. Infanterie '41
+unit_3012 = Finn. Infanterie '44
+unit_3013 = Finn. Schwere Infanterie '41
+unit_3014 = Finn. Schwere Infanterie '44
+unit_3015 = Finn. Ski Truppen '41
+unit_3016 = Finn. Ski Truppen '44
+unit_3017 = Sowj. Rekruten
+unit_3018 = Sowj. Infanterie '40
+unit_3019 = Sowj. Infanterie '41
+unit_3020 = Sowj. Infanterie '44
+unit_3021 = Sowj. Schwere Infanterie '39
+unit_3022 = Sowj. Schwere Infanterie '40
+unit_3023 = Sowj. Schwere Infanterie '41
+unit_3024 = Sowj. Schwere Infanterie '44
+unit_3025 = OT-130 
+unit_3026 = 37mm M1939
+unit_3027 = 85mm M1939
+unit_3028 = 122mm M1938
+unit_3029 = BM-13 Katyusha
+unit_3030 = T-28B
+unit_3031 = BT-7
+unit_3032 = KV-1
+unit_3033 = KV-2
+unit_3034 = T-34
+unit_3035 = T-34-85
+unit_3036 = MiG-3
+unit_3037 = Yakovlev Yak-7
+unit_3038 = Ilyushin Il-2
+unit_3039 = Ilyushin Il-4
+unit_3040 = Dornier Do-17 Z
+unit_3041 = Bristol Blenheim Mk.I
+unit_3042 = Junkers Ju-88 
+unit_3043 = Messerschmitt Bf 109 G-6
+unit_3044 = Curtis P-36 Hawk
+unit_3045 = MTB Syöksy
+unit_3046 = MO-2 Guard Ship
+unit_3047 = Fokker D.XXI
+unit_3048 = Morane-Saulnier M.S.406
+unit_3049 = Fokker C.X
+unit_3050 = 40 ItK/36
+unit_3051 = 76 ItK/29
+unit_3052 = Landsverk II
+unit_3053 = 122mm M1938
+unit_3054 = 105 K/13
+unit_3055 = 76 K/02
+unit_3056 = 45mm M1937
+unit_3057 = StuG IIIG
+unit_3058 = 7.5 cm Pak 40
+unit_3059 = 37 PstK/36
+unit_3060 = Vickers Mk. F
+unit_3061 = PzKw IVJ
+unit_3062 = T-26 M1939
+unit_3063 = OT-130
+unit_3064 = BT-7
+unit_3065 = KV-1
+unit_3066 = T-34
+unit_3067 = Deut. Infanterie '41
+unit_3068 = Deut. Infanterie '44
+unit_3069 = Deut. Pioniere
+unit_3070 = Deut. Gebirgsjäger '41
+unit_3071 = StuG IIIG
+unit_3072 = StuH 42
+unit_3073 = Opel Blitz
+unit_3074 = Junkers Ju-87D Stuka
+unit_3075 = Focke-Wulf Fw 190F
+unit_3076 = 150 H/40
+unit_3077 = BT-42
+unit_3078 = VL Myrsky
+unit_3079 = Blackburn Ripon
+unit_3080 = Polikarpov R-5
+unit_3081 = 203mm M1931
+unit_3082 = SU-76
+unit_3083 = Deut. Gebirgsjäger '44
+unit_3084 = PzKw IVJ
+unit_3085 = SdKfz 7/2
+unit_3086 = Messerschmitt Bf 109 K
+unit_3087 = Landsverk II
+unit_1088 = DD Gnevny
+unit_1089 = CA Kirov
+unit_1090 = SU-76M
+unit_1093 = Fracht LKW
+
+unit_1094 = 10.5 cm leFH 18
+unit_1095 = PzKW II
+unit_1096 = PzKw III E
+unit_1097 = PzKw IV C
+unit_1098 = PzKw IV D
+unit_1099 = PzKw IV E
+unit_1100 = PzKw IV F1
+unit_1101 = PzKw 38(t) A
+unit_1102 = SdKfz 231 6Rad
+unit_1103 = SdKfz 232 8Rad
+unit_1104 = PzKw III F
+unit_1105 = PzKw III G
+unit_1106 = SdKfz 250
+unit_1107 = SdKfz 251
+unit_1108 = 2 cm Flakvierling 38
+unit_1109 = 3.7 cm FlaK 37
+unit_1110 = SdKfz 7/1
+unit_1111 = SdKfz 10/4
+unit_1112 = 7.5 cm leIG 18
+unit_1113 = 5 cm Pak 38
+unit_1114 = Panzerjäger IB
+unit_1115 = Sturmpanzer I
+unit_1116 = 15 cm sFH 18
+unit_1117 = 17 cm K 18
+unit_1118 = 21 cm Mrs 18
+unit_1119 = sIG 38(t) Grille H
+unit_1120 = Panzerzug
+unit_1121 = PzKw III H
+unit_1122 = PzKw III J
+unit_1123 = PzKw III J/1
+unit_1124 = PzKw III L
+unit_1125 = PzKw III M
+unit_1126 = PzKw III N
+unit_1127 = Fracht LKW
+unit_1128 = SU-76
+unit_1129 = SU-76M
+
+
+faction_finland = Finnland
+faction_poland = Polen
+faction_belgium = Belgien
+
+commander_66 = Mannerheim
+commander_67 = Ilmari Juutilainen
+commander_68 = Olli Puhakka
+commander_69 = Paavo Talvela
+commander_70 = Matti Aarnio
+commander_71 = Hjalmar Siilasvuo
+commander_72 = Unto Petaja
+commander_73 = Yrjö Kinnunen
+
+tutorial_content_pacificus_title = [Neuer Inhalt] U.S. Pacific
+tutorial_content_pacificus = Beginnend mit dem Luftangriff auf Pearl Harbour und endend mit der Invasion Japans stellt diese Kampagne den Spieler vor die Aufgabe, einige der wichtigsten Land- und Seeschlachten des Pazifikkrieges mit amerikanischen Armee- und Flottenkräften zu bestreiten.
+tutorial_content_pacificjapan_title = [Neuer Inhalt] Rising Sun
+tutorial_content_pacificjapan = Führe das Japanische Kaiserreich in seinem Streben nach Hegemonie über den westlichen Pazifikraum. Neben historischen Schlachten sind hier auch eine hypothetische Invasion Australiens sowie eine riesige Auswahl an japanischen Einheiten und Prototypen enthalten, die Rising Sun zu einer einzigartigen Erfahrung machen.
+tutorial_content_winterwar_title = [Neuer Inhalt] Winterkrieg
+tutorial_content_winterwar = Im Winter 1939 startet die Sowjetunion eine Invasion Finnlands um wichtige Grenzregionen zu besetzen. Übernimm den Befehl über finnische - und später auch deutsche - Truppen in dieser einzigartigen Winterkampagne mit 14 Szenarien und mehr als 90 neuen Einheiten.
+
+tutorial_objective_details_title = Details der Szenarioziele
+tutorial_objective_details = Klicke auf das blaue Fragezeichen, um detaillierte Informationen zu einem Ziel und potentielle Belohnungen zu erhalten
+
+scenario_use_upkeep = Benutze Einheitenunterhalt
+tooltip_use_upkeep = Das Spielereinkommen pro Zug wird auf der Basis unbenutzter Kommandopunkte neu berechnet.
+
+trigger_effect_26 = Füge Spezialisierungspunkte hinzu
+
+docs_renamed_title = Dateien umbenannt.
+docs_renamed_text = Das Spiel "Order of Battle - Pacific" behandelt nun den gesamten Zweiten Weltkrieg und ist deshalb in "Order of Battle - WW2" umbenannt worden.||Alle Spielstände, eigene Szenarien, Mods, etc sind nach "Dokumente/My Games/Order of Battle - WW2" verschoben worden.
+
+
+editor_locked_title = Szenarioeditor
+editor_locked_text = Dieses Feature ist nur verfügbar, wenn du zumindest eines der im Kampagnenbildschirm angezeigten Kampagnenpacks besitzt.||Der Szenarioeditor wurde benutzt, um alle offiziellen Spielszenarien zu erstellen und erlaubt die Erstellung eigener Einzel- und Mehrspielerkarten. 
+multiplayer_locked_title = Mehrspieler
+multiplayer_locked_text = Dieses Feature ist nur verfügbar, wenn du zumindest eines der im Kampagnenbildschirm angezeigten Kampagnenpacks besitzt.||Jeder Mehrspielermodus erlaubt bis zu 4 Spieler, die kooperativ - gegen die AI - oder PvP Spiele auf verschieden Karten und in diversen Spielmodie spielen können. 
+
+custom_locked_title = Eigene Kampagnen & Szenarien
+custom_locked_text = Dieses Feature ist nur verfügbar, wenn du zumindest eines der im Kampagnenbildschirm angezeigten Kampagnenpacks besitzt.||Eigene Kampagnen können dann von dir und anderen Spielern mittels des im Spiel enthaltenen Szenarioeditors erstellt werden.
+
+community_locked_title = Download von Community Inhalten
+community_locked_text = Dieses Feature ist nur verfügbar, wenn du zumindest eines der im Kampagnenbildschirm angezeigten Kampagnenpacks besitzt. 
+mods_locked_title = Spielmodifikationen
+mods_locked_text = Dieses Feature ist nur verfügbar, wenn du zumindest eines der im Kampagnenbildschirm angezeigten Kampagnenpacks besitzt. 
+
+content_unlocked_title = Inhalte freigeschaltet.
+content_unlocked_text = Das benötigte Kampagnenpack ist freigeschaltet worden.
+
+serial_verifying_title = Installiere Inhalte
+serial_verifying_text = Überprüfe Serienummer und installiere Inhalte, bitte warten...
+
+try_campaign = Probiere Kampagne
+tooltip_try_campaign = Spiele einen freien Teil dieser Kampagne
+
+content_required_title = Kampagnenpack benötigt 
+content_required_text = Um dieses Szenario weiterspielen zu können wird ein bestimmtes Kampagnenpack benötigt. Möchtest du dessen Produktseite für mehr Informationen besuchen?
+
+locked_progress_saved_title = Fortschritt gespeichert
+locked_progress_saved_text = Dein Fortschritt wurde gespeichertund kann zum Weiterspielen wieder geladen werden, nachdem das benötigte Kampagnenpack freigeschaltet worden ist.
+
+negative_air_supply_title = Luftversorgungslimit überzogen
+negative_air_supply_text = Du hast mehr Lufteinheiten auf der Karte als dein gegenwärtiges Limit erlaubt. Entferne einige Lufteinheiten oder benutze mehr Flugzeugträger um das Luftversorgungslimit auszubalancieren.
+
+pbem_error_outdated_server = Der Server wurde noch nicht aktualisiert, um deine Spielversion zu unterstützen
+
+temp_ww_coming = Erscheint im July 2016
+
+editor_content_required = Benötigtes Kampagnenpack um diese Szenario zu laden:
+
+content_morningsun = Morning Sun
+content_marinecorps = U.S. Marines
+content_pacificus = U.S. Pacific
+content_pacificjapan = Rising Sun
+content_winterwar = Winterkrieg
+content_blitzkrieg = Blitzkrieg
+
+tooltip_disband_unit_error_1 = Marineeinheiten können nur im Hafen aufgelöst werden.
+tooltip_disband_unit_error_2 = Lufteinheiten können nur auf Flugplätzen oder Flugzeugträgern aufgelöst werden.

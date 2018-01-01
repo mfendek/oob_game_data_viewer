@@ -1,0 +1,24 @@
+[INFANTRY]
+id = 0
+
+[MECHANICAL]
+id = 1
+
+[SMALL]
+id = 2
+
+[LARGE]
+id = 3
+
+[SUBMARINE]
+id = 4
+
+[MINES]
+id = 5
+
+[ARTILLERY]
+id = 6
+artillery
+
+[TORPEDO]
+id = 7

@@ -1,0 +1,152 @@
+[CITY]
+id = 0
+variations = 2
+type = city
+replaceBase
+noEditor
+
+[PORT]
+id = 1
+type = port
+replaceBase
+noEditor
+
+[AIRFIELD]
+id = 2
+type = airfield
+replaceBase
+noEditor
+
+[TOWN]
+id = 3
+variations = 4
+type = city
+noEditor
+
+[TOWN_PATCH]
+id = 4
+variations = 8
+type = decor
+
+[JUNGLE]
+id = 5
+type = decor
+replaceBase
+noEditor
+
+[FOREST]
+id = 6
+type = decor
+replaceBase
+noEditor
+
+[VILLAGE_PATCH]
+id = 7
+variations = 4
+type = decor
+replaceBase
+
+[PINE_FOREST]
+id = 8
+type = decor
+replaceBase
+noEditor
+
+[FUELDEPOT]
+id = 10
+variations = 1
+type = decor
+glow
+replaceBase
+
+[MAJORCITY]
+id = 11
+variations = 1
+type = decor
+replaceBase
+noEditor
+
+[JUNGLE_PATCH]
+id = 12
+variations = 8
+type = decor
+
+[VILLAGE]
+id = 13
+variations = 2
+type = city
+replaceBase
+noEditor
+
+[AT_STARS]
+id = 14
+variations = 4
+type = decor
+
+[BASE]
+id = 15
+variations = 3
+type = decor
+glow
+replaceBase
+
+[CLIFFS]
+id = 16
+variations = 3
+type = decor
+terrain = cliffs
+
+[JAPANESE_VILLAGE]
+id = 17
+variations = 4
+type = city
+glow
+replaceBase
+noEditor
+
+[FOREST_PATCH]
+id = 18
+variations = 8
+type = decor
+
+[JAPANESE_VILLAGE_PATCH]
+id = 19
+variations = 4
+type = decor
+
+[CITY_PATCH]
+id = 20
+variations = 4
+type = decor
+
+[BURNING]
+id = 21
+variations = 4
+type = decor
+quality = 4
+
+[CHINESE_WALL]
+id = 9
+type = decor
+terrain = wall
+
+[RICE]
+id = 22
+variations = 4
+type = decor
+replaceBase
+noEditor
+
+[ASIAN_TOWN]
+id = 23
+variations = 4
+type = city
+noEditor
+
+[EURO_VILLAGE]
+id = 24
+variations = 4
+type = city
+glow
+replaceBase
+noEditor

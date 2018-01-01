@@ -1,0 +1,126 @@
+﻿unit_502 = Cañonera
+unit_503 = M2 90mm AA Gun
+unit_455 = M2 90mm AA Gun
+unit_150 = P47C Thunderbolt
+unit_151 = P51B Mustang
+unit_258 = Superm. Seafire XV
+unit_346 = A6M5 Zero
+unit_348 = Ki-44 II Shoki
+
+unitclass_infantry_descr = Infantería
+unitclass_recon_descr = Reconocimiento
+unitclass_tank_descr = Los carros de combate generalmente funcionan bien contra la infantería y contra los propios carros de combate. 
+unitclass_artillery_descr = Las unidades de artillería disparan a larga distancia para disminuir la eficacia del enemigo y mantenerlos inmovilizados. 
+unitclass_anti_tank_descr = Las unidades contracarro aportan fuego de apoyo cuando están adyacentes a una unidad propia y ésta es atacada por algún carro de combate. 
+unitclass_anti_air_descr = Antiaérea 
+unitclass_fighter_descr = Caza 
+unitclass_tactical_bomber_descr = Bombardero táctico 
+unitclass_strategic_bomber_descr = Bombardero estratégico 
+unitclass_transport_descr = Transporte
+unitclass_battleship_descr = Acorazado 
+unitclass_cruiser_descr = Crucero 
+unitclass_destroyer_descr = La clase destructores contienen tanto a los propios rápidos destructores, otro tipo de pequeños barcos de guerra.
+unitclass_carrier_descr = Portaaviones
+unitclass_submarine_descr = Submarino
+unitclass_structure_descr = Estructura
+unitclass_mines_descr = Mina
+unitclass_missile_descr = Misil
+
+turn_confirm_title = Terminar turno
+turn_confirm_text = ¿Estás seguro de que quieres terminar el turno y subirlo para el siguiente jugador? 
+
+send = Enviar
+
+split_fields = Ajustar siempre el tamaño de la unidad  al enfoque actual tierra/aire
+unit_efficiency = Eficacia 
+
+tutorial_torpedo_launch_2 = Después de que una unidad dispara un torpedo, tiene que esperar uno o más turnos para la habilidad de recarga. La cantidad de turnos para la recarga será mostrada en la esquina superior izquierda del botón habilidad.
+
+pbem_error_server_down = El servidor on-line está actualmente bajo mantenimiento, por favor inténtalo más tarde. 
+
+pbem_reserved_slot = Casilla reservada
+pbem_date = Fecha último turno
+
+kick_player_title = Expulsar jugador
+kick_player_text = Un jugador que haya estado inactivo puede ser expulsado de la partida. Esto hará que pase el turno al siguiente jugador activo.||¿Estás seguro de que deseas expulsar al jugador actual?
+claim_game_title = Reclamar la victoria 
+claim_game_text = El jugador actual en esta partida ha fallado en completar su turno ||¿Estás seguro de que quieres continuar? 
+
+tutorial_mp_matches_title = Oponente mueve primero 
+tutorial_mp_matches = El desafío que acabas de aceptar comienza con el turno de otro jugador. Esto se indica con un icono naranja en la lista.||Cuando tu oponente ha terminado de jugar su turno este icono se vuelve verde indicando que ahora te toca a ti 
+tutorial_mp_waiting_for_more_players_title = Esperando a otros jugadores 
+tutorial_mp_waiting_for_more_players = El desafío que acabas de aceptar requiere jugadores adicionales para unirse antes de que esté listo para jugarse.||Cuando la partida esté lista para tu turno su icono se volverá verde. 
+tutorial_player_not_found_title = Jugador no encontrado.
+tutorial_player_not_found = El nombre de jugador que has introducido no ha podido ser encontrado en la base de datos de jugadores activos. Ten en cuenta que un jugador debe haberse identificado en el servidor multijugador al menos una vez para aparecer en esta base de datos.||Los nombres de los jugadores no distinguen entre mayúsculas y minúsculas.
+tutorial_supply_cut_1_title = Aislado de suministros.
+tutorial_supply_cut_1 = La unidad actual está aislada de cualquier fuente de suministro. Esto se indica a través del punto rojo. La fuerza de la unidad.
+tutorial_supply_cut_2_title = Conectando con una fuente de suministro. 
+tutorial_supply_cut_2 = Para volver a estar suministrada, una unidad debe capturar hexágonos enemigos hasta conectar con una fuente de suministro. Mantén presionada la barra espaciadora para ver qué hexágonos o barcos de costa están aportando suministros.
+tutorial_supply_cut_3_title = Indicador de suministro 
+tutorial_supply_cut_3 = Al activar el modo de visión de suministro sobre el mapa aparecerán una serie de iconos. El numero grande en el centro determina cuanto suministro está dando ese hexágono. Para el territorio sin ninguna fuente de suministro aparecerá un indicador con un símbolo "-".
+tutorial_supply_cut_4_title = Balance de suministro 
+tutorial_supply_cut_4 = El pequeño número en los indicadores de suministro  representa  la suma de todas las fuentes de suministro en el territorio menos la cantidad de suministro requerido por las unidades. Si este número es negativo entonces es que no hay suficiente suministro disponible para todas las unidades. 
+tutorial_advance_move_title = Movimiento de avance 
+tutorial_advance_move = Cuando destruyes una unidad terrestre enemiga o la fuerzas a retirarse, puedes avanzar si lo deseas al hexágono vacante. Este movimiento estará disponible solamente justo después del ataque y desaparecerá si das cualquier orden a otra unidad.
+tutorial_pbem_lobby_title = Lobby PBEM
+tutorial_pbem_lobby = Bienvenido al Lobby Multijugador PBEM++. Aquí podrás encontrar una lista de todos tus desafíos abiertos y de todas las partidas que estás jugando. Las pestañas en la parte superior del panel actúan como filtros del listado de partidas.
+tutorial_pbem_lobby_2_title = Prepara un desafío o únete a uno ya creado
+tutorial_pbem_lobby_2 = Puedes elegir unirte a un desafío creado por otro jugador o crear el tuyo propio. Para unirte a un desafío selecciónalo en la lista y haz clic en el botón para unirse en la esquina inferior derecha del panel. Para montar el tuyo propio simplemente pulsa el botón para crear el desafío. 
+tutorial_submarine_attack_title = Ataques submarinos 
+tutorial_submarine_attack = Cuando un submarino sumergido ataque no será revelado al enemigo, pero sonará una alarma acompañada de explosiones. La única forma de detectar un submarino es a través de la habilidad del sónar, o intentando mover a la posición actual del submarino.
+tutorial_campaign_variables = Algunos eventos de escenario tienen un efecto duradero en la campaña afectando a lo que sucede en posteriores escenarios. El estado de los eventos de campaña son marcados en el mapa de campaña.||El color de los iconos indica quién se beneficia del evento.
+
+
+tooltip_construct_unit_disabled_3 = No hay suficientes Puntos de Recursos para construir @.
+
+tooltip_claim_match_timer = Si el jugador actual se mantiene inactivo durante @ días, puedes reclamar la victoria. 
+tooltip_kick_player_timer = Si el jugador actual se mantiene inactivo durante @ días, Puedes expulsarle de la partida.
+tooltip_state_claimable = Estado de la partida: El jugador actual ha estado inactivo durante @ días y puede ser expulsado. 
+
+tooltip_state_available_invited = Estado del desafío: Has sido invitado a este desafío abierto.
+tooltip_state_available_private_invited = Estado del desafío: Has sido invitado a este desafío privado.
+
+tooltip_batch_2 = Publica  (Slitherine/Matrix)
+tooltip_batch_3 = Contribuidor de la comunidad 
+tooltip_no_save_mp = No se puede acceder a partidas salvadas en multijugador.
+
+tooltip_clear_reserved = Eliminar al jugador invitado 
+tooltip_reserve_slot = Reservar puesto para un jugador específico 
+tooltip_reserved_slot = Este puesto está reservado para otro jugador
+tooltip_fixed_slot = Tú has sido invitado desafío y no puedes cambiar tu puesto.
+tooltip_repair_wounds = Control de daños: Recupera un número limitado de puntos de fuerza de la unidad.
+tooltip_repair_wounds_disabled_1 = Control de daños: No hay suficientes recursos para reparar el daño.
+tooltip_repair_wounds_disabled_2 = Control de daños: No se puede reparar después de atacar.
+tooltip_repair_wounds_disabled_3 = Control de daños: No se puede reparar cuando está sumergido.
+tooltip_torpedo_launch_disabled_5 = Los torpedos solo pueden ser lanzados desde un hexágono de agua.
+tooltip_air_lift_disabled_1 = La unidad no puede despegar en avión de transporte después de atacar.
+tooltip_repair_friendly_disabled_3 = Solo puede reparar unidades adyacentes que no se han visto envueltas en combate desde el turno anterior.
+tooltip_repair_friendly_disabled_4 = La unidad solo puede reparar a otras si no estuvo envuelta en combate desde el turno anterior.
+tooltip_switch_air_field = Centrarse en la capa aérea  [@]
+tooltip_switch_ground_field = Centrarse en la capa terrestre  [@]
+tooltip_shared_flags = Permite a cualquier miembro del equipo desplegar unidades alrededor de los Puntos de Victoria. 
+tooltip_stat_efficiency = La eficacia afecta al rendimiento de la unidad en combate, representa la fatiga, la desorganización y una baja moral.
+tooltip_stat_assault = El asalto reduce el nivel de fortificación enemigo.
+
+reserve_title = Puesto de reserva 
+reserve_text = Puede ser reservar un puesto para un jugador específico. Esto evitará que cualquier otro jugador pueda ocupar ese puesto.
+search = Búsqueda 
+
+editor_strength_difficulty_compensation = Bonus de dificultad - compensación.
+editor_shared_flags = Equipos comparten PV
+editor_undeploy_unit = Unidad replegada
+
+commander_1_descr = El Sgt. P. Simpson ha sido ascendido tras demostrar sangre fría y un extremo valor durante varios ataques de infantería japonesa.
+
+faction_ijn = Japón
+
+trait_49_title = Casco plano 
+trait_49_descr = La unidad es inmune a ataques de torpedo 
+trait_50_title = Arma defensiva 
+trait_50_descr = La unidad es menos efectiva cuando ataca 
+trait_51_title = Caza 
+trait_51_descr = El avión se comporta magníficamente contra otros cazas y bombarderos tácticos 
+trait_52_title = Interceptor
+trait_52_descr = El avión está diseñado para destruir bombarderos estratégicos 
+trait_53_title = Ataque terrestre 
+trait_53_descr = El avión está designados para atacar objetivos terrestres

@@ -1,0 +1,235 @@
+﻿// SPECIALISATIONS
+
+spec_banzai_charge_title = Charge Banzaï
+spec_banzai_charge_descr = La bayonnette et le sabre gunto sont le armes principales de nos guerriers, symboles de l'esprit martial et de leur fidélité à l'empereur.
+spec_banzai_charge_effect = • L'infanterie japonaise et leurs Marines peuvent attaquer en mode Banzaï, augmentant leur dégâts.
+
+spec_bushido_code_title = Code du Bushido.
+spec_bushido_code_descr = Le Code du Bushido procure à nos soldats une protection, en accord avec la tradition smouraï. Le combat purifie... et la mort est un devoir.
+spec_bushido_code_effect = • Les unités japonaises avec marqueur d'insufisance en ravitaillement rouge occasionnent plus de dégâts quand attaquées par l'ennemi.
+
+spec_tokyo_express_title = Tokyo Express
+spec_tokyo_express_descr = Substituer Destroyers et Sous-marins aux navires marchands procure un moyens plus sûr de ravitailler armées et garnisons éloignées.
+spec_tokyo_express_effect = • Destroyers et Sous-marins japonais procurent +1 en ravitaillement côtier.
+
+spec_defensive_doctrine_title = Doctrine Défensive.
+spec_defensive_doctrine_descr = Stratégie militaire visant à ralentir l'ennemi plutôt qu'à empêcher son avance, à gagner du temps et du terrain, tout en causant davantage de dégâts.
+spec_defensive_doctrine_effect = • L'infanterie japonaise peut creuser des trous de mitrailleuses |• L'infanterie japonaise lourde peut construire des bunkers.
+
+spec_super_sensha_title = Production de chars
+spec_super_sensha_descr = Alors que les chars et armes antichars ennemis se renforcent, l'armée impériale doit développer une nouvelle génération de véhicules blindés.
+spec_super_sensha_effect = • Des chars plus performants sont disponibles en début de campagne.
+
+spec_jet_power_title = Moteurs d'avions
+spec_jet_power_descr = De nouvelles technologies énergétiques telles que moteurs à injection directe, suralimentation et moteurs à réactions permettent d'élaborer des avions plus performants.
+spec_jet_power_effect = • Des avions plus performants sont disponibles en début de campagne.
+
+spec_gruppe_monsun_title = Groupe Mousson.
+spec_gruppe_monsun_descr = Soutien logistique et bases de ravitaillement des sous-marins allemands dans le Pacifique permettent à ces chasseurs efficaces de nous aider à détruire les transports Alliés.
+spec_gruppe_monsun_effect = • Deux sous-marins allemands Type IX vont rejoindre nos forces navales.
+
+spec_kamikaze_title = Kamikazés.
+spec_kamikaze_descr = Guidés par un sentiment de loyauté et d'honneur jusqu'à la mort, le Japon produit une arme plus précise et destructrice que toute autre : Les attaques de kamikazés.
+spec_kamikaze_effect = • L'avion peut être modifié en kamikazé|• Sous-marins suicides Kaiten, navires suicide Shinyo et AT Lunge Miners sont disponibles.
+
+spec_yanagi_missions_title = Missions Yanagi
+spec_yanagi_missions_descr = Grâce à notre ambassade à Berlin, nous pouvons acquérir sous licence des armes sophistiquées développées pour l'armée allemande, chars lourds et lances-missiles.
+spec_yanagi_missions_effect = • Chars Pzkw VI Tiger disponibles|• Lances-roquettes Nebelwerfer disponibles.
+
+spec_field_medics_title = Médecins militaires.
+spec_field_medics_descr = De bons soins sur le champ de bataille améliorent le moral des bléssés et leur permet de retourner plus rapidement au combat.
+spec_field_medics_effect = • Endommagées mais non détruites, les unités d'infanterie génèrent des points de ressources en combattant|• Une jeep médicalisée est ajoutée à l'effectif.
+
+spec_landing_craft_infantry_title = Péniches de débarquement 
+spec_landing_craft_infantry_descr = Développer des engins de débarquement à rampes et faible tirant d'eau devrait grandement améliorer nos capacités d'assauts amphibies sur les côtes ennemies.
+spec_landing_craft_infantry_effect = • Les unités d'infanterie emploient des engins pouvant attaquer des cibles côtières, facilitant les attaques immédiatement après le débarquement.
+
+spec_proximity_fuse_title = Fusée de proximité
+spec_proximity_fuse_descr = Les ondes radio peuvent être utilisées pour détecter la présence d'objets proches. Quand appliqué aux munitions anti-aériennes ce système peut déclencher des détonations près des cibles.
+spec_proximity_fuse_effect = • L'armement anti-aérien terrestre et naval fait plus de dégâts aux avions ennemis
+
+spec_landing_craft_tank_title = Landing Craft, Tank
+spec_landing_craft_tank_descr = Essentially larger versions of infantry landing craft, specialized amphibious assault ships allow the unloading of large numbers of even the heaviest tanks upon a beachhead.
+spec_landing_craft_tank_effect = • Large landing craft are available for tanks, allowing them to attack right after disembarking
+
+spec_advanced_aeronautics_title = Advanced Aeronautics
+spec_advanced_aeronautics_descr = Further investment in our aviation research and manufacturing institutions is a requirement to remain competitive in the aerial arms race.
+spec_advanced_aeronautics_effect = • More advanced aircraft become available earlier in the campaign
+
+spec_radar_i_title = Radar magnétron
+spec_radar_i_descr = Les avancées sur des radars utilisant des magnétrons à cavités résonantes permet la détection d'avions et de navires à plusieurs centaines de kilomètres.
+spec_radar_i_effect = • Ajoute une portée de 8 à tout navire de guerre.
+
+spec_radar_ii_title = Radar centimétrique
+spec_radar_ii_descr = Le radar à longueur d'onde centimétrique est capable de détecter de plus petits objets avec de plus petites antennes que sur les précédents systèmes radars à basse fréquence.
+spec_radar_ii_effect = • Ajoute une portée de 12 à tous les navires de guerre |• Ajoute uen portée de 5 à tous les avions
+
+spec_nuclear_bomb_title = Bombe nucléaire
+spec_nuclear_bomb_descr = Basée sur la science atomique moderne, un important projet de recherche et développement peut produire l'arme ultime : une bombe nucléaire.
+spec_nuclear_bomb_effect = • Des bombardiers nucléaires peuvent être achetés, pouvant effectuer une unique mais dévastatrice attaque sur une cible et les hexs adjacent
+
+spec_winter_gear_title = Équipement hivernal
+spec_winter_gear_descr = Équiper une armée pour un hiver rigoureux nécessite un important engagement de ressources, allant d'uniformes chaud et au camouflage adapté à un entretien spécial des moteurs et à des chenilles de chars plus larges.
+spec_winter_gear_effect = • Enlève les pénalités de combat subies pendant l'hiver
+
+spec_boot_camp_title = Entraînement spécialisé
+spec_boot_camp_descr = Des formations supplémentaires dans l'infanterie permettent aux recrues d'être plus compétente dans la guerre mobile et interarmes, de même que pour les tactiques de bas niveau et le maniement des armes.
+spec_boot_camp_effect = • Les unités d'infanterie nouvellement acquisent débutent avec 1 étoile d'expérience
+
+spec_flight_school_title = École de pilotage
+spec_flight_school_descr = Pour augmenter les chances de survie des nouveaux équipages leur entrainement doit inclure des heures de vol supplémentaires pour perfectionner les techniques de vol et de combat.
+spec_flight_school_effect = • Les unités aériennes nouvellement acquisent débutent avec 1 étoile d'expérience.
+
+spec_tank_school_title = École de chars
+spec_tank_school_descr = Des programmes d'entraînement intensifs pour les équipages de chars et les commandants leur permettent d'être plus efficaces au tir ,en communication, pour les manœuvres et pour la prise de décision tactique.
+spec_tank_school_effect = • Les blindés nouvellement achetés débutent avec 1 étoile d'expérience. 
+
+spec_naval_academy_title = Académie navale
+spec_naval_academy_descr = Les cadets de la Marine doivent obtenir les qualifications théoriques et pratiques nécessaires en navigation, artillerie et comportement correct en service actif dans la flotte.
+spec_naval_academy_effect = • Les unités navales nouvellement acquisent débutent avec 1 étoile d'expérience.
+
+spec_damage_control_title = Contrôle des dégâts
+spec_damage_control_descr = Pour garantir la meilleure gestion possible des dégâts critiques subis au combat, des mesures importantes de contrôle – et un entraînement constant dans leur exécution – sont essentielles.
+spec_damage_control_effect = • Les navires de guerre sérieusement endommagés subiront des dégâts réduits en cas d'attaque.
+
+spec_auftragstaktik_title = Auftragstaktik
+spec_auftragstaktik_descr = Les chefs d'unités de bas niveau sont autorisés à planifier et exécuter leurs ordres indépendamment. Cela offre un plus haut degré de flexibilité et libère les chefs de plus haut niveau de la planification des détails tactiques.
+spec_auftragstaktik_effect = • Les unités d'infanterie font +1 dégât aux cibles terrestres
+
+spec_panzer_fibel_title = Panzer Fibel
+spec_panzer_fibel_descr = Les nouveaux manuels d'entraînement aux blindés sont conçus pour retenir l'attention des jeunes hommes, utilisant des dessins humoristiques et des illustrations sur les risques avec l'argot des troupes de combat. 
+spec_panzer_fibel_effect = • Les blindés nouvellement achetés débutent avec 2 étoiles d'expérience |• Désactive l'effet de la spécialisation École de chars
+
+spec_pak_front_title = Front PaK2
+spec_pak_front_descr = Grouper plusieurs canons AC sous un unique officier, les canons peuvent alors tirer ensemble avec un ciblage sélectif, maximisant l'effet de surprise et minimisant les chances de ripostes.
+spec_pak_front_effect = • Les canons Anti-chars gagnent +2 en attaque contre les chars.• les canons anti-chars adjacent se soutiendrons l'un l'autre quand attaqué par des chars ennemis.
+
+spec_panzer_keil_title = Panzer Keil
+spec_panzer_keil_descr = Cette formation offensive de chars donnent aux véhicules une formation forme de coin. Les chars les plus lourds forment la pointe, laissant les véhicules plus vulnérables à l'abri des tirs ennemis.
+spec_panzer_keil_effect = • Lors d'une attaque, les chars gagnent un bonus défensif à partir des chars amis adjacents à eux-mêmes et à la cible, et qui possèdent la caractéristique "Écrasement".
+
+spec_panzer_lehr_title = Panzer Lehr
+spec_panzer_lehr_descr = Concentrer divers unités d'élites fournira une nouvelle division de panzer s composée de la crème des forces armées allemandes.
+spec_panzer_lehr_effect = • Offre un char Panther D avec 4 étoiles d'expérience|• Désactive l'effet de la spécialisation École de chars
+
+spec_waffen_ss_title = Waffen SS
+spec_waffen_ss_descr = Après avoir servi sous l'OKW, la Waffen-SS formera sa propre structure de commandement. Pour développer encore plus cette force de combattants fanatiques, des voluntaires sont maintenant recrutés dans les territoires conquis.
+spec_waffen_ss_effect = • La Waffen SS formera une faction séparée au sein des forces armées allemandes.
+
+spec_beutepanzer_title = Beutepanzer
+spec_beutepanzer_descr = Les véhicules pris durant la retraite de nos ennemis peuvent être ajoutés dans nos divisions de panzers et motorisées. Certaines de ces machines ont même des avantages distincts sur notre propre équipement.
+spec_beutepanzer_effect = • Plusieurs types d'équipements capturés seront disponibles à l'achat.
+
+spec_supply_subs_title = Sous-marins de ravitaillement
+spec_supply_subs_descr = D'importants cargos sous-marins peuvent être utilisés pour fournir du carburant, des torpilles et de la nourriture fraîche aux autres sous-marins en patrouille de combat, permettant à ces derniers d'opérer plus longtemps dans des eaux hostiles.
+spec_supply_subs_effect = • Le temps de rechargement des torpilles des sous-marins est réduit de 1 tour
+
+spec_flight_deck_wing_title = Stationnement sur le pont d'envol
+spec_flight_deck_wing_descr = Le nombre d'avions qu'un porte-avions est conçu pour transporter peut être augmenté en adoptant la pratique de stationner des avions supplémentaires sur le pont d'envol.
+spec_flight_deck_wing_effect = • 1 unité aérienne peut décoller par porte-avions sans perte d'efficacité.
+
+spec_drop_tank_title = Réservoir largable
+spec_drop_tank_descr = Des réservoirs externes de carburant, déjà en utilisation sur de nombreux bombardiers, peuvent augmenter la portée opérationnelle des avions de chasse. Pour réduire le poids et augmenter la maneuvrabilité ils sont conçus pour pouvoir être jeté lors des combats.
+spec_drop_tank_effect = • La limite de carburant des avions de chasse augmente de 2 tours
+
+spec_wire_guided_bomb_title = Bombe filo-guidée
+spec_wire_guided_bomb_descr = Guidée par son opérateur vers la cible, cette nouvelle arme de précision est équipé d'ailerons contrôlés par radio et d'un gyroscope interne pour maintenir sa trajectoire.
+spec_wire_guided_bomb_effect = • Les bombardiers tactiques gagnent +5 en attaque contre les infrastructures et les unités navales
+
+spec_ersatz_title = Ersatz
+spec_ersatz_descr = Produits de substitution pour des ressources rares comme le caoutchouc, le carburant et les alliages métalliques, les produits ersatz offrent une solution de remplacement à moindre prix mais de moindre qualité.
+spec_ersatz_effect = • Le coût de toutes les unités est réduit de 5 pour-cent.
+
+spec_resistance_fighters_title = Combattants de la résistance
+spec_resistance_fighters_descr = Les mouvements organisés de résistance dans les territoires occupés peuvent soutenir l'effort de guerre par le sabotage, des assassinats, la désinformation et la propagande ou même en assistant des opérations militaires.
+spec_resistance_fighters_effect = • Recevez une unité de combattants de la résistance qui peut être déployée en territoire ennemi.
+
+spec_wehrmacht_canister_title = Réservoir de la Wehrmacht
+spec_wehrmacht_canister_descr = La nouvelle conception des réservoirs de carburant a trois poignées pour permettre une manipulation facile par un ou deux individus, alors que des indentations en forme de croix renforce le réservoir et permette au contenu de s'élargir selon les conditions météo.
+spec_wehrmacht_canister_effect = • +1 Point de Commandement terrestre
+
+spec_jerry_can_title = Jerry Can
+spec_jerry_can_descr = Copier les réservoir allemands de carburant de la Wehrmacht – qui sont supérieurs en manipulation et capacité de stockage – résultera en de notables améliorations logistiques.
+spec_jerry_can_effect = • +1 Point de Commandement terrestre
+
+spec_war_economy_title = Économie de guerre
+spec_war_economy_descr = Une économie de guerre est l'ensemble des possibilités entreprises par un état moderne pour mobiliser son économie pour une production de guerre. Les mesures prises incluent l'augmentation des taxes de même que l'introduction de programmes d'attribution de ressources
+spec_war_economy_effect = • +2 Points de Commandement terrestre et naval|• +1 Point de Commandement aérien
+
+spec_female_laborers_title = Travail ds femmes à l'usine
+spec_female_laborers_descr = La main d'oeuvre féminine doit remplace les millions d'hommes combattant maintenant sur les lignes de front. Ces femmes serviront pour des emplois avant considéré pour les hommes ou trop dangereux in jobs.
+spec_female_laborers_effect = • +2 Points de Commandement terrestre et naval|• +1 Point de Commandement aérien
+
+spec_unrestricted_submarines_title = Guerre sous-marine illimitée 
+spec_unrestricted_submarines_descr = Selon les règles navales d'engagement, les sous-marins doivent permettre aux marchands d'abandonner le navire avant de l'attaquer. Sans de telles restrictions, l'efficacité d'un sous-marin et ses chances de survie augmentent de manière significatives.
+spec_unrestricted_submarines_effect = • Les sous-marins gagnent +3 en attaque contre les navires de transport et de ravitaillement
+
+spec_scrambling_title = Brouillage
+spec_scrambling_descr = Comme les observations  radar détectent les avions ennemis, les pilotes de chasseurs reçoivent l'ordre de "brouiller" avec une forte sirène d'alarme. Une réponse rapide de ces équipages aériens leur permet de prendre une position plus avantageuse face aux foramtions ennemies arrivant.
+spec_scrambling_effect = • Les avions de chasse basés au sol peuvent décoller, se déplacer et attaquer durant le même tour |• Les avions de chasse basés au sol perdent moins d'efficacité durant le tour de leur décollage.
+
+spec_field_camouflage_title = Camouflage dans le terrain
+spec_field_camouflage_descr = Hormis l'utilisation de filet de camouflage et de motifs de couleurs, une utilisation habile des caractéristiques du terrain et des équipements disponibles peut aider à dissimuler des ressources militaires contre les observations terrestres et aériennes.
+spec_field_camouflage_effect = • Les chars, l'artillerie et les armes anti-chars peuvent être dissimulés contre l'observation aérienne et distante
+
+spec_tizard_mission_title = Mission Tizard 
+spec_tizard_mission_descr = Une délégation britannique visite les États-Unis, apportant des détails concernant une des plus grandes avancées scientifique faite ces récentes années. Leur but est d'utiliser les ressources de l'industrie américaine pour exploiter le potentiel militaire de ces nouvelles technologies.
+spec_tizard_mission_effect = • Permet la recherche de plusieurs spécialisations de haute-technologie
+
+spec_wolfpack_title = Meute de loups
+spec_wolfpack_descr = Quand des groupes de plusieurs sous-marins corrdonnent leurs attaques contre des convois ennemis, ils ont une meilleure chance contre la menace des navires de guerre d'escorte.
+spec_wolfpack_effect = • Les sous-marins gagnent +2 en attaque contre les petits et les grands navires |• Les sous-marins gagnent +2 en défense navale 
+
+spec_thach_weave_title = Entrelacement de Thach
+spec_thach_weave_descr = Conçu par l'aviateur naval John S. Thach, cette tactique de combat aérien permet aux pilotes de chasseurs de vaincre un adversaire maneuvrant mieux à la queue de son ailier.
+spec_thach_weave_effect = • Les chasseurs gagnent +1 en attaque contre de petites cibles aériennes 
+
+spec_elite_air_groups_title = Groupes aériens d'élite
+spec_elite_air_groups_descr = Avec des critères de sélection très stricts, l'entraînement des pilotes japonais met l'accent sur la qualité au lieu de la quantité. Alors que la guerre éclate, les unités de combat puisent ces équipages aériens parmi les groupements d'entraînement expérimentés.
+spec_elite_air_groups_effect = • Les deux premières unité aériennes commandés gagnent 3 étoiles d'expérience.
+
+event_wiking_title = Division SS Wiking 
+event_wiking_text = Composée de volontaires scandinaves, dont des vétérans de la Guerre d'hiver contre l'Union Soviétique.
+
+tooltip_specialisation_locked = Vous n'avez pas encore déverrouillé toutes les spécialisations nécessaires.
+specialisation_points = Points de Spécialisation
+
+// Dev Note: The "%" is replaced by a numeric value
+specialisation_points_increased = Vous avez gagné % de nouveaux points de spécialisation. Voulez-vous consulter maintenant la fenêtre de spécialisation ?
+
+terrain_village = Village tropical
+terrain_euro_village = Village européen
+
+tutorial_specialisations_title = Spécialisations
+tutorial_specialisations = Les Spécialisations représentent de nouvelles technologies, doctrines ou innovations que les nations mettent en œuvre pour soutenir l'effort de guerre. Elles peuvent être achetées avec des Points de Spécialisation (PdS), qui sont obtenus en terminant des missions et des objectifs secondaires spécifiques.
+tutorial_specialisations_2_title = Critères de Spécialisation
+tutorial_specialisations_2 = Hormis le coût en PdS, certaines spécialisations sont seulement disponibles après une certaine date ou nécessite d'autres spécialisations pour être déverrouillées.
+tutorial_core_export_title = Exportation force principale
+tutorial_core_export = Vous pouvez exporter votre actuelle force principale depuis toute campagne aprè avoir terminée sa première mission. Cela sauvegardera vos unités actuelles, leur historique et leur expérience et permettra de les importer au début de certaines autres campagnes.
+tutorial_core_import_title = Importation force principale
+tutorial_core_import = Des forces principales précédemment exportées depuis des campagnes spécifiques peuvent être importées au début de cette campagne. Cela permet de conserver l'ensemble de votre liste d'unités entre des campagnes consécutives.
+tutorial_core_import_2_title = Force principale importée
+tutorial_core_import_2 = Ces unités importées sont maintenant affichées dans l'onglet "Unités détruites et principales" dans la liste des unités.||D'anciennes unités principales doivent être refromées à un coût complet, mais conservent leur historique de combat et un pourcentage de leur expérience.
+
+tutorial_content_blitzkrieg_title = [Nouveau contenu] Blitzkrieg
+tutorial_content_blitzkrieg = L'invasion allemande de la Pologne mis en place une chaîne d'événements menant à la plus grande guerre que le monde ait jamais connu. Cette campagne met le joueur en charge des forces armées de l'Allemagne durant les premiers jours de la Seconde Guerre mondiale jusqu'à la violente bataille de Moscou en 1941.
+
+tooltip_add_specialisation = Ajouter une spécialisation
+
+spec_block_construction_title = Construction de bloc
+spec_block_construction_descr = Le temps de construction de navire peut être réduit en fabricant des parties de la coque et de superstructures en modules préfabriqués, construit extérieurement et ensuite assemblés dans l'endroit.
+spec_block_construction_effect = • Toutes les unités navales sont 10% moins chère à l'achat
+
+spec_liberty_ships_title = Liberty Ships
+spec_liberty_ships_descr = La conception des cargos de classe Liberty repose sur sa simplicité, un bas coût de cosntruction, permettant une production de masse à une échelle d'une ampleur sans précédent.
+spec_liberty_ships_effect = • Les navires de ravitaillement, de transport et de soutien reçoivent un bonus défensif bonus|• Les navires de ravitaillement fournissent +8 d'approvisionnement côtier
+
+spec_pilot_rotation_title = Rotation des pilotes
+spec_pilot_rotation_descr = Faire alterner les pilotes entre la ligne de front et l'intérieur leur permet non seulement de se reposer mais aussi de partager leur expérience dans les programmes d'entraînement des jeunes pilotes.
+spec_pilot_rotation_effect = • La réparation implicite maintient l'expérience à 70% pour les unités aériennes|• Le coût de réparation pour l'élite est réduit de 20% pour les unités aériennes
+
+spec_forced_labour_title = Travaux forcés.
+spec_forced_labour_descr = Le fait d'abriter des milliers de prisonniers de guerre demande un énorme effort à notre économie et notre logistique, à moins qu'ils ne soient déployés comme une main-d'œuvre non volontaire.
+spec_forced_labour_effect = • Endommager des unités notées 0 en Ravitaillement et Efficience génére des points de ressources.
+
+unit_status_unavailable = Indisponible

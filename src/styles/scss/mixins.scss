@@ -1,0 +1,7 @@
+// Mixins
+
+@import "variables";
+
+@mixin simple-shadow($color) {
+  text-shadow: 0 0 1px $color, 0 0 2px $color, 0 0 3px $color, 0 0 4px $color, 0 0 5px $color;
+}

@@ -1,0 +1,36 @@
+# deny everything that's not allowed
+order allow,deny
+
+# allow base dir
+<Files ".">
+allow from all
+</Files>
+
+# all the permitted entry points
+<Files ~ "^(index\.php)$">
+allow from all
+</Files>
+
+# various browser-related file extensions
+<Files ~ "\.(html|css|js||jpg|jpeg|gif|png|ico|woff|woff2|ttf|svg|eot)$">
+allow from all
+</Files>
+
+# crawler access restrictions
+<Files "robots.txt">
+allow from all
+</Files>
+
+# url rewriting
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# redirect blind favicon requests to the right location
+RewriteRule favicon.ico /img/favicon-ie.ico [L]
+# shorten pointless urls containing explicit entry point
+RewriteRule index.php / [QSA,L,R=301]
+</IfModule>
+
+# compression of text
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</IfModule>

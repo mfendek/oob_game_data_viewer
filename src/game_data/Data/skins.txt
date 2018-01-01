@@ -1,0 +1,52 @@
+[3_COLOR_PATCHES]
+id = 0
+texture = japan_0
+factions = japan, ijn
+category = land
+
+[3_COLOR_STROKES]
+id = 1
+texture = japan_1
+factions = japan, ijn
+category = land
+
+[3_COLOR_OUTLINED]
+id = 2
+texture = japan_2
+factions = japan, ijn
+category = land
+
+[2_COLOR_OLIVE]
+id = 3
+texture = usa_0
+factions = usa, redusa, usarmy
+category = land
+
+[OLIVE_BEIGE_OUTLINED]
+id = 4
+texture = usa_1
+factions = usa, redusa, usarmy
+category = land
+
+[OLIVE_BRONZE_PATCHES]
+id = 5
+texture = usa_2
+factions = usa, redusa, usarmy
+category = land
+
+[SAND_STORM]
+id = 6
+texture = general_2
+category = land
+
+[GERMAN_DESERT_1]
+id = 7
+texture = german_0
+factions = germany, waffen_ss, kriegsmarine
+category = land
+
+[GREEN_BEIGE_WEB]
+id = 8
+texture = british_0
+factions = britain, raf, canada, new_zealand, australia
+category = land

@@ -1,0 +1,235 @@
+﻿// SPECIALISATIONS
+
+spec_banzai_charge_title = Banzai-Sturmangriff
+spec_banzai_charge_descr = Bajonett und Katana sind die wichtigsten Waffen unserer Krieger. Sie stehen für Kampfgeist und Loyalität zum Kaiser.
+spec_banzai_charge_effect = • Japanische Infanterie- und Marineinfanterieeinheiten können in den Banzai-Modus wechseln, der riskant, aber potenziell todbringend ist.
+
+spec_bushido_code_title = Bushido-Kodex
+spec_bushido_code_descr = Der Bushido-Kodex gibt unseren Soldaten das moralische Rüstzeug für den Krieg und basiert auf den traditionsreichen Wegen der Samuraikrieger. Der Krieg ist läuternd... und der Tod eine Pflicht.
+spec_bushido_code_effect = • Japanische Einheiten mit Versorgungsengpass (rotes Symbol) verursachen mehr Schaden, wenn sie angegriffen werden.
+
+spec_tokyo_express_title = Tokyo Express
+spec_tokyo_express_descr = Durch das Ersetzen von Handelsschiffen durch Zerstörer und U-Boote können Waren und Verstärkungstruppen sicherer zu entfernten Inselgarnisonen transportiert werden.
+spec_tokyo_express_effect = • Japanische Zerstörer und U-Boote können Küsten um +1 besser versorgen.
+
+spec_defensive_doctrine_title = Defensive Doktrin
+spec_defensive_doctrine_descr = Im Gegensatz zu unserer traditionell eher offensiv ausgelegten Kampfweise ist unsere neu ersonnene Strategie darauf ausgelegt, den Feind mit einem tiefen Netzwerk aus Verteidigungsstellungen in einem Zermürbungskrieg zu schlagen.
+spec_defensive_doctrine_effect = • Japanische Infanterie kann MG-Schützenlöcher errichten.|• Japanische Schwere Infanterie kann Bunker errichten.
+
+spec_super_sensha_title = Panzerproduktionsprogramm
+spec_super_sensha_descr = Da die feindlichen Panzer und Panzerabwehrwaffen immer schlagkräftiger werden, muss die Kaiserlich Japanische Armee nachziehen und ihre eigene neue Generation gepanzerter Kampffahrzeuge entwickeln.
+spec_super_sensha_effect = • Fortschrittlichere Panzer werden bereits früher in der Kampagne verfügbar.
+
+spec_jet_power_title = Leistungsstarke Flugzeugmotoren
+spec_jet_power_descr = Neue Triebwerktechnologien wie die Treibstoff-Direkteinspritzung, Kompressoren und Düsentriebwerke ermöglichen noch leistungsstärkere Flugzeugkonstruktionen.
+spec_jet_power_effect = • Fortschrittlichere Flugzeuge werden bereits früher in der Kampagne verfügbar.
+
+spec_gruppe_monsun_title = Gruppe Monsun
+spec_gruppe_monsun_descr = Dadurch, dass wir deutschen U-Booten in unserem pazifischen Territorium unsere Logistik und Versorgungsbasen zur Verfügung stellen, ermöglichen wir es unserem Verbündeten, uns bei der Vernichtung feindlicher Schiffe zu unterstützen.
+spec_gruppe_monsun_effect = • Zwei deutsche U-Boote der Klasse IX werden Ihren Seestreitkräften hinzugefügt.
+
+spec_kamikaze_title = Kamikaze
+spec_kamikaze_descr = Dadurch, dass Werte wie bedingungslose Loyalität und Ehre bis in den Tod gesellschaftlich akzeptiert sind, kann Japan mit einer Waffe aufwarten, die treffsicherer und zerstörerischer ist als jede andere Waffe: Kamikaze-Selbstmordangriffe.
+spec_kamikaze_effect = • Flugzeuge können in den Kamikaze-Modus wechseln.|• Kaiten Kamikaze-U-Boote, Shinyo Kamikaze-Sprengboote und Kamikaze-Panzerabwehrinfanterie stehen zum Kauf bereit.
+
+spec_yanagi_missions_title = Yanagi-Missionen
+spec_yanagi_missions_descr = Über unsere Botschaft in Berlin können wir in den Besitz von Produktionslizenzen für den Bau von herausragenden Waffen gelangen, die für die deutsche Armee konzipiert wurden. Besonders in der Entwicklung schwerer Panzer und Raketenwerfer sind die Deutschen sehr erfahren.
+spec_yanagi_missions_effect = • Panzer des Typs PzKpfw VI Tiger stehen zum Kauf bereit.|• Raketenwerfer des Typs Nebelwerfer stehen zum Kauf bereit.
+
+spec_field_medics_title = Frontsanitäter
+spec_field_medics_descr = Eine gute medizinische Versorgung der Kranken und Verwundeten auf den Schlachtfeldern sorgt für eine höhere Moral und führt außerdem dazu, dass genesene Soldaten wieder an der Front eingesetzt werden können.
+spec_field_medics_effect = • Infanterieeinheiten, die Schaden erlitten haben, aber nicht ausgeschaltet oder zum Rückzug gezwungen wurden, generieren im Kampf Ressourcenpunkte.|• Ein Sanitäts-Jeep wird Ihren Kerntruppen hinzugefügt.
+
+spec_landing_craft_infantry_title = Infanterie-Landungsboote
+spec_landing_craft_infantry_descr = Die Entwicklung von Landungsbooten mit Bugrampe und wenig Tiefgang erlaubt es uns, in Zukunft direkt an die Küste des Feindes vorzustoßen, und verbessert dadurch unsere Möglichkeiten der amphibischen Kriegsführung enorm.
+spec_landing_craft_infantry_effect = • Infanterieeinheiten benutzen Landungsboote, die Küstenziele unter Beschuss nehmen können und einen Angriff direkt nach dem Ausladen ermöglichen.
+
+spec_proximity_fuse_title = Abstandszünder
+spec_proximity_fuse_descr = Mithilfe von Funkwellen können Objekte in der Nähe geortet werden. Wird diese Technik für Flugabwehrmunition verwendet, kann die Detonation in direkter Nähe des Ziels ausgelöst werden.
+spec_proximity_fuse_effect = • Land- und Marineflugabwehrwaffen verursachen bei feindlichen Flugzeugen mehr Schaden.
+
+spec_landing_craft_tank_title = Landungsschiff, Panzer
+spec_landing_craft_tank_descr = Diese spezialisierten amphibischen Angriffsschiffe sind deutlich größer als Infanterielandungsschiffe und ermöglichen es selbst den schwersten Panzern, an einem Brückenkopf entladen zu werden.
+spec_landing_craft_tank_effect = • Große Landungsschiffe für Panzer sind verfügbar. Diese können direkt nach dem Ausladen angreifen.
+
+spec_advanced_aeronautics_title = Hochentwickelte Aeronautik
+spec_advanced_aeronautics_descr = Weitere Investitionen in unsere Luftfahrtforschung und -produktionsstätten sind nötig, um beim Wettrüsten in der Luft weiterhin Schritt halten zu können.
+spec_advanced_aeronautics_effect = • Fortschrittlichere Flugzeuge werden bereits früher in der Kampagne verfügbar.
+
+spec_radar_i_title = Magnetron-Radar
+spec_radar_i_descr = Die Weiterentwicklung des Mikrowellenradars mit verbesserten Vakuum-Laufzeitröhren ermöglicht die Ortung von Flugzeugen und Schiffen in hunderten Kilometern Entfernung.
+spec_radar_i_effect = • Die Radarreichweite aller Kriegsschiffe wird um 8 erhöht.
+
+spec_radar_ii_title = Zentimeterwellenradar
+spec_radar_ii_descr = Das Zentimeterwellenradar verfügt über kleinere Antennen als frühere Radarsysteme mit niedrigerer Frequenz und ist daher in der Lage, deutlich kleinere Ziele zu erfassen.
+spec_radar_ii_effect = • Die Radarreichweite aller Kriegsschiffe wird um 12 erhöht.|• Die Radarreichweite aller Flugzeuge wird um 5 erhöht.
+
+spec_nuclear_bomb_title = Kernspaltungsbombe
+spec_nuclear_bomb_descr = Basierend auf modernster Atomphysik geht aus umfangreichen Forschungen und Entwicklungsprojekten die ultimative Waffe hervor: die Atombombe.
+spec_nuclear_bomb_effect = • Nuklearbomber, die dem Zielfeld sowie den angrenzenden Feldern mit einem einzelnen, aber vernichtenden Schlag enormen Schaden zufügen können, stehen zum Kauf bereit.
+
+spec_winter_gear_title = Winterausrüstung
+spec_winter_gear_descr = Eine Armee für den strengen Winter auszurüsten erfordert ein hohes Ressourcenaufkommen, da für warme Uniformen, eine angepasste Tarnung, breitere Panzerketten und eine spezielle Wartung der Maschinen gesorgt werden muss.
+spec_winter_gear_effect = • Entfernt Kampfmalusse, die den erschwerten Bedingungen im Winter geschuldet sind.
+
+spec_boot_camp_title = Spezialausbildung
+spec_boot_camp_descr = Zusätzliche Ausbildungsprogramme bereiten die Infanterie noch besser auf Gefechte der verbundenen Waffen und den Bewegungskrieg vor und schulen sie noch intensiver in grundlegender Taktik sowie im Umgang mit Waffen.
+spec_boot_camp_effect = • Neu gekaufte Infanterieeinheiten haben bereits 1 Erfahrungsstern.
+
+spec_flight_school_title = Flugschule
+spec_flight_school_descr = Um die Überlebenschancen frischer Piloten zu erhöhen, müssen sie zusätzliche Flugstunden absolvieren und damit sowohl ihre grundlegende Flugtechnik als auch ihre Kampftaktiken perfektionieren.
+spec_flight_school_effect = • Neu gekaufte Lufteinheiten haben bereits 1 Erfahrungsstern.
+
+spec_tank_school_title = Panzerschule
+spec_tank_school_descr = Umfassende Ausbildungsprogramme für Panzerbesatzungen und -kommandanten verbessern ihre Fähigkeiten beim Schießen, bei der Kommunikation, bei Manövern und bei der taktischen Entscheidungsfindung.
+spec_tank_school_effect = • Neu gekaufte Panzer haben bereits 1 Erfahrungsstern.
+
+spec_naval_academy_title = Marineakademie
+spec_naval_academy_descr = Marinekadetten müssen die erforderliche theoretische und praktische Qualifikation in den Bereichen Seefahrtskunst, Navigation, Geschützhandhabung und Benehmen im aktiven Dienst bei der Flotte erlangen.
+spec_naval_academy_effect = • Neu gekaufte Seeeinheiten haben bereits 1 Erfahrungsstern.
+
+spec_damage_control_title = Schiffssicherung
+spec_damage_control_descr = Um im Kampf zu gewährleisten, dass auf erlittenen kritischen Schaden bestmöglich reagiert werden kann, sind intensive Maßnahmen zur Schadenskontrolle - und regelmäßige Übungen für deren Durchführung - unabdingbar.
+spec_damage_control_effect = • Stark beschädigte Kriegsschiffe erleiden verringerten Schaden, wenn sie angegriffen werden.
+
+spec_auftragstaktik_title = Führen mit Auftrag
+spec_auftragstaktik_descr = Befehlshaber mit niedrigem Dienstgrad dürfen die Befehle für ihre Einheiten unabhängig planen und erteilen. Dies sorgt dafür, dass die einzelnen Einheiten flexibler sind und dass sich die höherrangigen Befehlshaber nicht mehr um taktische Details kümmern müssen.
+spec_auftragstaktik_effect = • Infanterieeinheiten verursachen bei allen Bodenzielen +1 Schaden.
+
+spec_panzer_fibel_title = Panzerfibel
+spec_panzer_fibel_descr = Für die Ausbildung werden neue Panzerhandbücher gestaltet, damit die jungen Rekruten einen besseren Zugang zu den Inhalten finden. Dabei wird auf humorvolle, karikaturartige und erotische Illustrationen sowie auf umgangssprachliche Formulierungen zurückgegriffen.
+spec_panzer_fibel_effect = • Neu gekaufte Panzer haben bereits 2 Erfahrungssterne.|• Setzt den Effekt der Spezialisierung "Panzerschule" außer Kraft.
+
+spec_pak_front_title = Pakfront
+spec_pak_front_descr = Mehrere Panzerabwehrkanonen werden einem einzelnen Offizier unterstellt, wodurch sie gleichzeitig auf bestimmte Ziele feuern können. Das Überraschungselement wird dadurch maximiert, während gleichzeitig die Wahrscheinlichkeit, dass der Feind das Feuer erwidert, minimiert wird.
+spec_pak_front_effect = • Panzerabwehrkanonen verursachen bei Panzern +2 Schaden.|• Aneinander angrenzende Panzerabwehrkanonen unterstützen sich im Falle eines feindlichen Panzerangriffs gegenseitig.
+
+spec_panzer_keil_title = Panzerkeil
+spec_panzer_keil_descr = Bei dieser offensiven Panzerformation nehmen die Panzer eine keilförmige Aufstellung ein. Die schwersten Panzer bilden die Spitze und schützen damit die verwundbareren Panzer vor feindlichem Beschuss.
+spec_panzer_4_effect = • Beim Angriff erhalten Panzer einen Verteidigungsbonus von verbündeten Panzern, die an sie und das Angriffsziel angrenzen und die Eigenschaft "Schwergewicht" aufweisen.
+
+spec_panzer_lehr_title = Panzer-Lehr-Division
+spec_panzer_lehr_descr = Mehrere Einheiten aus Panzertruppenschulen werden zusammengelegt und bilden eine neue Panzerdivision bestehend aus den besten gepanzerten Verbänden des Deutschen Reiches.
+spec_panzer_lehr_effect = • Sie erhalten einen Panzer des Typs Panther D mit 4 Erfahrungssternen.|• Setzt den Effekt der Spezialisierung "Panzerschule" außer Kraft.
+
+spec_waffen_ss_title = Waffen-SS
+spec_waffen_ss_descr = Nachdem die Waffen-SS dem OKW unterstellt war, ist sie nun organisatorisch eigenständig. Zur Verstärkung dieser fanatischen Verbände werden in eroberten Gebieten Freiwillige rekrutiert.
+spec_waffen_ss_effect = • Die Waffen-SS bildet unabhängige Verbände innerhalb der Streitkräfte des Deutschen Reiches.
+
+spec_beutepanzer_title = Beutepanzer
+spec_beutepanzer_descr = Fahrzeuge, die im Zuge des feindlichen Rückzugs erbeutet werden, können in unsere eigenen Panzerdivisionen und motorisierten Verbände eingegliedert werden. Einige dieser Einheiten sind den unseren sogar deutlich überlegen.
+spec_beutepanzer_effect = • Mehrere erbeutete Einheitentypen stehen zum Kauf bereit.
+
+spec_supply_subs_title = Versorgungs-U-Boote
+spec_supply_subs_descr = Große Fracht-U-Boote werden mit Treibstoff, Torpedos und Nahrungsmitteln beladen und können U-Boote auf Feindfahrt versorgen, wodurch diese länger in feindlichen Gewässern operieren können.
+spec_supply_subs_effect = • Die Torpedo-Nachladezeit von U-Booten wird um 1 Runde verringert.
+
+spec_flight_deck_wing_title = Flugdecknutzung
+spec_flight_deck_wing_descr = Die Anzahl von Flugzeugen, die ein Flugzeugträger transportieren kann, wird dadurch erhöht, dass zusätzliche Flugzeuge auf dem Flugdeck abgestellt werden können.
+spec_flight_deck_wing_effect = • Pro Flugzeugträger kann 1 Lufteinheit ohne Effizienzverlust starten.
+
+spec_drop_tank_title = Abwurftank
+spec_drop_tank_descr = Treibstofftanks an Außenlastträgern, wie sie bereits bei vielen Bombern zum Einsatz kommen, erhöhen nun auch die Operationsreichweite von Jagdflugzeugen. Sie sind so konzipiert, dass sie im Kampf abgeworfen werden können, um den Luftwiderstand und das Gewicht zu verringern und die Manövrierbarkeit zu erhöhen.
+spec_drop_tank_effect = • Das Treibstofflimit von Jagdflugzeugen wird um 2 Runden erhöht.
+
+spec_wire_guided_bomb_title = Präzisionsgelenkte Bombe
+spec_wire_guided_bomb_descr = Diese neuartigen Bomben sind mit ferngesteuerten Heckrudern ausgestattet, wodurch sie in Richtung des Ziels gelenkt werden können. Zudem verfügen sie über einen internen Kreiselstabilisator zur Stabilisierung der Flugbahn.
+spec_wire_guided_bomb_effect = • Taktische Bomber erhalten +5 Angriff gegen Gebäude und Seeeinheiten.
+
+spec_ersatz_title = Ersatzstoffe
+spec_ersatz_descr = Ersatzstoffe werden entwickelt, um seltene Rohstoffe wie Gummi, Öl und bestimmte Metalllegierungen durch minderwertigere, aber kostengünstigere Alternativen zu ersetzen.
+spec_ersatz_effect = • Alle Einheitenkosten werden um 5% verringert.
+
+spec_resistance_fighters_title = Widerstandskämpfer
+spec_resistance_fighters_descr = Organisierte Widerstandsbewegungen in besetzten Gebieten können die Kriegsanstrengungen mit Sabotage, Attentaten, Desinformation und Propaganda unterstützen und sich sogar an militärischen Operationen beteiligen.
+spec_resistance_fighters_effect = • Sie erhalten eine Einheit Widerstandskämpfer, die im feindlichen Territorium aufgestellt werden kann.
+
+spec_wehrmacht_canister_title = Wehrmacht-Einheitskanister
+spec_wehrmacht_canister_descr = Die neuen Kraftstoffbehälter sind mit drei Henkeln ausgestattet und können bequem von ein oder zwei Personen getragen werden. Die kreuzförmigen Prägungen sorgen für eine zusätzliche Verstärkung des Blechs, wodurch sich der Inhalt des Behälters abhängig vom Wetter ausdehnen kann.
+spec_wehrmacht_canister_effect = • +1 Landbefehlspunkt
+
+spec_jerry_can_title = Jerrycan
+spec_jerry_can_descr = Durch das Kopieren des deutschen Wehrmacht-Einheitskanisters mit seiner praktischen, platzsparenden Handhabung werden wir unsere Logistik merklich optimieren.
+spec_jerry_can_effect = • +1 Landbefehlspunkt
+
+spec_war_economy_title = Kriegswirtschaft
+spec_war_economy_descr = Die Wirtschaft wird auf die Notwendigkeiten des Krieges ausgerichtet, um den Anforderungen der Kriegslage möglichst gut gerecht zu werden. Zu den ergriffenen Maßnahmen gehören Steuererhöhungen und Ressourcenumverteilungen.
+spec_war_economy_effect = • +2 Land- und Seebefehlspunkte|• +1 Luftbefehlspunkt
+
+spec_female_laborers_title = Frauenarbeit
+spec_female_laborers_descr = Frauen müssen nun als Arbeiter die Millionen von Männern ersetzen, die an der Front kämpfen. Dabei gehen sie Tätigkeiten nach, die bisher überwiegend Männern vorbehalten waren oder als zu gefährlich galten.
+spec_female_laborers_effect = • +2 Land- und Seebefehlspunkte|• +1 Luftbefehlspunkt
+
+spec_unrestricted_submarines_title = Uneingeschränkter U-Boot-Krieg
+spec_unrestricted_submarines_descr = Laut Marineeinsatzregeln müssen U-Boote der Besatzung von Handelsschiffen die Möglichkeit geben, ihr Schiff zu verlassen, bevor sie es angreifen. Ohne diese Einschränkung steigen sowohl die Kampfeffektivität als auch die Überlebenschancen der U-Boote enorm.
+spec_unrestricted_submarines_effect = • U-Boote erhalten +3 Angriff gegen Transport- und Versorgungsschiffe.
+
+spec_scrambling_title = Alarmstart
+spec_scrambling_descr = Die Jagdflugzeuge und ihre Besatzung befinden sich dauerhaft in Bereitschaft. Wenn Radarsysteme feindliche Flugzeuge orten, wird ein lauter Alarm ausgelöst und die Piloten sind sofort zur Stelle, um mit ihren einsatzbereiten Flugzeugen zu starten. Auf diese Weise gelangen sie gegen die herannahenden feindlichen Formationen in eine bessere Position.
+spec_scrambling_effect = • Landgestützte Jagdflugzeuge können in derselben Runde starten, sich bewegen und angreifen.|• Landgestützte Jagdflugzeuge büßen in der Runde ihres Starts weniger ihrer Effizienz ein.
+
+spec_field_camouflage_title = Geländetarnung
+spec_field_camouflage_descr = Neben der Verwendung der regulären Tarnnetze und Farbmuster wird auch das Gelände und verfügbare Material geschickt in die Tarnung miteinbezogen, was den Einheiten helfen kann, sich den Blicken der Aufklärung vom Boden und aus der Luft zu entziehen.
+spec_field_camouflage_effect = • Panzer, Geschütze und Panzerabwehrwaffen werden durch Luft- und Distanzbeobachtung nicht entdeckt.
+
+spec_tizard_mission_title = Tizard-Kommission
+spec_tizard_mission_descr = Eine britische Delegation reist in die Vereinigten Staaten und hat Informationen über einige der wichtigsten wissenschaftlichen Fortschritte der letzten Jahre bei sich. Das militärische Potenzial dieser neuen Technologien soll durch die Nutzung der industriellen Mittel Amerikas ausgeschöpft werden.
+spec_tizard_mission_effect = • Ermöglicht die Erforschung mehrerer Hightech-Spezialisierungen.
+
+spec_wolfpack_title = Rudeltaktik
+spec_wolfpack_descr = Wenn U-Boote im Verband feindliche Konvois angreifen, stehen ihre Chancen gegen die Bedrohung durch eskortierende Kriegsschiffe besser.
+spec_wolfpack_effect = • U-Boote erhalten +2 Angriff gegen kleine und große Schiffe.|• U-Boote erhalten +2 Seeverteidigung.
+
+spec_thach_weave_title = Thach Weave
+spec_thach_weave_descr = Diese Luftkampftaktik wurde von dem Marineflieger John S. Thach erfunden und ermöglicht es dem Kampfpiloten, einen wendigeren Gegner zu besiegen, der sich an das Heck seines Flügelmannes geheftet hat.
+spec_thach_weave_effect = • Jagdflugzeuge erhalten +1 Angriff gegen kleine Luftziele.
+
+spec_elite_air_groups_title = Elite-Lufteinheiten
+spec_elite_air_groups_descr = Der Ausbildung der japanischen Piloten geht ein äußerst striktes Auswahlverfahren voran, da auf Qualität anstatt Quantität gesetzt wird. Als der Krieg ausbricht, werden alle verfügbaren Flugzeugbesatzungen mit viel Erfahrung aus den Ausbildungslagern geholt.
+spec_elite_air_groups_effect = • Die ersten 2 gekauften Lufteinheiten haben bereits 3 Erfahrungssterne.
+
+event_wiking_title = SS-Division "Wiking"
+event_wiking_text = Diese Einheit besteht aus skandinavischen Freiwilligen, darunter Veteranen des Winterkriegs gegen die Sowjetunion.
+
+tooltip_specialisation_locked = Sie haben noch nicht alle erforderlichen Spezialisierungen freigeschaltet.
+specialisation_points = Spezialisierungspunkte
+
+// Dev Note: The "%" is replaced by a numeric value
+specialisation_points_increased = Sie haben % neue Spezialisierungspunkte erhalten. Möchten Sie nun das Spezialisierungsfenster öffnen?
+
+terrain_village = Tropisches Dorf
+terrain_euro_village = Europäisches Dorf
+
+tutorial_specialisations_title = Spezialisierungen
+tutorial_specialisations = Spezialisierungen repräsentieren neuartige Technologien, strategische Konzepte und Innovationen, die Nationen umsetzen, um ihre Kriegsanstrengungen voranzutreiben. Sie können mit Spezialisierungspunkten (SP) erworben werden, die Sie erhalten, indem Sie Missionen abschließen und bestimmte sekundäre Ziele erfüllen.
+tutorial_specialisations_2_title = Spezialisierungsvoraussetzungen
+tutorial_specialisations_2 = Zusätzlich zu den SP-Kosten setzen manche Spezialisierungen voraus, dass zuvor andere Spezialisierungen freigeschaltet wurden oder ein bestimmtes Datum erreicht wurde.
+tutorial_core_export_title = Kerntruppen-Export
+tutorial_core_export = Sie können in jeder Kampagne Ihre aktuellen Kerntruppen exportieren, sobald Sie die erste Mission der entsprechenden Kampagne abgeschlossen haben. Ihre aktuellen Einheiten werden samt ihrem Werdegang und ihrer Erfahrung gespeichert und können zu Beginn bestimmter Kampagnen importiert werden.
+tutorial_core_import_title = Kerntruppen-Import
+tutorial_core_import = Kerntruppen, die aus bestimmten Kampagnen exportiert wurden, können zu Beginn dieser Kampagne importiert werden. Sie erhalten dadurch die Möglichkeit, Ihre komplette Einheitenliste einer Kampagne für die darauffolgende Kampagne zu übernehmen.
+tutorial_core_import_2_title = Importierte Kerntruppen
+tutorial_core_import_2 = Diese importierten Einheiten werden nun unter dem Reiter "Vernichtete und ehemalige Kerneinheiten" in der Einheitenliste angezeigt.||Ehemalige Kerneinheiten müssen zwar zum vollen Preis neu formiert werden, behalten jedoch ihren Werdegang und einen Teil ihrer Erfahrung.
+
+tutorial_content_blitzkrieg_title = [Neuer Inhalt] Blitzkrieg
+tutorial_content_blitzkrieg = Die Invasion Deutschlands in Polen war der Auslöser für eine Kette von Ereignissen, die schließlich zum größten Krieg der Geschichte geführt haben. In dieser Kampagne übernimmt der Spieler die Führung über die deutschen Truppen - von den ersten Tagen des Zweiten Weltkriegs bis zur unerbittlichen Schlacht um Moskau im Jahre 1941.
+
+tooltip_add_specialisation = Spezialisation hinzufügen
+
+spec_block_construction_title = Blockbau-Prinzip
+spec_block_construction_descr = Die Bauzeit für Schiffe wird reduziert durch die Verwendung von vorgefertigten Modulen für Rumpf und Aufbauten, die später nur zusammengfügt werden müssen.
+spec_block_construction_effect = • Alle Marineinheiten sind 10% billiger beim Kauf
+
+spec_liberty_ships_title = Liberty-Schiffe
+spec_liberty_ships_descr = Die Frachtschiffe der Liberty-Klasse sind so konzipiert, dass sie unkompliziert und kostengünstig gebaut werden können, um in noch nie dagewesenen Massen produziert werden zu können.
+spec_liberty_ships_effect = • Versorgungs-, Transport- und Unterstützungsschiffe erhalten einen Verteidigungsbonus.|• Versorgungsschiffe stellen +8 Küstenversorgung bereit
+
+spec_pilot_rotation_title = Pilotenrotation
+spec_pilot_rotation_descr = Dadurch, dass die Flugzeugbesatzungen regelmäßig ausgewechselt werden, können sich die von ihren Kampfeinsätzen erschöpften Piloten erholen und gleichzeitig ihre persönliche Kampferfahrung in Pilotenausbildungsprogrammen weitergeben.
+spec_pilot_rotation_effect = • Standardreparaturen erhalten 70% der Erfahrung von Lufteinheiten|• Elitereparaturkosten für Lufteinheitensind um 20% reduziert
+
+spec_forced_labour_title = Zwangsarbeit
+spec_forced_labour_descr = Die Unterbringung vieler Kriegsgefangener erfordert eine umfangreiche Versorgung und Logistik, es sei denn sie werden als Arbeitskräfte eingesetzt.
+spec_forced_labour_effect = • Wenn Ihre Einheiten feindlichen Einheiten ohne Versorgung und Effizienz Schaden zufügen, erhalten Sie Ressourcenpunkte.
+
+unit_status_unavailable = Nicht verfügbar

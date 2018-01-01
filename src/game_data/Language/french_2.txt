@@ -1,0 +1,332 @@
+﻿unit_523 = TBD Devastator (B)
+unit_524 = TBF-1 Avenger (B)
+unit_525 = TBF-3E Avenger (B)
+unit_526 = TBM-3E Avenger (T)
+unit_527 = TBM-3E Avenger (B)
+unit_156 = TBF-1 Avenger (T)
+unit_305 = TBM-3E Avenger (T)
+unit_528 = B6N Tenzan (B)
+unit_529 = B6N2 Tenzan (B)
+unit_1000 = Moto Zündapp
+unit_530 = Infanterie japonaise '37
+unit_531 = Infanterie japonaise '39
+unit_532 = Infanterie lourde japonaise '37
+unit_533 = Infanterie lourde japonaise '39
+unit_534 = Marines japonais '37
+unit_535 = Marines japonais '39
+unit_536 = Ingénieurs japonais '37
+unit_537 = Infanterie chinoise '37
+unit_538 = Infanterie chinoise '39
+unit_539 = Infanterie lourde chinoise '37
+unit_540 = Infanterie lourde chinoise '39
+unit_541 = Infanterie chinoise '35
+unit_542 = Partisans chinois
+unit_543 = PzKw I
+unit_544 = Type 89
+unit_545 = 70mm Type 92
+unit_546 = 75mm Krupp M1908
+unit_547 = Ki-10
+unit_548 = Hawk III
+unit_549 = Type 94
+unit_550 = D1A
+unit_551 = A5M2
+unit_552 = 75mm Type 41
+unit_553 = Infanterie lourde chinoise '35
+unit_554 = Cavalerie japonaise
+unit_555 = Cavalerie chinoise
+unit_556 = Cavalrie mongol
+unit_557 = Milice chinois
+unit_558 = D2A
+unit_559 = A5M4
+unit_560 = Ki-27 B
+unit_561 = Hawk II
+unit_562 = Heinkel He 111A
+unit_563 = Gloster Gladiator
+unit_564 = A4N1
+unit_565 = 70mm Type 92
+unit_600 = DD Fubuki
+unit_1001 = Tupolev SB 2
+unit_1002 = Ilyushin DB-3
+unit_1003 = Polikarpov I-15
+unit_1004 = Polikarpov I-153
+unit_1005 = Polikarpov I-16
+unit_1006 = Piste d'atterrissage
+unit_1007 = Ki-15
+unit_1008 = Ki-27
+unit_1009 = Ki-30
+unit_1010 = Ki-48
+unit_1011 = Ki-51
+unit_1012 = 37mm Pak 36
+unit_1013 = 37mm Pak 36
+unit_1014 = 45mm M1937
+unit_1015 = 45mm M1937
+unit_1016 = Type 94 Tankette
+unit_1017 = PzKw I
+unit_1018 = BA-10
+unit_1019 = BA-20
+unit_1020 = Sherman Firefly
+unit_1021 = Humber Mk.II
+unit_1022 = L3/35
+unit_1023 = M3 Grant
+unit_1024 = Renault FT-17
+unit_1025 = SdKfz 221
+unit_1026 = SdKfz 222
+unit_1027 = T26 M1933
+unit_1028 = T26 M1933
+unit_1029 = T26 M1939
+unit_1030 = T26 M1939
+unit_1031 = Valentine Mk.III
+unit_1032 = Vickers Mk.E
+unit_1033 = Armadillo Mk.III
+unit_1034 = Home Guard
+unit_1035 = SdKfz 221
+unit_1036 = SdKfz 222
+unit_1037 = Renault FT-17
+unit_1038 = BA-10
+unit_1039 = BA-20
+unit_1040 = 47mm Cannone da 47/32 M35
+unit_1041 = Tupolev SB 2
+unit_1042 = Ilyushin DB-3
+unit_1043 = Polikarpov I-15
+unit_1044 = Polikarpov I-153
+unit_1045 = Polikarpov I-16
+unit_1046 = CA Myoko
+unit_1047 = CV Soryu
+unit_1048 = 75mm Bofors M1929
+unit_1049 = Ki-3
+unit_1050 = Sōkō Sagyō Ki
+unit_1051 = Vultee V-11
+unit_211 = Construction Group
+unit_1052 = T26 M1933
+unit_1053 = L3/35
+unit_1054 = Type 95 Ha-Go
+unit_1055 = Type 94 37mm
+unit_1056 = Type 98 20mm
+unit_1057 = Horse Transport
+unit_1058 = Construction Site
+unit_1059 = Type 98 20mm
+unit_1060 = Gloster Gladiator
+unit_1061 = L3/35
+unit_1062 = He 111 H
+unit_1063 = L3/33
+unit_1064 = L3/33
+unit_1065 = M2 Light Tank
+unit_1066 = DUWK
+unit_1067 = DUWK
+unit_1068 = BT-42
+unit_2035 = Ki-32
+
+commander_63 = Ivan Zakharov
+commander_64 = Lev Kozachenkov
+commander_65 = Chiang Kai-Shek
+
+tooltip_lay_mines_disabled_6 = Le largage aérien de mines n'est pas possible sur des hexagones qui contiennent une unité.
+
+disable_loading_videos = Désactiver le drapeau animé pendant le tour de l’IA
+disable_mouse_scroll = Disable mouse scrolling
+
+tooltip_kamikaze_disabled_1 = Les avions doivent avoir atteri sur un aérodrome ou un porte-avion pour passer en mode kamikaze
+tooltip_revert_disabled_1 = Les avions Kamikaze ne peuvent revenir au mode par défaut quand ils sont en vol
+
+skirmish = Escarmouche
+
+editor_hex_name = Nom :
+hex_name = Nom du lieu
+
+tooltip_sleep = Mettre une unité en sommeil l'exclura du cycle de sélection Précédent / Suivant jusqu'à ce qu'elle soit réveillée ou utilisée [@]
+tooltip_upgrade_series = Améliorer l'unité dans un type différent (Amélioration à prix réduit disponible !)
+
+hotkey_17 = Panneau des objectifs
+hotkey_18 = Noms des lieux
+
+map_location_names = Afficher les noms des lieux sur la carte
+
+low_spec_mode_title = Mode basse configuration
+low_spec_mode_text = Activer le mode basse configuration nécessite de recharger le scénario. Voulez-vous le faire maintenant ?
+low_spec_mode = Mode basse configuration
+
+tooltip_online_news = Actualités en ligne
+
+enemy = Ennemi
+ally = Allié
+
+stats_tab_resources = Ressources
+stats_tab_units = Unités
+stats_tab_kills = Pertes
+stats_tab_territory = Territoire
+
+serial_prompt_title = Indiquer numéro de série
+serial_prompt_text = Veuillez indiquer votre numéro de série dans le champ texte ci-dessous :
+invalid_serial = Numéro de série non valide. Veuillez réessayer ou contacte support@slitherine.co.uk.
+
+allow_continue_after_victory = Permet de jouer après la victoire
+tooltip_continue_after_victory = Quand activé, le joueur aura le choix de continuer de jouer après avoir atteint les objectifs principaux.
+proceed = Poursuivre
+
+continue_scenario = Continuer le scénario
+continue_scenario_text = Vous avez choisi de continuer le scénario et de poursuivre le combat. Cela vous permet d'atteindre les objectifs secondaires inachevé ou de détruire le reste des unités ennemies.||Êtes-vous certain de vouloir continuer ?
+
+ai_pause = Pause calcul IA
+ai_pause_never = Jamais
+ai_pause_animations = Pause animations du jeu
+ai_pause_low_fps = Pause si bas taux d'images
+
+tooltip_terrain_disembark_penalty = Pénalité de débarquement : perte d'Efficacité pour un débarquement sur ce type de terrain.
+
+tooltip_lay_mines_disabled_7 = Ne peut poser des mines sur un hex avec un Point de sortie.
+tooltip_construct_unit_disabled_4 = Ne peut construire @ sur un hex avec un Point de sortie.
+tooltip_construct_unit_disabled_5 = Ne peut construire @ à coté d'une unité ennemie.
+
+tooltip_change_skin = Ne peut personnaliser l'apparence (texture) de cette unité.
+
+select_skin = Sélectionner texture
+skin = Texture
+
+skin_0 = Tâches Automne
+skin_1 = Traits Automne
+skin_2 = Tâches avec contours
+skin_3 = Tâches vert-olive
+skin_4 = Tâches sable-olive
+skin_5 = Tâches bronze-olive
+skin_6 = Tempête de sable
+
+map_mode_1 = Carte du monde 3D
+map_mode_2 = Carte du monde 2D
+map_mode_3 = Carte tactique 3D
+map_mode_4 = Carte tactique 2D
+
+tooltip_download_content = Vérifiez nouveau contenu de la communauté
+download_content = Contenu de la communauté
+
+install = Installer
+tooltip_dlc_installed = Ce contenu est déjà installé sur votre matériel
+author = Auteur
+content_official = Contenu officiel
+content_custom = Contenu personnalisé
+
+tooltip_add_player = Ajouter un autre joueur
+season = Saison
+spring = Printemps
+summer = Été
+autumn = Automne
+winter = Hiver
+year = Année
+map_preview = Aperçu
+map_list = Liste des cartes
+
+skirmish_briefing_0 = L'objectif pour cette mission est de rassembler 50 Points de contrôle avant que l'ennemi n'en fasse de même.
+skirmish_briefing_1 = Pour chaque PdV principal que vous tenez, vous gagnez 1 Points de contrôle par tour. Aussi le plus de PdV vous pouvez prendre, le plus vite vous emporterez la victoire.
+skirmish_briefing_2 = Après les PdV principaux il y a aussi plusieurs PdV secondaires répartis sur la carte.||Ceux-ci n'accordent pas de Points de contrôle, mais donnent des ressources à chaque tour.
+skirmish_briefing_3 = Choisissez soigneusement quels PdV prendre et défendre. ||Bien que les Points de contrôle soient nécessaires pour la victoire, les ressources sont vitales pour vous défendre !
+
+skirmish_objective_0 = Vos Points de contrôle :
+skirmish_objective_0_award = #
+skirmish_objective_1 = Points de contrôle de l'ennemi :
+skirmish_objective_1_award = #
+skirmish_objective_2 = Ne jamais perdre tous les PdV
+skirmish_objective_2_award = #
+skirmish_objective2_0 = Capturer les dépôts ennemis
+skirmish_objective2_0_award = L'ennemi perdra tous ses points de commandement.
+skirmish_objective2_1 = Capturer les PdV secondaires
+skirmish_objective2_1_award = Vous recevrez +10 Points de ressource à chaque tour pour chaque PdV secondaire.
+
+skirmish_event_depots_captured_title = DÉPÔTS DÉTRUITS
+skirmish_event_depots_captured_text = La perte et la destruction de toutes les bases de ravitaillement empêchent le déploiement de forces supplémentaires.
+
+clear = Effacer
+
+exit = Quitter
+
+tutorial_unit_skins_title = Unité Personnalisé
+tutorial_unit_skins = Vous pouvez personnaliser l'apparence de vos véhicules terrestres en cliquant sur le bouton "Sélectionner texture" dans le panneau Info sur les unités , et la sélection d'un motif de camouflage personnalisé .
+
+// FACTION NAMES
+faction_china = Chine nationaliste
+faction_china_puppet = Collaborateurs chinois
+faction_china_communists = Chine communiste
+faction_mengjiang = Mengjiang
+faction_manchukuo = Manchoukouo
+faction_india_nationalists = Armée nationale indienne
+faction_india = Inde britannique
+
+event_zundapp_title = ZUNDAPP
+event_zundapp_text = La voici, la légendaire moto équipée d'un side-car !
+
+tooltip_unit_category_filter = Filtrer les unités par catégorie
+
+editor_final_turn = Limite de tour du scénario
+remove_folder_title = Supprimer le dossier
+remove_folder_descr = Êtes-vous sur de vouloir supprimer le dossier et son contenu ?
+
+tooltip_add_trigger = Créer un déclencheur
+tooltip_open_folder = Ouvrir un dossier
+tooltip_close_folder = Fermer un dossier
+tooltip_move_to_folder = Déplacer dans un dossier
+tooltip_move_to_root = Déplacer dans le dossier racine
+
+weather_snow = Neige
+
+tooltip_team_alliances = Créer une équipe avec ces deux joueurs
+tooltip_unteam_alliances = Discard the team between these two players
+
+map_settings = Paramètres de la carte
+map_size = Taille de la carte
+size_small = Petite
+size_normal = Normale
+size_large = Grande
+size_huge = Énorme
+
+trigger_effect_23 = Régler l'état du dossier
+folder_missing = Dossier manquant !
+editor_folder = Dossier
+
+tutorial_deployment_phase_title = Phase de déploiement
+tutorial_deployment_phase = Durant cette phase vous pouvez déployer vos forces sur la carte, mais vous ne pouvez faire de mouvements ni d'attaques.||Appuyez sur le bouton fin de tour pour terminer la phase de déploiement.
+
+tooltip_scenario_mod_mismatch = Le jeu utilise un mod qui n'est pas activé sur votre appareil.
+tooltip_scenario_vanilla_mismatch = Le jeu utilise les données d'origine, et non le mod en cours de fonctionnement.
+
+update = Mise à jour
+tooltip_dlc_outdated = Une version plus récente de ce contenu que celle installée sur votre appareil est disponible.
+
+tooltip_sort_name = Cliquez pour trier par nom
+tooltip_sort_date = Cliquez pour trier par date
+
+dlc_restart_title = Relancer le jeu
+dlc_restart_text = Vous devez relancer le jeu afin d'accéder au contenu que vous venez d'installer.
+
+purchase_content = Acheter un contenu
+tooltip_purchase_content = Visiter la page du catalogue pour cette campagne
+
+terrain_wall = Mur
+terrain_asian_town = Ville asiatique
+
+tooltip_landing_disabled_1 = L'aérodrome ou le porte-avions a atteind son maximum de capacité de son parc.
+
+content = Contenu
+default = Défaut
+
+tooltip_delete_custom_campaign = Supprimer la sélection actuelle de la campagne personnalisée
+delete_custom_campaign_title = Supprimer la campagne personnalisée
+delete_custom_campaign_descr = Êtes-vous sûr de vouloir supprimer définitivement cette campagne personnalisée ?
+
+tooltip_upgrade_disabled_6 = Amélioration : Cette unité ne peut être améliorée, hors de la zone d'approvisionnement.
+
+owned_by = Appartenant à
+not_owned_by = N'appartenant pas à
+
+trait_54_title = Remplacements Limités
+trait_54_descr = En raison de la disponibilité limitée, ce type d'unité peut seulement être réparé de 1 point de force par tour.
+
+tooltip_colour_already_used = Cette couleur est déjà utilisée par un autre joueur.
+
+tutorial_content_morningsun_title = [nouveau contenu] Morning Sun
+tutorial_content_morningsun = En 1937, le japon impérial entre dans un nouveau conflit avec la Chine nationaliste et les forces communistes dans l'est de la Chine. Cette campagne représente 11 scénarios, plus de 120 nouvelles unités, ainsi que des nouveaux types de terrain et de gameplay.
+
+activate_content = Activer le contenu
+tooltip_activate_content = Insérez ou achetez un N° de série pour ce contenu de jeu.
+
+inquire_serial_title = Dévérouiller contenu
+inquire_serial_descr = Vous avez une clé pour ce contenu de jeu ?||En cliquant sur "non", ceci ouvrira la page du produit avec plus d'informations sur ses caractéristiques spécifiques.
+
+faction_marine_corps = Marine Corps

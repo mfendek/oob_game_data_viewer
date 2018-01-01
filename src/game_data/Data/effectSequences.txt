@@ -1,0 +1,3285 @@
+[Empty]
+
+[Flamethrower]
+0.0 Flamethrower 0
+2.0 damage
+1.8 BarrelFlame 0
+2.0 hit
+
+[Flamethrower_MG]
+0.0 MG 1
+0.5 Flamethrower 0
+2.0 damage
+2.3 BarrelFlame 0
+2.0 hit
+
+[Flamethrower_AT_75mm]
+0.0 AT_Shell 0
+0.0 AT_75mm_03 0
+0.7 BarrelSmoke 0
+0.8 Flamethrower 1
+2.0 damage
+2.6 BarrelFlame 1
+2.0 hit
+
+[AT_15mm_Burst]
+0.0 20mmAA_01 0
+0.0 MG_Flashes 0
+0.5 BulletImpact5x
+1.0 damage
+
+[AT_20mm_Burst]
+0.0 20mmAA_02 0
+0.0 MG_Flashes 0
+0.5 BulletImpact5x
+1.0 damage
+
+[AT_25mm_Burst]
+0.0 25mmAA_01 0
+0.0 MG_Flashes 0
+0.5 BulletImpact5x
+1.0 damage
+
+[AT_25mm_Burst_x2]
+0.0 25mmAA_01 0
+0.0 MG_Flashes 0
+0.3 MG_Flashes 1
+0.5 BulletImpact5x
+1.0 damage
+
+[AT_25mm_Burst_x3]
+0.0 25mmAA_01 0
+0.0 MG_Flashes 0
+0.3 MG_Flashes 1
+1.0 MG_Flashes 2
+0.5 BulletImpact5x
+0.8 BulletImpact5x
+1.0 damage
+
+[M3_Stuart]
+0.0 AT_Shell 0
+0.0 AT_37mm_01 0
+0.0 LightFlash 0
+0.3 M1917Browning 2
+0.5 hit
+0.5 damage
+0.6 M1917Browning 3
+0.7 BarrelSmoke 0
+
+[Marmon-Herrington]
+0.0 M1917Browning 0
+0.5 BulletImpact10x
+0.6 M1917Browning 1
+0.5 hit
+0.5 damage
+0.9 M1917Browning 2
+0.7 BarrelSmoke 0
+
+[PzKw_I]
+0.0 MG34 0
+0.5 BulletImpact10x
+0.3 MG34 1
+0.5 hit
+0.5 damage
+
+[T-28]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.0 LightFlash 0
+0.3 M1917Browning 2
+0.5 hit
+0.5 damage
+0.6 M1917Browning 3
+0.7 BarrelSmoke 0
+
+[Cruiser_MkI]
+0.0 AT_Shell 0
+0.0 AT_37mm_04 0
+0.0 LightFlash 0
+0.3 Vickers303 1
+0.5 hit
+0.5 damage
+0.6 Vickers303 2
+0.7 BarrelSmoke 0
+
+[ArmouredTrain_AT]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.0 LightFlash 0
+0.3 M1917Browning 2
+0.5 hit
+0.5 damage
+1.0 AT_Shell 1
+1.0 AT_76.2mm_01 1
+1.0 LightFlash 0
+0.7 BarrelSmoke 0
+1.7 BarrelSmoke 1
+
+[ArmouredTrain_ART]
+0.0 ART_Shell_Light 0
+0.0 AT_76.2mm_01 0
+0.0 LightFlash 0
+1.0 ART_Shell_Light 1
+1.0 AT_76.2mm_01 1
+1.0 LightFlash 1
+1.0 hit
+1.0 damage
+0.7 BarrelSmoke 0
+1.7 BarrelSmoke 1
+
+[Armadillo]
+0.0 Rifle 2
+0.1 BulletImpact1x
+0.5 Vickers303 1
+0.8 BulletImpact10x
+2.0 AT_Shell 0
+2.0 AT_37mm_01 0
+2.0 LightFlash 0
+1.2 Rifle 2
+1.3 BulletImpact1x
+0.8 damage
+
+[Concrete_Bunker]
+0.0 Rifle 1
+0.1 BulletImpact1x
+0.5 MG42 0
+0.8 BulletImpact10x
+1.2 Rifle 2
+1.3 BulletImpact1x
+1.7 Rifle 1
+1.8 BulletImpact1x
+0.8 damage
+
+[TunnelAttack]
+0.0 Rifle 0
+0.1 BulletImpact1x
+0.7 Rifle 1
+0.8 BulletImpact1x
+1.5 Rifle 0
+1.6 BulletImpact1x
+0.8 damage
+
+[AT_37mm_01]
+0.0 AT_Shell 0
+0.0 AT_37mm_01 0
+0.0 LightFlash 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_37mm_01 0
+0.0 LightFlash 0
+0.5 M1917Browning 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_02]
+0.0 AT_Shell 0
+0.0 AT_37mm_02 0
+0.0 LightFlash 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_02_Case]
+0.0 AT_Shell 0
+0.0 AT_37mm_02 0
+0.0 LightFlash 0
+0.5 ShellCaseSmall 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_03]
+0.0 AT_Shell 0
+0.0 AT_37mm_03 0
+0.0 LightFlash 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_03_MG]
+0.0 AT_Shell 0
+0.0 AT_37mm_03 0
+0.0 LightFlash 0
+0.5 M1917Browning 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_04]
+0.0 AT_Shell 0
+0.0 AT_37mm_04 0
+0.0 LightFlash 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_04_MG]
+0.0 AT_Shell 0
+0.0 AT_37mm_04 0
+0.0 LightFlash 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_05_MG]
+0.0 AT_Shell 0
+0.0 AT_37mm_05 0
+0.0 LightFlash 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_37mm_06_MG]
+0.0 AT_Shell 0
+0.0 AT_37mm_06 0
+0.0 LightFlash 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_47mm_01]
+0.0 AT_Shell 0
+0.0 AT_47mm_01 0
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_47mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_47mm_01 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_47mm_02]
+0.0 AT_Shell 0
+0.0 AT_47mm_02 0
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_47mm_02_Case]
+0.0 AT_Shell 0
+0.0 AT_47mm_02 0
+0.5 ShellCaseSmall 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_57mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_57mm_01 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_01]
+0.0 AT_Shell 0
+0.0 AT_75mm_01 0
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[HE_75mm_01]
+0.0 HE_Shell 0
+0.0 AT_75mm_01 0
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[HE_75mm_01_MG]
+0.0 HE_Shell 0
+0.0 AT_75mm_01 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_01]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_01_Case]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_01 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_01 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_02]
+0.0 AT_Shell 0
+0.0 AT_75mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_02_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_02 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
+[HE_75mm_02]
+0.0 HE_Shell 0
+0.0 AT_75mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_02_Case]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_02 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_02 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_03]
+0.0 AT_Shell 0
+0.0 AT_75mm_03 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_03_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_03 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_04_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_04 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_05_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_05 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_06_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_06 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_07]
+0.0 AT_Shell 0
+0.0 AT_75mm_07 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_07_Case]
+0.0 AT_Shell 0
+0.0 AT_75mm_07 0
+0.5 ShellCaseSmall 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_08]
+0.0 AT_Shell 0
+0.0 AT_75mm_08 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_08]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_08 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_08 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_09_Case]
+0.0 AT_Shell 0
+0.0 AT_75mm_09 0
+0.5 ShellCaseSmall 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_09_Case]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_09 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_09 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_10]
+0.0 AT_Shell 0
+0.0 AT_75mm_10 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_10_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_10 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[HE_75mm_10_MG]
+0.0 HE_Shell 0
+0.0 AT_75mm_10 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_10]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_10 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_12]
+0.0 AT_Shell 0
+0.0 AT_75mm_12 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_75mm_12_Case]
+0.0 AT_Shell 0
+0.0 AT_75mm_12 0
+0.5 ShellCaseSmall 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_75mm_12_Case]
+0.0 ART_Shell_Light 0
+0.0 AT_75mm_12 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_75mm_12 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_76mm_01]
+0.0 AT_Shell 0
+0.0 AT_76mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_76mm_01 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76.2mm_01]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76.2mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76.2mm_02]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76.2mm_02_MG]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_02 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_76.2mm_02]
+0.0 ART_Shell_Light 0
+0.0 AT_76.2mm_02 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_76.2mm_02 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_90mm_01]
+0.0 AT_Shell 0
+0.0 AT_90mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_90mm_01_Case]
+0.0 AT_Shell 0
+0.0 AT_90mm_01 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 damage
+
+[AT_90mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_90mm_01 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_90mm_01]
+0.0 ART_Shell_Light 0
+0.0 AT_90mm_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_90mm_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_90mm_01_Case]
+0.0 ART_Shell_Light 0
+0.0 AT_90mm_01 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_90mm_01 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_01]
+0.0 AT_Shell 0
+0.0 AT_105mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_01_Case]
+0.0 ART_Shell 0
+0.0 AT_105mm_01 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_01 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_02]
+0.0 AT_Shell 0
+0.0 AT_105mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_02]
+0.0 ART_Shell 0
+0.0 AT_105mm_02 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_02 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_02_Case]
+0.0 ART_Shell 0
+0.0 AT_105mm_02 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_02 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_03]
+0.0 AT_105mm_03 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_03]
+0.0 ART_Shell 0
+0.0 AT_105mm_03 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_03 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_03_Case]
+0.0 ART_Shell 0
+0.0 AT_105mm_03 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_03 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_04]
+0.0 ART_Shell 0
+0.0 AT_105mm_04 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_04 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_04_Case]
+0.0 ART_Shell 0
+0.0 AT_105mm_04 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_04 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_04]
+0.0 AT_Shell 0
+0.0 AT_105mm_04 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[HE_105mm_04]
+0.0 HE_Shell 0
+0.0 AT_75mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_05]
+0.0 AT_Shell 0
+0.0 AT_105mm_05 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_05_MG]
+0.0 AT_Shell 0
+0.0 AT_105mm_05 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_06]
+0.0 AT_Shell 0
+0.0 AT_105mm_06 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_06_Case]
+0.0 ART_Shell 0
+0.0 AT_105mm_06 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_06 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_150mm_01]
+0.0 AT_Shell 0
+0.0 AT_150mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_150mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_150mm_01 0
+0.5 MG 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_150mm_01]
+0.0 ART_Shell 0
+0.0 AT_150mm_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_150mm_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_150mm_01_Case]
+0.0 ART_Shell 0
+0.0 AT_150mm_01 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_150mm_01 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_150mm_02]
+0.0 AT_Shell 0
+0.0 AT_150mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_150mm_02_Case]
+0.0 AT_Shell 0
+0.0 AT_150mm_02 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 damage
+1.0 hit
+
+[ART_150mm_02]
+0.0 ART_Shell 0
+0.0 AT_150mm_02 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_150mm_02 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_150mm_02_Case]
+0.0 ART_Shell 0
+0.0 AT_150mm_02 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_150mm_02 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_155mm_01]
+0.0 AT_Shell 0
+0.0 AT_155mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_155mm_01_Case]
+0.0 ART_Shell 0
+0.0 AT_155mm_01 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_155mm_01 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_155mm_02]
+0.0 AT_Shell 0
+0.0 AT_155mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_155mm_02_Case]
+0.0 ART_Shell 0
+0.0 AT_155mm_02 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_155mm_02 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_155mm_03]
+0.0 AT_Shell 0
+0.0 AT_155mm_03 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_155mm_03_Case]
+0.0 ART_Shell 0
+0.0 AT_155mm_03 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_155mm_03 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_155mm_04]
+0.0 AT_Shell 0
+0.0 AT_155mm_04 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_155mm_04_Case]
+0.0 ART_Shell 0
+0.0 AT_155mm_04 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_155mm_04 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[AT_203mm_01]
+0.0 AT_Shell 0
+0.0 AT_203mm_02 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_203mm_01_Case]
+0.0 ART_Shell 0
+0.0 AT_203mm_01 0
+0.7 ShellCaseLarge 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_203mm_01 0
+2.3 ShellCaseLarge 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[Mortar_300mm]
+0.0 Mortar_300mm 0
+0.5 BarrelSmoke 0
+1.0 damage
+
+[Mortar_600mm]
+0.0 Mortar_600mm 0
+0.5 BarrelSmoke 0
+1.0 damage
+
+[ART_16inch_01]
+0.0 ART_Shell 0
+0.0 ART_16Inch_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 ART_16Inch_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[Chi-Ri]
+0.0 AT_Shell 0
+0.0 AT_75mm_06 0
+0.5 AT_Shell 1
+0.5 AT_37mm_05 1
+0.7 BarrelSmoke 0
+1.2 BarrelSmoke 0
+1.5 AT_Shell 0
+1.5 AT_75mm_06 0
+1.5 damage
+2.0 hit
+2.2 BarrelSmoke 0
+
+[Ho-Ri]
+0.0 AT_Shell 0
+0.0 AT_37mm_05 1
+0.7 BarrelSmoke 0
+1.0 AT_Shell 0
+1.0 AT_105mm_03 0
+1.5 BarrelSmoke 1
+1.0 damage
+
+[M3_Lee]
+0.0 AT_Shell 0
+0.0 AT_75mm_03 0
+0.5 AT_Shell 1
+0.5 AT_37mm_01 1
+0.7 BarrelSmoke 0
+0.8 MG 2
+1.2 BarrelSmoke 1
+1.0 damage
+
+[Type100_O-I]
+0.0 AT_Shell 0
+0.0 AT_37mm_05 2
+0.6 AT_Shell 0
+0.6 AT_37mm_05 1
+0.7 BarrelSmoke 0
+1.3 BarrelSmoke 2
+1.5 AT_Shell 0
+1.5 AT_105mm_03 0
+2.0 damage
+2.0 hit
+2.2 BarrelSmoke 1
+
+[Matilda_II_Hedgehog]
+0.0 AT_37mm_01 7
+0.6 AT_Shell 0
+0.4 HedgehogSound
+0.5 HedgehogLand 0
+0.8 HedgehogLand 1
+0.6 HedgehogLand 2
+0.8 HedgehogLand 3
+0.4 HedgehogLand 4
+0.6 HedgehogLand 5
+0.4 HedgehogLand 6
+1.0 damage
+
+[Calliope]
+0.0 T34Rocket 0
+0.0 LauncherBarrelSmoke 0
+0.0 LauncherExhaustSmoke 6
+0.3 T34Rocket 1
+0.3 LauncherBarrelSmoke 1
+0.3 LauncherExhaustSmoke 7
+0.6 T34Rocket 2
+0.6 LauncherBarrelSmoke 2
+0.6 LauncherExhaustSmoke 8
+0.9 T34Rocket 3
+0.9 LauncherBarrelSmoke 3
+0.9 LauncherExhaustSmoke 9
+1.2 T34Rocket 4
+1.2 LauncherBarrelSmoke 4
+1.2 LauncherExhaustSmoke 10
+1.5 T34Rocket 5
+1.5 LauncherBarrelSmoke 5
+1.5 LauncherExhaustSmoke 11
+1.5 damage
+1.5 hit
+
+[Nebelwerfer]
+0.0 T34Rocket 0
+0.0 LauncherBarrelSmoke 0
+0.0 LauncherExhaustSmoke 6
+0.3 T34Rocket 1
+0.3 LauncherBarrelSmoke 1
+0.3 LauncherExhaustSmoke 7
+0.6 T34Rocket 2
+0.6 LauncherBarrelSmoke 2
+0.6 LauncherExhaustSmoke 8
+0.9 T34Rocket 3
+0.9 LauncherBarrelSmoke 3
+0.9 LauncherExhaustSmoke 9
+1.2 T34Rocket 4
+1.2 LauncherBarrelSmoke 4
+1.2 LauncherExhaustSmoke 10
+1.5 T34Rocket 5
+1.5 LauncherBarrelSmoke 5
+1.5 LauncherExhaustSmoke 11
+1.5 damage
+1.5 hit
+
+[BM-13]
+0.0 KatyushaVolleySFX 0
+0.0 KatyushaRocket 0
+0.0 LauncherExhaustSmoke 8
+0.3 KatyushaRocket 1
+0.3 LauncherExhaustSmoke 9
+0.6 KatyushaRocket 2
+0.6 LauncherExhaustSmoke 10
+0.9 KatyushaRocket 3
+0.9 LauncherExhaustSmoke 11
+1.2 KatyushaRocket 4
+1.2 LauncherExhaustSmoke 12
+1.5 KatyushaRocket 5
+1.5 LauncherExhaustSmoke 13
+1.5 KatyushaRocket 6
+1.5 LauncherExhaustSmoke 14
+1.5 KatyushaRocket 7
+1.5 LauncherExhaustSmoke 15
+1.5 damage
+1.5 hit
+
+[LCVPAttack]
+0.0 M1917Browning 0
+0.2 BulletImpact10x
+0.6 M1917Browning 1
+0.5 hit
+0.5 damage
+
+[MO-2]
+0.0 Volley4ShotsLight
+0.0 AT_47mm_01 0
+0.5 AT_47mm_01 1
+1.5 AT_47mm_01 0
+1.8 AT_47mm_01 1
+0.8 hit
+1.0 damage
+
+[Single3inch_01]
+0.0 Volley2ShotsLight
+0.0 3Inch_01 0
+0.5 3Inch_01 0
+2.0 damage
+2.0 hit
+
+[Dual4inch_01]
+0.0 Volley2ShotsLight
+0.0 4Inch_01 0
+0.5 4Inch_01 1
+2.0 damage
+2.0 hit
+
+[Quad4inch_01]
+0.0 Volley4ShotsLight
+0.0 4Inch_01 0
+0.5 4Inch_01 1
+0.8 4Inch_01 2
+1.3 4Inch_01 3
+2.0 damage
+2.0 hit
+
+[Penta4inch_01]
+0.0 Volley4ShotsLight
+0.0 4Inch_01 0
+0.4 4Inch_01 1
+0.8 4Inch_01 2
+1.3 4Inch_01 3
+1.7 4Inch_01 4
+2.0 damage
+2.0 hit
+
+[Single5inch_01]
+0.0 Volley2ShotsLight
+0.0 5Inch_01 0
+0.5 5Inch_01 0
+2.0 damage
+2.0 hit
+
+[Dual5inch_01]
+0.0 Volley2ShotsLight
+0.0 5Inch_01 0
+0.9 5Inch_01 1
+2.0 damage
+2.0 hit
+
+[Tripple5inch_01]
+0.0 Volley4ShotsLight
+0.0 5Inch_01 0
+0.4 5Inch_01 1
+0.9 5Inch_01 2
+2.0 damage
+2.0 hit
+
+[Quad5inch_01]
+0.0 Volley4ShotsLight
+0.0 5Inch_01 0
+0.3 5Inch_01 1
+0.6 5Inch_01 2
+0.9 5Inch_01 3
+2.0 damage
+2.0 hit
+
+[Penta5inch_01]
+0.0 Volley5ShotsLight
+0.0 5Inch_01 0
+0.4 5Inch_01 1
+0.8 5Inch_01 2
+1.3 5Inch_01 3
+1.7 5Inch_01 4
+2.0 damage
+2.0 hit
+
+[Dual6inch_01]
+0.0 Volley2ShotsLight
+0.0 6Inch_01 0
+0.9 6Inch_01 1
+2.0 damage
+2.0 hit
+
+[Tripple6inch_01]
+0.0 Volley4ShotsLight
+0.0 6Inch_01 0
+0.4 6Inch_01 1
+0.9 6Inch_01 2
+2.0 damage
+2.0 hit
+
+[Quad6inch_01]
+0.0 Volley3ShotsLight
+0.0 6Inch_01 0
+0.4 6Inch_01 1
+0.7 6Inch_01 2
+1.1 6Inch_01 3
+2.0 damage
+2.0 hit
+
+[Tripple8inch_01]
+0.0 Volley3ShotsLight
+0.0 8Inch_01 0
+0.5 8Inch_01 1
+0.8 8Inch_01 2
+2.0 damage
+2.0 hit
+
+[Quad8inch_01]
+0.0 Volley4ShotsLight
+0.0 8Inch_01 0
+0.5 8Inch_01 1
+0.8 8Inch_01 2
+1.3 8Inch_01 3
+2.0 damage
+2.0 hit
+
+[Penta8inch_01]
+0.0 Volley5ShotsLight
+0.0 8Inch_01 0
+0.4 8Inch_01 1
+0.8 8Inch_01 2
+1.3 8Inch_01 3
+1.7 8Inch_01 4
+2.0 damage
+2.0 hit
+
+[Dual11inch_01]
+0.0 Volley2Shots
+0.0 11Inch_01 0
+0.5 11Inch_01 1
+2.0 damage
+2.0 hit
+
+[Tripple11inch_01]
+0.0 Volley3Shots
+0.0 11Inch_01 0
+0.3 11Inch_01 1
+0.6 11Inch_01 1
+2.0 damage
+2.0 hit
+
+[Quad11inch_01]
+0.0 Volley4Shots
+0.0 11Inch_01 0
+0.5 11Inch_01 1
+0.8 11Inch_01 2
+1.3 11Inch_01 3
+2.0 damage
+2.0 hit
+
+[Tripple16inch_01]
+0.0 Volley3Shots
+0.0 16Inch_01 0
+0.3 16Inch_01 1
+0.6 16Inch_01 2
+2.0 damage
+2.0 hit
+
+[Quad16inch_01]
+0.0 Volley4Shots
+0.0 16Inch_01 0
+0.5 16Inch_01 1
+0.8 16Inch_01 2
+1.3 16Inch_01 3
+2.0 damage
+2.0 hit
+
+[Quad16inch_02]
+0.0 Volley4Shots
+0.0 16Inch_02 0
+0.5 16Inch_02 1
+0.8 16Inch_02 2
+1.3 16Inch_02 3
+2.0 damage
+2.0 hit
+
+[Tripple18inch_01]
+0.0 Volley3Shots
+0.0 18Inch_01 0
+0.3 18Inch_01 1
+0.6 18Inch_01 2
+0.7 BarrelSmoke 0
+1.0 BarrelSmoke 1
+1.3 BarrelSmoke 2
+2.0 damage
+2.0 hit
+
+[Quad18inch_01]
+0.0 Volley4Shots
+0.0 18Inch_01 0
+0.5 18Inch_01 1
+0.8 18Inch_01 2
+1.3 18Inch_01 3
+0.7 BarrelSmoke 0
+1.2 BarrelSmoke 1
+1.5 BarrelSmoke 2
+2.0 BarrelSmoke 3
+2.0 damage
+2.0 hit
+
+
+// BB SECONDARIES
+
+[Dual6inch_Dual4inch_01]
+0.0 Volley4ShotsLight
+0.0 6Inch_01 0
+0.4 6Inch_01 1
+0.7 4Inch_01 2
+1.1 4Inch_01 3
+2.0 damage
+2.0 hit
+
+
+// INFANTRY SEQUENCES
+
+[InfantryAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 Grenade 1 0
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[Infantry43Attack]
+0.0 RifleAim 2 -1
+0.0 RifleGrenadeAimKneeled 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 RifleFire 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.2 RifleGrenadeFireKneeled 1 -1
+1.2 RifleGrenade 1 0
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleGrenadeAimKneeled 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.3 damage
+2.3 hit
+
+[Infantry43Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[Infantry45Attack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 RifleFire 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[InfantryPiatAttack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 RifleFire 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.2 BazookaFire 1 -1
+1.2 PIAT 1 0
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[InfantryPanzerfaustAttack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 RifleFire 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[Infantry45JapAttack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 RifleFire 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.2 BazookaFire 1 -1
+1.2 Bazooka 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[Infantry45Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 BazookaIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[InfantryAttackStickGrenade]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 StickGrenade 1 0
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+
+// MARINES SEQUENCES
+
+[MarineAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 Grenade 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact5x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+2.0 damage
+2.0 hit
+2.5 RifleIdleKneeled 0 -1
+2.5 RifleAim 2 -1
+
+[MarineIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[Marine43Attack]
+0.0 RifleAim 2 -1
+0.0 RifleGrenadeAimKneeled 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact5x
+1.2 RifleGrenadeFireKneeled 1 -1
+1.2 RifleGrenade 1 0
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+2.3 RifleGrenadeAimKneeled 1 -1
+2.3 RifleIdleKneeled 0 -1
+2.3 hit
+2.3 damage
+
+[Marine43Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[Marine45Move]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 BazookaMove 1 -1
+0.0 RifleMove 2 -1
+
+[Marine45Attack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact5x
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+1.5 RifleAim 2 -1
+1.8 hit
+1.8 damage
+
+[Marine45JapAttack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact5x
+1.2 BazookaFire 1 -1
+1.2 Bazooka 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+2.5 RifleAim 2 -1
+
+[Marine45Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 BazookaIdle 1 -1
+0.0 RifleIdle 2 -1
+
+
+// HEAVY INFANTRY SEQUENCES
+
+[HeavyInfantryMove]
+0.0 HeavyInfantryMove
+0.0 RifleMove 0 -1
+0.0 BazookaMove 1 -1
+0.0 RifleMove 2 -1
+
+[HeavyInfantryAttack]
+0.0 RifleAim 2 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+0.2 GrenadeThrow 1 -1
+1.0 SatchelCharge 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact1x
+2.0 damage
+3.0 hit
+3.0 RifleAim 2 -1
+
+[HeavyInfantry42Attack]
+0.0 RifleAim 2 -1
+0.0 RifleGrenadeAimKneeled 1 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+1.2 RifleGrenadeFireKneeled 1 -1
+1.2 RifleGrenade 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact1x
+1.5 RifleGrenadeAimKneeled 1 -1
+2.0 damage
+2.8 hit
+3.0 RifleAim 2 -1
+
+[HeavyInfantry43Attack]
+0.0 BazookaAim 1 -1
+0.0 RifleAim 2 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+0.7 SMGFire 2 -1
+0.7 SMG 2 0
+0.8 BulletImpact5x
+1.0 BarrelSmoke 0 0
+1.5 BazookaFire 1 -1
+1.5 Bazooka 1 0
+1.5 BazookaExhaust 1 1
+2.0 damage
+2.0 RifleAim 2 -1
+2.5 BazookaAim 1 -1
+2.0 hit
+3.0 end
+
+[HeavyInfantry45Attack]
+0.0 BazookaAim 1 -1
+0.0 RifleAim 2 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+0.7 SMGFire 2 -1
+0.7 SMG 2 0
+0.8 BulletImpact5x
+1.0 BarrelSmoke 0 0
+1.5 BazookaFire 1 -1
+1.5 SuperBazooka 1 0
+1.5 BazookaExhaust 1 1
+2.0 damage
+2.0 RifleAim 2 -1
+2.5 BazookaAim 1 -1
+2.0 hit
+3.0 end
+
+[HeavyInfantryPiatAttack]
+0.0 BazookaAim 1 -1
+0.0 RifleAim 2 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+0.7 SMGFire 2 -1
+0.7 SMG 2 0
+0.8 BulletImpact5x
+1.0 BarrelSmoke 0 0
+1.5 BazookaFire 1 -1
+1.5 PIAT 1 0
+2.0 damage
+2.0 RifleAim 2 -1
+2.5 BazookaAim 1 -1
+2.0 hit
+3.0 end
+
+[HeavyInfantryBundleAttack]
+0.0 RifleAim 2 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+0.2 GrenadeThrow 1 -1
+1.0 BundleGrenade 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact1x
+2.0 damage
+3.0 hit
+3.0 RifleAim 2 -1
+3.5 end
+
+[HeavyInfantrySatchelIdle]
+0.0 HMGIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[HeavyInfantryBazookaIdle]
+0.0 HMGIdleKneeled 0 -1
+0.0 BazookaIdle 1 -1
+0.0 RifleIdle 2 -1
+
+
+// PARATROOPER SEQUENCES
+
+[ParatrooperAttack]
+0.0 RifleAim 2 -1
+0.0 SMGFireKneeled 0 -1
+0.0 SMG 0 0
+0.1 BulletImpact5x
+0.2 GrenadeThrow 1 -1
+1.0 Grenade 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact5x
+1.0 damage
+2.0 hit
+3.0 end
+
+[ParatrooperMove]
+0.0 InfantryMove
+0.0 SMGMove 0 -1
+0.0 SMGMove 1 -1
+0.0 SMGMove 2 -1
+
+[Paratrooper43Attack]
+0.0 RifleAim 2 -1
+0.0 RifleGrenadeAimKneeled 1 -1
+0.2 SMGFireKneeled 0 -1
+0.2 SMG 0 0
+0.3 BulletImpact5x
+1.2 RifleGrenadeFireKneeled 1 -1
+1.2 RifleGrenade 1 0
+1.4 SMGFire 2 -1
+1.4 SMG 2 0
+1.5 BulletImpact5x
+1.5 RifleGrenadeAimKneeled 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 hit
+2.0 damage
+2.0 RifleAim 2 -1
+
+[Paratrooper43Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[Paratrooper45Attack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.2 SMGFireKneeled 0 -1
+0.2 SMG 0 0
+0.3 BulletImpact5x
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.4 SMGFire 2 -1
+1.4 SMG 2 0
+1.5 BulletImpact5x
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+1.8 damage
+1.8 RifleAim 2 -1
+1.8 hit
+
+[Paratrooper45JapAttack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.2 SMGFireKneeled 0 -1
+0.2 SMG 0 0
+0.3 BulletImpact5x
+1.2 BazookaFire 1 -1
+1.2 Bazooka 1 0
+1.2 BazookaExhaust 1 1
+1.4 SMGFire 2 -1
+1.4 SMG 2 0
+1.5 BulletImpact5x
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 RifleAim 2 -1
+2.0 hit
+
+[Paratrooper45Idle]
+0.0 RifleIdleKneeled 0 -1
+0.0 BazookaIdle 1 -1
+0.0 RifleIdle 2 -1
+
+
+// ENGINEER SEQUENCES
+
+[EngineerIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+
+[EngineerAttack]
+0.0 FlamethrowerFireKneeled 0 -1
+0.0 Flamethrower 0 0
+1.0 GrenadeThrow 1 -1
+1.8 SatchelCharge 1 0
+1.8 BarrelFlame 0 0
+3.3 damage
+3.3 hit
+
+[EngineerMove]
+0.0 EngineerMove
+0.0 RifleMove 0 -1
+0.0 SMGMove 1 -1
+
+[SeabeeIdle]
+0.0 RifleIdle 0 -1
+0.0 GrenadeIdle 1 -1
+
+[SeabeeAttack]
+0.0 RifleIdleKneeled 1 -1
+0.0 RifleAim 0 -1
+0.5 RifleFire 0 -1
+0.5 Rifle 0 0
+0.6 BulletImpact1x
+1.5 RifleFire 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.6 damage
+1.6 hit
+2.0 RifleAim 0 -1
+
+
+// SPECIAL INFANTRY SEQUENCES
+
+[InfantryMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 2 -1
+
+[InfantryIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[ConscriptsMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 2 -1
+0.0 RifleMove 3 -1
+
+[ConscriptsIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdleKneeled 2 -1
+0.0 RifleIdle 3 -1
+
+[SwordAttack]
+0.0 SwordAttack 0 -1
+0.0 Sword 0 -1
+0.5 SpearAttack 1 -1
+0.5 Bayonet 1 -1
+1.0 SpearAttack 2 -1
+1.0 Bayonet 2 -1
+2.0 damage
+2.0 SpearAttack 2 -1
+2.0 Bayonet 2 -1
+2.5 SpearAttack 1 -1
+2.5 Bayonet 1 -1
+2.0 SwordIdle 0 -1
+3.0 SwordIdle 1 -1
+4.0 SwordIdle 2 -1
+5.0 end
+
+[SwordMove]
+0.0 InfantryMove
+0.0 SwordMove 0 -1
+0.0 SwordMove 1 -1
+0.0 SwordMove 2 -1
+
+[SwordIdle]
+0.0 SwordIdle_01 0 -1
+0.0 SwordIdle_02 1 -1
+0.0 SwordIdle_01 2 -1
+
+[PoliceIdle]
+0.0 SwordIdle_01 0 -1
+0.0 RifleIdle 1 -1
+
+[PoliceAttack]
+0.0 SwordAttack 0 -1
+0.0 SMGFireKneeled 1 -1
+0.6 SMG 1 0
+0.7 BulletImpact5x
+0.7 damage
+1.0 end
+
+[PoliceRiflesAttack]
+0.0 RifleAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.0 RifleFire 1 -1
+1.0 Rifle 1 0
+1.1 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 damage
+2.0 end
+
+[PoliceMove]
+0.0 EngineerMove
+0.0 SwordMove 0 -1
+0.0 SMGMove 1 -1
+
+[HeavyPoliceIdle]
+0.0 HMGIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdleKneeled 2 -1
+
+[HeavyPoliceAttack]
+0.0 RifleAim 1 -1
+0.0 HMGFireKneeled 0 -1
+0.0 HMG_50Cal 0 0
+0.1 BulletImpact10x
+1.0 RifleFireKneeled 2 -1
+1.0 Rifle 2 0
+1.1 BulletImpact1x
+1.6 RifleFire 1 -1
+1.6 Rifle 1 0
+1.7 BulletImpact1x
+2.0 damage
+3.0 hit
+
+[CommandoIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdleKneeled 1 -1
+
+[CommandoIdle_02]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+
+[CommandoAttack]
+0.0 RifleIdleKneeled 0 -1
+0.0 SMGFireKneeled 1 -1
+0.0 SMG 1 0
+0.1 BulletImpact5x
+1.0 RifleFireKneeled 0 -1
+1.0 Rifle 0 0
+1.1 BulletImpact1x
+1.0 damage
+3.0 end
+
+[CommandoMove]
+0.0 EngineerMove
+0.0 RifleMove 0 -1
+0.0 SMGMove 1 -1
+
+[InfantryDuoDeath]
+0.0 SoldierDie 0 -1
+1.0 SoldierDie 1 -1
+
+[InfantrySingleDeath]
+0.0 SoldierDie 0 -1
+
+[InfantryTrioDeath]
+0.0 SoldierDie 0 -1
+1.0 SoldierDie 1 -1
+1.5 SoldierDie 2 -1
+
+[InfantryQuadDeath]
+0.0 SoldierDie 0 -1
+0.2 SoldierDie 3 -1
+1.0 SoldierDie 1 -1
+1.5 SoldierDie 2 -1
+
+[InfantryFiveDeath]
+0.0 SoldierDie 0 -1
+0.2 SoldierDie 3 -1
+1.0 SoldierDie 1 -1
+1.5 SoldierDie 2 -1
+1.8 SoldierDie 4 -1
+
+
+[VolunteerAttack]
+0.0 SpearAttack 0 -1
+0.0 Spear 0 -1
+0.2 GrenadeThrow 1 -1
+1.0 Molotov 1 0
+1.2 SpearAttack 2 -1
+1.2 Spear 2 -1
+1.5 SpearAttack 0 -1
+1.5 Spear 0 -1
+1.0 damage
+1.8 hit
+
+[VolunteerMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 2 -1
+
+[VolunteerIdle]
+0.0 SwordIdle_01 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[RiotersMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 2 -1
+0.0 RifleMove 3 -1
+
+[RiotersIdle]
+0.0 SwordIdle_01 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 GrenadeIdle 2 -1
+0.0 SwordIdle_01 3 -1
+
+[RiotersAttack]
+0.0 RifleIdleKneeled 1 -1
+0.0 SwordAttack 0 -1
+0.0 Sword 0 -1
+0.8 RifleIdleKneeled 2 -1
+1.0 SpearAttack 3 -1
+1.0 Spear 3 -1
+3.0 GrenadeIdle 1 -1
+3.0 GrenadeIdle 2 -1
+1.0 damage
+1.8 hit
+
+[BanditsAttack]
+0.0 SwordAttack 2 -1
+0.0 Sword 2 -1
+0.5 RifleFireKneeled 0 -1
+0.5 Rifle 0 0
+0.6 BulletImpact1x
+1.0 GrenadeThrow 1 -1
+1.8 Molotov 1 0
+2.0 damage
+2.5 RifleFireKneeled 0 -1
+2.5 Rifle 0 0
+2.6 BulletImpact1x
+2.0 SwordIdle 2 -1
+3.0 RifleIdleKneeled 0 -1
+3.0 GrenadeIdle 1 -1
+3.0 end
+
+[BanditsIdle]
+0.0 SwordIdle_01 2 -1
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+
+[BanditsMove]
+0.0 InfantryMove
+0.0 SwordMove 2 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 0 -1
+
+[MinersAttack]
+0.0 SwordMove 0 -1
+0.5 SwordMove 1 -1
+1.0 damage
+1.8 hit
+
+[MinersIdle]
+0.0 SwordIdle_01 0 -1
+0.0 BazookaIdle 1 -1
+
+[RiflesAttack]
+0.0 RifleAim 1 -1
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.0 RifleFire 1 -1
+1.0 Rifle 1 0
+1.1 BulletImpact1x
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 damage
+1.7 RifleAim 2 -1
+1.8 RifleIdleKneeled 0 -1
+2.0 hit
+
+[RiflesIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdle 2 -1
+
+[ConscriptsAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 damage
+1.7 RifleAim 2 -1
+1.8 RifleIdleKneeled 0 -1
+2.0 hit
+
+[MolotovAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 Molotov 1 0
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[SkiAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 Molotov 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[Ski41Attack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 StickGrenade 1 0
+1.2 SMGFire 2 -1
+1.2 SMG 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[Ski44Attack]
+0.0 RifleAim 2 -1
+0.0 BazookaAim 1 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.7 SMGFire 2 -1
+0.7 SMG 2 0
+0.8 BulletImpact1x
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 RifleAim 2 -1
+1.5 BazookaAim 1 -1
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[PartisanAttack]
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+0.2 GrenadeThrow 1 -1
+1.0 Grenade 1 0
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.5 RifleIdleKneeled 0 -1
+2.0 damage
+2.0 hit
+
+[PartisansIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+
+[MilitiaAttack]
+0.0 SwordAttack 0 -1
+0.0 Sword 0 -1
+0.5 RifleFireKneeled 1 -1
+0.5 Rifle 1 -1
+0.6 BulletImpact1x
+1.0 SpearAttack 2 -1
+1.0 Bayonet 2 -1
+2.0 damage
+2.0 SpearAttack 2 -1
+2.0 Bayonet 2 -1
+2.5 RifleFireKneeled 1 -1
+2.5 Rifle 1 -1
+2.6 BulletImpact1x
+2.0 SwordIdle 0 -1
+3.0 RifleIdleKneeled 1 -1
+3.0 SwordIdle 2 -1
+3.0 end
+
+[MilitiaIdle]
+0.0 SwordIdle_01 0 -1
+0.0 RifleIdleKneeled 1 -1
+0.0 RifleIdle 2 -1
+
+[ScoutIdle]
+0.0 RifleIdleKneeled 0 -1
+
+[ScoutAttack]
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.5 damage
+0.5 hit
+
+[ScoutMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+
+[MortarInfantryIdle]
+0.0 RifleGrenadeAimKneeled 0 -1
+0.0 RifleIdle 1 -1
+0.0 RifleIdleKneeled 2 -1
+
+[MortarInfantryAttack]
+0.0 RifleIdleKneeled 2 -1
+0.0 RifleGrenadeFireKneeled 0 -1
+0.0 MortarRound 0 0
+1.0 RifleGrenadeFireKneeled 0 -1
+1.0 MortarRound 0 0
+2.0 RifleGrenadeFireKneeled 0 -1
+2.0 MortarRound 0 0
+1.5 damage
+1.5 hit
+
+
+// CAVALRY SEQUENCES
+
+[CavalryAttack]
+0.0 CavalryAttack
+0.0 HorseIdle 0 -1
+0.0 HorseIdle 1 -1
+0.0 RiderAim 2 -1
+0.5 RiderFire 2 -1
+0.5 Rifle 2 0
+0.6 BulletImpact1x
+0.8 RiderAim 3 -1
+1.3 RiderFire 3 -1
+1.3 Rifle 3 0
+1.4 BulletImpact1x
+1.5 RiderFire 2 -1
+1.5 Rifle 2 0
+1.6 BulletImpact1x
+2.3 RiderAim 3 -1
+2.5 RiderAim 2 -1
+1.8 damage
+1.8 hit
+
+[CavalryMove]
+0.0 CavalryMove
+0.0 HorseCanter 0 -1
+0.0 HorseCanter 1 -1
+0.0 RiderCanter 2 -1
+0.0 RiderCanter 3 -1
+
+[CavalryIdle]
+0.0 HorseIdle 0 -1
+0.0 HorseIdle 1 -1
+0.0 RiderIdle 2 -1
+0.0 RiderIdle 3 -1
+
+[CavalryRotate]
+0.0 RotCavalry
+0.0 HorseTrot 0 -1
+0.0 HorseTrot 1 -1
+0.0 RiderTrot 2 -1
+0.0 RiderTrot 3 -1
+
+[CavalryDeath]
+0.0 HorseDie_02 0 -1
+0.0 RiderDie_02 2 -1
+1.0 HorseDie_01 1 -1
+1.0 RiderDie_01 3 -1
+
+[HorseTransportMove]
+0.0 HorseTransportMove
+0.0 HorseTrot 0 -1
+0.0 HorseTrot 1 -1
+
+[HorseTransportIdle]
+0.0 HorseIdle 0 -1
+0.0 HorseIdle 1 -1
+
+[HorseTransportRotate]
+0.0 RotHorseTransport
+0.0 HorseTrot 0 -1
+0.0 HorseTrot 1 -1
+
+[HorseTransportDeath]
+0.0 HorseDie_02 0 -1
+0.5 HorseDie_01 1 -1
+
+
+// WEAPONS
+
+[MG]
+0.0 MG 0
+0.1 BulletImpact10x
+1.0 damage
+
+[DoubleMG]
+0.0 MG 0
+0.4 MG 1
+0.1 BulletImpact10x
+1.0 damage
+
+[Type97LMG]
+0.0 Type97LMG 0
+0.1 BulletImpact10x
+1.0 damage
+
+[Vickers303]
+0.0 Vickers303 0
+0.1 BulletImpact10x
+1.0 damage
+
+[TwinM2Browning]
+0.0 M2Browning 0
+0.6 M2Browning 1
+0.1 BulletImpact10x
+0.7 BulletImpact10x
+1.0 damage
+
+[M2Browning]
+0.0 M2Browning 0
+0.1 BulletImpact10x
+1.0 damage
+
+[M1917Browning]
+0.0 M1917Browning 0
+0.1 BulletImpact10x
+1.0 damage
+
+[TwinM1917Browning]
+0.0 M1917Browning 0
+0.6 M1917Browning 1
+0.1 BulletImpact10x
+0.7 BulletImpact10x
+1.0 damage
+
+[MG34]
+0.0 MG34 0
+0.1 BulletImpact10x
+1.0 damage
+
+[MG42]
+0.0 MG42 0
+0.1 BulletImpact10x
+1.0 damage
+
+[BredaM30LMG]
+0.0 BredaM30LMG 0
+0.1 BulletImpact10x
+1.0 damage
+
+[AAMG]
+0.0 AAMG 0
+1.0 damage
+
+[AirMG]
+0.0 AirMG 0
+1.0 damage
+
+[AirMGx2]
+0.0 AirMG 0
+0.0 AirMG 1
+1.0 damage
+
+[DoubleAirMG]
+0.0 AirMG 0
+0.5 AirMG 1
+1.0 damage
+
+[AATracers_x1]
+0.0 AA_Burst 0
+0.0 25mmAA_01 0
+0.5 Flak
+0.8 Flak
+1.0 damage
+1.0 hit
+
+[AATracers_x2]
+0.0 AA_Burst 0
+0.0 25mmAA_01 0
+0.5 AA_Burst 1
+0.5 20mmAA_01 1
+0.5 Flak
+0.8 Flak
+1.2 Flak
+1.6 Flak
+1.0 damage
+1.0 hit
+
+[AATracers_x3]
+0.0 AA_Burst 0
+0.0 25mmAA_01 0
+0.5 AA_Burst 1
+0.5 20mmAA_01 1
+0.8 AA_Burst 2
+0.8 20mmAA_01 2
+0.5 Flak
+0.8 Flak
+1.2 Flak
+1.6 Flak
+1.9 Flak
+1.0 damage
+1.0 hit
+
+[M15A1_CGMC]
+0.0 37mmAA_01 0
+0.0 MG 1
+0.0 MG 2
+0.5 Flak
+0.8 Flak
+1.2 Flak
+1.6 Flak
+1.9 Flak
+2.3 Flak
+1.0 damage
+
+[FlakSingle_20mm]
+0.0 20mmAA_03
+0.0 MG_Flashes 0
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[FlakDual_20mm]
+0.0 20mmAA_02
+0.0 MG_Flashes 0
+0.0 MG_Flashes 1
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[FlakQuad_20mm]
+0.0 20mmAA_01
+0.0 MG_Flashes 0
+0.0 MG_Flashes 1
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[FlakSingle_25mm]
+0.0 25mmAA_01
+0.0 MG_Flashes 0
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+1.0 damage
+
+[FlakDual_25mm]
+0.0 25mmAATwin_01
+0.0 MG_Flashes 0
+0.0 MG_Flashes 1
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[FlakSingle_37mm]
+0.0 37mmAA_01 0
+0.0 GunFlash&Smoke_Small 0
+0.3 GunFlash&Smoke_Small 0
+0.5 Flak
+0.6 GunFlash&Smoke_Small 0
+0.8 Flak
+0.9 GunFlash&Smoke_Small 0
+1.0 BarrelSmoke 0
+1.1 Flak
+1.2 GunFlash&Smoke_Small 0
+1.4 Flak
+1.7 Flak
+1.0 damage
+
+[FlakSingle_40mm]
+0.0 40mmAA_01
+0.0 MG_Flashes 0
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[FlakDual_40mm]
+0.0 40mmAA_01
+0.0 MG_Flashes 0
+0.0 MG_Flashes 1
+1.0 Flak
+1.4 Flak
+1.8 Flak
+2.2 Flak
+2.6 Flak
+1.0 damage
+
+[AA_MG]
+0.0 MG 0
+0.5 Flak
+0.8 Flak
+1.2 Flak
+1.6 Flak
+1.0 damage
+
+[AA_75mm]
+0.0 CannonFlash_Medium 0
+0.0 75mmAA_01 0
+0.5 FlakLarge
+0.7 ShellCaseLarge 1
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Medium 0
+1.0 75mmAA_01 0
+1.5 FlakLarge
+1.7 ShellCaseLarge 1
+1.7 BarrelSmoke 0
+1.0 damage
+
+[AA_88mm]
+0.0 CannonFlash_Medium 0
+0.0 75mmAA_01 0
+0.5 FlakLarge
+0.7 ShellCaseLarge 1
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Medium 0
+1.0 75mmAA_01 0
+1.5 FlakLarge
+1.7 ShellCaseLarge 1
+1.7 BarrelSmoke 0
+1.0 damage
+
+[AA_90mm]
+0.0 CannonFlash_Medium 0
+0.0 AT_90mm_01 0
+0.5 FlakLarge
+0.7 ShellCaseLarge 1
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Medium 0
+1.0 AT_90mm_01 0
+1.5 FlakLarge
+1.5 damage
+1.7 ShellCaseLarge 1
+1.7 BarrelSmoke 0
+
+[AA_105mm]
+0.0 CannonFlash_Medium 0
+0.0 AT_105mm_01 0
+0.5 FlakLarge
+0.7 ShellCaseLarge 1
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Medium 0
+1.0 AT_105mm_01 0
+1.5 FlakLarge
+1.5 damage
+1.7 ShellCaseLarge 1
+1.7 BarrelSmoke 0
+
+[DepthCharge]
+0.0 DepthCharge 0
+1.0 DepthCharge 0
+4.0 damage
+4.0 hit
+
+[Hedgehog]
+0.0 HedgehogSound
+0.0 Hedgehog 0
+0.1 Hedgehog 0
+0.2 Hedgehog 0
+0.3 Hedgehog 0
+0.4 Hedgehog 0
+0.5 Hedgehog 0
+0.6 Hedgehog 0
+4.0 damage
+4.0 hit
+
+[Air20mmHispano_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air20mmHispano_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[Air20mmHispano_02]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air20mmHispano_02 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[Air20mmHo-5_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air20mmHo-5_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[Air20mmHo-5_02]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air20mmHo-5_02 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[Air30mmType5_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air30mmType5_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirNose50Brown_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 AirNose50Brown_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirNose50Ho-103_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 AirNose50Ho-103_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirWings50Brown_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 AirWings50Brown_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirWings50Ho-103_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 AirWings50Ho-103_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[JetAttack]
+0.0 AlF_Jet
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 AirNose50Brown_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[JetAttackJapan]
+0.0 AlF_Jet
+0.5 AircraftMG 0
+0.5 AircraftMG 1
+0.5 Air20mmHo-5_02 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[Fighter_75mm_Air]
+0.0 Fighter_FlyBy
+0.0 CannonFlash_Small 0
+0.0 75mmAA_01 0
+0.5 FlakLarge
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Small 0
+1.0 75mmAA_01 0
+1.5 FlakLarge
+1.7 BarrelSmoke 0
+1.0 damage
+
+[Fighter_75mm_Ground]
+0.0 Fighter_FlyBy
+0.0 CannonFlash_Small 0
+0.0 75mmAA_01 0
+0.0 HE_Shell 0
+0.7 BarrelSmoke 0
+1.0 CannonFlash_Small 0
+1.0 75mmAA_01 0
+1.0 HE_Shell 0
+1.7 BarrelSmoke 0
+1.0 damage
+
+[B25G_75mm]
+0.0 Fighter_FlyBy
+0.0 CannonFlash_Small 4
+0.0 75mmAA_01 4
+0.0 HE_Shell 0
+0.3 AircraftStrafeMG 2
+0.3 AircraftStrafeMG 3
+0.5 AirNose50Brown_01 2
+0.3 StrafeAttack
+0.7 BarrelSmoke 4
+1.0 CannonFlash_Small 4
+1.0 75mmAA_01 4
+1.0 HE_Shell 0
+1.7 BarrelSmoke 4
+1.0 damage
+
+[Ju87_G]
+0.0 Bomber_Dive
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 37mmAATwin_01 0
+0.3 StrafeAttack
+1.3 damage
+1.3 hit
+
+[StukaAttack]
+0.0 StukaSiren
+1.0 Bomb
+1.2 BombLight 1
+1.2 BombLight 2
+2.7 damage
+2.7 hit
+
+[StrafeAttack]
+0.0 Fighter_FlyBy
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 AirWings50Brown_01 0
+0.3 StrafeAttack
+1.3 damage
+1.3 hit
+
+[StrafeCannonAttack]
+0.0 Fighter_FlyBy
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 Air20mmHo-5_01 0
+0.3 StrafeAttack
+1.3 damage
+1.3 hit
+
+[StrafeAttackQuad]
+0.0 Fighter_FlyBy
+0.3 AircraftMG 0
+0.3 AircraftMG 1
+0.3 Air20mmHo-5_01 0
+0.3 StrafeAttackQuad
+1.3 damage
+1.3 hit
+
+[RocketStrafeAttack]
+0.0 Fighter_FlyBy
+0.3 AirGroundRocket 0
+0.3 AirLauncherBarrelSmoke 0
+0.3 AirLauncherExhaustSmoke 0
+0.6 AirGroundRocket 1
+0.6 AirLauncherBarrelSmoke 1
+0.6 AirLauncherExhaustSmoke 1
+0.9 AirGroundRocket 0
+0.9 AirLauncherBarrelSmoke 0
+0.9 AirLauncherExhaustSmoke 0
+1.3 AirGroundRocket 1
+1.3 AirLauncherBarrelSmoke 1
+1.3 AirLauncherExhaustSmoke 1
+1.3 damage
+1.3 hit
+
+[Bomb]
+0.0 Fighter_FlyBy
+0.5 BombLight
+2.2 damage
+2.2 hit
+
+[DiveBomber]
+0.0 Bomber_Dive
+0.5 BombLight
+2.2 damage
+2.2 hit
+
+[JetBomb]
+0.0 AlF_Jet
+0.5 BombLight
+2.2 damage
+2.2 hit
+
+[JetStrafe]
+0.0 AlF_Jet
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.5 AirNose50Brown_01 0
+0.3 StrafeAttack
+1.3 damage
+1.3 hit
+
+[Bomb_MG]
+0.0 Fighter_FlyBy
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 AirWings50Brown_01 0
+0.3 StrafeAttack
+1.0 BombLight
+2.2 damage
+2.2 hit
+
+[Bomb_Cannon]
+0.0 Fighter_FlyBy
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 Air20mmHo-5_01 0
+0.3 StrafeAttack
+1.0 BombLight
+2.2 damage
+2.2 hit
+
+[JetBomb_Cannon]
+0.0 AlF_Jet
+0.3 AircraftStrafeMG 0
+0.3 AircraftStrafeMG 1
+0.3 Air20mmHo-5_01 0
+0.3 StrafeAttack
+1.0 BombLight
+2.2 damage
+2.2 hit
+
+[Bombs]
+0.0 Bomber_FlyBy
+0.5 BombLight
+1.0 BombLight
+1.5 BombLight
+2.0 BombLight
+2.5 BombLight
+3.5 hit
+3.5 damage
+
+[AttackBomberMGs]
+0.0 Bomber_FlyBy
+0.5 AircraftStrafeMG 0
+0.5 AircraftStrafeMG 1
+0.5 AirNose50Brown_01 0
+0.5 StrafeAttack
+1.0 damage
+1.0 hit
+
+[AttackBomberBombsMGs]
+0.0 Bomber_FlyBy
+0.5 AircraftStrafeMG 0
+0.5 AircraftStrafeMG 1
+0.5 AirNose50Brown_01 0
+0.5 StrafeAttack
+1.0 Bomb
+1.5 Bomb
+2.7 damage
+2.7 hit
+
+[AirTorpedo]
+0.0 Fighter_FlyBy
+0.5 AirTorpedo
+4.5 damage
+5.0 hit
+
+[Nuke]
+0.0 Bomber_FlyBy
+0.0 Nuke
+3.0 damage
+3.0 hit
+
+[TorpedoSingle]
+0.0 Torpedo 0
+3.0 damage
+4.0 hit
+
+[TorpedoDual]
+0.0 Torpedo 0
+0.8 Torpedo 1
+3.0 damage
+4.0 hit
+
+[SurfaceTorpedo]
+0.0 SurfaceTorpedo 0
+0.5 SurfaceTorpedo 1
+3.0 damage
+4.0 hit
+
+[PT_Gunboat]
+1.0 40mmAA_01 2
+1.0 MG_Flashes 2
+3.0 damage
+3.0 hit
+
+[Gunboat]
+0.0 Volley4ShotsLight
+0.0 4Inch_01 0
+0.5 4Inch_01 1
+1.2 3Inch_01 0
+1.7 3Inch_01 2
+2.0 damage
+2.0 hit
+
+
+[Kamikaze]
+0.0 KamikazeDive
+2.0 damage
+
+[NavalKamikaze]
+0.0 KamikazeBoatMove
+2.0 damage
+
+[WaterCannon]
+0.0 WaterCannon 0
+2.0 damage
+2.0 hit
+
+// MOVES
+
+[SpecialForcesMove]
+0.0 SpecialForcesMove
+
+[RailMove]
+0.0 RailMove 0
+
+[PTBoatMove]
+0.0 PTBoatMove
+
+[SurfacedMove]
+0.0 SurfacedMove
+
+[SubmergedMove]
+0.0 SubmergedMove
+
+[LCVPMove]
+0.0 LCVPMove
+
+[CanoesMove]
+0.0 PaddlingMove
+0.0 WakeSmall 0 -1
+0.0 WakeSmall 1 -1
+
+[ShipSmallMove]
+0.0 ShipSmallMove
+
+[ShipLargeMove]
+0.0 ShipLargeMove
+
+[ShipTransportMove]
+0.0 ShipTransportMove
+
+[FloaterMove]
+0.0 FloaterMove
+
+[TowedHeavy]
+0.0 TowedHeavy
+
+[TowedLight]
+0.0 TowedLight
+
+[Willys]
+0.0 Willys
+
+[Bulldozer]
+0.0 Bulldozer
+
+[LVT]
+0.0 LVT
+
+[LVT_Naval]
+0.0 LVT_Naval
+
+[AxLVT_Naval]
+0.0 AxLVT_Naval
+
+[AlHalftrack]
+0.0 AlHalftrack
+
+[AlTankette]
+0.0 AlTankette
+
+[AlTankLightVEarly]
+0.0 AlTankLightVEarly
+
+[AlTankLightEarly]
+0.0 AlTankLightEarly
+
+[AlTankMediumEarly]
+0.0 AlTankMediumEalry
+
+[AlTankLight]
+0.0 AlTankLight
+
+[AlTankMedium]
+0.0 AlTankMedium
+
+[AlTankHeavy]
+0.0 AlTankHeavy
+
+[AlTankSHeavy]
+0.0 AlTankSHeavy
+
+[AlACar]
+0.0 AxACar
+
+[AlTruck]
+0.0 AxTruck
+
+[AxHalftrack]
+0.0 AxHalftrack
+
+[AxTankette]
+0.0 AxTankette
+
+[AxTankLightEarly]
+0.0 AxTankLightEarly
+
+[AxTankMediumEarly]
+0.0 AxTankMediumEarly
+
+[AxTankLight]
+0.0 AxTankLight
+
+[AxTankMedium]
+0.0 AxTankMedium
+
+[AxTankHeavy]
+0.0 AxTankHeavy
+
+[AxTankSHeavy]
+0.0 AxTankSHeavy
+
+[AxACar]
+0.0 AxACar
+
+[AxTruck]
+0.0 AxTruck
+
+[RailgunMove]
+0.0 RailgunMove 0
+
+[Al_EarlyFast_RadSin]
+0.0 Al_EarlyFast_RadSin
+
+[Al_EarlySlow_RadSin]
+0.0 Al_EarlySlow_RadSin
+
+[AlAirT]
+0.0 AlAirT
+
+[AlB_RadFour]
+0.0 AlB_RadFour
+
+[AlB_RadSin]
+0.0 AlB_RadSin
+
+[AlB_RadTwin]
+0.0 AlB_RadTwin
+
+[AlB_VeeSin]
+0.0 AlB_VeeSin
+
+[AlF_Jet]
+0.0 AlF_Jet
+
+[AlF_RadSin]
+0.0 AlF_RadSin
+
+[AlF_RadTw]
+0.0 AlF_RadTw
+
+[AlF_VeeSin]
+0.0 AlF_VeeSin
+
+[AlF_VeeTw]
+0.0 AlF_VeeTw
+
+[Ax_EarlyFast_RadSin]
+0.0 Ax_EarlyFast_RadSin
+
+[Ax_EarlySlow_RadSin]
+0.0 Ax_EarlySlow_RadSin
+
+[Ax_EarlyFast_VeeSin]
+0.0 Ax_EarlyFast_VeeSin
+
+[Ax_EarlySlow_VeeSin]
+0.0 Ax_EarlySlow_VeeSin
+
+[Ax_Rocket]
+0.0 Ax_Rocket
+
+[AxAirT]
+0.0 AxAirT
+
+[AxB_RadFour]
+0.0 AxB_RadFour
+
+[AxB_RadSin]
+0.0 AxB_RadSin
+
+[AxB_RadTwin]
+0.0 AxB_RadTwin
+
+[AxF_Jet]
+0.0 AxF_Jet
+
+[AxF_RadSin]
+0.0 AxF_RadSin
+
+[AxF_RadTw]
+0.0 AxF_RadTw
+
+[AxF_VeeSin]
+0.0 AxF_VeeSin
+
+[JetMove]
+0.0 JetMove
+
+[AirDef30M1919_01]
+0.0 AirDef30M1919_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef30M1919_Dual]
+0.0 AirDef30M1919_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef30M1919Twin_01]
+0.0 AirDef30M1919Twin_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef30M1919Twin_Dual]
+0.0 AirDef30M1919Twin_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef50M2AN_01]
+0.0 AirDef50M2AN_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef50M2AN_Dual]
+0.0 AirDef50M2AN_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef50M2ANTwin_01]
+0.0 AirDef50M2ANTwin_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef50M2ANTwin_Dual]
+0.0 AirDef50M2ANTwin_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef77Type92_01]
+0.0 AirDef77Type92_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef77Type92_Dual]
+0.0 AirDef77Type92_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef77Type97_01]
+0.0 AirDef77Type97_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef77Type97_Dual]
+0.0 AirDef77Type97_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[AirDef127Ho-103_01]
+0.0 AirDef127Ho-103_01 0
+0.0 AircraftDefensiveMG 0
+1.0 hit
+1.0 damage
+
+[AirDef127Ho-103_Dual]
+0.0 AirDef127Ho-103_01 0
+0.0 AircraftDefensiveMG 0
+0.1 AircraftDefensiveMG 1
+1.0 hit
+1.0 damage
+
+[LandMines]
+0.0 LandMines
+1.0 hit
+1.0 damage
+
+[NavalMines]
+0.0 NavalMines
+1.0 hit
+1.0 damage
+
+[SubmarineAlarm]
+0.0 SubmarineAlarm
+
+[RotBulldozer]
+0.0 RotBulldozer
+
+[RotLightTank]
+0.0 RotationTrackedHeavy
+
+[RotAALMech]
+0.0 RotAALMechanical
+
+[RotAAHMech]
+0.0 RotAAHMechanical
+
+[RotAlTrucks]
+0.0 RotAlTruck
+
+[RotAlCars]
+0.0 RotAlCar
+
+[RotAlHtracks]
+0.0 RotAlHtrack
+
+[RotAlTankettes]
+0.0 RotAlTankette
+
+[RotAlLTanks]
+0.0 RotAlLTank
+
+[RotAlMTanks]
+0.0 RotAlMTank
+
+[RotAlHTanks]
+0.0 RotAlHTank
+
+[RotAlLVTS]
+0.0 RotAlLVT
+
+[RotAlLVTS_Naval]
+0.0 RotAlLVT_Naval
+
+[RotAxTrucks]
+0.0 RotAxTruck
+
+[RotAxCars]
+0.0 RotAxCar
+
+[RotAxHtracks]
+0.0 RotAxHtrack
+
+[RotAxTankettes]
+0.0 RotAxTankette
+
+[RotAxLTanks]
+0.0 RotAxLTank
+
+[RotAxMTanks]
+0.0 RotAxMTank
+
+[RotAxHTanks]
+0.0 RotAxHTank
+
+[RotAxLVTS_Naval]
+0.0 RotAxLVT_Naval
+
+[RotLightTow]
+0.0 RotLTow
+
+[RotMediumTow]
+0.0 RotMTow
+
+[RotHeavyTow]
+0.0 RotHTow
+
+[RotHArtsCoastal]
+0.0 RotHArtCoastal
+
+[RotAxShipsSmall]
+0.0 RotAxShipSmall
+
+[RotAxShipsLarge]
+0.0 RotAxShipLarge
+
+[RotAlShipsSmall]
+0.0 RotAlShipSmall
+
+[RotAlShipsLarge]
+0.0 RotAlShipLarge
+
+[RotShipsTransport]
+0.0 RotShipTransport
+
+[RotPTBoats]
+0.0 RotPTBoat
+
+[RotLCVPs]
+0.0 RotLCVP
+
+[RotSubsLgSurf]
+0.0 RotSubLgSurf
+
+[RotSubsSmSubmerged]
+0.0 RotSubSmSubmerged
+
+[RotSubsLgSubmerged]
+0.0 RotSubLgSubmerged

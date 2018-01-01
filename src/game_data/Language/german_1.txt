@@ -1,0 +1,64 @@
+﻿unit_504 = Austr. Infanterie '44
+unit_505 = Austr. Infanterie '45
+unit_506 = Austr. Schwere Infanterie '44
+unit_507 = Austr. Schwere Infanterie '45
+unit_508 = Austr. Kommandotrupp '44
+unit_509 = CV Hiryu '43
+unit_510 = CV Hiryu '44
+unit_511 = CV Shōkaku '42
+unit_512 = CV Shōkaku '43
+unit_513 = CV Shōkaku '44
+unit_514 = CV Unryu '45
+unit_515 = CV Taiyo '42
+unit_516 = CV Taiyo '43
+unit_517 = CV Taiyo '44
+unit_518 = CV Lexington
+unit_519 = CV Lexington '43
+unit_520 = CV Yorktown '43
+unit_521 = CV Yorktown '44
+unit_522 = CV Essex '44
+
+trigger_condition_22 = Prüfe Missionsziel Status
+
+editor_starting_value = Startwert
+editor_target_value = Zielwert
+
+editor_new_folder_name = Neuer Ordner
+editor_folder_name = Ordner Name
+unit_status_available = Verfügbar
+
+filter = Filter:
+
+tooltip_create_folder = Ordner Erstellen
+tooltip_repair_friendly_disabled_5 = Kann nur benachbarte Einheiten reparieren, die noch nicht angegriffen wurden.
+tooltip_repair_disabled_11 = Reparieren: Für Reparaturen auf offener See müssen U-Boote auftauchen.
+tooltip_elite_repair_disabled_11 = Reparieren (Elite): Für Reparaturen auf offener See müssen U-Boote auftauchen.
+tooltip_repair_friendly_disabled_3 = Kann nur benachbarte Einheiten reparieren, die noch nicht bewegt wurden oder die im vorherigen Zug nicht aktiv gekämpft haben.
+tooltip_upgrade_disabled_4 = Upgrade: Einheit in feindlichem Territorium kann nicht upgraden.
+tooltip_upgrade_disabled_5 = Upgrade: Einheit mit benachbarter Feindeinheit kann nicht upgraden.
+tooltip_upgrade_series_disabled_4 = Upgrade: Einheit in feindlichem Territorium kann nicht upgraden.
+tooltip_upgrade_series_disabled_5 = Upgrade: Einheit mit benachbarter Feindeinheit kann nicht upgraden.
+tooltip_purchase_carrier_incompatible = Einheitentyp kann nicht von gewähltem Transport aufgenommen werden.
+tooltip_empty_cargo_slot = Leerer Frachtraum
+tooltip_exit_water = Verlassen Sie das Gewässer und bewegen Sie sich an das Ufer.
+tooltip_exit_water_disabled_1 = Kann das Gewässer während der Aufstellungsphase nicht verlassen
+tooltip_exit_water_disabled_2 = Keine benachbarten Landfelder sind verfügbar, um das Gewässer zu verlassen
+tooltip_air_lift_disabled_4 = Kann Transportflugzeug nicht starten, falls das Flugplatzhex von einem anderen Flugzeug besetzt ist.
+
+spec_hidden_nests_effect = • Infanterie kann Schützenlöcher bauen|• Schwere Infanterie kann Bunker bauen|• Kerneinheiten verschanzen in der Platzierungsphase
+
+new_commander_available = Eine neue Kommandant ist vorhanden und kann zu einem unserer Einheiten gebunden sein.
+
+// DIFFICULTY LEVELS
+difficulty_japan_0 = I. Fähnrich
+difficulty_japan_1 = II. Leutnant
+difficulty_japan_2 = III.  Kapitän
+difficulty_japan_3 = IV. Vizeadmiral
+difficulty_japan_4 = V. Kamikaze
+difficulty_usa_0 = I. Fähnrich
+difficulty_usa_1 = II. Leutnant
+difficulty_usa_2 = III. Kapitän
+difficulty_usa_3 = IV. Admiral
+difficulty_usa_4 = V. Flottenadmiral
+
+terrain_scorched = Verwüstet

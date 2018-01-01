@@ -1,0 +1,187 @@
+@import "../mixins";
+@import "../variables";
+
+body {
+  background-color: $light-gray;
+}
+
+.spinner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-bar {
+  text-align: center;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &> * {
+    margin: 0.5ex;
+  }
+}
+
+.form-control {
+  color: $black;
+  display: inline-block;
+  width: auto;
+}
+
+.no-script {
+  text-align: center;
+}
+
+.version-info {
+  font-size: small;
+  margin: 1ex;
+  text-align: center;
+}
+
+.compare-label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.units-list {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.unit-item {
+  background-color: $white;
+  border: thin solid $gray;
+  border-radius: 4px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5ex;
+  padding: 0.5ex;
+
+  button {
+    margin: 0.5ex;
+  }
+
+  &__detail-title {
+    font-size: large;
+  }
+
+  &__label-green,
+  &__label-red,
+  &__label-gray {
+    border-radius: 4px;
+    padding: 0.5ex 1ex;
+  }
+
+  &__label-green {
+    background-color: $strong-lime-green;
+  }
+
+  &__label-red {
+    background-color: $pure-red;
+  }
+
+  &__label-gray {
+    background-color: $gray;
+  }
+
+  &__label-terrain {
+    background-color: $light-gray;
+    border-radius: 4px;
+    padding: 0.5ex 1ex;
+    text-align: center;
+
+    .positive-change {
+      @include simple-shadow($white);
+
+      color: $dark-cyan;
+    }
+
+    .negative-change {
+      @include simple-shadow($white);
+
+      color: $strong-red;
+    }
+  }
+
+  &__label-terrain-dry {
+    border: 2px solid $black;
+  }
+
+  &__label-terrain-wet {
+    border: 2px solid $dark-moderate-orange;
+  }
+
+  &__label-terrain-winter {
+    border: 2px solid $dark-blue;
+  }
+
+  &__content-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &> div {
+      margin: 0.5ex;
+    }
+  }
+
+  &__terrain {
+    justify-content: space-between;
+  }
+
+  &__content-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--square-small
+    {
+      height: 32px;
+      width: 32px;
+    }
+
+    &--rectangle-small {
+      height: 23px;
+      width: 32px;
+    }
+
+    &--rectangle-large {
+      height: 64px;
+      width: 51px;
+    }
+
+    &--text-center,
+    &--text-stat {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      &> span {
+        @include simple-shadow($black);
+
+        color: $white;
+
+        &.positive-change {
+          color: $very-light-lime-green;
+        }
+
+        &.negative-change {
+          color: $very-light-red;
+        }
+      }
+    }
+
+    &--text-stat {
+      &> span {
+        margin-top: 30px;
+      }
+    }
+  }
+}

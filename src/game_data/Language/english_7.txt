@@ -1,0 +1,239 @@
+﻿// SPECIALISATIONS
+
+spec_banzai_charge_title = Banzai Charge
+spec_banzai_charge_descr = The bayonet and the Guntō sword are the central weapons of our warriors, symbolising their martial spirit and loyalty to the Emperor.
+spec_banzai_charge_effect = • Japanese infantry and marines can execute a Banzai charge, providing high risk-return attacks
+
+spec_bushido_code_title = Bushido Code
+spec_bushido_code_descr = The Bushido Code provides our soldiers with a spiritual shield according to the traditional ways of the samurai warrior. War is purifying... and death a duty.
+spec_bushido_code_effect = • Japanese units with a red supply deficiency marker deal more damage when attacked by enemy units
+
+spec_tokyo_express_title = Tokyo Express
+spec_tokyo_express_descr = Replacing slow merchant ships with destroyers and submarines provides a safer means of delivering supplies and reinforcements to distant island garrisons.
+spec_tokyo_express_effect = • Japanese destroyers and submarines provide +1 Coastal Supply
+
+spec_defensive_doctrine_title = Defensive Doctrine
+spec_defensive_doctrine_descr = Contrasting our traditional offensive-minded tactics, a newly conceived strategy seeks to fight a war of attrition through a deep network of defensive positions.
+spec_defensive_doctrine_effect = • Japanese Infantry can construct MG Foxholes|• Japanese Heavy Infantry can construct Bunkers
+
+spec_super_sensha_title = Tank Production Program
+spec_super_sensha_descr = As enemy tanks and anti-tank weapons become more powerful, the Imperial Army must develop its own new generation of armoured fighting vehicles.
+spec_super_sensha_effect = • A prototype Type 100 O-I super heavy tank will be added to our core force in 1945|• More advanced tanks become available earlier in the campaign
+
+spec_jet_power_title = High-Powered Aircraft Engines
+spec_jet_power_descr = Implementation of new technologies such as direct fuel injection, superchargers and jet engines allow ever more powerful aircraft designs.
+spec_jet_power_effect = • More advanced aircraft become available earlier in the campaign
+
+spec_gruppe_monsun_title = Gruppe Monsun
+spec_gruppe_monsun_descr = Providing logistics and supply bases for German submarines across our Pacific territory allows our ally to aid in the destruction of allied shipping.
+spec_gruppe_monsun_effect = • Two German Type IX U-Boats will be added to our naval forces
+
+spec_kamikaze_title = Kamikaze
+spec_kamikaze_descr = Driven by the spirit of loyalty and honour until death, Japan can field a weapon more accurate and destructive than any other: the Kamikaze suicide attack.
+spec_kamikaze_effect = • Aircraft can be switched to Kamikaze mode|• Kaiten suicide submarines, Shinyo suicide boats and AT Lunge Miners can be purchased
+
+spec_yanagi_missions_title = Yanagi Missions
+spec_yanagi_missions_descr = Through our Embassy in Berlin we can pursue production licences on sophisticated weapons developed for the German army, experienced in heavy tanks and rocket launchers.
+spec_yanagi_missions_effect = • Pzkw VI Tiger tanks and Nebelwerfer rocket launchers can be purchased|• A Pzkw VI Tiger tank or Nebelwerfer rocket launcher will be added to our core force
+
+spec_field_medics_title = Field Medics
+spec_field_medics_descr = Providing a good medical care for the sick and wounded on the battlefield both improves morale and allows recovered soldiers to rejoin the fight.
+spec_field_medics_effect = • Infantry units generate resources when damaged in combat but not destroyed or forced to retreat|• A Medical Jeep is added to our core forces
+
+spec_landing_craft_infantry_title = Infantry Landing Craft
+spec_landing_craft_infantry_descr = The development of ramp-bowed landing boats with a shallow draft will greatly improve our amphibious assault capabilities right up to the enemy's shorelines.
+spec_landing_craft_infantry_effect = • Infantry units use landing craft, which can attack coastal targets and allow an attack right after disembarking
+
+spec_proximity_fuse_title = Proximity Fuse
+spec_proximity_fuse_descr = Radio waves can be used to detect the presence of nearby objects. When applied to anti-air shells this system can trigger detonation near the target.
+spec_proximity_fuse_effect = • Land & naval anti-air weapons deal more damage to enemy aircraft
+
+spec_landing_craft_tank_title = Landing Craft, Tank
+spec_landing_craft_tank_descr = Essentially larger versions of infantry landing craft, specialized amphibious assault ships allow the unloading of large numbers of even the heaviest tanks upon a beachhead.
+spec_landing_craft_tank_effect = • Large landing craft are available for tanks, allowing them to attack right after disembarking
+
+spec_advanced_aeronautics_title = Advanced Aeronautics
+spec_advanced_aeronautics_descr = Further investment in our aviation research and manufacturing institutions is a requirement to remain competitive in the aerial arms race.
+spec_advanced_aeronautics_effect = • More advanced aircraft become available earlier in the campaign
+
+spec_radar_i_title = Magnetron Radar
+spec_radar_i_descr = Further development of microwave radars using resonant-cavity magnetron tubes allows the detection of aircraft and ships up to hundreds of miles away.
+spec_radar_i_effect = • Adds a Radar range of 8 to all warships
+
+spec_radar_ii_title = Centimetric Radar
+spec_radar_ii_descr = The centimetric wavelength radar is able to detect much smaller objects through smaller antennas than the earlier, lower frequency, radar systems.
+spec_radar_ii_effect = • Adds a Radar range of 12 to all warships|• Adds a Radar range of 5 to all aircraft
+
+spec_nuclear_bomb_title = Nuclear Fission Bomb
+spec_nuclear_bomb_descr = Based on modern atomic science, a massive research and development project can produce the ultimate weapon: a nuclear bomb.
+spec_nuclear_bomb_effect = • Nuclear Bombers can be purchased, capable of dealing a single but devastating attack to the target and adjacent hexes
+
+spec_winter_gear_title = Winter Gear
+spec_winter_gear_descr = Equipping an army for severe winter weather requires an extensive commitment of resources, ranging from warm uniforms and adapted camouflage to special engine maintainance and widened tank tracks.
+spec_winter_gear_effect = • Removes combat penalties suffered in a winter climate
+
+spec_boot_camp_title = Specialized Training
+spec_boot_camp_descr = Additional infantry training courses allow recuits to become more proficient at mobile and combined arms warfare, as well as low level tactics and weapon handling.
+spec_boot_camp_effect = • Newly purchased infantry units start with 1 experience star
+
+spec_flight_school_title = Flight School
+spec_flight_school_descr = To increase the change of survival for fresh air crews, their training must include additional flight hours for perfecting basic flight techniques and combat tactics.
+spec_flight_school_effect = • Newly purchased air units start with 1 experience star
+
+spec_tank_school_title = Tank School
+spec_tank_school_descr = Extensive training programs for tank crews and commanders allow them to become more proficient at gunnery, communications, maneuvers, and tactical decision making.
+spec_tank_school_effect = • Newly purchased tanks start with 1 experience star
+
+spec_naval_academy_title = Naval Academy
+spec_naval_academy_descr = Navy cadets must obtain the required theoretical and practical qualifications in seamanship, navigation, ordnance, and the correct behavior in active duty with the fleet.
+spec_naval_academy_effect = • Newly purchased naval units start with 1 experience star
+
+spec_damage_control_title = Damage Control
+spec_damage_control_descr = To assure the best possible handling of critical damage taken in combat, extensive damage control measures - and constant training in their execusion - is essential.
+spec_damage_control_effect = • Severely damaged warships take reduced damage when attacked.
+
+spec_auftragstaktik_title = Auftragstaktik
+spec_auftragstaktik_descr = Low-level unit leaders are allowed to plan and execute their orders independently. This provides a high degree of flexibility and frees the higher leadership from planning tactical details.
+spec_auftragstaktik_effect = • Infantry units deal +1 damage to all ground targets
+
+spec_panzer_fibel_title = Panzerfibel
+spec_panzer_fibel_descr = The new tank training manuals are designed to catch the attention of the young men, using humorous and risque cartoon illustrations along with slang the combat troops would identify with. 
+spec_panzer_fibel_effect = • Newly purchased tanks start with 2 experience stars|• Disables the Tank School specialisation effect
+
+spec_pak_front_title = Pakfront
+spec_pak_front_descr = Grouping several AT guns under a single officer, the guns can all fire at once against selective targets, maximizing the element of surprise and minimizing the chance for return fire.
+spec_pak_front_effect = • Anti-tank guns gain +2 attack against tanks.|• Adjacent anti-tank guns will support eachother when attacked by enemy tanks.
+
+spec_panzer_keil_title = Panzerkeil
+spec_panzer_keil_descr = This offensive tank formation forms the vehicles into a wedge-shaped formation. The heaviest tanks form the tip, leaving the more vulnerable vehicles safe from enemy fire.
+spec_panzer_keil_effect = • When attacking, tanks gain a defensive bonus from friendly tanks which are adjacent to themselves and the target, and posses the "Heavy Treading" trait.
+
+spec_panzer_lehr_title = Panzer Lehr
+spec_panzer_lehr_descr = Concentrating various elite demonstration and training units will provide a new panzer division composed of the cream of Germany's armoured forces.
+spec_panzer_lehr_effect = • Grants a Panther D tank with 4 experience stars|• Disables the Tank School specialisation effect
+
+spec_waffen_ss_title = Waffen SS
+spec_waffen_ss_descr = After serving under the OKW, the Waffen-SS will form its own command structure. To further expand this fanatic fighting force, volunteers are now recruited from conquered territories.
+spec_waffen_ss_effect = • The Waffen SS will form a seperate faction within the German armed forces.
+
+spec_beutepanzer_title = Beutepanzer
+spec_beutepanzer_descr = Vehicles captured during the retreat of our enemies can be incorporated into our own panzer and motorised divisions. Some of these machines even have distinct advantages over our own equipment.
+spec_beutepanzer_effect = • Several types of captured equipment will be available for purchase.
+
+spec_supply_subs_title = Supply Submarines
+spec_supply_subs_descr = Large cargo submarines can be used to provide fuel, torpedoes, and fresh food to other submarines on combat patrol duties, allowing the latter to operate longer in hostile waters.
+spec_supply_subs_effect = • Submarines torpedo reload time is reduced by 1 turn
+
+spec_flight_deck_wing_title = Flight Deck Park
+spec_flight_deck_wing_descr = The number of aircraft a carrier is designed to carry can be increased by adopting the practice of parking additional aircraft on the top of the flight deck.
+spec_flight_deck_wing_effect = • 1 air unit can take off per aircraft carrier without efficiency loss.
+
+spec_drop_tank_title = Drop Tank
+spec_drop_tank_descr = External fuel tanks, already in use on many bomber aircraft, can increase the operational range of fighter aircraft. To reduce drag, weight, and to increase maneuverability they are designed to be discardable in combat.
+spec_drop_tank_effect = • Fighter aircraft fuel limit increased by 2 turns
+
+spec_wire_guided_bomb_title = Wire Guided Bomb
+spec_wire_guided_bomb_descr = Guided by its operator toward the target, this new precision weapon is equipped with radio controlled tail fins and an internal gyroscope to keep a level trajectory.
+spec_wire_guided_bomb_effect = • Tactical Bombers gain +5 attack against structures and naval units
+
+spec_ersatz_title = Ersatz
+spec_ersatz_descr = Produced as substitutes for scarce resources such as rubber, fuel and metal alloys, ersatz goods offer a cheaper replacement of inferior quality.
+spec_ersatz_effect = • All unit costs reduced by 5 percent.
+
+spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_descr = Organised resistance movements in occupied territories can aid the war effort through sabotage, assassinations, spreading disinformation and propaganda, or even assist in military operations.
+spec_resistance_fighters_effect = • Gain a unit of Resistance Fighters which can be deployed within enemy territory.
+
+spec_wehrmacht_canister_title = Wehrmacht Canister
+spec_wehrmacht_canister_descr = The new design of fuel containers has three handles to allow easy handling by one or two people, while cross-like indentations provide extra strength and allow the contents to expand under variable weather conditions.
+spec_wehrmacht_canister_effect = • +1 Land Command Point
+
+spec_jerry_can_title = Jerry Can
+spec_jerry_can_descr = Copying the German Wehrmacht fuel canister - with its superior handling and storage capacities - will result in noticeable logistical improvements.
+spec_jerry_can_effect = • +1 Land Command Point
+
+spec_war_economy_title = War Economy
+spec_war_economy_descr = A war economy is the set of contingencies undertaken by a modern state to mobilize its economy for war production. Measures taken include the increasing of tax rates as well as the introduction of resource allocation programs
+spec_war_economy_effect = • +2 Land and Naval Command Points|• +1 Air Command Point
+
+spec_female_laborers_title = Female Factory Labor
+spec_female_laborers_descr = Female laborers must replace the millions of men now fighting in the frontlines. These woman will serve in jobs previously considered masculine or even too dangerous.
+spec_female_laborers_effect = • +2 Land and Naval Command Points|• +1 Air Command Point
+
+spec_unrestricted_submarines_title = Unrestricted Submarine Warfare
+spec_unrestricted_submarines_descr = According to naval rules of engagement, submarines must allow merchantmen to abandon ship before attacking it. Without such restrictions, the combat effectiveness of the submarine and its chances of survival signficantly increases.
+spec_unrestricted_submarines_effect = • Submarines gain +3 attack against transport and supply ships
+
+spec_scrambling_title = Scrambling
+spec_scrambling_descr = As radar observations detect enemy aircraft, fighter pilots receive the order to "scramble" by a loud alarm. A rapid response from these air crews will allow them to take a more advantageous position over the incoming enemy formations.
+spec_scrambling_effect = • Land-based fighter aircraft can take off, move, and attack during the same turn |• Land-based fighter aircraft lose less efficiency during the turn of their take off.
+
+spec_field_camouflage_title = Field Camouflage
+spec_field_camouflage_descr = Besides the use of regulated camouflage netting and colour patterns, skilled use of terrain features and available materials can help conceal military assets from aerial and ground reconnaissance.
+spec_field_camouflage_effect = • Tanks, artillery, and anti-tank weapons can be hidden from aerial and distant observation
+
+spec_tizard_mission_title = Tizard Mission
+spec_tizard_mission_descr = A British delegation is visiting the United States, carrying details about some of the greatest scientific advances made in recent years. Their aim is to use American industrial resources to exploit the military potential of these new technologies.
+spec_tizard_mission_effect = • Allows the research of several high tech specialisations
+
+spec_wolfpack_title = Wolfpack
+spec_wolfpack_descr = When groups of several submarines are coordinating their attacks against enemy convoy, they stand a better chance against the threat of escorting warships.
+spec_wolfpack_effect = • Submarines gain +2 attack against small and large ships|• Submarines gain +2 naval defense
+
+spec_thach_weave_title = Thach Weave
+spec_thach_weave_descr = Conceived by naval aviator John S. Thach, this aerial combat tactic allows fighter pilots to defeat a more maneuverable opponent lashed to their wingman's tail.
+spec_thach_weave_effect = • Fighters gain +1 attack against small air targets
+
+spec_elite_air_groups_title = Elite Air Groups
+spec_elite_air_groups_descr = With very strict selection criteria, Japanese pilot training emphasizes quality over quantity. As war breaks out, combat units draw all available air crews from the experienced training pools.
+spec_elite_air_groups_effect = • The first two purchased air units gain 3 experience stars.
+
+event_wiking_title = SS Wiking Division
+event_wiking_text = Composed of Scandinavian volunteers, among them veterans from the Winter War against the Soviet Union.
+
+tooltip_specialisation_locked = You have not yet unlocked all the required specialisations.
+specialisation_points = Specialisation Points
+
+// The "%" is replaced by a numeric value
+specialisation_points_increased = You have gained % new specialisation points. Do you want to consult the specialisation panel now?
+
+terrain_village = Tropical Village
+terrain_euro_village = European Village
+
+tutorial_specialisations_title = Specialisations
+tutorial_specialisations = Specialisations represent novel technologies, doctrines, or innovations that nations implemented to support the war effort. They can be purchased for Specialisation Points (SP), which are acquired by completing missions and specific secondary objectives.
+tutorial_specialisations_2_title = Specialisation Requirements
+tutorial_specialisations_2 = Besides their SP cost, some specialisations are only available beyond a certain date or require other specialisations to be unlocked first.
+tutorial_core_export_title = Core Force Exporting
+tutorial_core_export = You can export your current core force after every mission from the campaign map screen. This will save your current units, their history and experience, and allow you to import them at the start of certain other campaigns.
+tutorial_core_import_title = Core Force Importing
+tutorial_core_import = Previously exported core forces from specific campaigns can be imported at the start of this campaign. This allows you to carry over your full unit list between consecutive campaigns.
+tutorial_core_import_2_title = Imported Core Force
+tutorial_core_import_2 = These imported units are now displayed under the "Destroyed and former core units" tab in the unit list.||Former core units need to be reformed at full cost, but keep their combat history and a percentage of their experience.
+
+tutorial_content_blitzkrieg_title = [New content] Blitzkrieg
+tutorial_content_blitzkrieg = The German invasion of Poland set in motion a chain of events leading to the greatest war the world has ever seen. This campaign puts the player in charge of Germany's armed forces during the opening days of the World War II until the violent battle of Moscow in 1941.
+
+tooltip_add_specialisation = Add a specialisation
+
+spec_block_construction_title = Block Construction
+spec_block_construction_descr = Ship construction time can be reduced by composing parts of the hull and superstructive from prefabricated modules, built externally and then lifted into place.
+spec_block_construction_effect = • All naval units are 10% cheaper to purchase
+
+spec_liberty_ships_title = Liberty Ships
+spec_liberty_ships_descr = The design of the Liberty-class cargo ship is conceived for its simple, low-cost construction requirements, allowing mass-production on an unprecedented scale.
+spec_liberty_ships_effect = • Supply Ships, Transport Ships, and Support ships get a defense bonus|• Supply Ships provide +8 coastal supply
+
+spec_pilot_rotation_title = Pilot Rotation
+spec_pilot_rotation_descr = Rotating aircrews between the frontline and the zone of interior does not only allow combat-weary men to rest and recover, but also to share their first-hand experience in pilot training programs.
+spec_pilot_rotation_effect = • Default repair maintains 70% experience for air units|• Elite repair cost is reduced by 20% for air units
+
+spec_forced_labour_title = Forced Labor
+spec_forced_labour_descr = Sheltering thousands of prisoners of war puts a huge strain on our economy and logistics, unless they are deployed as an involuntary workforce.
+spec_forced_labour_effect = • Damaging enemy units on 0 supply and efficiency generates Resource Points
+
+spec_british_pacific_fleet_title = British Pacific Fleet
+spec_british_pacific_fleet_descr = To re-establish British presence in the Pacific waters, a powerful fleet will be assembled, composed of British Commonwealth naval vessels.
+spec_british_pacific_fleet_effect = • A fleet of British naval and air units well be added to our core forces
+
+unit_status_unavailable = Unavailable

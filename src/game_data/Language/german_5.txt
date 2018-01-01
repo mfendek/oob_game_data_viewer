@@ -1,0 +1,144 @@
+﻿unit_1130 = PzKpfw VI Tiger H
+unit_1131 = PzKpfw VI B Königstiger
+unit_1132 = PzKpfw VIII Maus
+unit_1133 = PzKpfw V Panther D
+unit_1134 = PzKpfw V Panther A
+unit_1135 = PzKpfw V Panther G
+unit_1136 = Sowj. Infanterie '37
+unit_1137 = Sowj. Infanterie '42
+unit_1138 = Sowj. Infanterie '43
+unit_1139 = Sowj. Infanterie '45
+unit_1140 = Sowj. Schw. Infanterie '37
+unit_1141 = Sowj. Schw. Infanterie '42
+unit_1142 = Sowj. Schw. Infanterie '43
+unit_1143 = Sowj. Schw. Infanterie '45
+unit_1144 = Sowj. Fallschirmjäger '39
+unit_1145 = Sowj. Fallschirmjäger '40
+unit_1146 = Sowj. Fallschirmjäger '41
+unit_1147 = Sowj. Fallschirmjäger '42
+unit_1148 = Sowj. Fallschirmjäger '43
+unit_1149 = Sowj. Fallschirmjäger '44
+unit_1150 = Sowj. Fallschirmjäger '45
+unit_1151 = Finn. Infanterie '45
+unit_1152 = Finn. Schw. Infanterie '45
+unit_1153 = Finn. Ski-Truppen '45
+unit_1154 = Dt. Infanterie '37
+unit_1155 = Dt. Infanterie '39
+unit_1156 = Dt. Infanterie '42
+unit_1157 = Dt. Infanterie '43
+unit_1158 = Dt. Infanterie '45
+unit_1159 = Dt. Schw. Infanterie '37
+unit_1160 = Dt. Schw. Infanterie '39
+unit_1161 = Dt. Schw. Infanterie '40
+unit_1162 = Dt. Schw. Infanterie '41
+unit_1163 = Dt. Schw. Infanterie '42
+unit_1164 = Dt. Schw. Infanterie '43
+unit_1165 = Dt. Schw. Infanterie '44
+unit_1166 = Dt. Schw. Infanterie '45
+unit_1167 = Dt. Fallschirmjäger '37
+unit_1168 = Dt. Fallschirmjäger '39
+unit_1169 = Dt. Fallschirmjäger '40
+unit_1170 = Dt. Fallschirmjäger '41
+unit_1171 = Dt. Fallschirmjäger '42
+unit_1172 = Dt. Fallschirmjäger '43
+unit_1173 = Dt. Fallschirmjäger '44
+unit_1174 = Dt. Fallschirmjäger '45
+unit_1175 = Finn. Infanterie '37
+unit_1176 = Finn. Schw. Infanterie '37
+unit_1177 = Finn. Pioniere '41
+unit_1178 = Finn. Pioniere '44
+unit_1179 = Finn. Pioniere '45
+unit_1180 = 76mm M1927
+unit_1181 = Finn. Infanterie '38
+unit_1182 = PzKpfw IV F2
+unit_1183 = PzKpfw IV H
+unit_1183 = PzKpfw IV H
+
+faction_sweden = Schweden
+faction_norway = Norwegen
+faction_denmark = Dänemark
+faction_waffenss = Waffen-SS
+faction_greece = Griechenland
+faction_yugoslavia = Jugoslawien
+faction_romania = Rumänien
+
+ceditor_layout_location = Ort
+ceditor_layout_core = Kernarmeen
+ceditor_layout_flag = Flaggen
+ceditor_layout_arrow = Pfeile
+
+ceditor_map_dimensions = Größe
+ceditor_map_rotation = Ausrichtung
+ceditor_map_text = Kartentexte
+ceditor_campaign_variable = Werte
+
+option_tcp = Live Online
+option_tcp_descr = Verbinden Sie sich mit dem Live-Server und erstellen Sie in der Chat-Lobby eine Partie mit anderen Spielern.
+
+tcp_host = Spiel erstellen
+tcp_join = Spiel beitreten
+tooltip_tcp_host = Eine neue Mehrspielerpartie erstellen.
+tooltip_tcp_join = Einer bereits erstellten Mehrspielerpartie beitreten.
+tooltip_tcp_not_all_ready = Alle Spieler müssen bestätigen, dass sie bereit sind, bevor das Spiel gestartet werden kann.
+not_ready = Bereitschaft bestätigen
+tooltip_tcp_ready = Sie müssen bestätigen, dass Sie bereit sind, bevor der Host das Spiel starten kann.
+waiting_players = Warte...
+tooltip_tcp_waiting_for_players = Warten, bis der Ladevorgang der anderen Spieler abgeschlossen ist.
+tooltip_tcp_not_enough_players = Alle Spieler-Slots müssen belegt sein, bevor das Spiel gestartet werden kann.
+tooltip_tcp_choose_slot = Sie müssen einen freien Spieler-Slot auswählen.
+error_tcp_join_failed = Sie konnten dem ausgewählten Spiel nicht beitreten.
+error_tcp_game_is_full = Sie konnten dem ausgewählten Spiel nicht beitreten, da es bereits voll ist.
+chat = Chat
+no_briefing_available = Keine Einsatzbesprechung verfügbar
+
+tcp_all_games = Alle Spiele
+tcp_scenario_games = Offizielle Szenarios
+tcp_skirmish_games = Einzelschlachten
+tcp_custom_games = Benutzerdefinierte Szenarios
+tcp_failed_to_get_server_ip = Server-IP der Lobby konnte nicht ermittelt werden.
+tcp_game_name = Spielname
+tcp_players = Spieler
+
+faction_unavailable_skirmish = DLC erforderlich
+faction_available_skirmish = Verfügbar
+faction_selected_skirmish = Ausgewählt
+faction_swap_skirmish = Spieler vertauschen
+
+tooltip_no_single_team = Das Spiel kann nicht gestartet werden, wenn alle Spieler demselben Team angehören.
+select_colour = Farbe auswählen
+tooltip_select_colour = Wählen Sie eine Farbe für diesen Spieler aus.
+
+faction_skirmish_incompatible = Inkompatibel
+tooltip_incompatible_factions = Eine oder mehrere ausgewählte Nationen sind mit dem definierten Kartentyp nicht kompatibel.
+tooltip_faction_no_navy = Diese Nation verfügt über keine Marineeinheiten und kann daher nicht auf einer Seekarte verwendet werden.
+
+skirmish_event_enemy_points_warning_title = KRITISCHE PHASE
+skirmish_event_enemy_points_warning_text = Der Feind hat fast alle benötigten Kontrollpunkte gesammelt.
+
+skirmish_event_own_points_warning_title = FAST AM ZIEL
+skirmish_event_own_points_warning_text = Wir haben fast alle benötigten Kontrollpunkte gesammelt.
+
+skirmish_event_enemy_points_halfway_title = KRITISCHE PHASE
+skirmish_event_enemy_points_halfway_text = Der Feind hat die Hälfte der benötigten Kontrollpunkte gesammelt.
+
+skirmish_event_own_points_halfway_title = AUF HALBEM WEGE
+skirmish_event_own_points_halfway_text = Wir haben die Hälfte der benötigten Kontrollpunkte gesammelt.
+
+trait_57_title = Schnelle Verschanzung
+trait_57_descr = Der Verschanzungswert dieser Einheit steigt schneller, wenn sie untätig ist.
+
+tooltip_objective_enabled = Ist das Missionsziel zu Beginn des Szenarios aktiviert und sichtbar?
+
+trigger_effect_27 = Missionsziel aktivieren
+trigger_effect_28 = KI-Team aufteilen
+trigger_effect_29 = Dialog einblenden
+
+enable = Aktivieren
+disable = Deaktivieren
+
+tutorial_free_bootcamp_title = Kostenlose Kampagne
+tutorial_free_bootcamp = Die Kampagne "Ausbildungslager" ist komplett kostenlos.||Bei den anderen Kampagnen können Sie das erste Szenario kostenlos spielen. Ihr Spielfortschritt wird nach Abschluss des Szenarios gespeichert. Nach dem Kauf der Kampagne können Sie diese dann einfach weiterspielen.
+
+trigger_event_7 = Dialogeinblendung
+
+editor_focus_camera = Kamera zentrieren:

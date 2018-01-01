@@ -1,0 +1,370 @@
+//////////////////////////
+//	    usa, usarmy, marine_corps		//
+//////////////////////////
+
+[JIMMY_CHAPMAN]
+id = 0
+category = land
+faction = usa, usarmy, marine_corps
+
+[PETE_SIMPSON]
+id = 1
+category = land
+faction = usa, usarmy, marine_corps
+
+[JAMES_WALKER]
+id = 2
+category = land
+faction = usa, usarmy, marine_corps
+
+[JOHN_BROWN]
+id = 3
+category = land
+faction = usa, usarmy, marine_corps
+
+[ROBERT_LEWIS]
+id = 4
+category = land
+faction = usa, usarmy, marine_corps
+
+[MICHAEL_WILLIAMS]
+id = 5
+category = land
+faction = usa, usarmy, marine_corps
+
+[WILLIAM_DAVIES]
+id = 6
+category = land
+faction = usa, usarmy, marine_corps
+
+[DAVID_CARTER]
+id = 7
+category = land
+faction = usa, usarmy, marine_corps
+
+[RICHARD_BENNETT]
+id = 8
+category = land
+faction = usa, usarmy, marine_corps
+
+[CHARLES_SMITH]
+id = 9
+category = land
+faction = usa, usarmy, marine_corps
+
+[JOSEPH_WRIGHT]
+id = 10
+category = naval
+faction = usa, usarmy, marine_corps
+
+[THOMAS_PATTEL]
+id = 11
+category = naval
+faction = usa, usarmy, marine_corps
+
+[DANIEL_MORRIS]
+id = 12
+category = naval
+faction = usa, usarmy, marine_corps
+
+[PAUL_CLARK]
+id = 13
+category = naval
+faction = usa, usarmy, marine_corps
+
+[KENNETH_JOHNSON]
+id = 14
+category = naval
+faction = usa, usarmy, marine_corps
+
+[GEORGE_ALLEN]
+id = 15
+category = naval
+faction = usa, usarmy, marine_corps
+
+[STEVEN_COX]
+id = 16
+category = naval
+faction = usa, usarmy, marine_corps
+
+[EDWARD_COLLINS]
+id = 17
+category = naval
+faction = usa, usarmy, marine_corps
+
+[BRIAN_HARRIS]
+id = 18
+category = naval
+faction = usa, usarmy, marine_corps
+
+[RONALD_PARKER]
+id = 19
+category = naval
+faction = usa, usarmy, marine_corps
+
+[ANTHONY_HUGHES]
+id = 20
+category = air
+faction = usa, usarmy, marine_corps
+
+[KEVIN_WILSON]
+id = 21
+category = air
+faction = usa, usarmy, marine_corps
+
+[JASON_WARD]
+id = 22
+category = air
+faction = usa, usarmy, marine_corps
+
+[JEFF_MARTIN]
+id = 23
+category = air
+faction = usa, usarmy, marine_corps
+
+[PAUL_CUNDY]
+id = 24
+category = air
+faction = usa, usarmy, marine_corps
+
+[WARREN_ELWOOD]
+id = 25
+category = air
+faction = usa, usarmy, marine_corps
+
+[ARTHUR_DOYLE]
+id = 26
+category = air
+faction = usa, usarmy, marine_corps
+
+[VIRGIL_DRAKE]
+id = 27
+category = air
+faction = usa, usarmy, marine_corps
+
+[KENNETH_CURTIS]
+id = 28
+category = air
+faction = usa, usarmy, marine_corps
+
+[JOSPEH_DORRIS]
+id = 29
+category = air
+faction = usa, usarmy, marine_corps
+
+[TADASHI_OTAKE]
+id = 30
+category = land
+faction = japan, ijn
+
+[SACHIO_WATANABE]
+id = 31
+category = land
+faction = japan, ijn
+
+[MITSUGU_SUDO]
+id = 32
+category = land
+faction = japan, ijn
+
+[KAZUSHI_GOMI]
+id = 33
+category = land
+faction = japan, ijn
+
+[YASUHIKO_MORINIO]
+id = 34
+category = land
+faction = japan, ijn
+
+[KEISAKU_ARAMAKI]
+id = 35
+category = land
+faction = japan, ijn
+
+[JIRO_HAYASHI]
+id = 36
+category = land
+faction = japan, ijn
+
+[KISAJI_KAMIHARA]
+id = 37
+category = land
+faction = japan, ijn
+
+[HIDEO_ENDO]
+id = 38
+category = land
+faction = japan, ijn
+
+[MOMOTO_SHIMIZU]
+id = 39
+category = land
+faction = japan, ijn
+
+[KENISHI_HINOKI]
+id = 40
+category = naval
+faction = japan, ijn
+
+[HIDEAKI_KATO]
+id = 41
+category = naval
+faction = japan, ijn
+
+[IWATARO_IZUKA]
+id = 42
+category = naval
+faction = japan, ijn
+
+[TOMIO_INAYAMA]
+id = 43
+category = naval
+faction = japan, ijn
+
+[MASOA_SUGIYAMA]
+id = 44
+category = naval
+faction = japan, ijn
+
+[MITZUSO_ISHIKAMA]
+id = 45
+category = naval
+faction = japan, ijn
+
+[KICHIGORO_KIMURA]
+id = 46
+category = naval
+faction = japan, ijn
+
+[YONISUKE_YAMOTO]
+id = 47
+category = naval
+faction = japan, ijn
+
+[KENSUI_TANAKA]
+id = 48
+category = naval
+faction = japan, ijn
+
+[KENJI_TOKUIJI]
+id = 49
+category = naval
+faction = japan, ijn
+
+[TAKEYOSHI_SAITO]
+id = 50
+category = air
+faction = japan, ijn
+
+[SABURO_MATSUKI]
+id = 51
+category = air
+faction = japan, ijn
+
+[RYOJI_OISHI]
+id = 52
+category = air
+faction = japan, ijn
+
+[KIYOTO_TAKAHASHI]
+id = 53
+category = air
+faction = japan, ijn
+
+[YUKIHARU_OBARA]
+id = 54
+category = air
+faction = japan, ijn
+
+[GITARO_SHIBUKAWA]
+id = 55
+category = air
+faction = japan, ijn
+
+[KOKI_YONEKAWA]
+id = 56
+category = air
+faction = japan, ijn
+
+[TOMOJI_NEGISHI]
+id = 57
+category = air
+faction = japan, ijn
+
+[HIDEO_FUKUYAMA]
+id = 58
+category = air
+faction = japan, ijn
+
+[TEDZUKO_HIROSE]
+id = 59
+category = air
+faction = japan, ijn
+
+[DRILL_INSTRUCTOR]
+id = 60
+category = land
+faction = usa, usarmy, marine_corps
+
+// 61 not used
+
+[KAREL_DOORMAN]
+id = 62
+category = naval
+faction = netherlands
+
+[IVAN_ZAKHAROV]
+id = 63
+category = air
+faction = ussr
+
+[LEV_KOZACHENKOV]
+id = 64
+category = air
+faction = ussr
+
+[CHIANG_KAI_SHEK]
+id = 65
+category = land
+faction = china
+
+[MANNERHEIM]
+id = 66
+category = land
+faction = finland
+
+[IMARI_JUUTILAINEN]
+id = 67
+category = air
+faction = finland
+
+[OLLI_PUHAKKA]
+id = 68
+category = air
+faction = finland
+
+[PAAVO_TALVELA]
+id = 69
+category = land
+faction = finland
+
+[MATTI_AARNIO]
+id = 70
+category = land
+faction = finland
+
+[HJALMAR_SIILASVUO]
+id = 71
+category = land
+faction = finland
+
+[UNTO_PETAJA]
+id = 72
+category = land
+faction = finland
+
+[YRJO_KINNUNEN]
+id = 73
+category = land
+faction = finland

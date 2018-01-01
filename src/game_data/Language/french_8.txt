@@ -1,0 +1,247 @@
+﻿unit_1341 = Heinkel He 59 (T)
+unit_1342 = Blohm & Voss BV 138
+unit_1343 = Dornier Do 18
+unit_1344 = Fairey Barracuda (B)
+unit_1345 = Fairey Swordfish (B)
+unit_1346 = Flottentorpedoboot 39
+unit_1347 = BB Classe H
+unit_1348 = DD Type 1936
+unit_1349 = DD Type 1936A
+unit_1350 = DD Type 1936B
+unit_1351 = AV Bussard
+unit_1352 = AV Greif
+unit_1353 = CVE Jade
+unit_1354 = BB Classe H
+unit_1355 = BC Classe O
+unit_1356 = BC Classe O
+unit_1357 = DD Sims
+unit_1358 = DD Gleaves '41
+unit_1359 = DD Classe J
+unit_1360 = DD Type 1936A Mob
+unit_1361 = Canons Principaux
+unit_1362 = Canons principaux
+unit_1363 = BB Deutschland
+unit_1364 = Canons principaux
+unit_1365 = Ar 196 A-3
+unit_1366 = Schnellboot S-38
+unit_1367 = Schnellboot S-100
+unit_1368 = Schnellboot S-219
+unit_1369 = Schnellboot S-701
+unit_1370 = BB Classe H
+unit_1371 = BB Classe H
+unit_1372 = Infanterie Britannique '42
+unit_1373 = Infanterie Britannique '43
+unit_1374 = Infanterie Britannique '44
+unit_1375 = Infanterie Britannique '45
+unit_1376 = Infanterie lourde Britannique '42
+unit_1377 = Infanterie lourde Britannique '43
+unit_1378 = Infanterie lourde Britannique '44
+unit_1379 = Infanterie lourde Britannique '45
+unit_1380 = Génie Britannique '40
+unit_1381 = Génie Britannique '42
+unit_1382 = Génie Britannique '43
+unit_1383 = Génie Britannique '44
+unit_1384 = Génie Britannique '45
+unit_1385 = Chindits
+unit_1386 = Police Militaire
+unit_1387 = Canons principaux
+unit_1388 = Canons principaux
+unit_1389 = Canons principaux
+unit_1390 = Canons principaux
+unit_1391 = Génie US '40
+unit_1392 = Infanterie US '40
+unit_1393 = Infanterie lourde US '40
+unit_1394 = Marines US '40
+unit_1395 = Génie US '39
+unit_1396 = Infanterie US '39
+unit_1397 = Infanterie lourde US '39
+unit_1398 = Marines US '39
+unit_1399 = Génie Britannique '39
+unit_1400 = Infanterie Britannique '39
+unit_1401 = Infanterie lourde Britannique '39
+unit_1402 = Fort côtier
+unit_1403 = Canons principaux
+unit_1404 = Canons principaux
+unit_1405 = Canons principaux
+unit_1406 = Canons principaux
+unit_1407 = Canons principaux
+unit_1408 = Canons principaux
+unit_1409 = Canons principaux
+unit_1410 = Canons principaux
+unit_1411 = Canons principaux
+unit_1412 = Canons principaux
+unit_1413 = Génie US '43
+unit_1414 = Génie US '44
+unit_1416 = Génie US '45
+
+unit_4105 = CA Admiral Hipper
+unit_4142 = SS Type VII
+unit_4143 = SS Type VII
+
+unit_3100 = SS Orzel
+unit_3101 = SS Orzel
+unit_3102 = DD Wicher
+unit_3103 = SS Type 1
+unit_3104 = SS Type 1
+unit_3106 = CA Deutschland
+unit_3107 = CL Konigsberg
+unit_3108 = BB Scharnhorst
+unit_3109 = BB Bismarck
+unit_3110 = CVL Graf Zeppelin
+unit_3111 = SS Type XXI
+unit_3112 = SS Type XXI
+unit_3113 = Fw 200 Condor
+unit_3114 = Bf 109 T
+unit_3115 = Ju 87C (B)
+unit_3116 = Ju 87C (T)
+unit_3117 = Heinkel He 59 (B)
+unit_3119 = CL Town
+unit_3120 = BC Admiral
+unit_3121 = BC Renown
+unit_3122 = CV Illustrious
+unit_3123 = CV Ark Royal
+unit_3124 = SS Classe S
+unit_3125 = SS Classe S
+unit_3126 = PBY Catalina
+unit_3127 = Sea Hurricane
+unit_3128 = Fairey Swordfish (T)
+unit_3129 = Fairey Barracuda (T)
+unit_3130 = Narvire marchand
+
+commander_81 = Gunther Lutjens
+commander_82 = Hubert Schmundt
+commander_83 = Hans Erdmenger
+commander_84 = Otto Kretschmer
+commander_85 = Heinrich Ehrler
+commander_86 = Fritz Fliegel
+
+// Don't translate these ranks
+difficulty_finland_0 = I. Vääpeli
+difficulty_finland_1 = II. Luutnantti
+difficulty_finland_2 = III. Kapteeni
+difficulty_finland_3 = IV. Eversti
+difficulty_finland_4 = V. Kenraali
+
+difficulty_germany_0 = I. Unteroffizier
+difficulty_germany_1 = II. Leutnant
+difficulty_germany_2 = III. Major
+difficulty_germany_3 = IV. Generalmajor
+difficulty_germany_4 = V. Feldmarschall
+
+difficulty_kriegsmarine_0 = I. Kommodore
+difficulty_kriegsmarine_1 = II. Konteradmiral
+difficulty_kriegsmarine_2 = III. Vizeadmiral
+difficulty_kriegsmarine_3 = IV. Admiral
+difficulty_kriegsmarine_4 = V. Grossadmiral
+
+difficulty = Difficulty
+
+replays = Rejouer
+saved_games = Sauvegarder partie
+save_recording_title = Sauvegarder le Replay
+save_recording_text = Voulez-vous sauvegarder le replay de cette bataille ? Cela permet de revoir votre partie ou de la partager avec d'autres.
+tooltip_delete_replay = Supprimer le replay actuellement sélectionné.
+tooltip_display_saved_games = Afficher les sauvegardes
+tooltip_display_saved_replays = Afficher les replays
+delete_replay_title = Supprimer le replay
+delete_replay_descr = Voulez-vous supprimer le replay définitivement ?
+recording_finished_title = Enregistrement complété
+recording_finished_text = La fin du replay de la partie a été atteint.
+tooltip_replay_toggle_fow = Brouillard de guerre on/off.
+tooltip_replay_toggle_camera = Zoom de la caméra sur l'action du joueur et sur les emplacements des évènements du scénario on/off.
+tooltip_replay_toggle_events = Affichage des infobulles d'évènements on/off.
+tooltip_replay_toggle_turns = Affichage du rapport de tour on/off.
+tooltip_replay_take_control = Arrêter le replay et prendre le contrôle direct de la partie.
+replay_take_control_title = Prendre le contrôle
+replay_take_control_text = Voulez-vous prendre le contrôle direct du jeu, en continuant l'état actuel dans le replay ?
+
+update_available_title = Mise à jour disponible
+update_available_text = Une nouvelle mise à jour automatique est disponible. Voulez-vous la télécharger et l'appliquer maintenant ?
+restart_required_title = Redémmarrer le jeu
+restart_required_text = Une mise à jour automatique a été appliquée avec succès. Redémarrer le jeu.
+
+spec_plan_z_title = Plan Z
+spec_plan_z_descr = Plan Z Spécifie un programme de ré-équipement majeur et une expansion de la Kriegsmarine. L'objectif est de défier la puissance navale du Royaume-Uni et de réaliser la parité avec la Royal Navy.
+spec_plan_z_effect = • Gain 100 points de Resources|• +4 points de commandement naval à chaque mission
+
+spec_schlachtschiffe_title = Schlachtschiffe
+spec_schlachtschiffe_descr = Avec tous les anciens traités navals maintenant obsolètes, l'Allemagne peut concevoir une classe moderne de cuirassés sans aucune limitation dans le tonnage et le calibre des canons.
+spec_schlachtschiffe_effect = • La classe H de cuirassés devient disponible à l'achat|• La classe O de croiseurs de bataille devient disponible à l'achat.
+
+spec_flugzeugtrager_title = Flugzeugträger
+spec_flugzeugtrager_descr = Pour projeter les forces Allemandes à travers les océans, une haute priorité doit être donnée au développement de porte-avions, ainsi qu'aux chasseurs et bombardiers qu'ils les soutiendront.
+spec_flugzeugtrager_effect = • Les porte-avions deviennent disponible beaucoup plus tôt dans la guerre|• Les avions basés sur un porte-avion deviennent disponible beaucoup plus tôt dans la guerre
+
+spec_torpedo_improvements_title = Améliorations des torpilles
+spec_torpedo_improvements_descr = Après des rapports de combat et des procédures de test minutieuses, les défauts dans la profondeur et des mécanismes de détonation des torpilles peuvent être identifiés et rectifiés
+spec_torpedo_improvements_effect = • Les attaques de torpilles infligent plus de dégâts
+
+spec_destroyer_tender_title = Destroyer de soutien
+spec_destroyer_tender_descr = Les navires auxiliaires spécialisés fournissant le soutien aux destroyers ou à d'autres petits navires de guerre peuvent significativement augmenter la gamme opérationnelle et la durabilité de ces derniers.
+spec_destroyer_tender_effect = • Les navires de soutien rechargeront immédiatement la torpille aux navires de guerre adjacents
+
+trait_24_title = Carburant illimité
+trait_24_descr = L'avion est conçu pour des opérations à longues portées et n'exige pas le ravitaillement régulier en carburant.
+trait_43_title = Aéronaval
+trait_43_descr = L'unité peut être posée et ravitaillée à partir des porte-avions.
+trait_58_title = Présence fugitive
+trait_58_descr = Cette unité ne peut capturer un hexagone ou des points de victoire.
+trait_59_title = Mouvement flexible
+trait_59_descr = Cette unité peut couper ces points de mouvements en plusieurs déplacements.
+trait_59_title = Tir de barrage
+trait_59_descr = Cette unité a la capacité d'effectuer des tirs de barrage de gros calibre sur des cibles ennemies.
+trait_60_title = Barrage de mortiers
+trait_60_descr = Cette unité peut effectuer un tir de barrage aux mortiers pour supprimer l'ennemi.
+trait_61_title = Capacité de transport : 1
+trait_61_descr = Cette unité peut transporter d'autres unités.
+trait_62_title = Capacité de transport : 2
+trait_62_descr = Cette unité peut transporter d'autres unités.
+trait_63_title = Capacité de transport : 3
+trait_63_descr = Cette unité peut transporter d'autres unités.
+trait_64_title = Frêt léger
+trait_64_descr = Cette unité peut décharger à partir d'une route de ravitaillement sur n'importe quel type de terrain.
+trait_65_title = Cible difficile
+trait_65_descr = Grâce à sa taille et/ou à sa vitesse, cette unité subie moins de dégâts des canons navals longue portée.
+trait_66_title = Hydravion
+trait_66_descr = Cette unité peut être posée et ravitaillée par son porteur.
+trait_67_title = Porte-avions
+trait_67_descr = Cette unité peut lancer, récupérer et ravitailler les avions basés dessus.
+trait_68_title = Porteur d'hydravion
+trait_68_descr = Ce navire peut lancer, récupérer et ravitailler des hydravions de soutien.
+
+tooltip_weapon_switch = Changer d'arme :
+tooltip_weapon_switch_disabled_1 = Vous ne pouvez changer d'arme si l'unité est prête à attaquer durant le tour en cours.
+tooltip_weapon_switch_disabled_2 = Changer d'arme : cette capacité est encore en rechargement pour un ou plusieurs tours.
+
+skirmish_mode = Mode escarmouche
+scenario_mode = Mode scénario
+ready_question = Prêt ?
+
+resource_bonus = Des ressources supplémentaires sont assignés si ce scénario est joué hors du mode campagne.
+
+commander_wounded_title = Commandant blessé
+commander_wounded_text = Un commandant a été blessé dans l'action et a été hospitalisé pour être soigné.
+commander_imprisoned_title = Commandant emprisonné
+commander_imprisoned_text = Un commandant a été capturé par l'ennemi, mais est susceptible d'être libéré éventuellement du camp de prisonniers.
+tooltip_maximise_commanders = Maximise les contrôles de gestion du commandant.
+tooltip_minimise_commanders = Minimise les contrôles de gestion du commandant.
+
+unitclass_tender = Hydravion de soutien
+
+loading_tip_14 = Un navire de guerre inflige moins de dégâts à un navire ennemi spécifique aprés un mouvement, si la distance entre la position précédente et la cible est différente de la position actuelle et la cible.
+loading_tip_15 = Plus un navire consomme de points de mouvement durant son tour, moins de dégâts il subira des tirs des unités navales pendant le tour suivant de l'adversaire.
+loading_tip_16 = Seul un sous-marin en surface peut être détecté par un navire ou un avion adjacent. S'il est en plongée, celui-ci peut être détecté seulement par un sonar ou si le navire se déplace à l'endroit exact de la position du sous-marin.
+loading_tip_17 = Les sous-marins peuvent rester immergés pendant un nombre limité de tours. Quand les batteries sont déchargées, ils devront refaire surface automatiquement. Les sous-marins en surface rechargent graduellement leurs batteries.
+loading_tip_18 = Les navire de guerre et les croiseurs de bataille ont une capacité spéciale de tirer avec leurs batteries principales. Ces canons de gros calibre ont une grande portée et infligent des gros dégâts, mais prennent 2 tours pour le rechargement.
+loading_tip_19 = Un porteur d'hydravion peut seulement fournir un ravitaillement aux hydravions, tandis qu'un porte-avion peut ravitailler aussi bien des hydravions que des avions. Les aérodromes peuvent ravitailler tout types d'avions. Sans une source adéquate de ravitaillement les avions ne peuvent être déployés sur la carte.
+
+tutorial_naval_moving_targets_title = Évitement des coups
+tutorial_naval_moving_targets = Plus un navire consomme de points de mouvement durant son tour, moins de dégâts il subira des tirs des unités navales pendant le tour suivant de l'adversaire.
+tutorial_bb_primary_guns_title = Canons de navire de guerre
+tutorial_bb_primary_guns = Les navire de guerre et les croiseurs de bataille ont une capacité spéciale de tirer avec leur batterie principale. Ces canons de gros calibre ont une grande portée et infligent des gros dégâts, mais prennent 2 tours pour le rechargement..
+tutorial_submarine_battery_title = Batteries des sous-marins
+tutorial_submarine_battery = Les sous-marins peuvent rester immergés pendant un nombre limité de tours. Quand les batteries sont déchargées, ils devront refaire surface automatiquement. Les sous-marins en surface rechargent graduellement leurs batteries.
+tutorial_submarine_detection_title = Détection de sous-marin
+tutorial_submarine_detection = Seul un sous-marin en surface peut être détecté par un navire ou un avion adjacent. S'il est en plongée, celui-ci peut être détecté seulement par un sonar ou si le navire se déplace à l'endroit exact de la position du sous-marin.
+tutorial_seaplane_tender_title = Types de ravitaillement aérien
+tutorial_seaplane_tender = Un porteur d'hydravion peut seulement fournir un ravitaillement aux hydravions, tandis qu'un porte-avion peut ravitailler aussi bien des hydravions que des avions. Les aérodromes peuvent ravitailler tout types d'avions. Sans une source adéquate de ravitaillement les avions ne peuvent être déployés sur la carte.

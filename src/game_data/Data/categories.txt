@@ -1,0 +1,13 @@
+[LAND]
+id = 0
+field = 0
+
+[NAVAL]
+id = 1
+field = 0
+detectable
+
+[AIR]
+id = 2
+field = 1
+detectable

@@ -1,0 +1,11 @@
+[ROADBRIDGE]
+id = 0
+type = roadbridge
+
+[RAILBRIDGE]
+id = 1
+type = railbridge
+
+[PONTOONBRIDGE]
+id = 2
+type = roadbridge

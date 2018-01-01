@@ -1,0 +1,126 @@
+unit_502  = 砲艦
+unit_503  = M2 90mm 高射砲
+unit_455  = M2 90mm 高射砲
+unit_150  = P47C サンダーボルト
+unit_151  = P51B ムスタング
+unit_258  = スーパーマリーンシーファイア XV型
+unit_346  = A6M5 三菱 零式艦上戦闘機 五二型
+unit_348  = 中島 キ44 二式戦闘機 鍾馗
+
+unitclass_infantry_descr  = 歩兵
+unitclass_recon_descr  = 偵察
+unitclass_tank_descr  = 戦車と他のタイプの戦闘車輌は一般的に歩兵と他の戦車クラスユニットに対してうまく対応します。
+unitclass_artillery_descr  = 砲兵ユニットは長距離から砲撃して敵の効率を損ない彼らを釘付けにします。
+unitclass_anti_tank_descr  = 対戦車ユニットは戦車クラスユニットに攻撃されている隣接した友軍ユニットに火力支援を提供します。
+unitclass_anti_air_descr  = 対空
+unitclass_fighter_descr  = 戦闘機
+unitclass_tactical_bomber_descr  = 戦術爆撃機
+unitclass_strategic_bomber_descr  = 戦略爆撃機
+unitclass_transport_descr  = 輸送
+unitclass_battleship_descr  = 戦艦
+unitclass_cruiser_descr  = 巡洋艦
+unitclass_destroyer_descr  = 駆逐艦クラスには高速な駆逐艦と、それ以外の小さく軽量な軍艦が含まれます。
+unitclass_carrier_descr  = 航空母艦
+unitclass_submarine_descr  = 潜水艦
+unitclass_structure_descr  = 構造物
+unitclass_mines_descr  = 機雷
+unitclass_missile_descr  = ミサイル
+
+turn_confirm_title  = ターン終了
+turn_confirm_text  = 本当にターンを終了して、次のプレイヤーにアップロードしますか?
+
+send  = 送る
+
+split_fields  = 現在の非航空/航空フォーカスにユニットサイズを常に調整します
+unit_efficiency  = 効率
+
+tutorial_torpedo_launch_2  = ユニットが魚雷を発射した後で、再装填の為に数ターン待たねばなりません。再装填に掛かるターン数は、能力ボタンの左上の角に表示されています。
+
+pbem_error_server_down  = オンラインサーバーは現在メンテナンス中です、後程お試し下さい。
+
+pbem_reserved_slot  = 確保スロット
+pbem_date  = 最後のターンの日付
+
+kick_player_title  = プレイヤーをキックする
+kick_player_text  = 一週間以上行動の無いプレイヤーをゲームからキックします。これで次のアクティブなプレイヤーにターンを渡します。||本当に現在のプレイヤーをキックしますか?
+claim_game_title  = 勝利の主張
+claim_game_text  = このマッチの現在のプレイヤーは、自分のターンを終了するのに失敗しました。||本当にあなたは続けますか?
+
+tutorial_mp_matches_title  = 対戦者が最初に動きます
+tutorial_mp_matches  = あなたが応じたチャレンジは、もう一方のプレイヤーのターンから始まります。これはリストの前面のオレンジ色の小さな人形のアイコンで示されます。||対戦者がそのターンを終了したらこのアイコンは緑色に変わってあなたが自分のターンをプレイする用意が出来た事を示します。
+tutorial_mp_waiting_for_more_players_title  = 他のプレイヤーを待ちます
+tutorial_mp_waiting_for_more_players  = あなたが応じたチャレンジは、プレイを始める前に更にプレイヤーが加わる必要があります。||あなたのターンをプレイできるようマッチの準備が整えば、そのアイコンが緑色の人形に変わります。
+tutorial_player_not_found_title  = プレイヤーが見つかりません
+tutorial_player_not_found  = あなたが入力したプレイヤー名がアクティブプレイヤーのデータベースで見つかりませんでした。プレイヤーは少くとも一回はこのデータベースに現われる為にマルチプレイヤーにログインしなければならない事に注意して下さい。||プレイヤー名には大文字・小文字の区別はありません。
+tutorial_supply_cut_1_title  = 補給切れ
+tutorial_supply_cut_1  = 現在選択しているユニットは全ての補給源から補給切れの状態にあり、ユニットの戦力値の横の赤いドットで示されています。これは現在のテリトリー内に可用な補給源が存在しない為です。
+tutorial_supply_cut_2_title  = 補給に再接続
+tutorial_supply_cut_2  = ユニットを補給下に戻す為には、ユニットのテリトリーにあなたの補給源の一つを含むよう再接続する為に敵ヘックスを占領しなければなりません。
+tutorial_supply_cut_3_title  = 補給指標
+tutorial_supply_cut_3  = 補給表示モードを見る時に、マップ上に指標が現れます。アイコンの真ん中の大きな数値はそのヘックスがどれだけの補給を提供するかを示すものです。いかなる補給源もないテリトリーでは指標は"−"シンボルが表示されます。
+tutorial_supply_cut_4_title  = 補給収支
+tutorial_supply_cut_4  = 補給指標の小さな数値は、そのテリトリー内の全ての補給源の合計からテリトリー内のユニットに必要な補給量の合計を引いたものです。もしこの数値がマイナスであれば、全てのユニットに必要な補給を供給するのに充分では無いという事です。
+tutorial_advance_move_title  = 前進移動
+tutorial_advance_move  = 敵陸上ユニットを戦闘で破壊するか後退させた時に、攻撃側ユニットは空になったヘックスに前進する事を選ぶ事ができます。この移動だ攻撃の直後にのみ可能であり、何らかの他の命令を発した後では消滅します。
+tutorial_pbem_lobby_title  = PBEMロビー
+tutorial_pbem_lobby  = PBEM++マルチプレイヤーロビーへようこそ。ここでは全ての公開チャレンジとあなたが参加している全てのマッチのリストを見る事ができます。パネルの上にある4つのタブはゲームリストのフィルターとして機能します。
+tutorial_pbem_lobby_2_title  = ホスト又はジョイン
+tutorial_pbem_lobby_2  = あなたは既にある公開チャレンジ − もしあればですが − にジョインする事もできますし、自分自身のチャレンジをホストする事もできます。チャレンジにジョインするにはリストの中から選択して、パネルの右下にある"ジョイン"ボタンをクリックします。自分自身でホストするには、単に"ホストチャレンジ"ボタンをクリックします。
+tutorial_submarine_attack_title  = 潜水艦攻撃
+tutorial_submarine_attack  = 潜水した潜水艦が攻撃する時には、それによって敵に発見はされませんが、爆発音と一緒に警告音が鳴ります。潜水艦を発見する唯一の方法はソナー能力を使うか、潜水艦の現在の位置へ移動する事だけです。
+tutorial_campaign_variables  = 幾つかのシナリオには、キャンペーンにおいて後のシナリオで何かを起こす永続的な影響を持つイベントを持っています。これらのキャンペーンイベントの状況は、キャンペーンマップ上でマークされています。||これらのプッシュピンの色はそのイベントから誰が利益を得るかを表わします。
+
+
+tooltip_construct_unit_disabled_3  = @ を建設するのに十分なリソースポイントがありません
+
+tooltip_claim_match_timer  = 現在のプレイヤーが、@日間アクティブにならなければ、あなたは勝利を要求できます。
+tooltip_kick_player_timer  = 現在のプレイヤーが、@日間アクティブにならなければ、あなたはゲームらキックできます。
+tooltip_state_claimable  = マッチの状況：現在のプレイヤーは@日間以上の間アクティブになっていないので、ゲームからキックできます。
+
+tooltip_state_available_invited  = チャレンジの状況：あなたはこのオープンチャレンジに招待されています。
+tooltip_state_available_private_invited  = チャレンジの状況：あなたはこのプライベートチャレンジに招待されています。
+
+tooltip_batch_2  = パブリッシャー(Slitherine/Matrix)
+tooltip_batch_3  = コミュニティ貢献者
+tooltip_no_save_mp  = マルチプレイゲームの間にはセーブデータにアクセスできません。
+
+tooltip_clear_reserved  = 招待したプレイヤーを取り除きます
+tooltip_reserve_slot  = 特定のプレイヤーの為にスロットを確保します
+tooltip_reserved_slot  = このスロットは他のプレイヤーの為に確保されています
+tooltip_fixed_slot  = あなたはこのチャレンジに招待され、プレイヤースロットを変更する事はできません
+tooltip_repair_wounds  = ダメージコントロール：ユニットの戦力ポイントを限定的に回復します
+tooltip_repair_wounds_disabled_1  = ダメージコントロール：ダメージを修理するのに十分なリソースがありません
+tooltip_repair_wounds_disabled_2  = ダメージコントロール：攻撃した後で修理はできません
+tooltip_repair_wounds_disabled_3  = ダメージコントロール：潜水している時に修理はできません
+tooltip_torpedo_launch_disabled_5  = 魚雷は海ヘックスからのみ発射されます
+tooltip_air_lift_disabled_1  = ユニットは攻撃をした後に輸送機を離陸させる事はできません
+tooltip_repair_friendly_disabled_3  = 以前のターンから戦闘に参加していない隣接したユニットだけを修理できます
+tooltip_repair_friendly_disabled_4  = 以前のターンから戦闘に参加していない時にのみ他のユニットを修理する事ができます
+tooltip_switch_air_field  = 航空レイヤーにフォーカスします[@]
+tooltip_switch_ground_field  = 非航空レイヤーにフォーカスします[@]
+tooltip_shared_flags  = チームメンバーが他の味方の占領/勝利ポイントの周囲にユニットを配置するのを許可します
+tooltip_stat_efficiency  = 効率：効率は疲労や混乱や士気低下を現し、ユニットの戦闘におけるパフォーマンスに影響します
+tooltip_stat_assault  = 突撃：敵の要塞レベルを低下させます
+
+reserve_title  = 確保スロット
+reserve_text  = 特定のプレイヤーの為にスロットを確保できます。これにより招待した以外の他のプレイヤーがこのスロットを取る事を防ぎます
+search  = 探索
+
+editor_strength_difficulty_compensation  = 難易度ボーナスの補正
+editor_shared_flags  = チームで勝利ポイントを分配します
+editor_undeploy_unit  = 配置していないユニット
+
+commander_1_descr  = P.シンプソン軍曹は幾つもの日本軍歩兵の攻撃に対しての傑出した勇気と冷静さによって、戦場で昇進しました
+
+faction_ijn  = 大日本帝國
+
+trait_49_title  = 試作船殻
+trait_49_descr  = ユニットは魚雷攻撃に対する免疫があります
+trait_50_title  = 防御兵器
+trait_50_descr  = ユニットは攻撃では非効率的です
+trait_51_title  = 制空戦闘機
+trait_51_descr  = 戦闘機と戦術爆撃機に対して秀でている航空機
+trait_52_title  = 迎撃機
+trait_52_descr  = 戦略爆撃機を破壊する為に設計された航空機
+trait_53_title  = 地上攻撃機
+trait_53_descr  = 地上目標を攻撃する為に設計された航空機

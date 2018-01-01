@@ -1,0 +1,46 @@
+[VEHICLE_DEFENSE]
+id = 0
+category = land
+counter = mechanical
+ui = 16
+
+[INFANTRY_DEFENSE]
+id = 1
+category = land
+counter = infantry
+ui = 17
+
+[NAVAL_DEFENSE]
+id = 2
+category = naval
+counter = small, large
+ui = 10
+
+[AIR_DEFENSE]
+id = 3
+category = air
+counter = any
+ui = 4
+
+[SUBMARINE_DEFENSE]
+id = 4
+category = any
+counter = torpedo
+ui = 11
+
+[BOMBARD_DEFENSE]
+id = 5
+category = land
+counter = artillery
+ui = 5
+
+[LAND_DEFENSE]
+id = 6
+category = land
+counter = any
+ui = 17
+
+[MINES_DEFENSE]
+id = 7
+category = land
+counter = mines

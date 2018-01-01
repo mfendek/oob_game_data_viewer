@@ -1,0 +1,82 @@
+﻿unit_1069 = F2A Buffalo
+unit_1070 = KJM Kongō
+unit_1071 = Aufklärer-Marines
+unit_1072 = Lastwagen
+unit_1073 = Deut. Infanterie '40
+unit_1074 = 75mm PaK 40
+unit_1075 = Jap. Mörserinfanterie
+unit_1076 = US Mörserinfanterie
+unit_1077 = Austr. Mörserinfanterie
+unit_1078 = Chin. Mörserinfanterie
+unit_1079 = Niederländische Mörserinfanterie
+unit_1080 = Finn. Mörserinfanterie
+unit_1081 = Deut. Mörserinfanterie
+unit_1082 = Betonbunker
+unit_1083 = Typ 97 Shinhōtō Chi-Ha
+unit_1084 = Typ 92 70mm
+unit_1085 = Typ 2 Ka-Mi
+unit_1086 = Typ 2 Ka-Mi
+unit_1087 = Sowj. Mörserinfanterie
+unit_1091 = Jap. Scharfschützen
+
+editor_aggression = Aggression
+
+faction_raf = Großbritannien
+
+amount = Menge
+damage = Schaden
+unit_definitions = Einheitendefinitionen
+editor_visible_unit = Sichtbare Einheit(en)
+editor_viewer = Sichtbar für
+editor_check_trigger_timer = Trigger-Wiederholungswert überprüfen
+
+difficulty_britain_0 = Flying Officer
+difficulty_britain_1 = Flight Lieutenant
+difficulty_britain_2 = Squadron Leader
+difficulty_britain_3 = Group Captain
+difficulty_britain_4 = Marshal
+
+terrain_lake = See
+terrain_pine_forest = Dichter Wald
+terrain_rice = Reisfeld
+terrain_japanese_village = Asiatisches Dorf
+
+editor_climate = Klima
+climate_default = Standard
+climate_winter = Winter
+
+loading_tip_14 = Wenn ein Flugzeug eingesetzt wird oder von einem Flugplatz oder Flugzeugträger startet, ist seine Effizienz reduziert. Das spiegelt seine Anfälligkeit aufgrund von niedriger Geschwindigkeit und Flughöhe wider.||Zu Beginn der folgenden Runde verfügt es dann über die maximale Effizienz.
+loading_tip_15 = Von einem Flugzeugträger kann pro Runde nur ein Flugzeug starten, von einem Flugplatz hingegen zwei.
+loading_tip_16 = Einheiten mit Flammenwerfern sowie Fahrzeuge, die mit Kurzlaufkanonen mit niedriger Mündungsgeschwindigkeit ausgerüstet sind, sind im Allgemeinen wirkungsvoller in Gelände mit hohen Deckungswerten wie in Städten oder Wäldern.
+
+tutorial_content_marinecorps_title = [Neuer Inhalt] US Marines
+tutorial_content_marinecorps = Im August 1942 begann mit der Invasion auf Guadalcanal die Bodenoffensive der Vereinigten Staaten gegen Japan. Führen Sie das US-Marinekorps in der Operation Cartwheel an und erleben Sie 11 einzigartige Szenarios, in denen Sie Zeuge der herausfordernden "Inselspringen"-Schlachten im Pazifikkrieg werden.
+
+custom_name = Benutzerdefinierter Einheitenname
+
+trigger_effect_24 = Versorgungsausstoß ändern
+
+generate_preview_title = Kartenvorschau erstellen
+generate_preview_text = Wollen Sie ein neues Kartenvorschaubild erstellen?
+
+editor_available_turns = Verfügbar
+
+tooltip_weapon_switch = Mörser-Sperrfeuer: Decken Sie eine feindliche Einheit mit Mörser-Sperrfeuer ein.
+tooltip_weapon_switch_disabled_1 = Mörser-Sperrfeuer: Diese Einheit hat in der aktuellen Runde bereits angegriffen.
+
+trait_55_title = Infrastrukturreparatur
+trait_55_descr = Diese Einheit stellt nach und nach den Versorgungsausstoß ihres Hexfelds wieder her.
+trait_56_title = Schwergewicht
+trait_56_descr = Das hohe Gewicht und die enorme Größe dieser Einheit hindern sie daran, bestimmte Geländearten zu betreten.
+
+tutorial_campaign_overview_title = Kampagnenübersicht
+tutorial_campaign_overview = In diesem Übersichtsfenster können Sie eine beliebige Kampagne auswählen, indem Sie auf ihr Symbol auf der Weltkarte klicken. Bei freigeschalteten Inhalten starten Sie mit einem Klick auf den Starten-Button die Kampagne. Anderenfalls können Sie mit dem Kaufen-Button die Kampagne erwerben oder weitere Informationen darüber erhalten.
+
+difficulty_marines_0 = I. Lieutenant
+difficulty_marines_1 = II. Captain
+difficulty_marines_2 = III. Colonel
+difficulty_marines_3 = IV. General
+difficulty_marines_4 = V. Army General
+
+trigger_effect_25 = Ändere Einheitentyp
+editor_change_original_unittype = Ersetze Originaltyp

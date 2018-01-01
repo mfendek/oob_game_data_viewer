@@ -1,0 +1,144 @@
+﻿unit_1130 = PzKw. VI Tiger H
+unit_1131 = PzKw. VI B Königstiger
+unit_1132 = PzKw. VIII Maus
+unit_1133 = PzKw. V Panther D
+unit_1134 = PzKw. V Panther A
+unit_1135 = PzKw. V Panther G
+unit_1136 = Soviet Infantry '37
+unit_1137 = Soviet Infantry '42
+unit_1138 = Soviet Infantry '43
+unit_1139 = Soviet Infantry '45
+unit_1140 = Soviet Heavy Infantry '37
+unit_1141 = Soviet Heavy Infantry '42
+unit_1142 = Soviet Heavy Infantry '43
+unit_1143 = Soviet Heavy Infantry '45
+unit_1144 = Soviet Paratroopers '39
+unit_1145 = Soviet Paratroopers '40
+unit_1146 = Soviet Paratroopers '41
+unit_1147 = Soviet Paratroopers '42
+unit_1148 = Soviet Paratroopers '43
+unit_1149 = Soviet Paratroopers '44
+unit_1150 = Soviet Paratroopers '45
+unit_1151 = Finnish Infantry '45
+unit_1152 = Finnish Heavy Infantry '45
+unit_1153 = Finnish Ski Troops '45
+unit_1154 = German Infantry '37
+unit_1155 = German Infantry '39
+unit_1156 = German Infantry '42
+unit_1157 = German Infantry '43
+unit_1158 = German Infantry '45
+unit_1159 = German Heavy Infantry '37
+unit_1160 = German Heavy Infantry '39
+unit_1161 = German Heavy Infantry '40
+unit_1162 = German Heavy Infantry '41
+unit_1163 = German Heavy Infantry '42
+unit_1164 = German Heavy Infantry '43
+unit_1165 = German Heavy Infantry '44
+unit_1166 = German Heavy Infantry '45
+unit_1167 = Fallschirmjäger '37
+unit_1168 = Fallschirmjäger '39
+unit_1169 = Fallschirmjäger '40
+unit_1170 = Fallschirmjäger '41
+unit_1171 = Fallschirmjäger '42
+unit_1172 = Fallschirmjäger '43
+unit_1173 = Fallschirmjäger '44
+unit_1174 = Fallschirmjäger '45
+unit_1175 = Finnish Infantry '37
+unit_1176 = Finnish Heavy Infantry '37
+unit_1177 = Finnish Engineers '41
+unit_1178 = Finnish Engineers '44
+unit_1179 = Finnish Engineers '45
+unit_1180 = 76mm M1927
+unit_1181 = Finnish Infantry '38
+unit_1182 = PzKw. IV F2
+unit_1183 = PzKw. IV H
+unit_1184 = PzKw. 38(t) E
+
+faction_sweden = Sweden
+faction_norway = Norway
+faction_denmark = Denmark
+faction_waffenss = Waffen SS
+faction_greece = Greece
+faction_yugoslavia = Yugoslavia
+faction_romania = Romania
+
+ceditor_layout_location = Location
+ceditor_layout_core = Core
+ceditor_layout_flag = Flag
+ceditor_layout_arrow = Arrow
+
+ceditor_map_dimensions = Dimensions
+ceditor_map_rotation = Rotation
+ceditor_map_text = Map Text
+ceditor_campaign_variable = variable
+
+option_tcp = Live Online
+option_tcp_descr = Connect with the live server and set up a game with other players in the chat lobby.
+
+tcp_host = Host game
+tcp_join = Join game
+tooltip_tcp_host = Start a new multiplayer game.
+tooltip_tcp_join = Join an existing multiplayer game.
+tooltip_tcp_not_all_ready = All players must confirm they are ready before the game can be started.
+not_ready = Confirm ready
+tooltip_tcp_ready = You must confirm you are ready before the host can launch the game.
+waiting_players = Waiting...
+tooltip_tcp_waiting_for_players = Waiting for other players to finish loading the game.
+tooltip_tcp_not_enough_players = All player slots must be filled before the game can be launched.
+tooltip_tcp_choose_slot = You must select an open player slot.
+error_tcp_join_failed = Failed to join the selected game.
+error_tcp_game_is_full = Failed to join because the selected game is already full.
+chat = Chat
+no_briefing_available = No briefing available
+
+tcp_all_games = All games
+tcp_scenario_games = Official scenarios
+tcp_skirmish_games = Skirmish games
+tcp_custom_games = Custom scenarios
+tcp_failed_to_get_server_ip = Failed to get lobby server IP.
+tcp_game_name = Game name
+tcp_players = Players
+
+faction_unavailable_skirmish = Requires DLC
+faction_available_skirmish = Available
+faction_selected_skirmish = Selected
+faction_swap_skirmish = Swap player
+
+tooltip_no_single_team = Cannot launch if all players belong to the same team
+select_colour = Select Color
+tooltip_select_colour = Select a color for this player
+
+faction_skirmish_incompatible = Incompatible
+tooltip_incompatible_factions = One or more of the selected nations are incompatible with the chosen map type.
+tooltip_faction_no_navy = This nation has no navy and cannot be used on a naval map type.
+
+skirmish_event_enemy_points_warning_title = OPERATION CRITICAL
+skirmish_event_enemy_points_warning_text = The enemy has almost collected the required amount of Control Points.
+
+skirmish_event_own_points_warning_title = ALMOST THERE
+skirmish_event_own_points_warning_text = We have almost collected the required amount of Control Points.
+
+skirmish_event_enemy_points_halfway_title = OPERATION CRITICAL
+skirmish_event_enemy_points_halfway_text = The enemy has collected half the required amount of Control Points.
+
+skirmish_event_own_points_halfway_title = HALFWAY THERE
+skirmish_event_own_points_halfway_text = We have collected half the required amount of Control Points.
+
+trait_57_title = Quick Entrenchment
+trait_57_descr = The entrenchment value of this unit increases more quickly when it is idle.
+
+tooltip_objective_enabled = Is objective enabled and visible at the start of the scenario?
+
+trigger_effect_27 = Enable Objective
+trigger_effect_28 = AI Team Split
+trigger_effect_29 = Dialog Popup
+
+enable = Enable
+disable = Disable
+
+tutorial_free_bootcamp_title = Free Campaign
+tutorial_free_bootcamp = The complete Boot Camp campaign is available for free.||The other campaigns are "free-to-try": Progress will be saved upon completion of the first scenario, allowing you to continue your playthrough after purchasing the campaign pack.
+
+trigger_event_7 = Popup Dialog
+
+editor_focus_camera = Focus Camera:

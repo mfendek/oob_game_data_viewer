@@ -1,0 +1,331 @@
+﻿unit_523 = TBD Devastator (B)
+unit_524 = TBF-1 Avenger (B)
+unit_525 = TBM-3E Avenger (B)
+unit_526 = TBM-3E Avenger (T)
+unit_527 = TBM-3E Avenger (B)
+unit_156 = TBF-1 Avenger (T)
+unit_305 = TBM-3E Avenger (T)
+unit_528 = B6N Tenzan (B)
+unit_529 = B6N2 Tenzan (B)
+unit_1000 = Zündapp Motorcycle
+unit_530 = Japanese Infantry '37
+unit_531 = Japanese Infantry '39
+unit_532 = Japanese Heavy Infantry '37
+unit_533 = Japanese Heavy Infantry '39
+unit_534 = Japanese Marines '37
+unit_535 = Japanese Marines '39
+unit_536 = Japanese Engineers '37
+unit_537 = Chinese Infantry '37
+unit_538 = Chinese Infantry '39
+unit_539 = Chinese Heavy Infantry '37
+unit_540 = Chinese Heavy Infantry '39
+unit_541 = Chinese Infantry '35
+unit_542 = Chinese Partisans
+unit_543 = PzKw I
+unit_544 = Type 89
+unit_545 = 70mm Type 92
+unit_546 = 75mm Krupp M1908
+unit_547 = Ki-10
+unit_548 = Hawk III
+unit_549 = Type 94
+unit_550 = D1A
+unit_551 = A5M2
+unit_552 = 75mm Type 41
+unit_553 = Chinese Heavy Infantry '35
+unit_554 = Japanese Cavalry
+unit_555 = Chinese Cavalry
+unit_556 = Mongol Cavalry
+unit_557 = Chinese Militia
+unit_558 = D2A
+unit_559 = A5M4
+unit_560 = Ki-27 B
+unit_561 = Hawk II
+unit_562 = Heinkel He 111A
+unit_563 = Gloster Gladiator
+unit_564 = A4N1
+unit_565 = 70mm Type 92
+unit_600 = DD Fubuki
+unit_1001 = Tupolev SB 2
+unit_1002 = Ilyushin DB-3
+unit_1003 = Polikarpov I-15
+unit_1004 = Polikarpov I-153
+unit_1005 = Polikarpov I-16
+unit_1006 = Airstrip
+unit_1007 = Ki-15
+unit_1008 = Ki-27
+unit_1009 = Ki-30
+unit_1010 = Ki-48
+unit_1011 = Ki-51
+unit_1012 = 37mm Pak 36
+unit_1013 = 37mm Pak 36
+unit_1014 = 45mm M1937
+unit_1015 = 45mm M1937
+unit_1016 = Type 94 Tankette
+unit_1017 = PzKw I
+unit_1018 = BA-10
+unit_1019 = BA-20
+unit_1020 = Sherman Firefly
+unit_1021 = Humber Mk.II
+unit_1022 = L3/35
+unit_1023 = M3 Grant
+unit_1024 = Renault FT-17
+unit_1025 = SdKfz 221
+unit_1026 = SdKfz 222
+unit_1027 = T26 M1933
+unit_1028 = T26 M1933
+unit_1029 = T26 M1939
+unit_1030 = T26 M1939
+unit_1031 = Valentine Mk.III
+unit_1032 = Vickers Mk.E
+unit_1033 = Armadillo Mk.III
+unit_1034 = Home Guard
+unit_1035 = SdKfz 221
+unit_1036 = SdKfz 222
+unit_1037 = Renault FT-17
+unit_1038 = BA-10
+unit_1039 = BA-20
+unit_1040 = 47mm Cannone da 47/32 M35
+unit_1041 = Tupolev SB 2
+unit_1042 = Ilyushin DB-3
+unit_1043 = Polikarpov I-15
+unit_1044 = Polikarpov I-153
+unit_1045 = Polikarpov I-16
+unit_1046 = CA Myoko
+unit_1047 = CV Soryu
+unit_1048 = 75mm Bofors M1929
+unit_1049 = Ki-3
+unit_1050 = Sōkō Sagyō Ki
+unit_1051 = Vultee V-11
+unit_211 = Construction Group
+unit_1052 = T26 M1933
+unit_1053 = L3/35
+unit_1054 = Type 95 Ha-Go
+unit_1055 = Type 94 37mm
+unit_1056 = Type 98 20mm
+unit_1057 = Horse Transport
+unit_1058 = Construction Site
+unit_1059 = Type 98 20mm
+unit_1060 = Gloster Gladiator
+unit_1061 = L3/35
+unit_1062 = He 111 H
+unit_1063 = L3/33
+unit_1064 = L3/33
+unit_1065 = M2 Light Tank
+unit_1066 = DUWK
+unit_1067 = DUWK
+unit_1068 = BT-42
+unit_2035 = Ki-32
+
+commander_63 = Ivan Zakharov
+commander_64 = Lev Kozachenkov
+commander_65 = Chiang Kai-Shek
+
+tooltip_lay_mines_disabled_6 = Cannot lay mines on top of another unit
+
+disable_loading_videos = Disable AI spinning animation
+disable_mouse_scroll = Disable mouse scrolling
+
+tooltip_kamikaze_disabled_1 = Aircraft must be landed on airfield or carrier to change to kamikaze setup
+tooltip_revert_disabled_1 = Kamikaze aircraft cannot revert back to default setup when airborne
+
+skirmish = Skirmish
+
+editor_hex_name = Name:
+hex_name = Location Name
+
+tooltip_sleep = Putting a unit to sleep will exclude it from the Next/Previous selection cycle until it is awoken or used [@]
+tooltip_upgrade_series = Upgrade unit to different type (Discounted upgrade available!)
+
+hotkey_17 = Objectives Panel
+hotkey_18 = Location Names
+
+map_location_names = Display location names on the map
+
+change_map_mode_title = Change Map Display Mode
+change_map_mode_text = Changing the map display mode requires the scenario to be reloaded. Do you want to do this now?
+change_map_mode_fail_text = You can only change the map display mode during your own turn.
+
+tooltip_online_news = Online News
+
+enemy = Enemy
+ally = Ally
+
+stats_tab_resources = Resources
+stats_tab_units = Units
+stats_tab_kills = Kills
+stats_tab_territory = Territory
+
+serial_prompt_title = Insert Serial Key
+serial_prompt_text = Please insert your serial key in the text field below:
+invalid_serial = Invalid serial. Please try again or contact support@slitherine.co.uk.
+
+allow_continue_after_victory = Allow playing beyond victory
+tooltip_continue_after_victory = When enabled, the player will be offered the choice to continue playing after completing all primary objectives.
+proceed = Proceed
+
+continue_scenario = Continue Scenario
+continue_scenario_text = You have chosen to continue the scenario and keep fighting. This allows you to complete any unfinished secondary objectives or destroy the remaining enemy units.||Are you sure you want to proceed?
+
+ai_pause = Pause AI calculations
+ai_pause_never = Never
+ai_pause_animations = Pause during gameplay animations
+ai_pause_low_fps = Pause during low framerate
+
+tooltip_terrain_disembark_penalty = Disembark penalty: Efficiency loss from disembarking on this terrain type.
+
+tooltip_lay_mines_disabled_7 = Cannot lay mines on a hex with an Exit Point.
+tooltip_construct_unit_disabled_4 = Cannot construct @ on a hex with an Exit Point.
+tooltip_construct_unit_disabled_5 = Cannot construct @ next to an enemy unit.
+
+tooltip_change_skin = Customise this unit's skin.
+
+select_skin = Select Skin
+skin = Skin
+
+skin_0 = Autumn Patches
+skin_1 = Jungle Foliage
+skin_2 = Outlined Patches
+skin_3 = Green-Olive Patches
+skin_4 = Sand-Olive Patches
+skin_5 = Bronze-Olive Patches
+skin_6 = Sand Storm
+
+map_mode_1 = 3D World Map
+map_mode_2 = 2D World Map
+map_mode_3 = 3D Tactical Map
+map_mode_4 = 2D Tactical Map
+
+tooltip_download_content = Check for new community content
+download_content = Community Content
+install = Install
+tooltip_dlc_installed = This content is already installed on your device
+author = Author
+content_official = Official content
+content_custom = Custom content
+
+tooltip_add_player = Add another player
+season = Season
+spring = Spring
+summer = Summer
+autumn = Autumn
+winter = Winter
+year = Year
+map_preview = Preview
+map_list = Map List
+
+skirmish_briefing_0 = The objective in this mission is to gather 50 Control Points before the enemy can do the same.
+skirmish_briefing_1 = For each Primary VP you hold, you gain 1 Control Point per turn. So the more of these VPs we can take, the faster we can achieve victory.
+skirmish_briefing_2 = Next to the Primary VPs, a number of Secondary VPs are spread across the map.||These do not provide Control Points, but give Resource Points each turn.
+skirmish_briefing_3 = Choose carefully which VPs to take and defend. ||While Control Points are necessary for victory, Resource Points are vital to defend them!
+
+skirmish_objective_0 = Your Control Points
+skirmish_objective_0_award = #
+skirmish_objective_1 = Enemy Control Points
+skirmish_objective_1_award = #
+skirmish_objective_2 = Never lose all VPs
+skirmish_objective_2_award = #
+skirmish_objective2_0 = Capture Secondary VPs
+skirmish_objective2_0_award = For each Secondary VP under our control, we will receive additional Resource Points every turn.
+skirmish_objective2_1 = Capture the enemy Depots
+skirmish_objective2_1_award = The enemy will lose all their Command Points.
+
+skirmish_event_depots_captured_title = DEPOTS DESTROYED
+skirmish_event_depots_captured_text = The loss and destruction of all supply bases prevents the deployment of any additional forces.
+
+clear = Clear
+
+exit = Exit
+
+tutorial_unit_skins_title = Unit Skins
+tutorial_unit_skins = You can personalize the appearance of your ground vehicles by clicking the "Select Skin" button in the Info Panel, and selecting a custom camouflage pattern.
+
+// FACTION NAMES
+faction_china = Nationalist China
+faction_china_puppet = Chinese Collaborators
+faction_china_communists = Communist China
+faction_mengjiang = Mengjiang
+faction_manchukuo = Manchukuo
+faction_india_nationalists = Indian National Army
+faction_india = British India
+
+event_zundapp_title = ZUNDAPP
+event_zundapp_text = Straight from the battlefields of Normandie, this is it, the legendary sidecar equipped motorcycle!
+
+tooltip_unit_category_filter = Filter units by category
+
+editor_final_turn = Scenario turn limit
+remove_folder_title = Delete Folder
+remove_folder_descr = Are you sure you want to delete the selected folder and all its content?
+
+tooltip_add_trigger = Create Trigger
+tooltip_open_folder = Open folder
+tooltip_close_folder = Close folder
+tooltip_move_to_folder = Move to folder
+tooltip_move_to_root = Move to root folder
+
+weather_snow = Snow
+
+tooltip_team_alliances = Create a team between these two players
+tooltip_unteam_alliances = Discard the team between these two players
+
+map_settings = Map Settings
+map_size = Map Size
+size_small = Small
+size_normal = Normal
+size_large = Large
+size_huge = Huge
+
+trigger_effect_23 = Set Folder State
+folder_missing = Folder missing!
+editor_folder = Folder
+
+tutorial_deployment_phase_title = Deployment Phase
+tutorial_deployment_phase = During this phase you can deploy your forces on the map, but you cannot make any moves or attacks.||Press the End Turn button to end the deployment phase.
+
+tooltip_scenario_mod_mismatch = This game is using a mod which is not active on your device.
+tooltip_scenario_vanilla_mismatch = This game is using the vanilla game data, not the mod you are currently running.
+
+update = Update
+tooltip_dlc_outdated = A version of this content is available which is newer than the one installed on your device.
+
+tooltip_sort_name = Click to sort list by name
+tooltip_sort_date = Click to sort list by date
+
+dlc_restart_title = Restart Game
+dlc_restart_text = You need to restart the game in order to use the content you have just installed.
+
+purchase_content = Purchase Campaign
+tooltip_purchase_content = Visit the shop page for this campaign pack
+
+terrain_wall = Wall
+terrain_asian_town = Asian Town
+
+tooltip_landing_disabled_1 = The airfield or carrier has reached its maximum cargo capacity.
+
+content = Content
+default = Default
+
+tooltip_delete_custom_campaign = Delete the currently selected custom campaign.
+delete_custom_campaign_title = Delete Custom Campaign
+delete_custom_campaign_descr = Are you sure you want to permanently delete this custom campaign?
+
+tooltip_upgrade_disabled_6 = Upgrade: Cannot upgrade unit when it is out of supply.
+
+owned_by = Owned by
+not_owned_by = Not owned by
+
+trait_54_title = Limited Replacements
+trait_54_descr = Due to limited availability, this unit type can only be repaired at 1 strength point per turn.
+
+tooltip_colour_already_used = This colour is already used by another player.
+
+tutorial_content_morningsun_title = [New content] Morning Sun
+tutorial_content_morningsun = In 1937, Imperial Japan enters a new conflict with the Chinese Nationalist and Communist forces in eastern China. This campaign features 11 scenarios, over 100 new units as well as various new terrain types and gameplay mechanics.
+
+activate_content = Activate Content
+tooltip_activate_content = Insert or purchase a serial for this game content.
+
+inquire_serial_title = Unlock Content
+inquire_serial_descr = Do you have a serial key for this game content pack?||Clicking "no" will open the product page with more information about its specific features.
+
+faction_marine_corps = Marine Corps

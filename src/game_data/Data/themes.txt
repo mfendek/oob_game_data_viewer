@@ -1,0 +1,118 @@
+[USA]
+ui = usa
+video = usa
+music = usa
+turn = usa
+difficulty = usa
+
+[JAPAN]
+ui = japan
+video = japan
+music = japan
+turn = japan
+difficulty = japan
+
+[BRITAIN]
+ui = britain
+video = britain
+music = britain
+turn = britain
+difficulty = britain
+
+[CHINA]
+ui = china
+video = china
+music = usa
+turn = usa
+difficulty = usa
+
+[USSR]
+ui = ussr
+video = ussr
+music = usa
+turn = ussr
+difficulty = usa
+
+[FINLAND]
+ui = finland
+video = finland
+music = finland
+turn = finland
+difficulty = finland
+
+[MARINES]
+ui = usa
+video = usa
+music = usa
+turn = usa
+difficulty = marines
+
+[GERMANY]
+ui = germany
+video = germany
+music = germany
+turn = germany
+difficulty = germany
+
+[ITALY]
+ui = italy
+video = italy
+music = germany
+turn = usa
+difficulty = germany
+
+[NETHERLANDS]
+ui = usa
+video = netherlands
+music = usa
+turn = usa
+difficulty = usa
+
+[POLAND]
+ui = usa
+video = poland
+music = usa
+turn = usa
+difficulty = usa
+
+[FRANCE]
+ui = usa
+video = france
+music = usa
+turn = usa
+difficulty = usa
+
+[NORWAY]
+ui = finland
+video = norway
+music = finland
+turn = finland
+difficulty = finland
+
+[BELGIUM]
+ui = usa
+video = belgium
+music = usa
+turn = usa
+difficulty = usa
+
+[GREECE]
+ui = usa
+video = greece
+music = usa
+turn = usa
+difficulty = usa
+
+[YUGOSLAVIA]
+ui = usa
+video = yugoslavia
+music = usa
+turn = usa
+difficulty = usa
+
+[KRIEGSMARINE]
+ui = germany
+video = germany
+music = germany
+turn = germany
+difficulty = kriegsmarine

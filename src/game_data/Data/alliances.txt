@@ -1,0 +1,16 @@
+[NOMANSLAND]
+id = 0
+color = 204,204,204
+
+[NEUTRAL]
+id = 1
+color = 224,191,5
+neutral
+
+[PLAYER1]
+id = 2
+color = 155,36,24
+
+[PLAYER2]
+id = 3
+color = 121,127,31

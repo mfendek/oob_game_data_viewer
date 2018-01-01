@@ -1,0 +1,107 @@
+﻿unit_502 = Canonnière
+unit_503 = Canon AA M2 90mm
+unit_455 = Canon AA M2 90mm
+unit_150 = P47C Thunderbolt
+unit_151 = P51B Mustang
+unit_258 = Supermarine Seafire XV
+unit_346 = A6M5 Zéro
+unit_348 = Ki-44 II Shoki
+
+turn_confirm_title = Fin de tour
+turn_confirm_text = Êtes-vous sur de vouloir terminer le tour et le télécharger au joueur suivant ?
+
+send = Envoyer
+
+split_fields = Toujours ajuster la taille des unités au focus en cours sol / air
+unit_efficiency = Efficacité
+
+tutorial_torpedo_launch_2 = Après qu'une unité ait tiré une torpille elle doit attendre un ou plusieurs tours pour être rechargée. Le nombre de tours que nécessite le rechargement est alors affiché dans le coin supérieur gauche du bouton de cette compétence.
+
+pbem_error_server_down = Le serveur en ligne est actuellement en maintenance, veuillez ré-essayer plus tard.
+
+pbem_reserved_slot = Emplacement réservé
+pbem_date = Date du dernier tour
+
+kick_player_title = Expulser joueur
+kick_player_text = Un joueur qui a été inactif pendant plus de sept jours peut être expulsé de la partie. Cela va passer le tour à l'autre joueur actif. || Êtes-vous sûr de vouloir écarter le joueur actuel?
+claim_game_title = Revendiquer la victoire
+claim_game_text = Le joueur actuel dans cette partie n'a pas terminé son tour ||Êtes-vous sur de vouloir continuer ?
+
+tutorial_mp_matches_title = Mouvements de l'adversaire en premier
+tutorial_mp_matches = Le défi que vous avez accepté commence avec le tour d'un autre joueur. Cela est indiqué par un icone orange dans la liste.||Quand votre adversaire a finit de jouer son tour, cet icone passera au vert, indiquant que le jeu est prêt pour que vous jouiez votre tour.
+tutorial_mp_waiting_for_more_players_title = En attente des autres joueurs
+tutorial_mp_waiting_for_more_players = Le défi que vous avez accepté nécessite des joueurs supplémentaires avant de pouvoir commencer.||Quand ce sera votre tour, cet icone passera au vert.
+tutorial_player_not_found_title = Joueur non trouvé
+tutorial_player_not_found = Le nom du joueur que vous avez entré ne peut être trouvé dans la base de données des joueurs actifs. Notez qu'un joueur doit s'être connecté en multijoueur au moins une fois afin d'apparaître dans cette base de données.||Les noms des joueurs ne sont pas sensibles à la casse.
+tutorial_supply_cut_1_title = Coupé du ravitaillement
+tutorial_supply_cut_1 = L'unité actuellement sélectionnée est coupée de toutes sources de ravitaillement, comme indiqué par le point rouge à coté du chiffre de force de l'unité. Cela est dû à l'absence de sources de ravitaillement dans son territoire actuel.
+tutorial_supply_cut_2_title = Reconnexion du ravitaillement
+tutorial_supply_cut_2 = Pour ravitailler à nouveau l'unité vous devez capturer les hex ennemis pour reconnecter le territoire de l'unité avec une de vos sources de ravitaillement. Maintenez appuyé la <BARRE D'ESPACE> pour voir quels cases ou navires côtiers peuvent fournir du ravitaillement.
+tutorial_supply_cut_3_title = Indicateur du ravitaillement
+tutorial_supply_cut_3 = Quand vous affichez le ravitaillement des indicateurs apparaîtront sur la carte. Le gros nombre au centre de l’icône indique combien de ravitaillement est fourni par l'hex. Pour un territoire sans aucune source de ravitaillement, un indicateur avec un symbole "-" sera affiché.
+tutorial_supply_cut_4_title = Balance de ravitaillement
+tutorial_supply_cut_4 = Le petit nombre sur les indicateurs de ravitaillement est la somme de toutes les sources de ravitaillement dans le territoire moins le ravitaillement requis par les unités dans le territoire. Si ce nombre est négatif alors il n'y a pas assez de ravitaillement disponible pour toutes les unités.
+tutorial_advance_move_title = Mouvement d'avance
+tutorial_advance_move = Quand vous détruisez une unité terrestre ennemie au combat ou la forcez à se replier, l'unité attaquante peut choisir d'avancer dans l'hex désormais vide. Ce mouvement est disponible juste après l'attaque, et disparaîtra après que vous donniez un autre ordre.
+tutorial_pbem_lobby_title = Salon PBEM
+tutorial_pbem_lobby = Bienvenue dans le salon Multijoueur PBEM++. Ici vous trouverez une liste de tous les matchs et défis ouverts auxquels vous pouvez participer. Les quatre onglets dans la partie supérieure servent de filtres pour la liste des parties.
+tutorial_pbem_lobby_2_title = Héberger ou rejoindre
+tutorial_pbem_lobby_2 = Vous pouvez choisir de rejoindre un défi ouvert existant - si il y en a - ou d'héberger votre propre défi. Pour rejoindre un défi, sélectionnez-le dans la liste et cliquez sur "Rejoindre partie" dans le coin inférieur droit du panneau. Pour héberger vote propre partie, cliquez simplement sur le bouton "Héberger partie".
+tutorial_submarine_attack_title = Attaque de sous-marins
+tutorial_submarine_attack = Quand un sous-marin immergé attaque il ne sera pas révélé à l'ennemi, mais une alarme accompagnera l'explosion. Le seul moyen de détecter un sous-marin est d'utiliser les Sonars, ou de tenter de se déplacer à la position actuelle du sous-marin.
+tutorial_campaign_variables = Certains événements d'un scénario ont un effet durant pendant la campagne, affectant ce qui se passera dans les scénarios ultérieurs. L'état de ces événements de campagne est indiqué sur la Carte de campagne.||La couleur de ces punaises indique qui bénéficie de l'événement.
+
+
+tooltip_construct_unit_disabled_3 = Pas assez de Points de ressources pour construire @.
+
+tooltip_claim_match_timer = Si le joueur actuel reste inactif pendant @ jours, vous pourrez revendiquer la victoire.
+tooltip_kick_player_timer = Si le joueur actuel reste inactif pendant @ jours, vous pourrez l'expulser de la partie.
+tooltip_state_claimable = Match State: Le joueur actuel est inactif depuis @ jours et peut maintenant être expulsé de la partie.
+
+tooltip_state_available_invited = État du défi : vous avez été invité dans ce défi ouvert.
+tooltip_state_available_private_invited = État du défi : vous avez été invité dans ce défi privé.
+
+tooltip_batch_2 = Editeur (Slitherine/Matrix)
+tooltip_batch_3 = Contributeur de la communauté
+tooltip_no_save_mp = Ne peut accéder aux sauvegardes durant les parties multijoueurs.
+
+tooltip_clear_reserved = Enlever le joueur invité.
+tooltip_reserve_slot = Emplacement réservé pour un joueur.
+tooltip_reserved_slot = L'emplacement est réservé pour un autre joueur.
+tooltip_fixed_slot = Vous avez été invité à ce défi et ne pouvez changer votre emplacement de joueur.
+tooltip_repair_wounds = Contrôle des dégâts : récupérez un nombre limité de points de force de l'unité.
+tooltip_repair_wounds_disabled_1 = Contrôle des dégâts : pas assez de ressources pour réparer les dégâts.
+tooltip_repair_wounds_disabled_2 = Contrôle des dégâts : ne peut être réparé après avoir attaqué.
+tooltip_repair_wounds_disabled_3 = Contrôle des dégâts : ne peut être réparé quand immergé.
+tooltip_torpedo_launch_disabled_5 = Les torpilles peuvent seulement être lancées depuis un hex maritime.
+tooltip_air_lift_disabled_1 = Une unité ne peut embarquer après avoir bougé.
+tooltip_repair_friendly_disabled_3 = Seules les unités adjacentes n'ayant pas combattu depuis le tour précédent peuvent être réparées.
+tooltip_repair_friendly_disabled_4 = L'unité peut seulement en réparer d'autres si elle n'a pas été impliquée dans un combat depuis le tour précédent.
+tooltip_switch_air_field = Régler le focus sur la couche aérienne [@]
+tooltip_switch_ground_field = Régler le focus sur la couche terrestre [@]
+tooltip_shared_flags = Permettre à n'importe quel membre de l'équipe de déployer des unités autour de n'importe quel point de victoire ou capturé.
+tooltip_stat_efficiency = Efficacité : l'efficacité affecte la performance d'une unité au combat, représentant la fatigue, la perturbation et un moral bas.
+tooltip_stat_assault = Assaut : réduction d'un niveau de fortification ennemie.
+
+reserve_title = Emplacement réservé
+reserve_text = Vous pouvez réserver un emplacement pour un joueur précis. Cela empêchera d'autres joueurs que celui invité de prendre cet emplacement.
+search = Recherche
+
+editor_strength_difficulty_compensation = Bonus de compensation pour la difficulté
+editor_shared_flags = Les équipes partagent les Points|de Victoire
+editor_undeploy_unit = Unité non déployée
+
+commander_1_descr = Le Sgt. P. Simpson a été promu sur le champ de bataille après avoir fait preuve d'une bravoure extrême et de bon sens en affrontant plusieurs attaques de l'infanterie japonaise.
+
+faction_ijn = Japon impérial
+
+trait_49_title = Coque planante
+trait_49_descr = L'unité est immunisée aux attaques de torpilles
+trait_50_title = Arme défensive
+trait_50_descr = L'unité est moins efficace en attaque
+trait_51_title = Combat aérien
+trait_51_descr = L'avion excelle contre les chasseurs et les bombardiers tactiques
+trait_52_title = Intercepteur
+trait_52_descr = L'avion est conçu pour détruire les bombardiers stratégiques
+trait_53_title = Attaque au sol
+trait_53_descr = L'avion est conçu pour attaquer des cibles au sol
