@@ -1,6 +1,13 @@
 <?php
 
 try {
+    $startTime = microtime(true);
+
+    error_reporting(-1);
+    ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
+
+    $version = '2018-01-03';
+
     // configuration
 
     $validFilters = [
@@ -63,13 +70,6 @@ try {
         'airCarrier' => 'Aircraft Carrier',
         'precisionStrike' => 'Precision Strike',
     ];
-
-    $startTime = microtime(true);
-
-    error_reporting(-1);
-    ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
-
-    $version = '2018-01-01';
 
     // processing
 
