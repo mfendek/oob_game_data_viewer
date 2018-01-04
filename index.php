@@ -536,7 +536,7 @@ try {
                 if (in_array($item, $filterTypes)) {
                     $carrier[] = $item;
                 } else {
-                    $itemName = strtolower($item);
+                    $itemName = $item;
                     $item = strtolower($item);
                     $unitIds = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
                     foreach ($unitIds as $unitId) {
