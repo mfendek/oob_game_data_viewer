@@ -1047,7 +1047,7 @@ export default function () {
         }
 
         // transport
-        if (data['transport'] !== '') {
+        if (data['transport'].length > 0) {
           // new content row
           contentRow = $('<div></div>');
           contentRow.addClass('unit-item__content-row');
@@ -1077,6 +1077,48 @@ export default function () {
               element.attr(
                   'title',
                   'unit may use '.concat(item['name'], ' as transport (transport unit missing)')
+              );
+            }
+
+            element.append(subElement);
+            contentRow.append(element);
+          }
+
+          // end content row
+          unitElement.append(contentRow);
+        }
+
+        // unit carrier (explicit list of units that can carry this unit as a cargo)
+        if (data['unit_carrier'].length > 0) {
+          // new content row
+          contentRow = $('<div></div>');
+          contentRow.addClass('unit-item__content-row');
+
+          const itemsList = data['unit_carrier'];
+
+          for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
+            const item = itemsList[listIndex];
+            element = $('<div></div>');
+            element.addClass('unit-item__label-gray');
+
+            if (item['id'] > 0) {
+              const realName = manager.unitsData[item['id']]['name_real'];
+
+              // carrier unit is properly linked
+              subElement = $('<a></a>');
+              subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
+              subElement.text(realName);
+              element.attr(
+                  'title',
+                  'unit can land on '.concat(realName, ' and be carried inside as a cargo')
+              );
+            } else {
+              // carrier unit is not linked
+              subElement = $('<span></span>');
+              subElement.text(item['name']);
+              element.attr(
+                  'title',
+                  'unit can land on '.concat(item['name'], ' and be carried inside as a cargo (carrier unit missing)')
               );
             }
 

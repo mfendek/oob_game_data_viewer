@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-03';
+    $version = '2018-01-05';
 
     // configuration
 
@@ -356,7 +356,7 @@ try {
         foreach ($listData as $item) {
             // clean item (same data is malformed)
             $item = str_replace(',', '', $item);
-            $carrier[] = $item;
+            $carrier[] = trim($item);
         }
         $carrier = array_values($carrier);
 
@@ -463,6 +463,7 @@ try {
             'cargo' => (!empty($line[34])) ? (int) $line[34] : 0,
             // carrier type (type of ships that can store this unit in cargo)
             'carrier' => $carrier,
+            'unit_carrier' => [],
             'transport' => $line[36],
             'torpedo_attack' => (int) $torpedoAttack,
             'torpedo_range' => (int) $torpedoRange,
@@ -492,36 +493,64 @@ try {
 
     unset($unitNamesLocalised);
 
-    // process transport units list
+    // process transport units list and carrier type
     foreach ($units as $id => $data) {
-        if (empty($data['transport'])) {
-            continue;
-        }
+        // process transport
+        if (!empty($data['transport'])) {
+            // reformat list
+            $listData = explode(', ', $data['transport']);
+            $listData = array_diff($listData, ['', ' ']);
 
-        // reformat list
-        $listData = explode(', ', $data['transport']);
-        $listData = array_diff($listData, ['', ' ']);
+            $transport = [];
+            foreach ($listData as $item) {
+                // remove garbage from unit name
+                $item = str_replace(',', '', $item);
 
-        $transport = [];
-        foreach ($listData as $item) {
-            // remove garbage from unit name
-            $item = str_replace(',', '', $item);
+                // there are upper case and lower case variants, also some unit names do not actually have a record yet
+                $itemName = $item;
+                $item = strtolower($item);
 
-            // there are upper case and lower case variants, also some unit names do not actually have a record yet
-            $itemName = $item;
-            $item = strtolower($item);
-
-            // replace unit name with list of ids
-            $transportIds = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
-            foreach ($transportIds as $transportId) {
-                $transport[] = [
-                    'name' => $itemName,
-                    'id' => (int) $transportId
-                ];
+                // replace unit name with list of ids
+                $transportIds = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                foreach ($transportIds as $transportId) {
+                    $transport[] = [
+                        'name' => $itemName,
+                        'id' => (int) $transportId
+                    ];
+                }
             }
+
+            $units[$id]['transport'] = $transport;
+        } else {
+            $units[$id]['transport'] = [];
         }
 
-        $units[$id]['transport'] = $transport;
+        // process carrier type
+        if (!empty($data['carrier'])) {
+            $carrier = [];
+            $unitCarrier = [];
+
+            // search for explicit carrier types(referenced by name)
+            // remove unit references from the standard carrier list
+            foreach ($data['carrier'] as $item) {
+                if (in_array($item, $filterTypes)) {
+                    $carrier[] = $item;
+                } else {
+                    $itemName = strtolower($item);
+                    $item = strtolower($item);
+                    $unitIds = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                    foreach ($unitIds as $unitId) {
+                        $unitCarrier[] = [
+                            'name' => $itemName,
+                            'id' => (int) $unitId
+                        ];
+                    }
+                }
+            }
+
+            $units[$id]['carrier'] = $carrier;
+            $units[$id]['unit_carrier'] = $unitCarrier;
+        }
     }
 
     $itemsTotal = count($units);
