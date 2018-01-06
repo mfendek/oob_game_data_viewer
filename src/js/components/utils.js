@@ -36,6 +36,9 @@ export default function () {
       // list of units that have the terrain data expanded
       expandedTerrain: [],
 
+      // application version
+      app_version: '',
+
       /**
        * calculate first item of current page
        *
@@ -120,15 +123,15 @@ export default function () {
       },
 
       /**
-       * initialize all data
+       * laod initial data
        *
+       * @param {Object} data
        * @param {function} callback
        */
-      initData: function (callback) {
+      loadInitData: function (data, callback) {
         const manager = this;
 
         // initial data load
-        const data = $('#units-data-file');
         const order = $('#units-data-ordered');
         const terrain = $('#terrain-data-file');
         const pagesTotal = $('#pages-total');
@@ -141,7 +144,7 @@ export default function () {
         manager.suggestedPage = parseInt($('#current-page').text());
 
         // parse data
-        manager.unitsData = JSON.parse(data.text());
+        manager.unitsData = data;
         const units = manager.unitsData;
 
         manager.terrain = JSON.parse(terrain.text());
@@ -192,12 +195,74 @@ export default function () {
         }
 
         // cleanup used data sources
-        data.remove();
         order.remove();
         terrain.remove();
         preselectedFilters.remove();
 
         callback();
+      },
+
+      /**
+       * initialize all data
+       *
+       * @param {function} callback
+       */
+      initData: function (callback) {
+        const manager = this;
+
+        // store app version (used in caching)
+        manager.app_version = $('.version-info').data('version');
+        const unitDataKey = 'unit-data';
+
+        const unitData = manager.getCachedItem(unitDataKey);
+        if (unitData === null) {
+          // unit data is not cached - fetch fresh data
+          $.post('', {'units-data': 1}, function (data) {
+            manager.loadInitData(data, callback);
+
+            // store unit data for future use
+            manager.setCachedItem(unitDataKey, JSON.stringify(data));
+          });
+        } else {
+          // unit data is cached - use it
+          manager.loadInitData(JSON.parse(unitData), callback);
+        }
+      },
+
+      /**
+       * @param {string} key
+       * @returns {string}
+       */
+      getCachedItem: function (key) {
+        // storage not available
+        if (typeof(Storage) === 'undefined') {
+          return null;
+        }
+
+        const manager = this;
+        const cacheKey = manager.app_version.concat('_', key);
+
+        const item = localStorage.getItem(cacheKey);
+        if (typeof(item) === 'undefined') {
+          return null;
+        }
+
+        return item;
+      },
+
+      /**
+       * @param {string} key
+       * @param {string} data
+       */
+      setCachedItem: function (key, data) {
+        // storage not available
+        if (typeof(Storage) === 'undefined') {
+          return;
+        }
+
+        const manager = this;
+        const cacheKey = manager.app_version.concat('_', key);
+        localStorage.setItem(cacheKey, data);
       },
 
       /**

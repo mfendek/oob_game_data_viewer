@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-05';
+    $version = '2018-01-07';
 
     // configuration
 
@@ -579,6 +579,14 @@ try {
 
     $unitsOrdered = json_encode($unitsOrdered);
     $units = json_encode($units);
+
+    // unit data only request via AJAX
+    if (!empty($_REQUEST['units-data'])) {
+        header('Content-Type: application/json; charset=utf-8');
+        echo $units;
+        exit();
+    }
+
     sort($filterCategories);
     sort($filterTypes);
     sort($filterChassis);
@@ -682,9 +690,8 @@ try {
     $html.= '</ul>';
     $html.= '</div>';
 
-    $html.= '<div class="version-info">Version: ' . $version . '</div>';
+    $html.= '<div class="version-info" data-version="' . $version . '">Version: ' . $version . '</div>';
 
-    $html.= '<div id="units-data-file" class="hidden">' . $units .'</div>';
     $html.= '<div id="units-data-ordered" class="hidden">' . $unitsOrdered .'</div>';
     $html.= '<div id="terrain-data-file" class="hidden">' . json_encode($terrain) .'</div>';
 
