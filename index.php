@@ -508,6 +508,8 @@ try {
         ];
     }
 
+    unset($unitNamesLocalised);
+
     // second iteration processing (unit references)
     foreach ($units as $id => $data) {
         // process transport
@@ -623,6 +625,8 @@ try {
             }
         }
     }
+
+    unset($unitUpgradeGroups);
 
     $itemsTotal = count($units);
     $pagesTotal = ceil($itemsTotal / $itemsPerPage);
@@ -779,7 +783,11 @@ try {
     $html.= '</body>';
 
     $html.= '</html>';
-    $html.= sprintf('<!-- Page generated in %.2f ms. -->', (microtime(true) - $startTime));
+    $html.= sprintf(
+        '<!-- Page generated in %.2f ms, memory used %.2f MB -->',
+        (microtime(true) - $startTime),
+        memory_get_usage() / (1024 * 1024)
+    );
 
     // WS formatting
     $dom = new DOMDocument();
