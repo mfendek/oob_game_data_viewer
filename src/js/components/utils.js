@@ -233,6 +233,15 @@ export default function () {
        * @param {string} key
        * @returns {string}
        */
+      getCacheKey: function (key) {
+        const manager = this;
+        return manager.app_version.concat('_', key);
+      },
+
+      /**
+       * @param {string} key
+       * @returns {string}
+       */
       getCachedItem: function (key) {
         // storage not available
         if (typeof(Storage) === 'undefined') {
@@ -240,7 +249,7 @@ export default function () {
         }
 
         const manager = this;
-        const cacheKey = manager.app_version.concat('_', key);
+        const cacheKey = manager.getCacheKey(key);
 
         const item = localStorage.getItem(cacheKey);
         if (typeof(item) === 'undefined') {
@@ -261,7 +270,7 @@ export default function () {
         }
 
         const manager = this;
-        const cacheKey = manager.app_version.concat('_', key);
+        const cacheKey = manager.getCacheKey(key);
         localStorage.setItem(cacheKey, data);
       },
 
@@ -1153,6 +1162,48 @@ export default function () {
           unitElement.append(contentRow);
         }
 
+        // unit switch
+        if (data['switch'].length > 0) {
+          // new content row
+          contentRow = $('<div></div>');
+          contentRow.addClass('unit-item__content-row');
+
+          const itemsList = data['switch'];
+
+          for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
+            const item = itemsList[listIndex];
+            element = $('<div></div>');
+            element.addClass('unit-item__label-gray');
+
+            if (item['id'] > 0) {
+              const realName = manager.unitsData[item['id']]['name_real'];
+
+              // switch unit is properly linked
+              subElement = $('<a></a>');
+              subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
+              subElement.text(realName);
+              element.attr(
+                  'title',
+                  'unit may switch to '.concat(realName, ' using ', item['action'], ' action')
+              );
+            } else {
+              // switch unit is not linked
+              subElement = $('<span></span>');
+              subElement.text(item['name']);
+              element.attr(
+                  'title',
+                  'unit may switch to '.concat(item['name'], ' using ', item['action'], ' action (switch unit missing)')
+              );
+            }
+
+            element.append(subElement);
+            contentRow.append(element);
+          }
+
+          // end content row
+          unitElement.append(contentRow);
+        }
+
         // unit carrier (explicit list of units that can carry this unit as a cargo)
         if (data['unit_carrier'].length > 0) {
           // new content row
@@ -1209,7 +1260,20 @@ export default function () {
             element.addClass('unit-item__content-icon');
             element.addClass('unit-item__content-icon--rectangle-small');
             element.attr('style', manager.getBackgroundImg('faction', faction));
-            element.attr('title', 'available for '.concat(faction, ' faction'));
+            let title = 'available for '.concat(faction, ' faction');
+
+            // unit upgrade groups
+            if (typeof data['series'][faction] !== 'undefined') {
+              const unitUpgradeGroup = data['series'][faction];
+
+              subElement = $('<a></a>');
+              subElement.addClass('unit-item__image-link');
+              subElement.attr('href', manager.getUrlWithParams({f:{id : unitUpgradeGroup.join(',')}}));
+              element.append(subElement);
+              title = title.concat(' (click to see unit upgrade group)');
+            }
+
+            element.attr('title', title);
             contentRow.append(element);
           }
 

@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-07';
+    $version = '2018-01-14';
 
     // configuration
 
@@ -285,6 +285,7 @@ try {
     $filterExpire = '';
     $units = [];
     $unitNames = [];
+    $unitUpgradeGroups = [];
     $dataFile = explode("\n", $dataFile);
     foreach ($dataFile as $line) {
         $line = explode(";", $line);
@@ -346,6 +347,20 @@ try {
         $expire = ($expire) ? $expire->format('U') : '';
         if ($expire !== '' && ($filterExpire === '' || $filterExpire < $expire)) {
             $filterExpire = $expire;
+        }
+
+        $series = $line[18];
+        if (!empty($series)) {
+            $series = trim($series);
+            foreach ($factions as $item) {
+                if (!empty($unitUpgradeGroups[$item][$series])) {
+                    $unitUpgradeGroups[$item][$series][] = $id;
+                } else {
+                    $unitUpgradeGroups[$item][$series] = [$id];
+                }
+            }
+        } else {
+            $series = '';
         }
 
         // reformat list so we could easily search in it later
@@ -445,6 +460,7 @@ try {
             'chassis' => $chassis,
             'available' => $available,
             'expire' => $expire,
+            'series' => $series,
             'cost' => (!empty($line[19])) ? (int) $line[19] : 0,
             'supply' => (int) $line[20],
             'movement' => (int) $line[22],
@@ -465,6 +481,7 @@ try {
             'carrier' => $carrier,
             'unit_carrier' => [],
             'transport' => $line[36],
+            'switch' => $line[37],
             'torpedo_attack' => (int) $torpedoAttack,
             'torpedo_range' => (int) $torpedoRange,
             'torpedo_cool_down' => (int) $torpedoCoolDown,
@@ -491,9 +508,7 @@ try {
         ];
     }
 
-    unset($unitNamesLocalised);
-
-    // process transport units list and carrier type
+    // second iteration processing (unit references)
     foreach ($units as $id => $data) {
         // process transport
         if (!empty($data['transport'])) {
@@ -511,11 +526,11 @@ try {
                 $item = strtolower($item);
 
                 // replace unit name with list of ids
-                $transportIds = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
-                foreach ($transportIds as $transportId) {
+                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                foreach ($ids as $itemId) {
                     $transport[] = [
                         'name' => $itemName,
-                        'id' => (int) $transportId
+                        'id' => (int) $itemId
                     ];
                 }
             }
@@ -523,6 +538,51 @@ try {
             $units[$id]['transport'] = $transport;
         } else {
             $units[$id]['transport'] = [];
+        }
+
+        // process unit switch
+        if (!empty($data['switch'])) {
+            // reformat list
+            $listData = explode(',', $data['switch']);
+            $listData = array_diff($listData, ['', ' ']);
+
+            $switch = [];
+            foreach ($listData as $item) {
+                // remove garbage from unit name
+                $item = str_replace(',', '', $item);
+                if (strpos($item, ':') === false) {
+                    continue;
+                }
+
+                // parse item action and item name
+                $item = explode(':', $item);
+                $action = $item[0];
+                $item = $item[1];
+
+                // remove extra param
+                if (strpos($item, ' ') !== false) {
+                    $item = explode(' ', $item);
+                    $item = $item[0];
+                }
+
+                // there are upper case and lower case variants, also some unit names do not actually have a record yet
+                $itemName = $item;
+                $item = strtolower($item);
+
+                // replace unit name with list of ids
+                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                foreach ($ids as $itemId) {
+                    $switch[] = [
+                        'name' => trim($itemName),
+                        'action' => trim($action),
+                        'id' => (int) $itemId
+                    ];
+                }
+            }
+
+            $units[$id]['switch'] = $switch;
+        } else {
+            $units[$id]['switch'] = [];
         }
 
         // process carrier type
@@ -550,6 +610,17 @@ try {
 
             $units[$id]['carrier'] = $carrier;
             $units[$id]['unit_carrier'] = $unitCarrier;
+        }
+
+        $units[$id]['series'] = [];
+        if (!empty($data['series'])) {
+            foreach ($unitUpgradeGroups as $faction => $factionData) {
+                foreach ($factionData as $series => $ids) {
+                    if (in_array($id, $ids)) {
+                        $units[$id]['series'][$faction] = $ids;
+                    }
+                }
+            }
         }
     }
 

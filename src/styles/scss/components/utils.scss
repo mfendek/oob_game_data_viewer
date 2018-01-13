@@ -74,6 +74,17 @@ body {
     margin: 0.5ex;
   }
 
+  &__image-link {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   &__detail-title {
     font-size: large;
   }
