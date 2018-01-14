@@ -106,6 +106,14 @@ export default function () {
           return 'src/game_data/Graphics/UI/Specialisations/'.concat(value, '.png');
         }
 
+        if (name === 'switch_action') {
+          return 'src/game_data/Graphics/UI/Large/'.concat('button_', value, '_high_1280.png');
+        }
+
+        if (name === 'weapon_ability') {
+          return 'src/game_data/Graphics/UI/Large/'.concat('ability_weapon_', value, '.png');
+        }
+
         return '';
       },
 
@@ -337,6 +345,7 @@ export default function () {
         }
 
         $('#current-page').text(manager.currentPage);
+        $('#current-page-bottom').text(manager.currentPage);
       },
 
       /**
@@ -972,6 +981,21 @@ export default function () {
         element.append(subElement);
         contentRow.append(element);
 
+        // naval attack small - primary guns
+        if (data['naval_attack_small_pg'] > 0) {
+          element = $('<div></div>');
+          element.addClass('unit-item__content-icon');
+          element.addClass('unit-item__content-icon--rectangle-large');
+          element.addClass('unit-item__content-icon--text-stat');
+          element.attr('style', manager.getBackgroundImg('new_stats', 'naval_attack_small_pg'));
+          element.attr('title', 'naval attack against small targets using primary guns');
+          subElement = $('<span></span>');
+          subElement.text(data['naval_attack_small_pg']);
+          manager.compareCoreAttribute(subElement, 'naval_attack_small_pg', data['naval_attack_small_pg']);
+          element.append(subElement);
+          contentRow.append(element);
+        }
+
         // naval attack large
         element = $('<div></div>');
         element.addClass('unit-item__content-icon');
@@ -984,6 +1008,21 @@ export default function () {
         manager.compareCoreAttribute(subElement, 'naval_attack_large', data['naval_attack_large']);
         element.append(subElement);
         contentRow.append(element);
+
+        // naval attack large - primary guns
+        if (data['naval_attack_large_pg'] > 0) {
+          element = $('<div></div>');
+          element.addClass('unit-item__content-icon');
+          element.addClass('unit-item__content-icon--rectangle-large');
+          element.addClass('unit-item__content-icon--text-stat');
+          element.attr('style', manager.getBackgroundImg('new_stats', 'naval_attack_large_pg'));
+          element.attr('title', 'naval attack against large targets using primary guns');
+          subElement = $('<span></span>');
+          subElement.text(data['naval_attack_large_pg']);
+          manager.compareCoreAttribute(subElement, 'naval_attack_large_pg', data['naval_attack_large_pg']);
+          element.append(subElement);
+          contentRow.append(element);
+        }
 
         // submarine attack
         element = $('<div></div>');
@@ -1133,7 +1172,7 @@ export default function () {
             element = $('<div></div>');
             element.addClass('unit-item__label-gray');
 
-            if (item['id'] > 0) {
+            if (item['id'] > -1) {
               const realName = manager.unitsData[item['id']]['name_real'];
 
               // transport unit is properly linked
@@ -1173,30 +1212,39 @@ export default function () {
           for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
             const item = itemsList[listIndex];
             element = $('<div></div>');
-            element.addClass('unit-item__label-gray');
+            element.addClass('unit-item__content-icon');
+            element.addClass('unit-item__content-icon--square-small');
 
-            if (item['id'] > 0) {
+            let backgroundImage = manager.getBackgroundImg('switch_action', item['img']);
+            if (item['img'] !== item['action']) {
+              backgroundImage = 'background-image: url("'.concat(
+                  manager.getImgUrl('weapon_ability', item['action']),
+                  '"), url("',
+                  manager.getImgUrl('switch_action', item['img']),'")'
+              );
+            }
+            element.attr('style', backgroundImage);
+
+            if (item['id'] > -1) {
               const realName = manager.unitsData[item['id']]['name_real'];
 
               // switch unit is properly linked
               subElement = $('<a></a>');
+              subElement.addClass('unit-item__image-link');
               subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
-              subElement.text(realName);
+              element.append(subElement);
               element.attr(
                   'title',
                   'unit may switch to '.concat(realName, ' using ', item['action'], ' action')
               );
             } else {
               // switch unit is not linked
-              subElement = $('<span></span>');
-              subElement.text(item['name']);
               element.attr(
                   'title',
                   'unit may switch to '.concat(item['name'], ' using ', item['action'], ' action (switch unit missing)')
               );
             }
 
-            element.append(subElement);
             contentRow.append(element);
           }
 
@@ -1729,6 +1777,9 @@ export default function () {
 
         $('#pages-total').text(manager.pagesTotal);
         $('#current-page').text(manager.currentPage);
+
+        $('#pages-total-bottom').text(manager.pagesTotal);
+        $('#current-page-bottom').text(manager.currentPage);
       }
     };
 

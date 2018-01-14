@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-14';
+    $version = '2018-01-15';
 
     // configuration
 
@@ -22,6 +22,17 @@ try {
 
     // number of items per one page
     $itemsPerPage = 10;
+
+    // unit action image name correction
+    $actionImgTrans = [
+        'weapon' => 'weapon_switch',
+        'rail' => 'railmode',
+        'road' => 'roadmode',
+        'anti_air' => 'aa_switch',
+        'anti_tank' => 'at_switch',
+        'artillery' => 'art_switch',
+        'bomb' => 'bomb_switch',
+    ];
 
     // hard coded trait mapping T_T
     $traitTrans = [
@@ -494,7 +505,9 @@ try {
             'air_attack_small' => (!empty($line[44])) ? (int) $line[44] : 0,
             'air_attack_large' => (!empty($line[45])) ? (int) $line[45] : 0,
             'naval_attack_small' => (!empty($line[46])) ?(int)  $line[46] : 0,
+            'naval_attack_small_pg' => 0,
             'naval_attack_large' => (!empty($line[47])) ? (int) $line[47] : 0,
+            'naval_attack_large_pg' => 0,
             'submarine_attack' => (!empty($line[48])) ? (int) $line[48] : 0,
             'infantry_defense' => (!empty($line[49])) ? (int) $line[49] : 0,
             'vehicle_defense' => (!empty($line[50])) ? (int) $line[50] : 0,
@@ -528,7 +541,7 @@ try {
                 $item = strtolower($item);
 
                 // replace unit name with list of ids
-                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [-1];
                 foreach ($ids as $itemId) {
                     $transport[] = [
                         'name' => $itemName,
@@ -558,13 +571,24 @@ try {
 
                 // parse item action and item name
                 $item = explode(':', $item);
-                $action = $item[0];
+                $action = trim($item[0]);
+                $action = ($action === 'amphibious' && $data['chassis'] !== 'amphibious') ? 'exitwater' : $action;
+                $actionImage = $action;
+                $actionImage = (array_key_exists($actionImage, $actionImgTrans)) ? $actionImgTrans[$actionImage] : $actionImage;
                 $item = $item[1];
 
                 // remove extra param
                 if (strpos($item, ' ') !== false) {
                     $item = explode(' ', $item);
+                    $extraParams = $item;
                     $item = $item[0];
+
+                    // process extra params
+                    array_shift($extraParams);
+                    if (count($extraParams) > 0) {
+                        $action = array_shift($extraParams);
+                        $action = trim($action);
+                    }
                 }
 
                 // there are upper case and lower case variants, also some unit names do not actually have a record yet
@@ -572,13 +596,30 @@ try {
                 $item = strtolower($item);
 
                 // replace unit name with list of ids
-                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [0];
+                $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [-1];
                 foreach ($ids as $itemId) {
                     $switch[] = [
                         'name' => trim($itemName),
-                        'action' => trim($action),
+                        'action' => $action,
+                        'img' => $actionImage,
                         'id' => (int) $itemId
                     ];
+                }
+
+                // primary guns (find primary guns unit via a reference and retrieve naval attack)
+                if ($action === 'primary_guns') {
+                    foreach ($ids as $itemId) {
+                        if (!array_key_exists($itemId, $units)) {
+                            continue;
+                        }
+
+                        $pgUnit = $units[$itemId];
+                        $units[$id]['naval_attack_small_pg'] = $pgUnit['naval_attack_small'];
+                        $units[$id]['naval_attack_large_pg'] = $pgUnit['naval_attack_large'];
+
+                        // we grab the first unit we find
+                        break;
+                    }
                 }
             }
 
@@ -614,6 +655,7 @@ try {
             $units[$id]['unit_carrier'] = $unitCarrier;
         }
 
+        // process series
         $units[$id]['series'] = [];
         if (!empty($data['series'])) {
             foreach ($unitUpgradeGroups as $faction => $factionData) {
@@ -760,6 +802,11 @@ try {
     $html.= '<ul class="pagination">';
     $html.= '<li class="first-page"><a href="#">First</a></li>';
     $html.= '<li class="previous-page"><a href="#">Previous</a></li>';
+    $html.= '<li class="active">';
+    $html.= '<a href="#">';
+    $html.= '<span id="current-page-bottom">' . $currentPage . '</span> / <span id="pages-total-bottom">' . $pagesTotal . '</span>';
+    $html.= '</a>';
+    $html.= '</li>';
     $html.= '<li class="next-page"><a href="#">Next</a></li>';
     $html.= '<li class="last-page"><a href="#">Last</a></li>';
     $html.= '</ul>';
