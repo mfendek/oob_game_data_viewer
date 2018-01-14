@@ -607,6 +607,50 @@ export default function () {
           contentRow.append(element);
         }
 
+        // unit switch actions
+        if (data['switch'].length > 0) {
+          const itemsList = data['switch'];
+
+          for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
+            const item = itemsList[listIndex];
+            element = $('<div></div>');
+            element.addClass('unit-item__content-icon');
+            element.addClass('unit-item__content-icon--square-small');
+
+            let backgroundImage = manager.getBackgroundImg('switch_action', item['img']);
+            if (item['img'] !== item['action']) {
+              backgroundImage = 'background-image: url("'.concat(
+                  manager.getImgUrl('weapon_ability', item['action']),
+                  '"), url("',
+                  manager.getImgUrl('switch_action', item['img']),'")'
+              );
+            }
+            element.attr('style', backgroundImage);
+
+            if (item['id'] > -1) {
+              const realName = manager.unitsData[item['id']]['name_real'];
+
+              // switch unit is properly linked
+              subElement = $('<a></a>');
+              subElement.addClass('unit-item__image-link');
+              subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
+              element.append(subElement);
+              element.attr(
+                  'title',
+                  'unit may switch to '.concat(realName, ' using ', item['action'], ' action')
+              );
+            } else {
+              // switch unit is not linked
+              element.attr(
+                  'title',
+                  'unit may switch to '.concat(item['name'], ' using ', item['action'], ' action (switch unit missing)')
+              );
+            }
+
+            contentRow.append(element);
+          }
+        }
+
         // end content row
         unitElement.append(contentRow);
 
@@ -1194,57 +1238,6 @@ export default function () {
             }
 
             element.append(subElement);
-            contentRow.append(element);
-          }
-
-          // end content row
-          unitElement.append(contentRow);
-        }
-
-        // unit switch
-        if (data['switch'].length > 0) {
-          // new content row
-          contentRow = $('<div></div>');
-          contentRow.addClass('unit-item__content-row');
-
-          const itemsList = data['switch'];
-
-          for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
-            const item = itemsList[listIndex];
-            element = $('<div></div>');
-            element.addClass('unit-item__content-icon');
-            element.addClass('unit-item__content-icon--square-small');
-
-            let backgroundImage = manager.getBackgroundImg('switch_action', item['img']);
-            if (item['img'] !== item['action']) {
-              backgroundImage = 'background-image: url("'.concat(
-                  manager.getImgUrl('weapon_ability', item['action']),
-                  '"), url("',
-                  manager.getImgUrl('switch_action', item['img']),'")'
-              );
-            }
-            element.attr('style', backgroundImage);
-
-            if (item['id'] > -1) {
-              const realName = manager.unitsData[item['id']]['name_real'];
-
-              // switch unit is properly linked
-              subElement = $('<a></a>');
-              subElement.addClass('unit-item__image-link');
-              subElement.attr('href', manager.getUrlWithParams({f:{id : item['id']}}));
-              element.append(subElement);
-              element.attr(
-                  'title',
-                  'unit may switch to '.concat(realName, ' using ', item['action'], ' action')
-              );
-            } else {
-              // switch unit is not linked
-              element.attr(
-                  'title',
-                  'unit may switch to '.concat(item['name'], ' using ', item['action'], ' action (switch unit missing)')
-              );
-            }
-
             contentRow.append(element);
           }
 
