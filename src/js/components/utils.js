@@ -224,6 +224,9 @@ export default function () {
 
         const unitData = manager.getCachedItem(unitDataKey);
         if (unitData === null) {
+          // clear local storage
+          localStorage.clear();
+
           // unit data is not cached - fetch fresh data
           $.post('', {'units-data': 1}, function (data) {
             manager.loadInitData(data, callback);
