@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-16';
+    $version = '2018-01-17';
 
     // configuration
 
@@ -32,6 +32,10 @@ try {
         'anti_tank' => 'at_switch',
         'artillery' => 'art_switch',
         'bomb' => 'bomb_switch',
+    ];
+
+    $actionImagesWithInnerImage = [
+        'weapon',
     ];
 
     // hard coded trait mapping T_T
@@ -572,6 +576,7 @@ try {
                 // parse item action and item name
                 $item = explode(':', $item);
                 $action = trim($item[0]);
+                $hasInnerImage = in_array($action, $actionImagesWithInnerImage);
                 $action = ($action === 'amphibious' && $data['chassis'] !== 'amphibious') ? 'exitwater' : $action;
                 $actionImage = $action;
                 $actionImage = (array_key_exists($actionImage, $actionImgTrans)) ? $actionImgTrans[$actionImage] : $actionImage;
@@ -602,6 +607,7 @@ try {
                         'name' => trim($itemName),
                         'action' => $action,
                         'img' => $actionImage,
+                        'inner' => $hasInnerImage,
                         'id' => (int) $itemId
                     ];
                 }

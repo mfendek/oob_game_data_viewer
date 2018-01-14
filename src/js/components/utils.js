@@ -618,7 +618,7 @@ export default function () {
             element.addClass('unit-item__content-icon--square-small');
 
             let backgroundImage = manager.getBackgroundImg('switch_action', item['img']);
-            if (item['img'] !== item['action']) {
+            if (item['inner']) {
               backgroundImage = 'background-image: url("'.concat(
                   manager.getImgUrl('weapon_ability', item['action']),
                   '"), url("',
