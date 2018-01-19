@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-18';
+    $version = '2018-01-19';
 
     // configuration
 
@@ -80,10 +80,15 @@ try {
         'quickEntrench' => 'Quick Entrenchment',
         'limitlessFuel' => 'Limitess Fuel',
         'carrierPlane' => 'Carrier Plane',
-        'noEntrench' => 'Fleeting Presence',
+        'noEntrench' => 'No Entrenchment',
+        'noCapture' => 'Fleeting Presence',
         'lightFreight' => 'Light Freight',
         'airCarrier' => 'Aircraft Carrier',
         'precisionStrike' => 'Precision Strike',
+        'floatPlane' => 'Seaplane',
+        'hardToHit' => 'Difficult Target',
+        'slowRepair' => 'Limited Replacements',
+        'supplyResilient' => 'Supply Resilient',
     ];
 
     // processing
@@ -324,6 +329,10 @@ try {
         $category = $line[3];
         $type = $line[4];
         $chassis = $line[15];
+        $cargo = (!empty($line[34])) ? (int) $line[34] : 0;
+        $fuel = (!empty($line[25])) ? (int) $line[25] : 0;
+        $blast = (!empty($line[33])) ? (int) $line[33] : 0;
+        $steps = (int) $line[24];
 
         // collect all ids that belong to specific unit name
         $name = strtolower($name);
@@ -393,9 +402,9 @@ try {
         // torpedo attack, range and cool-down
         $torpedo = (strpos($line[39], ',') !== false) ? explode(', ', $line[39]) : [];
         if (count($torpedo) > 0) {
-            $torpedoCoolDown = $torpedo[0];
-            $torpedoRange = $torpedo[1];
-            $torpedoAttack = $torpedo[2];
+            $torpedoCoolDown = (int) $torpedo[0];
+            $torpedoRange = (int) $torpedo[1];
+            $torpedoAttack = (int) $torpedo[2];
         } else {
             $torpedoCoolDown = 0;
             $torpedoRange = 0;
@@ -444,16 +453,58 @@ try {
         sort($traits, SORT_STRING);
         $traits = array_values($traits);
 
+        // remove unnecessary traits
+        if ($category == 'air' && $type == 'recon') {
+            $traits = array_diff($traits, ['noEntrench', 'noCapture', 'quickRetreat', 'noSupply']);
+        }
+
+        // add additional traits based on unit attributes
+        $extraTraits = [];
+        if ($cargo > 0) {
+            $extraTraits[] = 'Cargo Capacity: ' . $cargo;
+        }
+
+        if ($category == 'land' && $fuel > 0) {
+            $extraTraits[] = 'Well Supplied';
+        }
+
+        if ($torpedoAttack > 0) {
+            $extraTraits[] = 'Torpedo Launcher';
+        }
+
+        if ($category == 'land' && !in_array('spotter', $traits)) {
+            $extraTraits[] = 'Limited Awareness';
+        }
+
+        if ($blast > 0) {
+            $extraTraits[] = 'Splash Damage';
+        }
+
+        if ($steps > 1) {
+            $extraTraits[] = 'Flexible Pathing';
+        }
+
+        if ($chassis == 'mountain') {
+            $extraTraits[] = 'Mountain Gun';
+        }
+
         // add trait description
         $traitData = [];
         foreach ($traits as $item) {
             if (array_key_exists($item, $traitTrans)) {
                 $traitName = $traitTrans[$item];
                 $traitInfo = $traitsLocalised[$traitName];
-            } else {
-                $traitName = $item;
-                $traitInfo = '';
+
+                $traitData[] = [
+                    'name' => $traitName,
+                    'info' => $traitInfo,
+                ];
             }
+        }
+
+        // process extra traits
+        foreach ($extraTraits as $traitName) {
+            $traitInfo = (array_key_exists($traitName, $traitsLocalised)) ? $traitsLocalised[$traitName] : '';
 
             $traitData[] = [
                 'name' => $traitName,
@@ -480,8 +531,8 @@ try {
             'supply' => (int) $line[20],
             'movement' => (int) $line[22],
             'actions' => (int) $line[23],
-            'steps' => (int) $line[24],
-            'fuel' => (!empty($line[25])) ? (int) $line[25] : 0,
+            'steps' => $steps,
+            'fuel' => $fuel,
             'range' => (!empty($line[27])) ? (int) $line[27] : 0,
             'spotting' => (int) $line[28],
             'radar' => (!empty($line[29])) ? (int) $line[29] : 0,
@@ -489,17 +540,17 @@ try {
             'assault' => (!empty($line[31])) ? (int) $line[31] : 0,
             'bombardment' => (!empty($line[32])) ? (int) $line[32] : 0,
             // attack blast (i.e. nuclear bomb)
-            'blast' => (!empty($line[33])) ? (int) $line[33] : 0,
+            'blast' => $blast,
             // number of cargo slots for carriers
-            'cargo' => (!empty($line[34])) ? (int) $line[34] : 0,
+            'cargo' => $cargo,
             // carrier type (type of ships that can store this unit in cargo)
             'carrier' => $carrier,
             'unit_carrier' => [],
             'transport' => $line[36],
             'switch' => $line[37],
-            'torpedo_attack' => (int) $torpedoAttack,
-            'torpedo_range' => (int) $torpedoRange,
-            'torpedo_cool_down' => (int) $torpedoCoolDown,
+            'torpedo_attack' => $torpedoAttack,
+            'torpedo_range' => $torpedoRange,
+            'torpedo_cool_down' => $torpedoCoolDown,
             'attack_type' => $line[40],
             'defense_type' => $line[41],
             'infantry_attack' => (!empty($infantryAttack)) ? (int) $infantryAttack : 0,
@@ -529,6 +580,8 @@ try {
 
     // second iteration processing (unit references)
     foreach ($units as $id => $data) {
+        $extraTraits = [];
+
         // process transport
         if (!empty($data['transport'])) {
             // reformat list
@@ -596,6 +649,29 @@ try {
                     }
                 }
 
+                // action related traits
+                if ($action == 'bomb') {
+                    $extraTraits[] = 'Bomb Racks';
+                } elseif ($action == 'ohka') {
+                    $extraTraits[] = 'Ohka Carrier';
+                } elseif ($action == 'torpedo') {
+                    $extraTraits[] = 'Torpedo Capacity';
+                } elseif ($action == 'primary_guns') {
+                    $extraTraits[] = 'Big Gun Barrage';
+                } elseif (in_array($action, ['amphibious', 'exitwater'])) {
+                    $extraTraits[] = 'Amphibious';
+                } elseif ($action == 'anti_air') {
+                    $extraTraits[] = 'Anti-Air Mode';
+                } elseif ($action == 'anti_tank') {
+                    $extraTraits[] = 'Anti-Tank Mode';
+                } elseif ($action == 'artillery') {
+                    $extraTraits[] = 'Artillery Mode';
+                } elseif ($action == 'rail') {
+                    $extraTraits[] = 'Rail Setup';
+                } elseif ($action == 'road') {
+                    $extraTraits[] = 'Off-Rail Setup';
+                }
+
                 // there are upper case and lower case variants, also some unit names do not actually have a record yet
                 $itemName = $item;
                 $item = strtolower($item);
@@ -659,6 +735,11 @@ try {
 
             $units[$id]['carrier'] = $carrier;
             $units[$id]['unit_carrier'] = $unitCarrier;
+
+            // catapult launched trait
+            if (in_array('battleship', $carrier) || in_array('cruiser', $carrier)) {
+                $extraTraits[] = 'Catapult-Launched';
+            }
         }
 
         // process series
@@ -672,6 +753,26 @@ try {
                 }
             }
         }
+
+        // process extra traits
+        $traitData = [];
+        foreach ($extraTraits as $traitName) {
+            $traitInfo = (array_key_exists($traitName, $traitsLocalised)) ? $traitsLocalised[$traitName] : '';
+
+            $traitData[] = [
+                'name' => $traitName,
+                'info' => $traitInfo
+            ];
+        }
+
+        $traits =  array_merge($data['traits'], $traitData);
+
+        // sort traits by name
+        usort($traits, function ($a, $b) {
+            return strcmp($a['name'], $b['name']);
+        });
+
+        $units[$id]['traits'] = $traits;
     }
 
     unset($unitUpgradeGroups);
