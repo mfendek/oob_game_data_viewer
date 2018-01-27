@@ -512,8 +512,13 @@ try {
 
         // process extra traits
         foreach ($extraTraits as $traitName) {
-            $traitInfo = (array_key_exists($traitName, $traitsLocalised)) ? $traitsLocalised[$traitName] : '';
-            $traitInfo = (array_key_exists($traitName, $customTraits)) ? $customTraits[$traitName] : '';
+            if (array_key_exists($traitName, $traitsLocalised)) {
+                $traitInfo = $traitsLocalised[$traitName];
+            } elseif (array_key_exists($traitName, $customTraits)) {
+                $traitInfo = $customTraits[$traitName];
+            } else {
+                $traitInfo = '';
+            }
 
             $traitData[] = [
                 'name' => $traitName,
