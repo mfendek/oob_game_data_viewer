@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-19';
+    $version = '2018-01-28';
 
     // configuration
 
@@ -89,6 +89,10 @@ try {
         'hardToHit' => 'Difficult Target',
         'slowRepair' => 'Limited Replacements',
         'supplyResilient' => 'Supply Resilient',
+    ];
+
+    $customTraits = [
+        'Rapid Deployment' => 'unit can fire after moving',
     ];
 
     // processing
@@ -488,6 +492,10 @@ try {
             $extraTraits[] = 'Mountain Gun';
         }
 
+        if ($type == 'artillery' && !in_array('staticFire', $traits)) {
+            $extraTraits[] = 'Rapid Deployment';
+        }
+
         // add trait description
         $traitData = [];
         foreach ($traits as $item) {
@@ -505,6 +513,7 @@ try {
         // process extra traits
         foreach ($extraTraits as $traitName) {
             $traitInfo = (array_key_exists($traitName, $traitsLocalised)) ? $traitsLocalised[$traitName] : '';
+            $traitInfo = (array_key_exists($traitName, $customTraits)) ? $customTraits[$traitName] : '';
 
             $traitData[] = [
                 'name' => $traitName,
