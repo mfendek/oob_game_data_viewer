@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-28';
+    $version = '2018-01-29';
 
     // configuration
 
@@ -18,6 +18,8 @@ try {
         'chassis',
         'faction',
         'available',
+        'trait',
+        'switch',
     ];
 
     // number of items per one page
@@ -92,7 +94,7 @@ try {
     ];
 
     $customTraits = [
-        'Rapid Deployment' => 'unit can fire after moving',
+        'Rapid Deployment' => 'Unit can fire after moving',
     ];
 
     // processing
@@ -304,6 +306,8 @@ try {
     $filterCategories = [];
     $filterTypes = [];
     $filterChassis = [];
+    $filterTraits = [];
+    $filterSwitch = [];
     $filterFactions = [];
     $filterAvailable = '';
     $filterExpire = '';
@@ -507,6 +511,8 @@ try {
                     'name' => $traitName,
                     'info' => $traitInfo,
                 ];
+
+                $filterTraits[] = $traitName;
             }
         }
 
@@ -524,7 +530,11 @@ try {
                 'name' => $traitName,
                 'info' => $traitInfo,
             ];
+
+            $filterTraits[] = $traitName;
         }
+
+        $filterTraits = array_unique($filterTraits);
 
         // process localised name, fall back to internal name if missing
         $nameLocalised = (array_key_exists($id, $unitNamesLocalised)) ? $unitNamesLocalised[$id] : $line[0];
@@ -587,6 +597,7 @@ try {
             'land_defense' => (!empty($line[55])) ? (int) $line[55] : 0,
             'traits' => $traitData,
             'specialisation' => (!empty($line[57])) ? strtolower($line[57]) : '',
+            'switch_type' => [],
         ];
     }
 
@@ -693,13 +704,21 @@ try {
                 // replace unit name with list of ids
                 $ids = (array_key_exists($item, $unitNames)) ? $unitNames[$item] : [-1];
                 foreach ($ids as $itemId) {
+                    $itemId = (int) $itemId;
+
                     $switch[] = [
                         'name' => trim($itemName),
                         'action' => $action,
                         'img' => $actionImage,
                         'inner' => $hasInnerImage,
-                        'id' => (int) $itemId
+                        'id' => $itemId
                     ];
+
+                    // mark referenced unit with switch type
+                    if ($itemId > -1) {
+                        $units[$itemId]['switch_type'][] = $action;
+                        $units[$itemId]['switch_type'] = array_unique($units[$itemId]['switch_type']);
+                    }
                 }
 
                 // primary guns (find primary guns unit via a reference and retrieve naval attack)
@@ -717,8 +736,12 @@ try {
                         break;
                     }
                 }
+
+                $filterSwitch[] = $action;
             }
 
+
+            $filterSwitch = array_unique($filterSwitch);
             $units[$id]['switch'] = $switch;
         } else {
             $units[$id]['switch'] = [];
@@ -777,8 +800,11 @@ try {
                 'name' => $traitName,
                 'info' => $traitInfo
             ];
+
+            $filterTraits[] = $traitName;
         }
 
+        $filterTraits = array_unique($filterTraits);
         $traits =  array_merge($data['traits'], $traitData);
 
         // sort traits by name
@@ -825,10 +851,12 @@ try {
         exit();
     }
 
-    sort($filterCategories);
-    sort($filterTypes);
-    sort($filterChassis);
-    sort($filterFactions);
+    sort($filterCategories, SORT_STRING);
+    sort($filterTypes, SORT_STRING);
+    sort($filterChassis, SORT_STRING);
+    sort($filterFactions, SORT_STRING);
+    sort($filterTraits, SORT_STRING);
+    sort($filterSwitch, SORT_STRING);
 
     header('Content-Type: text/html;charset=UTF-8');
 
@@ -885,6 +913,21 @@ try {
     $html.= '<select name="filter-chassis" class="form-control">';
     $html.= '<option value="">chassis</option>';
     foreach ($filterChassis as $item) {
+        $html.= '<option value="' . $item . '">' . $item . '</option>';
+    }
+    $html.= '</select>';
+
+    $html.= '<select name="filter-trait" class="form-control">';
+    $html.= '<option value="">unit trait</option>';
+    foreach ($filterTraits as $item) {
+        $html.= '<option value="' . $item . '">' . $item . '</option>';
+    }
+    $html.= '</select>';
+
+    $html.= '<select name="filter-switch" class="form-control">';
+    $html.= '<option value="">unit switch</option>';
+    $html.= '<option value="none">none</option>';
+    foreach ($filterSwitch as $item) {
         $html.= '<option value="' . $item . '">' . $item . '</option>';
     }
     $html.= '</select>';

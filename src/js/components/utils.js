@@ -182,6 +182,10 @@ export default function () {
               $('select[name="filter-type"]').val(filterValue);
             } else if (filter === 'chassis') {
               $('select[name="filter-chassis"]').val(filterValue);
+            } else if (filter === 'trait') {
+              $('select[name="filter-trait"]').val(filterValue);
+            } else if (filter === 'switch') {
+              $('select[name="filter-switch"]').val(filterValue);
             } else if (filter === 'faction') {
               $('select[name="filter-faction"]').val(filterValue);
             } else if (filter === 'available') {
@@ -1707,6 +1711,52 @@ export default function () {
               }
             }
 
+            // trait filter
+            if (typeof manager.filters['trait'] !== 'undefined') {
+              let itemFound = false;
+              const itemsList = unitData['traits'];
+
+              for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
+                const item = itemsList[listIndex];
+
+                if (item['name'] === manager.filters['trait']) {
+                  itemFound = true;
+                  break;
+                }
+              }
+
+              if (!itemFound) {
+                continue;
+              }
+            }
+
+            // switch filter
+            if (typeof manager.filters['switch'] !== 'undefined') {
+              const itemsList = unitData['switch_type'];
+
+              // no switch type
+              if (manager.filters['switch'] === 'none' && itemsList.length > 0) {
+                continue;
+              }
+
+              // specific switch type
+              if (manager.filters['switch'] !== 'none') {
+                let itemFound = false;
+                for (let listIndex = 0; listIndex < itemsList.length; listIndex++) {
+                  const item = itemsList[listIndex];
+
+                  if (item === manager.filters['switch']) {
+                    itemFound = true;
+                    break;
+                  }
+                }
+
+                if (!itemFound) {
+                  continue;
+                }
+              }
+            }
+
             // faction filter
             if (typeof manager.filters['faction'] !== 'undefined') {
               if (unitData['factions'].indexOf(manager.filters['faction']) < 0) {
@@ -1842,6 +1892,16 @@ export default function () {
         manager.applySingleFilter('chassis', $(this).val());
       });
 
+      // trait filter
+      $('select[name="filter-trait"]').change(function () {
+        manager.applySingleFilter('trait', $(this).val());
+      });
+
+      // switch filter
+      $('select[name="filter-switch"]').change(function () {
+        manager.applySingleFilter('switch', $(this).val());
+      });
+
       // faction filter
       $('select[name="filter-faction"]').change(function () {
         manager.applySingleFilter('faction', $(this).val());
@@ -1860,6 +1920,8 @@ export default function () {
         $('select[name="filter-category"]').val('');
         $('select[name="filter-type"]').val('');
         $('select[name="filter-chassis"]').val('');
+        $('select[name="filter-switch"]').val('');
+        $('select[name="filter-trait"]').val('');
         $('select[name="filter-faction"]').val('');
         $('input[name="filter-available"]').val('');
 
