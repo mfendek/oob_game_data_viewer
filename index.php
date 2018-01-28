@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-29';
+    $version = '2018-01-30';
 
     // configuration
 
@@ -857,6 +857,12 @@ try {
     sort($filterFactions, SORT_STRING);
     sort($filterTraits, SORT_STRING);
     sort($filterSwitch, SORT_STRING);
+
+    // sort terrain data
+    foreach ($terrain as $climate => $climateData) {
+        ksort($climateData, SORT_STRING);
+        $terrain[$climate] = $climateData;
+    }
 
     header('Content-Type: text/html;charset=UTF-8');
 

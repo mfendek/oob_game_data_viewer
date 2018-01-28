@@ -897,7 +897,7 @@ export default function () {
           element.attr('title', 'it takes this unit '.concat(data['torpedo_cool_down'].toString(), ' turns to reload the torpedo'));
           subElement = $('<span></span>');
           subElement.text(data['torpedo_cool_down']);
-          manager.compareCoreAttribute(subElement, 'torpedo_cool_down', data['torpedo_cool_down']);
+          manager.compareCoreAttribute(subElement, 'torpedo_cool_down', data['torpedo_cool_down'], true);
           element.append(subElement);
           contentRow.append(element);
         }
