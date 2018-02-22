@@ -793,3 +793,84 @@ faction = britain, raf, australia, new_zealand, canada, india
 weapon = infantry_attack, 2
 weapon = vehicle_attack, 2
 range = 0
+
+
+/////////////////
+//   AFRIKA   //
+///////////////
+
+[PLACEHOLDER]
+id = 99
+category = air
+faction = britain, raf, australia, new_zealand, canada
+defense = air_defense, 2
+range = 1
+
+[ALBERT_KESSELRING]
+id = 100
+category = air
+faction = germany
+weapon = naval_large_attack, 2
+weapon = naval_small_attack, 2
+range = 2
+
+[ERWIN_ROMMEL]
+id = 101
+category = land
+faction = germany
+weapon = vehicle_attack, 2
+weapon = infantry_attack, 2
+shock = 5
+range = 3
+
+[JOHANN_MICKL]
+id = 102
+category = land
+faction = germany
+weapon = infantry_attack, 1
+defense = bombard_defense, 2
+assault = 1
+
+[HANS_SANDROCK]
+id = 103
+category = land
+faction = germany
+weapon = vehicle_attack, 1
+defense = vehicle_defense, 2
+
+[HANS-JOACHIM_MARSEILLE]
+id = 104
+category = air
+faction = germany
+weapon = air_small_attack, 3
+weapon = air_large_attack, 1
+
+[DIETRICH_PELTZ]
+id = 105
+category = air
+faction = germany
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 2
+
+[PIETRO_BRUNO]
+id = 106
+category = land
+faction = italy
+weapon = vehicle_attack, 1
+defense = vehicle_defense, 1
+
+[ENEA_NAVARINI]
+id = 107
+category = land
+faction = italy
+weapon = infantry_attack, 1
+shock = 10
+assault = 2
+range = 1
+
+[FRANCO_LUCCHINI]
+id = 108
+category = air
+faction = italy
+weapon = air_small_attack, 1
+defense = air_defense, 2

@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-01-30';
+    $version = '2018-02-22';
 
     // configuration
 
@@ -212,28 +212,25 @@ try {
 
     // process spotting
     foreach ($climates as $climate => $climateId) {
-        $dataFile = file_get_contents('src/game_data/Data/terrain' . $climateId . '.txt');
+        $dataFile = file_get_contents('src/game_data/Data/terrain' . $climateId . '.csv');
         if ($dataFile === false) {
             throw new Exception('Failed to open terrain data file');
         }
 
         $dataFile = explode("\n", $dataFile);
-        $currentId = '';
         foreach ($dataFile as $line) {
-            if (strpos($line, '[') !== false) {
-                // retrieve item name
-                $itemId = str_replace(['[', ']'], ['', ''], $line);
-                $itemId = strtolower($itemId);
-                $itemId = trim($itemId);
-                $currentId = $itemId;
-            } elseif (strpos($line, 'LOS') !== false && $currentId != '') {
-                $line = str_replace('LOS = ', '', $line);
-                $line = explode(', ', $line);
-                $name = $line[0];
-                $value = (int) $line[1];
+            $line = explode(";", $line);
+            $name = $line[0];
 
-                $terrain[$climate][$currentId]['spotting'][$name] = $value;
+            // skip heading line and empty lines
+            if (empty($name) || $name === 'name') {
+                continue;
             }
+
+            $name = strtolower($name);
+            $terrain[$climate][$name]['spotting']['land'] = (int) $line[10];
+            $terrain[$climate][$name]['spotting']['naval'] = (int) $line[11];
+            $terrain[$climate][$name]['spotting']['air'] = (int) $line[12];
         }
     }
 

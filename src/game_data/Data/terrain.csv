@@ -1,0 +1,28 @@
+name;id;color;height;object;variations;tiles;cover;disruption;disembark;LOS land;LOS naval;LOS air;attacker;defender;traits
+;;;;;;;;;;;;;;;
+Open;0;133,131,57;;;24;;;;;2;7;1;;;
+Farmland;14;133,131,57;;;64;;;;;2;7;1;;;
+Rice;21;142,152,100;; rice;4;;;;;1;1;1;0.9;0.9;freezable
+Swamp;6;142,152,100;;;2;;20;10;;2;7;1;0.8;0.8;freezable
+Lake;20;63,101,87;;;64;;;;;1;1;1;;;water, freezable
+Water;1;63,101,87;;;64;;;;;1;1;1;;;water
+Deep_Water;11;46,73,58;;;64;;;;;1;1;1;;;water
+Beach;3;197,164,117;;;64;;;;70;2;5;1;;;waterEdge
+Desert;24;197,164,117;;;64;;;;70;2;5;1;;;waterEdge, devOnly
+Rough_Desert;25;197,164,117;;;4;;50;;70;2;5;1;;;waterEdge, devOnly
+Hills;4;156,133,53;0.12;;4;;50;;;3;8;1;0.55;0.75;
+Mountains;5;105,85,22;0.3;;64;;70;20;;5;10;1;0.3;0.5;orientated
+Forest;9;100,102,45;; forest;64;;70;;;5;8;1;0.65;0.8;conceals, glow
+Pine_Forest;19;80,82,35;;pine_forest;64;;70;10;;5;8;1;0.55;0.7;conceals, glow
+Jungle;2;100,102,45;;jungle;64;;80;20;;5;8;1;0.4;0.6;conceals, glow, clearOnOverlay
+Village;12;200,200,200;;village;2;64;60;;;2;7;1;;;deployPoint, railStation, embarkable, glow
+Japanese_Village;15;200,200,200;;japanese_village;4;64;75;;;2;7;1;0.8;0.9;deployPoint, railStation, embarkable, conceals, glow
+Euro_Village;23;200,200,200;;euro_village;4;64;75;;;2;7;1;0.8;0.9;deployPoint, railStation, embarkable, conceals, glow
+Asian_Town;22;200,200,200;;asian_town;4;64;85;;;2;7;1;0.7;0.8;deployPoint, railStation, embarkable, conceals, glow
+Town;16;200,200,200;;town;4;64;85;;;2;7;1;0.7;0.8;deployPoint, railStation, embarkable, conceals, glow
+City;7;255,255,255;;city;4;64;100;;;3;8;1;0.6;0.7;deployPoint, railStation, embarkable, conceals, clearOnOverlay, glow
+Airfield;8;133,131,57;;airfield;1;;20;;;2;7;1;;;airfield, glow
+Port;13;63,101,87;;port;64;;;;90;2;2;1;;;port, water, conceals
+Cliffs;10;63,101,87;;;;;;;;1;6;1;;;conceals, water, noEditor
+Scorched;17;30,30,30;;;64;;40;;;2;7;1;;;
+Wall;18;60,60,60;;;64;;40;;;10;10;1;;;orientated, noEditor
