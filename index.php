@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-02-22';
+    $version = '2018-03-12';
 
     // configuration
 
@@ -352,13 +352,16 @@ try {
         $filterChassis[$chassis] = $chassis;
 
         // reformat list so we could easily search in it later
-        $listData = explode(', ', $line[2]);
-        $listData = array_diff($listData, ['', ' ']);
+        $listData = explode(',', $line[2]);
 
         $factions = [];
         foreach ($listData as $item) {
             // clean item (same data is malformed)
-            $item = str_replace(',', '', $item);
+            $item = trim($item);
+            if (empty($item)) {
+                continue;
+            }
+
             $factions[] = $item;
             $filterFactions[] = $item;
         }
