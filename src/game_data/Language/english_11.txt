@@ -25,6 +25,10 @@ trigger_condition_24 = Check Specialization
 editor_count_transports = Count transports?
 editor_missing_unit = Missing unit
 
+tooltip_disband_unit_error_3 = Units cannot be disbanded in the same turn they have moved or attacked.
+
+missing_unit = (missing unit)
+
 
 // COMING SOON
 

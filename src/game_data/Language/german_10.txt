@@ -73,7 +73,7 @@ spec_organisation_todt_effect = • Eine Bautruppeneinheit wird Ihrer Kernarmee 
 
 spec_waffen_ss_ii_title = Waffen-SS II
 spec_waffen_ss_ii_descr = Da weitere Nationalitäten und Volksgruppen für den Beitritt zur Waffen-SS zugelassen wurden, können mehrere zusätzliche Divisionen aufgeboten werden.
-spec_waffen_ss_ii_effect = • +6 Landbefehlspunkte für die Waffen-SS|• +10 Ressourcenpunkte pro Runde für die Waffen-SS
+spec_waffen_ss_ii_effect = • +6 Landbefehlspunkte für die Waffen-SS|• +3 Ressourcenpunkte pro Runde werden von Deutschland an die Waffen-SS transferiert
 
 spec_synthetic_fuel_plants_title = Werke für synthetischen Kraftstoff
 spec_synthetic_fuel_plants_descr = In großen Fabrikationsstätten kann mithilfe von unterschiedlichen chemischen Prozessen aus Kohle, Wassergas und anderen Substanzen synthetischer Kraftstoff hergestellt werden.

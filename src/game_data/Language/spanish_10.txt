@@ -73,7 +73,7 @@ spec_organisation_todt_effect = • Se agregará una unidad Bautruppe al núcleo
 
 spec_waffen_ss_ii_title = Waffen SS II
 spec_waffen_ss_ii_descr = Al expandir aún más las nacionalidades y poblaciones viables para el reclutamiento en las Waffen SS, varias divisiones más pueden desplegarse en el campo de batalla.
-spec_waffen_ss_ii_effect = • +6 PC de Tierra para la facción Waffen SS|• +10 PR por turno para la facción Waffen SS
+spec_waffen_ss_ii_effect = • +6 PC de Tierra para la facción Waffen SS|• +3 PR por turno para la facción Waffen SS
 
 spec_synthetic_fuel_plants_title = Plantas de Combustible Sintético
 spec_synthetic_fuel_plants_descr = Grandes cantidades de plantas de fabricación podrán producir en masa petróleo crudo sintético mediante la conversión de carbón, agua y otras sustancias a través de diversos procesos químicos.

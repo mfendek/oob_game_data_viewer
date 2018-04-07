@@ -73,7 +73,7 @@ spec_organisation_todt_effect = • Une unité de Bautruppe sera ajoutée au coe
 
 spec_waffen_ss_ii_title = Waffen SS II
 spec_waffen_ss_ii_descr = En continuant à augmenter les nationalités et populations acceptables pour un recrutement dans les Waffen SS, plusieurs divisions supplémentaires peuvent être déployées sur le champ de bataille.
-spec_waffen_ss_ii_effect = • +6 PdC terrestre pour la faction Waffen SS|• +10 PdR par tour pour la faction Waffen SS
+spec_waffen_ss_ii_effect = • +6 PdC terrestre pour la faction Waffen SS|• +3 PdR par tour pour la faction Waffen SS
 
 spec_synthetic_fuel_plants_title = Usine de carburants synthétiques
 spec_synthetic_fuel_plants_descr = D'importantes usines de production seront capable de produire en masse du pétrole brut synthétique en convertissant du charbon, du gaz à l'eau et d'autres substances grâce à divers procédés chimiques.
