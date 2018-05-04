@@ -205,4 +205,24 @@ body {
       }
     }
   }
+
+  &__unit-image {
+    height: 133px;
+    width: 211px;
+
+    &--placeholder {
+      padding-left: 39px;
+      padding-right: 39px;
+    }
+  }
+
+  &__details-list {
+    &> div {
+      margin-bottom: 0.5ex;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

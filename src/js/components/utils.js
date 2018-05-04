@@ -114,6 +114,14 @@ export default function () {
           return 'src/game_data/Graphics/UI/Large/'.concat('ability_weapon_', value, '.png');
         }
 
+        if (name === 'unit_image') {
+          if (value === 'placeholder') {
+            return 'src/img/spinner.gif';
+          }
+
+          return 'src/img/units/'.concat(value, '.png');
+        }
+
         return '';
       },
 
@@ -514,6 +522,25 @@ export default function () {
       },
 
       /**
+       * Attempt to load unit image from source
+       *
+       * @param {Object} element
+       * @param {string} name
+       */
+      loadUnitImage: function (element, name) {
+        const manager = this;
+        const url = manager.getImgUrl('unit_image', name).concat('?v=', manager.app_version);
+        const img = new Image();
+
+        img.onload = function() {
+          element.attr('src', url);
+          element.removeClass('unit-item__unit-image--placeholder');
+        };
+
+        img.src = url;
+      },
+
+      /**
        * load unit from data
        *
        * @param {Object} data
@@ -665,32 +692,47 @@ export default function () {
         contentRow = $('<div></div>');
         contentRow.addClass('unit-item__content-row');
 
-        // available
+        // unit picture
         element = $('<div></div>');
-        element.addClass('unit-item__label-green');
-        element.text((data['available'] !== '') ? manager.formatDate(data['available']) : 'always');
-        element.attr('title', 'available on');
+        subElement = $('<img/>');
+        subElement.addClass('unit-item__unit-image');
+        subElement.addClass('unit-item__unit-image--placeholder');
+        subElement.attr('src', manager.getImgUrl('unit_image', 'placeholder'));
+        manager.loadUnitImage(subElement, data['name']);
+        element.append(subElement);
         contentRow.append(element);
+
+        element = $('<div></div>');
+        element.addClass('unit-item__details-list');
+
+        // available
+        subElement = $('<div></div>');
+        subElement.addClass('unit-item__label-green');
+        subElement.text((data['available'] !== '') ? manager.formatDate(data['available']) : 'always');
+        subElement.attr('title', 'available on');
+        element.append(subElement);
 
         // expire
-        element = $('<div></div>');
-        element.addClass('unit-item__label-red');
-        element.text((data['expire'] !== '') ? manager.formatDate(data['expire']) : 'never');
-        element.attr('title', 'expires on');
-        contentRow.append(element);
+        subElement = $('<div></div>');
+        subElement.addClass('unit-item__label-red');
+        subElement.text((data['expire'] !== '') ? manager.formatDate(data['expire']) : 'never');
+        subElement.attr('title', 'expires on');
+        element.append(subElement);
 
         // attack type
-        element = $('<div></div>');
-        element.addClass('unit-item__label-red');
-        element.text(data['attack_type']);
-        element.attr('title', 'attack type');
-        contentRow.append(element);
+        subElement = $('<div></div>');
+        subElement.addClass('unit-item__label-red');
+        subElement.text(data['attack_type']);
+        subElement.attr('title', 'attack type');
+        element.append(subElement);
 
         // defense type
-        element = $('<div></div>');
-        element.addClass('unit-item__label-green');
-        element.text(data['defense_type']);
-        element.attr('title', 'defense type');
+        subElement = $('<div></div>');
+        subElement.addClass('unit-item__label-green');
+        subElement.text(data['defense_type']);
+        subElement.attr('title', 'defense type');
+
+        element.append(subElement);
         contentRow.append(element);
 
         // end content row
