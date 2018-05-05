@@ -119,7 +119,7 @@ export default function () {
             return 'src/img/spinner.gif';
           }
 
-          return 'src/img/units/'.concat(value, '.png');
+          return 'src/img/units/'.concat(value.toLowerCase(), '.png');
         }
 
         return '';
