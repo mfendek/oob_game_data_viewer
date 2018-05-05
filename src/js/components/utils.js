@@ -119,6 +119,10 @@ export default function () {
             return 'src/img/spinner.gif';
           }
 
+          if (value === 'no_image') {
+            return 'src/img/no_image.png';
+          }
+
           return 'src/img/units/'.concat(value.toLowerCase(), '.png');
         }
 
@@ -535,6 +539,10 @@ export default function () {
         img.onload = function() {
           element.attr('src', url);
           element.removeClass('unit-item__unit-image--placeholder');
+        };
+
+        img.onerror = function() {
+          element.attr('src', manager.getImgUrl('unit_image', 'no_image'));
         };
 
         img.src = url;
