@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "func-names": ["error", "never"],
+        "linebreak-style": ["error", "windows"],
+        "no-continue": 0,
+        "jsx-a11y/anchor-has-content" : 0,
+        "no-nested-ternary" : 0
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true
+    }
+}

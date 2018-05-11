@@ -110,6 +110,7 @@ body {
 
   &__label-terrain {
     background-color: $light-gray;
+    border: 2px solid $black;
     border-radius: 4px;
     padding: 0.5ex 1ex;
     text-align: center;
@@ -127,20 +128,41 @@ body {
     }
   }
 
-  &__label-terrain-dry {
-    border: 2px solid $black;
+  &__label-terrain-item {
+    border-left: 10px solid transparent;
+    display: flex;
+    margin-top: 0.5ex;
+    padding-left: 5px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &> span {
+      flex-grow: 1;
+
+      &:first-child {
+        border-right: 1px solid $black;
+        margin-right: 5px;
+        padding-right: 5px;
+      }
+    }
   }
 
-  &__label-terrain-wet {
-    border: 2px solid $dark-moderate-orange;
+  &__label-terrain-item--dry {
+    border-left-color: $dark-cyan;
   }
 
-  &__label-terrain-winter {
-    border: 2px solid $dark-blue;
+  &__label-terrain-item--wet {
+    border-left-color: $dark-moderate-orange;
   }
 
-  &__label-terrain-arid {
-    border: 2px solid $pure-orange;
+  &__label-terrain-item--winter {
+    border-left-color: $white;
+  }
+
+  &__label-terrain-item--arid {
+    border-left-color: $pure-orange;
   }
 
   &__content-row {
@@ -211,12 +233,11 @@ body {
   }
 
   &__unit-image {
-    height: 133px;
+    text-align: center;
     width: 211px;
 
-    &--placeholder {
-      padding-left: 39px;
-      padding-right: 39px;
+    &> img {
+      height: 133px;
     }
   }
 
