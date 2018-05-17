@@ -284,6 +284,14 @@
 0.7 BarrelSmoke 0
 1.0 damage
 
+[AT_75mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_75mm_01 0
+0.5 MG 1
+0.5 hit
+0.7 BarrelSmoke 0
+1.0 damage
+
 [HE_75mm_01]
 0.0 HE_Shell 0
 0.0 AT_75mm_01 0
@@ -500,7 +508,19 @@
 1.0 damage
 
 [AT_76.2mm_01]
-0.0 AT_Shell 0
+0.0 ART_Shell_Light 0
+0.0 AT_76mm_01 0
+0.7 ShellCaseSmall 1
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_76mm_01 0
+2.3 ShellCaseSmall 1
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_76.2mm_01]
+0.0 ART_Shell_Light 0
 0.0 AT_76.2mm_01 0
 0.7 BarrelSmoke 0
 1.0 damage
@@ -1193,7 +1213,7 @@
 0.0 Volley3Shots
 0.0 11Inch_01 0
 0.3 11Inch_01 1
-0.6 11Inch_01 1
+0.6 11Inch_01 2
 2.0 damage
 2.0 hit
 
@@ -1788,22 +1808,6 @@
 0.0 RifleIdleKneeled 2 -1
 0.0 RifleIdle 3 -1
 
-[ConscriptsAttack]
-0.0 RifleAim 2 -1
-0.0 RifleFireKneeled 0 -1
-0.0 Rifle 0 0
-0.1 BulletImpact1x
-0.8 RifleFire 2 -1
-0.8 Rifle 2 0
-0.9 BulletImpact1x
-2.1 RifleFireKneeled 0 -1
-2.1 Rifle 0 0
-2.2 BulletImpact1x
-1.0 damage
-1.7 RifleAim 2 -1
-3.8 RifleIdleKneeled 0 -1
-1.0 hit
-
 [SwordAttack]
 0.0 SwordAttack 0 -1
 0.0 Sword 0 -1
@@ -2042,6 +2046,22 @@
 0.0 RifleIdleKneeled 0 -1
 0.0 RifleIdle 1 -1
 0.0 RifleIdle 2 -1
+
+[ConscriptsAttack]
+0.0 RifleAim 2 -1
+0.0 RifleFireKneeled 0 -1
+0.0 Rifle 0 0
+0.1 BulletImpact1x
+1.2 RifleFire 2 -1
+1.2 Rifle 2 0
+1.3 BulletImpact1x
+1.5 RifleFireKneeled 0 -1
+1.5 Rifle 0 0
+1.6 BulletImpact1x
+1.0 damage
+1.7 RifleAim 2 -1
+1.8 RifleIdleKneeled 0 -1
+2.0 hit
 
 [MolotovAttack]
 0.0 RifleAim 2 -1
@@ -2596,6 +2616,14 @@
 [AirNose50Brown_01]
 0.0 Fighter_FlyBy
 0.5 AircraftMG 0
+0.5 AirNose50Brown_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirNose50Brown_x2_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
 0.5 AircraftMG 1
 0.5 AirNose50Brown_01 0
 0.5 AirMGHit
@@ -2606,6 +2634,14 @@
 0.0 Fighter_FlyBy
 0.5 AircraftMG 0
 0.5 AircraftMG 1
+0.5 AirNose50Ho-103_01 0
+0.5 AirMGHit
+1.0 damage
+1.0 hit
+
+[AirNose50Ho-103_x2_01]
+0.0 Fighter_FlyBy
+0.5 AircraftMG 0
 0.5 AirNose50Ho-103_01 0
 0.5 AirMGHit
 1.0 damage
@@ -2735,16 +2771,16 @@
 0.0 Fighter_FlyBy
 0.3 AirGroundRocket 0
 0.3 AirLauncherBarrelSmoke 0
-0.3 AirLauncherExhaustSmoke 0
+0.3 AirLauncherExhaustSmoke 2
 0.6 AirGroundRocket 1
 0.6 AirLauncherBarrelSmoke 1
-0.6 AirLauncherExhaustSmoke 1
+0.6 AirLauncherExhaustSmoke 3
 0.9 AirGroundRocket 0
 0.9 AirLauncherBarrelSmoke 0
-0.9 AirLauncherExhaustSmoke 0
+0.9 AirLauncherExhaustSmoke 2
 1.3 AirGroundRocket 1
 1.3 AirLauncherBarrelSmoke 1
-1.3 AirLauncherExhaustSmoke 1
+1.3 AirLauncherExhaustSmoke 3
 1.3 damage
 1.3 hit
 

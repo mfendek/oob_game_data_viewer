@@ -139,6 +139,10 @@ body {
     border: 2px solid $dark-blue;
   }
 
+  &__label-terrain-arid {
+    border: 2px solid $pure-orange;
+  }
+
   &__content-row {
     align-items: center;
     display: flex;

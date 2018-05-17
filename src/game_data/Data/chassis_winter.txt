@@ -193,6 +193,7 @@ cliffs = 1
 port = 1
 scorched = 1
 wall = 1
+escarpment = 1
 
 [AMPHIBIOUS]
 id = 7

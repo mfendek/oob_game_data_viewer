@@ -1,4 +1,4 @@
-﻿unit_5000 = Berseglieri
+﻿unit_5000 = Bersaglieri
 unit_5001 = Alpini
 unit_5002 = Cav italienne 
 unit_5003 = Camion italien
@@ -57,7 +57,7 @@ unit_2160 = Ingénieurs japonais '42
 unit_2161 = Ingénieurs japonais '43
 unit_2162 = Ingénieurs japonais '44
 unit_2163 = Ingénieurs japonais '45
-unit_2164 = Breda 91
+unit_2164 = Breda 61
 unit_2165 = IMAM Ro.37
 unit_2166 = Carro Armato M15/42
 unit_2167 = Barge
@@ -66,6 +66,16 @@ unit_2169 = SU-122
 unit_2170 = Bautruppe
 unit_2171 = KV-1
 unit_2172 = Polikarpov Po-2
+unit_5100 = Paracadutisti '41
+unit_5101 = Paracadutisti '42
+unit_5102 = Paracadutisti '43
+unit_5103 = Paracadutisti '44
+unit_5104 = Paracadutisti '45
+unit_5105 = SM.82
+
+spec_carri_armati_avanzati_title = Production de chars
+spec_carri_armati_avanzati_descr = Alors que les chars et armes antichars ennemis se renforcent, l'armée italienne doit développer une nouvelle génération de véhicules blindés.
+spec_carri_armati_avanzati_effect = • Des chars plus performants sont disponibles en début de campagne.
 
 spec_organisation_todt_title = Organisation Todt
 spec_organisation_todt_descr = Nommée d'après son fondateur, Fritz Todt, ce groupe d'ingénieurs sera déployé sur la ligne de front pour réparer et construire les défenses et infrastructures.

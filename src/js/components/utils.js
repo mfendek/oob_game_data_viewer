@@ -439,7 +439,7 @@ export default function () {
         const data = manager.unitsData[manager.compareId];
 
         let points;
-        if (typeof terrainData[data['chassis']] !== 'undefined') {
+        if (typeof terrainData !== 'undefined' && typeof terrainData[data['chassis']] !== 'undefined') {
           points = manager.getTerrainPoints(data['movement'], terrainData[data['chassis']]['points']);
         } else {
           points = 0;
@@ -484,7 +484,7 @@ export default function () {
         const data = manager.unitsData[manager.compareId];
 
         let points;
-        if (typeof terrainData[data['category']] !== 'undefined') {
+        if (typeof terrainData !== 'undefined' && typeof terrainData[data['category']] !== 'undefined') {
           points = manager.getTerrainPoints(data['spotting'], terrainData[data['category']]);
         } else {
           points = 0;
@@ -1461,7 +1461,8 @@ export default function () {
 
             let movement;
             let extraMovementData = '';
-            if (typeof terrainData['movement'][data['chassis']] !== 'undefined') {
+            if (typeof terrainData['movement'] !== 'undefined'
+              && typeof terrainData['movement'][data['chassis']] !== 'undefined') {
               const movementData = terrainData['movement'][data['chassis']];
               movement = manager.getTerrainPoints(data['movement'], movementData['points']);
 
@@ -1485,7 +1486,8 @@ export default function () {
             }
 
             let spotting;
-            if (typeof terrainData['spotting'][data['category']] !== 'undefined') {
+            if (typeof terrainData['spotting'] !== 'undefined'
+              && typeof terrainData['spotting'][data['category']] !== 'undefined') {
               spotting = terrainData['spotting'][data['category']];
               spotting = manager.getTerrainPoints(data['spotting'], spotting);
             } else {

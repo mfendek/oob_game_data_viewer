@@ -1,113 +1,190 @@
-﻿commander_95 = Hans Valentin Hube
-commander_96 = Theodor Scherer
-commander_97 = Franz Wegmann
+﻿commander_95 = Ганс-Валентин Хубе
+commander_96 = Теодор Шерер 
+commander_97 = Франц Вегманн
+commander_100 = Альберт Кессельринг
+commander_101 = Эрвин Роммель
+commander_102 = Йоханн Микль
+commander_103 = Ганс Зандрок
+commander_104 = Ханс-Йоахим Марсель
+commander_105 = Дитрих Пельтцем 
+commander_106 = Пьетро Бруно
+commander_107 = Энеа Наварини
+commander_108 = Франко Луккини
 
-tutorial_content_afrika_title = [New content] Afrika
-tutorial_content_afrika = North African campaign 1941-1943
+tutorial_content_afrika_title = [Новый контент] Песчаная буря
+tutorial_content_afrika = Эта новая кампания отправляет Вас командовать Африканским корпусом и его итальянскими союзниками во время войны в Северной Африке. Здесь вы будете постигать искусство войной в открытой пустыне, атаковать береговые укрепления и поймете жизненно важное значение линий снабжения.
 
-tooltip_remove_variable = Remove this campaign variable
-campaign_default_defeat_title = DEFEAT
-campaign_default_defeat_text = We have been defeated.
-campaign_default_victory_title = VICTORY
-campaign_default_victory_text = We have defeated the enemy.
+tooltip_remove_variable = Удалить эту переменную кампании
+campaign_default_defeat_title = ПОРАЖЕНИЕ
+campaign_default_defeat_text = Мы потерпели поражение.
+campaign_default_victory_title = ПОБЕДА
+campaign_default_victory_text = Мы победили врага.
 
-commander_undetachable_text = This commander cannot be detached from its parent unit.
+commander_undetachable_text = Этого командира нельзя отделить от его исходного подразделения.
 
-editor_import_experience_perfect = Core import experience
-tooltip_add_core = Create a new core definition
-core_name = Core name
-unlocked = Unlocked
-editor_importable_cores = Importable Cores
-editor_core_definitions = Core Definitions
+editor_import_experience_perfect = Импорт опыта ядра
+tooltip_add_core = Создайте новое определение ядра
+core_name = Имя ядра
+tooltip_spec_point_income = Очки Специализации полученные после завершения этого сценария
+unlocked = Разблокировать
+editor_importable_cores = Импортируемые ядра
+editor_core_definitions = Определение ядра
+editor_cores_and_units = Ядро & Юниты
+editor_disabled_categories = Отключенные категории юнитов
+editor_disabled_types = Отключенные типы юнитов
+editor_add_disabled_type = Добавить отключенный тип юнитов
+editor_remove_disabled_type = Нажмите, чтобы удалить тип юнита
+editor_supply_percentage = Процент
+editor_supply_value = Значение
+editor_supply_source = Источник
+editor_source_local = Локальный
+editor_source_region = Региональный
+editor_clear_all = Очистить все
 
-trigger_condition_24 = Check Specialisation
+trigger_condition_24 = Проверить специализацию
+trigger_effect_31 = Установить ветку кампании
 
+editor_count_transports = Число транспортов?
+editor_missing_unit = (недостающий юнит)
+editor_skinless_only = Только для юнита со скином по умолчанию
+editor_branch_name = Имя ветви:
+
+tooltip_disband_unit_error_3 = Подразделения не могут быть расформированы на том же ходе, на котором они перемещались или атаковали.
+
+climate_arid = Засушливый
+weather_calm = Ясно
+weather_sandstorm = Песчаная буря
+terrain_desert_village = Деревня в пустыни
+terrain_desert_town = Город в пустыне
+escarpments = Эскарп
+
+faction_free_france = Свободная Франция
+faction_south_africa = Южная Африка
+
+unit_1338 = Канноне да 75/50
+unit_2154 = Канноне да 75/50
+unit_2158 = Re.2001
+unit_2178 = P-40 Киттихок
+unit_2179 = Эрликон 20мм пушка
+unit_2180 = Британские парашютисты '40
+unit_2181 = Британские парашютисты '41
+unit_2182 = Британские парашютисты '42
+unit_2183 = Британские парашютисты '43
+unit_2184 = Британские парашютисты '44
+unit_2185 = Британские парашютисты '45
+unit_2186 = Эрликон 20мм пушка
+unit_2187 = 2-х фунтовая пушка
+unit_2188 = Канноне да 75/32 мод.37
+unit_2189 = Канноне да 75/32 мод.37
+unit_2190 = M2A4 Легкий танк
+unit_2191 = M3 Стюарт
+unit_2192 = M3A1 Стюарт
+unit_5036 = BB Литторио
+unit_5037 = Основные пушки
+unit_5038 = CA Больцано
+unit_5039 = DD Сольдати
+unit_2193 = Fi 156 Шторьх
+unit_2194 = Карро Армато M16/43
+
+trigger_event_6 = Построить / Купить / Апгрейд
+
+spec_waffen_ss_effect = • +100 ресурсных очков и 6 наземных Командных очков для фракции Ваффен СС|• 2 Ресурсных очка за ход переносятся от Германии во фракцию Ваффен СС
+spec_waffen_ss_ii_effect = • +150 ресурсных очков и 12 наземных Командных очков для фракции Ваффен СС|• 5 Ресурсных очка за ход переносятся от Германии во фракцию Ваффен СС
+
+auto_save = Автосохранение хода
+auto_save_filename = Автосохранение
+auto_save_turn_filename = (Конец хода)
+auto_save_campaign_filename = (Кампания)
 
 // COMING SOON
 
-spec_home_guard_title = Home Guard
-spec_home_guard_descr = Organising and arming civilians to resist enemy invasion.
-spec_home_guard_effect = • Auxiliary Home Guard and Armadillo units are available at the start of each battle
+spec_home_guard_title = Ополчение
+spec_home_guard_descr = Организация и вооружение гражданских лиц, чтобы противостоять вторжению противника.
+spec_home_guard_effect = • В начале каждого сражения доступны вспомогательные подразделения «Ополчения» и «Армадильо»
 
-spec_free_french_title = Free French
-spec_free_french_descr = French troops and equipment evacuated to Britain 
-spec_free_french_effect = • A Somua S35 medium tank is added to the core force
+spec_home_guard_title = Ополчение
+spec_home_guard_descr = Организация и вооружение гражданских лиц, чтобы противостоять вторжению противника.
+spec_home_guard_effect = • В начале каждого сражения доступны вспомогательные подразделения «Ополчения» и «Армадильо»
 
-spec_resistance_fighters_title = Resistance Fighters
-spec_resistance_fighters_descr = Armed resistance in occupied territories can help with sabotage and harassment operations.
-spec_resistance_fighters_effect = • Auxiliary Resistance Fighters can be deployed anywhere outside of the fog of war
+spec_free_french_title = Свободная Франция
+spec_free_french_descr = Французские войска и вооружения эвакуированые в Великобританию
+spec_free_french_effect = • Средний танк Сомуа S35 добавлен в ядро ваших войск
 
-spec_rationing_title = Rationing
+spec_resistance_fighters_title = Боец Сопротивления
+spec_resistance_fighters_descr = Вооруженное сопротивление на оккупированных территориях может помочь в саботаже и беспокоящих действиях.
+spec_resistance_fighters_effect = • Вспомогательные бойцы Сопротивления могут быть развернуты где угодно вне тумана войны
+
+spec_rationing_title = Нормирование
 spec_rationing_descr = ?
-spec_rationing_effect = • 
+spec_rationing_effect = •
 
-spec_rocket_balistics_title = Rocket Balistics
+spec_rocket_balistics_title = Ракетная баллистика
 spec_rocket_balistics_descr = ?
-spec_rocket_balistics_effect = • 
+spec_rocket_balistics_effect = •
 
-spec_waffen_ss_iii_title = Waffen SS III
+spec_waffen_ss_iii_title = Ваффен СС III
 spec_waffen_ss_iii_descr = ?
-spec_waffen_ss_iii_effect = • 
+spec_waffen_ss_iii_effect = •
 
-spec_volkssturm_title = Volkssturm
+spec_volkssturm_title = Фольксштурм
 spec_volkssturm_descr = ?
-spec_volkssturm_effect = • 
+spec_volkssturm_effect = •
 
-spec_home_guard_title = Home Guard
+spec_home_guard_title = Ополчение
 spec_home_guard_descr = ?
-spec_home_guard_effect = • 
+spec_home_guard_effect = •
 
-spec_free_french_title = Free French Forces
+spec_free_french_title = Свободная Франция
 spec_free_french_descr = ?
-spec_free_french_effect = • 
+spec_free_french_effect = •
 
-spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_title = Боец Сопротивления
 spec_resistance_fighters_descr = ?
-spec_resistance_fighters_effect = • 
+spec_resistance_fighters_effect = •
 
-spec_maskirovka_title = Maskirovka
+spec_maskirovka_title = Маскировка
 spec_maskirovka_descr = ?
-spec_maskirovka_effect = • 
+spec_maskirovka_effect = •
 
-spec_beaching_title = Beaching
+spec_beaching_title = Сидящий на мели
 spec_beaching_descr = ?
-spec_beaching_effect = • 
+spec_beaching_effect = •
 
-spec_armed_merchants_title = Armed Merchants
+spec_armed_merchants_title = Вооруженные торговцы
 spec_armed_merchants_descr = ?
-spec_armed_merchants_effect = • 
+spec_armed_merchants_effect = •
 
-spec_homing_torpedo_title = Homing Torpedo
+spec_homing_torpedo_title = Самонаводящаяся торпеда
 spec_homing_torpedo_descr = ?
-spec_homing_torpedo_effect = • 
+spec_homing_torpedo_effect = •
 
-spec_supply_submarines_title = Supply Submarines
+spec_supply_submarines_title = Подлодка снабжения
 spec_supply_submarines_descr = ?
-spec_supply_submarines_effect = • 
+spec_supply_submarines_effect = •
 
-spec_magnetic_mines_title = Magnetic Mines
+spec_magnetic_mines_title = Магнитные мины
 spec_magnetic_mines_descr = ?
-spec_magnetic_mines_effect = • 
+spec_magnetic_mines_effect = •
 
-spec_floating_dry_docks_title = Floating Dry Docks
+spec_floating_dry_docks_title = Плавающие сухие доки
 spec_floating_dry_docks_descr = ?
-spec_floating_dry_docks_effect = • 
+spec_floating_dry_docks_effect = •
 
-spec_advanced_minesweeping_title = Advanced Minesweeping
+spec_advanced_minesweeping_title = Продвинутое минирование
 spec_advanced_minesweeping_descr = ?
-spec_advanced_minesweeping_effect = • 
+spec_advanced_minesweeping_effect = •
 
-spec_destroyers_for_bases_title = Destroyers-for-Bases
+spec_destroyers_for_bases_title = Эсминцы-для-баз
 spec_destroyers_for_bases_descr = ?
-spec_destroyers_for_bases_effect = • 
+spec_destroyers_for_bases_effect = •
 
-spec_atlantic_bomber_title = Atlantic Bomber
+spec_atlantic_bomber_title = Атлантический бомбардировщик
 spec_atlantic_bomber_descr = ?
-spec_atlantic_bomber_effect = • 
+spec_atlantic_bomber_effect = •
 
-spec_night_witches_title = Night Witches
+spec_night_witches_title = Ночные ведьмы
 spec_night_witches_descr = ?
-spec_night_witches_effect = • Adds a Po-2 tactical bomber to your air force|• Adds a Night Witch air commander to your air force
+spec_night_witches_effect = • Добавляет тактический бомбардировщик По-2 к вашей авиации|• Добавляет воздушного командира Ночных ведьмы к вашей авиации
 
 spec_mulberry_harbour_title = Mulberry Harbour
 spec_mulberry_harbour_descr = ?

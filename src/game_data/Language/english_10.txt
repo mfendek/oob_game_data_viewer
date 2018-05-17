@@ -1,4 +1,4 @@
-﻿unit_5000 = Berseglieri
+﻿unit_5000 = Bersaglieri
 unit_5001 = Alpini
 unit_5002 = Italian Cav
 unit_5003 = Italian Truck
@@ -18,9 +18,9 @@ unit_5016 = Semovente da 90/53
 unit_5017 = Semovente da 149/40
 unit_5018 = Semovente da 75/18
 unit_5019 = Semovente M43 da 105/25
-unit_5020 = 75mm 75/18
-unit_5021 = 105mm 105/28
-unit_5022 = 149mm 149/19
+unit_5020 = Obice da 75/18
+unit_5021 = Cannone da 105/28
+unit_5022 = Cannone da 149/19
 unit_5023 = 75/46 C.A. m34
 unit_5024 = Cannone da 90/53
 unit_5025 = Lancia 90/53
@@ -57,7 +57,7 @@ unit_2160 = Japanese Engineers '42
 unit_2161 = Japanese Engineers '43
 unit_2162 = Japanese Engineers '44
 unit_2163 = Japanese Engineers '45
-unit_2164 = Breda 91
+unit_2164 = Breda 61
 unit_2165 = IMAM Ro.37
 unit_2166 = Carro Armato M15/42
 unit_2167 = Barge
@@ -71,14 +71,24 @@ unit_2174 = Special Boat Service '42
 unit_2175 = Special Boat Service '43
 unit_2176 = Special Boat Service '44
 unit_2177 = Special Boat Service '45
+unit_5100 = Paracadutisti '41
+unit_5101 = Paracadutisti '42
+unit_5102 = Paracadutisti '43
+unit_5103 = Paracadutisti '44
+unit_5104 = Paracadutisti '45
+unit_5105 = SM.82
 
-spec_organisation_todt_title = Organisation Todt
-spec_organisation_todt_descr = Named after its founder, Fritz Todt, this engineering group will be deployed on the frontline to repair and construct defenses and infrastructure.
-spec_organisation_todt_effect = • A unit of Bautruppe will added to your army core
+spec_carri_armati_avanzati_title = Tank Production Program
+spec_carri_armati_avanzati_descr = As enemy tanks and anti-tank weapons become more powerful, the Italian Army must develop its own new generation of armoured fighting vehicles.
+spec_carri_armati_avanzati_effect = • More advanced tanks become available earlier in the campaign
 
 spec_waffen_ss_ii_title = Waffen SS II
 spec_waffen_ss_ii_descr = By further expanding the nationalities and populations viable for recruitment into the Waffen SS, several more divisions can be fielded on the battlefield.
 spec_waffen_ss_ii_effect = • +6 Ground CP for the Waffen SS faction|• +3 RP per turn are transferred from Germany to the Waffen SS faction
+
+spec_organisation_todt_title = Organisation Todt
+spec_organisation_todt_descr = Named after its founder, Fritz Todt, this engineering group will be deployed on the frontline to repair and construct defenses and infrastructure.
+spec_organisation_todt_effect = • A unit of Bautruppe will added to your army core
 
 spec_synthetic_fuel_plants_title = Synthetic Fuel Plants
 spec_synthetic_fuel_plants_descr = Large manufacturing plants will be able to mass produce synthetic crude oil by converting coal, water gas and other substances through various chemical processes.

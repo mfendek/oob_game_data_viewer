@@ -1,4 +1,4 @@
-﻿unit_5000 = Berseglieri
+﻿unit_5000 = Bersaglieri
 unit_5001 = Alpini
 unit_5002 = Cab Italiana
 unit_5003 = Camión Italiano
@@ -57,7 +57,7 @@ unit_2160 = Ingenieros Japoneses '42
 unit_2161 = Ingenieros Japoneses '43
 unit_2162 = Ingenieros Japoneses '44
 unit_2163 = Ingenieros Japoneses '45
-unit_2164 = Breda 91
+unit_2164 = Breda 61
 unit_2165 = IMAM Ro.37
 unit_2166 = Carro Armato M15/42
 unit_2167 = Barcaza
@@ -66,6 +66,16 @@ unit_2169 = SU-122
 unit_2170 = Bautruppe
 unit_2171 = KV-1
 unit_2172 = Polikarpov Po-2
+unit_5100 = Paracadutisti '41
+unit_5101 = Paracadutisti '42
+unit_5102 = Paracadutisti '43
+unit_5103 = Paracadutisti '44
+unit_5104 = Paracadutisti '45
+unit_5105 = SM.82
+
+spec_carri_armati_avanzati_title = Programa de Fabricación de Tanques
+spec_carri_armati_avanzati_descr = Mientras que los tanques y armas anti-tanque de nuestros enemigos se vuelven cada vez más poderosos, el ejército italiano debe desarrollar una nueva generación de blindados. 
+spec_carri_armati_avanzati_effect = • Tanques más avanzados aparecen disponibles antes en la campaña
 
 spec_organisation_todt_title = Organización Todt
 spec_organisation_todt_descr = Nombrado por su fundador, Fritz Todt, este grupo de ingeniería se puede desplegarse en primera línea para reparar y construir defensas e infraestructura.

@@ -799,13 +799,6 @@ range = 0
 //   AFRIKA   //
 ///////////////
 
-[PLACEHOLDER]
-id = 99
-category = air
-faction = britain, raf, australia, new_zealand, canada
-defense = air_defense, 2
-range = 1
-
 [ALBERT_KESSELRING]
 id = 100
 category = air

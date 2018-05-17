@@ -1,0 +1,6 @@
+﻿name;id;effect;speed;attack;defense;LOS;LOS;random;radar
+;;;;;;;;;
+Clear;0;/;;;;;;;
+Rain;1;Rain;;;;;;;
+Snow;2;Snow;;;;;;;
+Sandstorm;3;Sandstorm;land, 0.5;;;land, 0.1;air, 0.1;;

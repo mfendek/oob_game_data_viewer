@@ -1,9 +1,18 @@
-﻿commander_95 = Hans Valentin Hube
+﻿commander_95 = Hans-Valentin Hube
 commander_96 = Theodor Scherer
 commander_97 = Franz Wegmann
+commander_100 = Albert Kesselring
+commander_101 = Erwin Rommel
+commander_102 = Johann Mickl
+commander_103 = Hans Sandrock
+commander_104 = Hans-Joachim Marseille
+commander_105 = Dietrich Peltz
+commander_106 = Pietro Bruno
+commander_107 = Enea Navarini
+commander_108 = Franco Lucchini
 
-tutorial_content_afrika_title = [New content] Afrika
-tutorial_content_afrika = North African campaign 1941-1943
+tutorial_content_afrika_title = [New content] Sandstorm
+tutorial_content_afrika = This new campaign puts you in command of the Afrika Korps and their Italian Allies during the war in North Africa. Here you will master warfare in the open desert, assaults on coastline fortifications and the vital importance of supply lines.
 
 tooltip_remove_variable = Remove this campaign variable
 campaign_default_defeat_title = DEFEAT
@@ -16,21 +25,82 @@ commander_undetachable_text = This commander cannot be detached from its parent 
 editor_import_experience_perfect = Core import experience
 tooltip_add_core = Create a new core definition
 core_name = Core name
+tooltip_spec_point_income = Specialization points awarded after completing this scenario
 unlocked = Unlocked
 editor_importable_cores = Importable Cores
 editor_core_definitions = Core Definitions
+editor_cores_and_units = Cores & Units
+editor_disabled_categories = Disabled unit categories
+editor_disabled_types = Disabled unit types
+editor_add_disabled_type = Add disabled unit type
+editor_remove_disabled_type = Click to remove unit type
+editor_supply_percentage = Percentage
+editor_supply_value = Value
+editor_supply_source = Source
+editor_source_local = Local
+editor_source_region = Region
+editor_clear_all = Clear all
 
 trigger_condition_24 = Check Specialization
+trigger_effect_31 = Set Campaign Branch
 
 editor_count_transports = Count transports?
-editor_missing_unit = Missing unit
+editor_missing_unit = (missing unit)
+editor_skinless_only = Only for units with default skin
+editor_branch_name = Branch name:
 
 tooltip_disband_unit_error_3 = Units cannot be disbanded in the same turn they have moved or attacked.
 
-missing_unit = (missing unit)
+climate_arid = Arid
+weather_calm = Clear
+weather_sandstorm = Sandstorm
+terrain_desert_village = Desert Village
+terrain_desert_town = Desert Town
+escarpments = Escarpments
 
+faction_free_france = Free France
+faction_south_africa = South Africa
+
+unit_1338 = Cannone da 75/50
+unit_2154 = Cannone da 75/50
+unit_2158 = Re.2001
+unit_2178 = P-40 Kittyhawk
+unit_2179 = Oerlikon 20mm Portree 
+unit_2180 = British Paratroopers '40
+unit_2181 = British Paratroopers '41
+unit_2182 = British Paratroopers '42
+unit_2183 = British Paratroopers '43
+unit_2184 = British Paratroopers '44
+unit_2185 = British Paratroopers '45
+unit_2186 = Oerlikon 20mm Portree
+unit_2187 = 2 Pounder Portee
+unit_2188 = Cannone da 75/32 Mod.37
+unit_2189 = Cannone da 75/32 Mod.37
+unit_2190 = M2A4 Light Tank
+unit_2191 = M3 Stuart
+unit_2192 = M3A1 Stuart
+unit_5036 = BB Littorio
+unit_5037 = Primary Guns
+unit_5038 = CA Bolzano
+unit_5039 = DD Soldati
+unit_2193 = Fi 156 Storch
+unit_2194 = Carro Armato M16/43
+
+trigger_event_6 = Construct/Purchase/Upgrade
+
+spec_waffen_ss_effect = • +100 RP and 6 Ground CP for the Waffen SS faction|• 2 RP per turn are transferred from Germany to the Waffen SS faction
+spec_waffen_ss_ii_effect = • +150 RP and 12 Ground CP for the Waffen SS faction|• 5 RP per turn are transferred from Germany to the Waffen SS faction
+
+auto_save = Autosave per turn
+auto_save_filename = Auto Save
+auto_save_turn_filename = (Turn End)
+auto_save_campaign_filename = (Campaign)
 
 // COMING SOON
+
+spec_home_guard_title = Home Guard
+spec_home_guard_descr = Organizing and arming civilians to resist enemy invasion.
+spec_home_guard_effect = • Auxiliary Home Guard and Armadillo units are available at the start of each battle
 
 spec_home_guard_title = Home Guard
 spec_home_guard_descr = Organizing and arming civilians to resist enemy invasion.

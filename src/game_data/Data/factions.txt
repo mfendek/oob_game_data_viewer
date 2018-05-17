@@ -172,3 +172,11 @@ theme = germany
 [HUNGARY]
 id = 39
 theme = germany
+
+[FREE_FRANCE]
+id = 40
+theme = france
+
+[SOUTH_AFRICA]
+id = 41
+theme = britain

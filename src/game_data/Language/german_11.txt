@@ -1,107 +1,191 @@
-﻿commander_95 = Hans Valentin Hube
+﻿commander_95 = Hans-Valentin Hube
 commander_96 = Theodor Scherer
 commander_97 = Franz Wegmann
+commander_100 = Albert Kesselring
+commander_101 = Erwin Rommel
+commander_102 = Johann Mickl
+commander_103 = Hans Sandrock
+commander_104 = Hans-Joachim Marseille
+commander_105 = Dietrich Peltz
+commander_106 = Pietro Bruno
+commander_107 = Enea Navarini
+commander_108 = Franco Lucchini
 
-tutorial_content_afrika_title = [New content] Afrika
-tutorial_content_afrika = North African campaign 1941-1943
+tutorial_content_afrika_title = [Neuer Inhalt] Sandstorm
+tutorial_content_afrika = In dieser neuen Kampagne übernehmen Sie den Oberbefehl über das Afrikakorps und seine italienischen Verbündeten während des Afrikafeldzugs. Koordinieren Sie Schlachten im offenen Gelände der Wüste und führen Sie Angriffe gegen Küstenbefestigungen durch, ohne dabei die entscheidende Rolle der Versorgungslinien zu unterschätzen.
 
-tooltip_remove_variable = Entferne diese Kampagnenvariable
+tooltip_remove_variable = Diese Kampagnenvariable entfernen
 campaign_default_defeat_title = NIEDERLAGE
-campaign_default_defeat_text = Wir sind besiegt worden.
+campaign_default_defeat_text = Wir wurden besiegt.
 campaign_default_victory_title = SIEG
 campaign_default_victory_text = Wir haben den Feind besiegt.
 
-commander_undetachable_text = Dieser Kommandeur kann nicht von seiner Einheit abgezogen werden
+commander_undetachable_text = Dieser Kommandant kann nicht von seiner ursprünglichen Einheit entfernt werden.
 
-editor_import_experience_perfect = Kern Import Erfahrung
+editor_import_experience_perfect = Erfahrung der importierten Kernarmeen
+tooltip_add_core = Neue Kernarmee festlegen
+core_name = Name der Kernarmee
+tooltip_spec_point_income = Erhaltene Spezialisierungspunkte nach Abschluss dieses Szenarios
+unlocked = Freigeschaltet
+editor_importable_cores = Importierbare Kernarmeen
+editor_core_definitions = Kernarmee-Bestimmungen
+editor_cores_and_units = Kernarmeen & Einheiten
+editor_disabled_categories = Deaktivierte Einheitenkategorien
+editor_disabled_types = Deaktivierte Einheitentypen
+editor_add_disabled_type = Deaktivierten Einheitentyp hinzufügen
+editor_remove_disabled_type = Klicken, um Einheitentyp zu entfernen
+editor_supply_percentage = Prozent
+editor_supply_value = Wert
+editor_supply_source = Quelle
+editor_source_local = Vor Ort
+editor_source_region = Region
+editor_clear_all = Alle löschen
 
+trigger_condition_24 = Spezialisierung abfragen
+trigger_effect_31 = Kampagnenzweig festlegen
+
+editor_count_transports = Transporter miteinbeziehen?
+editor_missing_unit = (fehlende Einheit)
+editor_skinless_only = Nur für Einheiten mit Standard-Skin
+editor_branch_name = Name des Zweigs:
+
+tooltip_disband_unit_error_3 = Einheiten können nicht in der Runde aufgelöst werden, in der sie sich bewegt oder angegriffen haben.
+
+climate_arid = Trocken
+weather_calm = Klar
+weather_sandstorm = Sandsturm
+terrain_desert_village = Wüstendorf
+terrain_desert_town = Wüstenstadt
+escarpments = Höhenzug
+
+faction_free_france = Freies Frankreich
+faction_south_africa = Südafrika
+
+unit_1338 = Cannone da 75/50
+unit_2154 = Cannone da 75/50
+unit_2158 = Re.2001
+unit_2178 = P-40 Kittyhawk
+unit_2179 = Morris C9/B
+unit_2180 = Brit. Fallschirmjäger '40
+unit_2181 = Brit. Fallschirmjäger '41
+unit_2182 = Brit. Fallschirmjäger '42
+unit_2183 = Brit. Fallschirmjäger '43
+unit_2184 = Brit. Fallschirmjäger '44
+unit_2185 = Brit. Fallschirmjäger '45
+unit_2186 = Morris C9/B
+unit_2187 = 2-Pfünder Portee
+unit_2188 = Cannone da 75/32 Mod. 37
+unit_2189 = Cannone da 75/32 Mod. 37
+unit_2190 = M2A4 Light Tank
+unit_2191 = M3 Stuart
+unit_2192 = M3A1 Stuart
+unit_5036 = Schlachtschiff (Littorio-Klasse)
+unit_5037 = Hauptgeschütze
+unit_5038 = Kreuzer Bolzano
+unit_5039 = Zerstörer (Soldati-Klasse)
+unit_2193 = Fi 156 Storch
+unit_2194 = Carro Armato M16/43
+
+trigger_event_6 = Bauen/Kaufen/Upgraden
+
+spec_waffen_ss_effect = • +100 Ressourcenpunkte und 6 Landbefehlspunkte für die Waffen-SS|• 2 Ressourcenpunkte pro Runde werden von Deutschland an die Waffen-SS transferiert.
+spec_waffen_ss_ii_effect = • +150 Ressourcenpunkte und 12 Landbefehlspunkte für die Waffen-SS|• 5 Ressourcenpunkte pro Runde werden von Deutschland an die Waffen-SS transferiert.
+
+auto_save = Autosave für jede Runde
+auto_save_filename = Autosave
+auto_save_turn_filename = (Rundenende)
+auto_save_campaign_filename = (Kampagne)
 
 // COMING SOON
 
 spec_home_guard_title = Home Guard
-spec_home_guard_descr = Organising and arming civilians to resist enemy invasion.
-spec_home_guard_effect = • Auxiliary Home Guard and Armadillo units are available at the start of each battle
+spec_home_guard_descr = Zivilisten werden organisiert und bewaffnet, um im Falle einer feindlichen Invasion Widerstand zu leisten.
+spec_home_guard_effect = • Einheiten der Home Guard und Armadillo-Einheiten sind als Hilfseinheiten zu Beginn einer jeden Schlacht verfügbar.
 
-spec_free_french_title = Free French
-spec_free_french_descr = French troops and equipment evacuated to Britain 
-spec_free_french_effect = • A Somua S35 medium tank is added to the core force
+spec_home_guard_title = Home Guard
+spec_home_guard_descr = Zivilisten werden organisiert und bewaffnet, um im Falle einer feindlichen Invasion Widerstand zu leisten.
+spec_home_guard_effect = • Einheiten der Home Guard und Armadillo-Einheiten sind als Hilfseinheiten zu Beginn einer jeden Schlacht verfügbar.
 
-spec_resistance_fighters_title = Resistance Fighters
-spec_resistance_fighters_descr = Armed resistance in occupied territories can help with sabotage and harassment operations.
-spec_resistance_fighters_effect = • Auxiliary Resistance Fighters can be deployed anywhere outside of the fog of war
+spec_free_french_title = Freie Französische Streitkräfte
+spec_free_french_descr = Französische Truppen und Ausrüstung, die nach Großbritannien evakuiert wurden.
+spec_free_french_effect = • Ein mittlerer Panzer des Typs Somua S-35 wird Ihren Kerntruppen hinzugefügt.
 
-spec_rationing_title = Rationing
+spec_resistance_fighters_title = Widerstandskämpfer
+spec_resistance_fighters_descr = Bewaffnete Widerstandsbewegungen in besetzten Gebieten können mit Sabotageoperationen und Störmanövern Unterstützung leisten.
+spec_resistance_fighters_effect = • Widerstandskämpfer können als Hilfstruppen überall außerhalb des Kriegsnebels platziert werden.
+
+spec_rationing_title = Rationierung
 spec_rationing_descr = ?
-spec_rationing_effect = • 
+spec_rationing_effect = •
 
-spec_rocket_balistics_title = Rocket Balistics
+spec_rocket_balistics_title = Raketenballistik
 spec_rocket_balistics_descr = ?
-spec_rocket_balistics_effect = • 
+spec_rocket_balistics_effect = •
 
-spec_waffen_ss_iii_title = Waffen SS III
+spec_waffen_ss_iii_title = Waffen-SS III
 spec_waffen_ss_iii_descr = ?
-spec_waffen_ss_iii_effect = • 
+spec_waffen_ss_iii_effect = •
 
 spec_volkssturm_title = Volkssturm
 spec_volkssturm_descr = ?
-spec_volkssturm_effect = • 
+spec_volkssturm_effect = •
 
 spec_home_guard_title = Home Guard
 spec_home_guard_descr = ?
-spec_home_guard_effect = • 
+spec_home_guard_effect = •
 
-spec_free_french_title = Free French Forces
+spec_free_french_title = Freie Französische Streitkräfte
 spec_free_french_descr = ?
-spec_free_french_effect = • 
+spec_free_french_effect = •
 
-spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_title = Widerstandskämpfer
 spec_resistance_fighters_descr = ?
-spec_resistance_fighters_effect = • 
+spec_resistance_fighters_effect = •
 
-spec_maskirovka_title = Maskirovka
+spec_maskirovka_title = Maskirowka
 spec_maskirovka_descr = ?
-spec_maskirovka_effect = • 
+spec_maskirovka_effect = •
 
-spec_beaching_title = Beaching
+spec_beaching_title = Strandung
 spec_beaching_descr = ?
-spec_beaching_effect = • 
+spec_beaching_effect = •
 
-spec_armed_merchants_title = Armed Merchants
+spec_armed_merchants_title = Bewaffnete Handelsschiffe
 spec_armed_merchants_descr = ?
-spec_armed_merchants_effect = • 
+spec_armed_merchants_effect = •
 
-spec_homing_torpedo_title = Homing Torpedo
+spec_homing_torpedo_title = Torpedos mit akustischer Eigenlenkung
 spec_homing_torpedo_descr = ?
-spec_homing_torpedo_effect = • 
+spec_homing_torpedo_effect = •
 
-spec_supply_submarines_title = Supply Submarines
+spec_supply_submarines_title = Versorgungs-U-Boote
 spec_supply_submarines_descr = ?
-spec_supply_submarines_effect = • 
+spec_supply_submarines_effect = •
 
-spec_magnetic_mines_title = Magnetic Mines
+spec_magnetic_mines_title = Magnetminen
 spec_magnetic_mines_descr = ?
-spec_magnetic_mines_effect = • 
+spec_magnetic_mines_effect = •
 
-spec_floating_dry_docks_title = Floating Dry Docks
+spec_floating_dry_docks_title = Trockendocks
 spec_floating_dry_docks_descr = ?
-spec_floating_dry_docks_effect = • 
+spec_floating_dry_docks_effect = •
 
-spec_advanced_minesweeping_title = Advanced Minesweeping
+spec_advanced_minesweeping_title = Fortschrittliches Minenräumverfahren
 spec_advanced_minesweeping_descr = ?
-spec_advanced_minesweeping_effect = • 
+spec_advanced_minesweeping_effect = •
 
-spec_destroyers_for_bases_title = Destroyers-for-Bases
+spec_destroyers_for_bases_title = Zerstörer-für-Stützpunkte-Abkommen
 spec_destroyers_for_bases_descr = ?
-spec_destroyers_for_bases_effect = • 
+spec_destroyers_for_bases_effect = •
 
-spec_atlantic_bomber_title = Atlantic Bomber
+spec_atlantic_bomber_title = Atlantikbomber
 spec_atlantic_bomber_descr = ?
-spec_atlantic_bomber_effect = • 
+spec_atlantic_bomber_effect = •
 
-spec_night_witches_title = Night Witches
+spec_night_witches_title = Nachthexen
 spec_night_witches_descr = ?
-spec_night_witches_effect = • Adds a Po-2 tactical bomber to your air force|• Adds a Night Witch air commander to your air force
+spec_night_witches_effect = • Ein taktischer Bomber des Typs Po-2 wird Ihren Luftstreitkräften hinzugefügt.|• Eine Lufteinheiten-Kommandantin der Nachthexen wird Ihren Luftstreitkräften hinzugefügt.
 
-spec_mulberry_harbour_title = Mulberry Harbour
+spec_mulberry_harbour_title = Mulberry-Häfen
 spec_mulberry_harbour_descr = ?
 spec_mulberry_harbour_effect = • 

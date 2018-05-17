@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-05-07';
+    $version = '2018-05-17';
 
     // configuration
 
@@ -151,8 +151,77 @@ try {
     $climates = [
         'dry' => '',
         'wet' => '_wet',
-        'winter' => '_winter'
+        'winter' => '_winter',
+        'arid' => '_arid',
     ];
+
+    // process chassis (CSV file not in use yet)
+//    foreach ($climates as $climate => $climateId) {
+//        $dataFile = file_get_contents('src/game_data/Data/chassis' . $climateId . '.csv');
+//        if ($dataFile === false) {
+//            throw new Exception('Failed to open chassis data file');
+//        }
+//
+//        $dataFile = explode("\n", $dataFile);
+//        foreach ($dataFile as $lineNumber => $line) {
+//            $line = explode(";", $line);
+//            $name = trim($line[0]);
+//
+//            // skip heading line and empty lines
+//            if (empty($name) || $lineNumber === 0) {
+//                continue;
+//            }
+//
+//            $name = strtolower($name);
+//            $fields = [
+//                'open' => 2,
+//                'farmland' => 3,
+//                'jungle' => 4,
+//                'beach' => 5,
+//                'desert' => 6,
+//                'rough_desert' => 7,
+//                'hills' => 8,
+//                'mountains' => 9,
+//                'swamp' => 10,
+//                'rice' => 11,
+//                'city' => 12,
+//                'village' => 13,
+//                'japanese_village' => 14,
+//                'euro_village' => 15,
+//                'desert_village' => 16,
+//                'town' => 17,
+//                'asian_town' => 18,
+//                'desert_town' => 19,
+//                'airfield' => 20,
+//                'forest' => 21,
+//                'pine_forest' => 22,
+//                'scorched' => 23,
+//                'escarpment' => 24,
+//                'lake' => 25,
+//                'water' => 26,
+//                'deep_water' => 27,
+//                'cliffs' => 28,
+//                'port' => 29,
+//            ];
+//
+//            foreach ($fields as $terrainName => $fieldIndex) {
+//                $terrain[$climate][$terrainName]['movement'][$name]['points'] = (int) $line[$fieldIndex];
+//            }
+//
+//            // extract road factor value
+//            $factors = [
+//                'road_factor_dirt' => $line[30],
+//                'road_factor_normal' => $line[31]
+//            ];
+//
+//            foreach ($factors as $factorName => $factor) {
+//                if (strpos($factor, ', ') !== false) {
+//                    $factor = explode(', ', $factor);
+//                    $roadFactor[$climate][$name][$factorName] = (float) $factor[1];
+//                }
+//            }
+//        }
+//    }
 
     // process chassis
     foreach ($climates as $climate => $climateId) {

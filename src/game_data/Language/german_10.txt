@@ -57,7 +57,7 @@ unit_2160 = Jap. Pioniere '42
 unit_2161 = Jap. Pioniere '43
 unit_2162 = Jap. Pioniere '44
 unit_2163 = Jap. Pioniere '45
-unit_2164 = Breda 91
+unit_2164 = Breda 61
 unit_2165 = IMAM Ro.37
 unit_2166 = Carro Armato M15/42
 unit_2167 = Barge
@@ -66,6 +66,16 @@ unit_2169 = SU-122
 unit_2170 = Bautruppe
 unit_2171 = KW-1
 unit_2172 = Polikarpow Po-2
+unit_5100 = Paracadutisti '41
+unit_5101 = Paracadutisti '42
+unit_5102 = Paracadutisti '43
+unit_5103 = Paracadutisti '44
+unit_5104 = Paracadutisti '45
+unit_5105 = SM.82
+
+spec_carri_armati_avanzati_title = Panzerproduktionsprogramm
+spec_carri_armati_avanzati_descr = Da die feindlichen Panzer und Panzerabwehrwaffen immer schlagkräftiger werden, muss die Italienische Armee nachziehen und ihre eigene neue Generation gepanzerter Kampffahrzeuge entwickeln.
+spec_carri_armati_avanzati_effect = • Fortschrittlichere Panzer werden bereits früher in der Kampagne verfügbar.
 
 spec_organisation_todt_title = Organisation Todt
 spec_organisation_todt_descr = Eine Bautruppe, benannt nach ihrem Gründer Fritz Todt, wird zur Frontlinie beordert, um Verteidigungsstellungen zu errichten und zu reparieren und die Infrastruktur zu unterstützen.

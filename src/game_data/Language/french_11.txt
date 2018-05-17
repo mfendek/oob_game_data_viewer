@@ -1,114 +1,191 @@
 ﻿commander_95 = Hans Valentin Hube
 commander_96 = Theodor Scherer
 commander_97 = Franz Wegmann
+commander_100 = Albert Kesselring
+commander_101 = Erwin Rommel
+commander_102 = Johann Mickl
+commander_103 = Hans Sandrock
+commander_104 = Hans-Joachim Marseille
+commander_105 = Dietrich Peltz
+commander_106 = Pietro Bruno
+commander_107 = Enea Navarini
+commander_108 = Franco Lucchini
 
-tutorial_content_afrika_title = [New content] Afrika
-tutorial_content_afrika = North African campaign 1941-1943
+tutorial_content_afrika_title = [Nouveau contenu] Tempête de sable
+tutorial_content_afrika = Cette campagne vous place aux commandes de l'Afrika Korps et leurs alliés italiens durant la guerre d'Afrique du nord. Ici vous devrez maîtriser la guerre dans les étendues désertiques, les assauts sur des fortifications côtières et l'importance vitale des lignes de ravitaillement.
 
-tooltip_remove_variable = Remove this campaign variable
-campaign_default_defeat_title = DEFEAT
-campaign_default_defeat_text = We have been defeated.
-campaign_default_victory_title = VICTORY
-campaign_default_victory_text = We have defeated the enemy.
+tooltip_remove_variable = Supprimer cette variable de campagne
+campaign_default_defeat_title = DÉFAITE
+campaign_default_defeat_text = Nous avons été défaits.
+campaign_default_victory_title = VICTOIRE
+campaign_default_victory_text = Nous avons défait l'ennemi.
 
-commander_undetachable_text = This commander cannot be detached from its parent unit.
+commander_undetachable_text = Ce commandant ne peut être détaché de ses unités rattachées.
 
-editor_import_experience_perfect = Core import experience
-tooltip_add_core = Create a new core definition
-core_name = Core name
-unlocked = Unlocked
-editor_importable_cores = Importable Cores
-editor_core_definitions = Core Definitions
+editor_import_experience_perfect = Importer l'expérience d'armée
+tooltip_add_core = Créer une nouvelle définition d'armée
+core_name = Nom d'armée
+tooltip_spec_point_income = Points de spécialisation obtenus après avoir complété ce scénario
+unlocked = Débloqué
+editor_importable_cores = Armée importable
+editor_core_definitions = Définitions d'armée
+editor_cores_and_units = Armées & unités
+editor_disabled_categories = Catégories d'unité désactivées
+editor_disabled_types = Type d'unité désactivé
+editor_add_disabled_type = Ajouter le type d'unité désactivé
+editor_remove_disabled_type = Cliquez pour supprimer le type d'unité
+editor_supply_percentage = Pourcentage
+editor_supply_value = Valeur
+editor_supply_source = Source
+editor_source_local = Local
+editor_source_region = Région
+editor_clear_all = Effacer tout
 
-trigger_condition_24 = Check Specialisation
+trigger_condition_24 = Vérifier la spécialisation
+trigger_effect_31 = Configure la branche de campagne
 
+editor_count_transports = Compte les transports ?
+editor_missing_unit = (unités perdues)
+editor_skinless_only = Seulement pour les unités avec un skin par défaut
+editor_branch_name = Nom de la branche :
+
+tooltip_disband_unit_error_3 = Les unités ne peuvent pas être dissoute dans le même tour d'un déplacement ou d'attaque.
+
+climate_arid = Aride
+weather_calm = Clair
+weather_sandstorm = Tempête de Sable
+terrain_desert_village = Village de désert
+terrain_desert_town = Ville de désert
+escarpments = Escarpements
+
+faction_free_france = France Libre
+faction_south_africa = Afrique du Sud
+
+unit_1338 = Canon de 75/50
+unit_2154 = Canon de 75/50
+unit_2158 = Re.2001
+unit_2178 = P-40 Kityhawk
+unit_2179 = Morris C9/B
+unit_2180 = Parachutistes britanniques '40
+unit_2181 = Parachutistes britanniques '41
+unit_2182 = Parachutistes britanniques '42
+unit_2183 = Parachutistes britanniques '43
+unit_2184 = Parachutistes britanniques '44
+unit_2185 = Parachutistes britanniques '45
+unit_2186 = Morris C9/B
+unit_2187 = 2 livres portée
+unit_2188 = Canon de 75/32 mod.37
+unit_2189 = Canon de 75/32 mod.37
+unit_2190 = M2A4 Char léger
+unit_2191 = M3 Stuart
+unit_2192 = M3A1 Stuart
+unit_5036 = BB Littorio
+unit_5037 = Armes à feu primaires
+unit_5038 = CA Bolzano
+unit_5039 = DD Soldati
+unit_2193 = Fi 156 Storch
+unit_2194 = Carro Armato M16/43
+
+trigger_event_6 = Construire/acheter/Améliorer
+
+spec_waffen_ss_effect = • +100 PR et 6 PC terrestre pour la Waffen SS|• 2 PR par tour sont transférer de l'Allemagne à la Waffen SS
+spec_waffen_ss_ii_effect = • +150 PR et 12 PC terrestre pour Waffen SS|• 5 PR par tour sont transférer de l'Allemagne à la Waffen SS
+
+auto_save = Sauvegarde auto. par tour
+auto_save_filename = Sauvegarde auto.
+auto_save_turn_filename = (fin de tour)
+auto_save_campaign_filename = (Campagne)
 
 // COMING SOON
 
-spec_home_guard_title = Home Guard
-spec_home_guard_descr = Organising and arming civilians to resist enemy invasion.
-spec_home_guard_effect = • Auxiliary Home Guard and Armadillo units are available at the start of each battle
+spec_home_guard_title = Garde Civile
+spec_home_guard_descr = Organise et arme les civiles pour résister à l'invasion ennemie.
+spec_home_guard_effect = • Les Gardes civils auxiliaires et les unités Armadillo sont disponibles au début de chaque bataille
 
-spec_free_french_title = Free French
-spec_free_french_descr = French troops and equipment evacuated to Britain 
-spec_free_french_effect = • A Somua S35 medium tank is added to the core force
+spec_home_guard_title = Garde Civile
+spec_home_guard_descr = Organise et arme les civiles pour résister à l'invasion ennemie.
+spec_home_guard_effect = • Les Gardes civils auxiliaires et les unités Armadillo sont disponibles au début de chaque bataille
 
-spec_resistance_fighters_title = Resistance Fighters
-spec_resistance_fighters_descr = Armed resistance in occupied territories can help with sabotage and harassment operations.
-spec_resistance_fighters_effect = • Auxiliary Resistance Fighters can be deployed anywhere outside of the fog of war
+spec_free_french_title = France Libre
+spec_free_french_descr = Les troupes françaises et l'équipement sont évacuées pour la Grande-Bretagne
+spec_free_french_effect = • Un char moyen Somua S35 est ajouté à la force principale
 
-spec_rationing_title = Rationing
+spec_resistance_fighters_title = Combattants de la résistance
+spec_resistance_fighters_descr = La résistance armée dans les territoires occupés peut aider avec des opérations de sabotage ou d'attrition.
+spec_resistance_fighters_effect = • Des combattants auxiliaires de la résistance peuvent être déployés n'importe où en dehors du brouillard de guerre
+
+spec_rationing_title = Rationnement
 spec_rationing_descr = ?
-spec_rationing_effect = • 
+spec_rationing_effect = •
 
-spec_rocket_balistics_title = Rocket Balistics
+spec_rocket_balistics_title = Fusées balistiques
 spec_rocket_balistics_descr = ?
-spec_rocket_balistics_effect = • 
+spec_rocket_balistics_effect = •
 
 spec_waffen_ss_iii_title = Waffen SS III
 spec_waffen_ss_iii_descr = ?
-spec_waffen_ss_iii_effect = • 
+spec_waffen_ss_iii_effect = •
 
 spec_volkssturm_title = Volkssturm
 spec_volkssturm_descr = ?
-spec_volkssturm_effect = • 
+spec_volkssturm_effect = •
 
-spec_home_guard_title = Home Guard
+spec_home_guard_title = Garde Civile
 spec_home_guard_descr = ?
-spec_home_guard_effect = • 
+spec_home_guard_effect = •
 
-spec_free_french_title = Free French Forces
+spec_free_french_title = Forces de la France libre
 spec_free_french_descr = ?
-spec_free_french_effect = • 
+spec_free_french_effect = •
 
-spec_resistance_fighters_title = Resistance Fighters
+spec_resistance_fighters_title = Combattants de la résistance
 spec_resistance_fighters_descr = ?
-spec_resistance_fighters_effect = • 
+spec_resistance_fighters_effect = •
 
 spec_maskirovka_title = Maskirovka
 spec_maskirovka_descr = ?
-spec_maskirovka_effect = • 
+spec_maskirovka_effect = •
 
-spec_beaching_title = Beaching
+spec_beaching_title = Débarquer
 spec_beaching_descr = ?
-spec_beaching_effect = • 
+spec_beaching_effect = •
 
-spec_armed_merchants_title = Armed Merchants
+spec_armed_merchants_title = Marchands armés
 spec_armed_merchants_descr = ?
-spec_armed_merchants_effect = • 
+spec_armed_merchants_effect = •
 
-spec_homing_torpedo_title = Homing Torpedo
+spec_homing_torpedo_title = Torpille téléguidée
 spec_homing_torpedo_descr = ?
-spec_homing_torpedo_effect = • 
+spec_homing_torpedo_effect = •
 
-spec_supply_submarines_title = Supply Submarines
+spec_supply_submarines_title = Sous-marins de ravitaillement
 spec_supply_submarines_descr = ?
-spec_supply_submarines_effect = • 
+spec_supply_submarines_effect = •
 
-spec_magnetic_mines_title = Magnetic Mines
+spec_magnetic_mines_title = Mines magnétiques
 spec_magnetic_mines_descr = ?
-spec_magnetic_mines_effect = • 
+spec_magnetic_mines_effect = •
 
-spec_floating_dry_docks_title = Floating Dry Docks
+spec_floating_dry_docks_title = Mise à flot des cales sèches
 spec_floating_dry_docks_descr = ?
-spec_floating_dry_docks_effect = • 
+spec_floating_dry_docks_effect = •
 
-spec_advanced_minesweeping_title = Advanced Minesweeping
+spec_advanced_minesweeping_title = Mines à balayage avancées
 spec_advanced_minesweeping_descr = ?
-spec_advanced_minesweeping_effect = • 
+spec_advanced_minesweeping_effect = •
 
-spec_destroyers_for_bases_title = Destroyers-for-Bases
+spec_destroyers_for_bases_title = Destroyers pour les bases
 spec_destroyers_for_bases_descr = ?
-spec_destroyers_for_bases_effect = • 
+spec_destroyers_for_bases_effect = •
 
-spec_atlantic_bomber_title = Atlantic Bomber
+spec_atlantic_bomber_title = Bombardier de l'atlantique
 spec_atlantic_bomber_descr = ?
-spec_atlantic_bomber_effect = • 
+spec_atlantic_bomber_effect = •
 
-spec_night_witches_title = Night Witches
+spec_night_witches_title = Les Sorcières de la Nuit
 spec_night_witches_descr = ?
-spec_night_witches_effect = • Adds a Po-2 tactical bomber to your air force|• Adds a Night Witch air commander to your air force
+spec_night_witches_effect = • Ajoute un bombardier tactique Po-2 à votre force aérienne|• Ajoute un Commandant de l'air Sorcière de la Nuit à votre force aérienne
 
-spec_mulberry_harbour_title = Mulberry Harbour
+spec_mulberry_harbour_title = Port Mulberry
 spec_mulberry_harbour_descr = ?
 spec_mulberry_harbour_effect = • 

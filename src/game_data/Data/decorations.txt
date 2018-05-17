@@ -141,6 +141,7 @@ noEditor
 id = 23
 variations = 4
 type = city
+glow
 noEditor
 
 [EURO_VILLAGE]
@@ -148,5 +149,23 @@ id = 24
 variations = 4
 type = city
 glow
-replaceBase
 noEditor
+
+[DESERT_TOWN]
+id = 25
+variations = 3
+type = city
+glow
+noEditor
+
+[DESERT_VILLAGE]
+id = 26
+variations = 2
+type = city
+glow
+noEditor
+
+[DESERT_VILLAGE_PATCH]
+id = 27
+variations = 6
+type = decor

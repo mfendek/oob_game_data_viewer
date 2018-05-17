@@ -110,7 +110,7 @@ open = 1
 farmland = 1
 jungle = 4
 beach = 2
-desert = 2
+desert = 1
 hills = 2
 swamp = 3
 rice = 3
@@ -196,6 +196,7 @@ cliffs = 1
 port = 1
 scorched = 1
 wall = 1
+escarpment = 1
 
 [AMPHIBIOUS]
 id = 7
