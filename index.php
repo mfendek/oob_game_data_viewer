@@ -155,125 +155,95 @@ try {
         'arid' => '_arid',
     ];
 
-    // process chassis (CSV file not in use yet)
-//    foreach ($climates as $climate => $climateId) {
-//        $dataFile = file_get_contents('src/game_data/Data/chassis' . $climateId . '.csv');
-//        if ($dataFile === false) {
-//            throw new Exception('Failed to open chassis data file');
-//        }
-//
-//        $dataFile = explode("\n", $dataFile);
-//        foreach ($dataFile as $lineNumber => $line) {
-//            $line = explode(";", $line);
-//            $name = trim($line[0]);
-//
-//            // skip heading line and empty lines
-//            if (empty($name) || $lineNumber === 0) {
-//                continue;
-//            }
-//
-//            $name = strtolower($name);
-//            $fields = [
-//                'open' => 2,
-//                'farmland' => 3,
-//                'jungle' => 4,
-//                'beach' => 5,
-//                'desert' => 6,
-//                'rough_desert' => 7,
-//                'hills' => 8,
-//                'mountains' => 9,
-//                'swamp' => 10,
-//                'rice' => 11,
-//                'city' => 12,
-//                'village' => 13,
-//                'japanese_village' => 14,
-//                'euro_village' => 15,
-//                'desert_village' => 16,
-//                'town' => 17,
-//                'asian_town' => 18,
-//                'desert_town' => 19,
-//                'airfield' => 20,
-//                'forest' => 21,
-//                'pine_forest' => 22,
-//                'scorched' => 23,
-//                'escarpment' => 24,
-//                'lake' => 25,
-//                'water' => 26,
-//                'deep_water' => 27,
-//                'cliffs' => 28,
-//                'port' => 29,
-//            ];
-//
-//            foreach ($fields as $terrainName => $fieldIndex) {
-//                $terrain[$climate][$terrainName]['movement'][$name]['points'] = (int) $line[$fieldIndex];
-//            }
-//
-//            // extract road factor value
-//            $factors = [
-//                'road_factor_dirt' => $line[30],
-//                'road_factor_normal' => $line[31]
-//            ];
-//
-//            foreach ($factors as $factorName => $factor) {
-//                if (strpos($factor, ', ') !== false) {
-//                    $factor = explode(', ', $factor);
-//                    $roadFactor[$climate][$name][$factorName] = (float) $factor[1];
-//                }
-//            }
-//        }
-//    }
-
     // process chassis
     foreach ($climates as $climate => $climateId) {
-        $dataFile = file_get_contents('src/game_data/Data/chassis' . $climateId . '.txt');
+        // arid chassis file is empty, falling back to dry chassis file
+        $climateId = ($climate !== 'arid') ? $climateId : $climates['dry'];
+
+        $dataFile = file_get_contents('src/game_data/Data/chassis' . $climateId . '.csv');
         if ($dataFile === false) {
             throw new Exception('Failed to open chassis data file');
         }
 
         $dataFile = explode("\n", $dataFile);
-        $currentId = '';
-        foreach ($dataFile as $line) {
-            if (strpos($line, '[') !== false) {
-                // retrieve item name
-                $itemId = str_replace(['[', ']'], ['', ''], $line);
-                $itemId = strtolower($itemId);
-                $itemId = trim($itemId);
-                $currentId = $itemId;
-            } elseif (strpos($line, '=') !== false && $currentId != '') {
-                $line = explode(' = ', $line);
-                $name = $line[0];
-                $value = $line[1];
+        foreach ($dataFile as $lineNumber => $line) {
+            $line = explode(";", $line);
+            $name = trim($line[0]);
 
-                // omit ids (we match by name)
-                if ($name == 'id') {
+            // skip heading line and empty lines
+            if (empty($name) || $lineNumber === 0) {
+                continue;
+            }
+
+            $name = strtolower($name);
+            $fields = [
+                'open' => 2,
+                'farmland' => 3,
+                'jungle' => 4,
+                'beach' => 5,
+                'desert' => 6,
+                'rough_desert' => 7,
+                'hills' => 8,
+                'mountains' => 9,
+                'swamp' => 10,
+                'rice' => 11,
+                'city' => 12,
+                'village' => 13,
+                'japanese_village' => 14,
+                'euro_village' => 15,
+                'desert_village' => 16,
+                'town' => 17,
+                'asian_town' => 18,
+                'desert_town' => 19,
+                'airfield' => 20,
+                'forest' => 21,
+                'pine_forest' => 22,
+                'scorched' => 23,
+                'escarpment' => 24,
+                'lake' => 25,
+                'water' => 26,
+                'deep_water' => 27,
+                'cliffs' => 28,
+                'port' => 29,
+            ];
+
+            foreach ($fields as $terrainName => $fieldIndex) {
+                $lineValue = trim($line[$fieldIndex]);
+                if ($lineValue === '' || !is_numeric($lineValue)) {
                     continue;
                 }
 
-                // process road factor
-                if ($name == 'road_factor') {
-                    $value = explode(' ', $value);
-                    $name.= ($value[0] == '0') ? '_dirt' : '_normal';
-                    $value = (float) $value[1];
+                $terrain[$climate][$terrainName]['movement'][$name]['points'] = (int) $lineValue;
+            }
 
-                    $roadFactor[$climate][$currentId][$name] = $value;
-                } else {
-                    $terrain[$climate][$name]['movement'][$currentId] = [
-                        'points' => (int) $value,
-                    ];
+            // extract road factor value
+            $factors = [
+                'road_factor_dirt' => $line[30],
+                'road_factor_normal' => $line[31],
+            ];
+
+            foreach ($factors as $factorName => $factor) {
+                if (strpos($factor, ', ') === false) {
+                    continue;
                 }
+
+                $factor = explode(', ', $factor);
+                $roadFactor[$climate][$name][$factorName] = (float) $factor[1];
             }
         }
     }
 
     // add road factor to terrain
     foreach ($terrain as $climate => $climateData) {
-        foreach($climateData as $terrainName => $terrainData) {
+        foreach ($climateData as $terrainName => $terrainData) {
             $terrainData = $terrainData['movement'];
 
             foreach ($terrainData as $itemId => $chassisData) {
-                if (!empty($roadFactor[$climate][$itemId])) {
-                    $terrain[$climate][$terrainName]['movement'][$itemId] = $chassisData + $roadFactor[$climate][$itemId];
+                if (empty($roadFactor[$climate][$itemId])) {
+                    continue;
                 }
+
+                $terrain[$climate][$terrainName]['movement'][$itemId] = $chassisData + $roadFactor[$climate][$itemId];
             }
         }
     }
@@ -297,9 +267,11 @@ try {
             }
 
             $name = strtolower($name);
-            $terrain[$climate][$name]['spotting']['land'] = (int) $line[10];
-            $terrain[$climate][$name]['spotting']['naval'] = (int) $line[11];
-            $terrain[$climate][$name]['spotting']['air'] = (int) $line[12];
+            $terrain[$climate][$name]['spotting'] = [
+                'land' => (int) $line[10],
+                'naval' => (int) $line[11],
+                'air' => (int) $line[12],
+            ];
         }
     }
 
@@ -310,49 +282,50 @@ try {
     $nextTraitIdTitle = 1;
     $nextTraitIdDesc = 1;
     foreach ($localisationFiles as $fileName) {
-        if (strpos($fileName, 'english') === 0) {
-            $dataFile = file_get_contents('src/game_data/Language/' . $fileName);
-            if ($dataFile === false) {
-                throw new Exception('Failed to open localisation data file ' . $fileName);
-            }
+        if (strpos($fileName, 'english') !== 0) {
+            continue;
+        }
 
-            $dataFile = explode("\n", $dataFile);
-            foreach ($dataFile as $line) {
-                // detect unit name
-                if (strpos($line, 'unit_') === 0) {
-                    $line = explode(' = ', $line);
-                    $unitId = str_replace('unit_', '', $line[0]);
-                    if (filter_var($unitId, FILTER_VALIDATE_INT) === false) {
-                        continue;
-                    }
+        $dataFile = file_get_contents('src/game_data/Language/' . $fileName);
+        if ($dataFile === false) {
+            throw new Exception('Failed to open localisation data file ' . $fileName);
+        }
 
-                    $unitId = (int) $unitId;
-                    $unitName = $line[1];
-                    $unitNamesLocalised[$unitId] = $unitName;
-                } elseif (
-                    strpos($line, 'trait_') === 0
-                    && (strpos($line, 'title') !== false || strpos($line, 'descr') !== false)
-                ) {
-                    $line = explode(' = ', $line);
-                    $value = trim($line[1]);
-                    $line = explode('_', $line[0]);
-                    $type = ($line[2] == 'title') ? 'title' : 'desc';
+        $dataFile = explode("\n", $dataFile);
+        foreach ($dataFile as $line) {
+            // detect unit name
+            if (strpos($line, 'unit_') === 0) {
+                $line = explode(' = ', $line);
+                $unitId = str_replace('unit_', '', $line[0]);
+                if (filter_var($unitId, FILTER_VALIDATE_INT) === false) {
+                    continue;
+                }
 
-                    // provided ids seem to have conflicts, create new set of ids that are unique
-                    // this isn't an issue because we don't have the id mapping to traits anyway
-                    $traitId = (int) $line[1];
-                    if (!empty($traitsLocalisedData[$traitId][$type])) {
-                        $newTraitId = ($type == 'title') ? $nextTraitIdTitle : $nextTraitIdDesc;
-                        $traitsLocalisedData[$traitId . '-' . $newTraitId][$type] = $value;
+                $unitId = (int) $unitId;
+                $unitName = $line[1];
+                $unitNamesLocalised[$unitId] = $unitName;
+            } elseif (strpos($line, 'trait_') === 0
+                && (strpos($line, 'title') !== false || strpos($line, 'descr') !== false)
+            ) {
+                $line = explode(' = ', $line);
+                $value = trim($line[1]);
+                $line = explode('_', $line[0]);
+                $type = ($line[2] == 'title') ? 'title' : 'desc';
 
-                        if ($type == 'title') {
-                            $nextTraitIdTitle+= 1;
-                        } else {
-                            $nextTraitIdDesc+= 1;
-                        }
+                // provided ids seem to have conflicts, create new set of ids that are unique
+                // this isn't an issue because we don't have the id mapping to traits anyway
+                $traitId = (int) $line[1];
+                if (!empty($traitsLocalisedData[$traitId][$type])) {
+                    $newTraitId = ($type == 'title') ? $nextTraitIdTitle : $nextTraitIdDesc;
+                    $traitsLocalisedData[$traitId . '-' . $newTraitId][$type] = $value;
+
+                    if ($type == 'title') {
+                        $nextTraitIdTitle+= 1;
                     } else {
-                        $traitsLocalisedData[$traitId][$type] = $value;
+                        $nextTraitIdDesc+= 1;
                     }
+                } else {
+                    $traitsLocalisedData[$traitId][$type] = $value;
                 }
             }
         }
@@ -572,17 +545,19 @@ try {
         // add trait description
         $traitData = [];
         foreach ($traits as $item) {
-            if (array_key_exists($item, $traitTrans)) {
-                $traitName = $traitTrans[$item];
-                $traitInfo = $traitsLocalised[$traitName];
-
-                $traitData[] = [
-                    'name' => $traitName,
-                    'info' => $traitInfo,
-                ];
-
-                $filterTraits[] = $traitName;
+            if (!array_key_exists($item, $traitTrans)) {
+                continue;
             }
+
+            $traitName = $traitTrans[$item];
+            $traitInfo = $traitsLocalised[$traitName];
+
+            $traitData[] = [
+                'name' => $traitName,
+                'info' => $traitInfo,
+            ];
+
+            $filterTraits[] = $traitName;
         }
 
         // process extra traits
@@ -696,7 +671,7 @@ try {
                 foreach ($ids as $itemId) {
                     $transport[] = [
                         'name' => $itemName,
-                        'id' => (int) $itemId
+                        'id' => (int) $itemId,
                     ];
                 }
             }
@@ -723,11 +698,12 @@ try {
                 // parse item action and item name
                 $item = explode(':', $item);
                 $action = trim($item[0]);
+                $item = $item[1];
                 $hasInnerImage = in_array($action, $actionImagesWithInnerImage);
                 $action = ($action === 'amphibious' && $data['chassis'] !== 'amphibious') ? 'exitwater' : $action;
                 $actionImage = $action;
-                $actionImage = (array_key_exists($actionImage, $actionImgTrans)) ? $actionImgTrans[$actionImage] : $actionImage;
-                $item = $item[1];
+                $actionImage = (array_key_exists($actionImage, $actionImgTrans))
+                    ? $actionImgTrans[$actionImage] : $actionImage;
 
                 // remove extra param
                 if (strpos($item, ' ') !== false) {
@@ -780,14 +756,16 @@ try {
                         'action' => $action,
                         'img' => $actionImage,
                         'inner' => $hasInnerImage,
-                        'id' => $itemId
+                        'id' => $itemId,
                     ];
 
                     // mark referenced unit with switch type
-                    if ($itemId > -1) {
-                        $units[$itemId]['switch_type'][] = $action;
-                        $units[$itemId]['switch_type'] = array_unique($units[$itemId]['switch_type']);
+                    if ($itemId <= -1) {
+                        continue;
                     }
+
+                    $units[$itemId]['switch_type'][] = $action;
+                    $units[$itemId]['switch_type'] = array_unique($units[$itemId]['switch_type']);
                 }
 
                 // primary guns (find primary guns unit via a reference and retrieve naval attack)
@@ -833,7 +811,7 @@ try {
                     foreach ($unitIds as $unitId) {
                         $unitCarrier[] = [
                             'name' => $itemName,
-                            'id' => (int) $unitId
+                            'id' => (int) $unitId,
                         ];
                     }
                 }
@@ -853,9 +831,11 @@ try {
         if (!empty($data['series'])) {
             foreach ($unitUpgradeGroups as $faction => $factionData) {
                 foreach ($factionData as $series => $ids) {
-                    if (in_array($id, $ids)) {
-                        $units[$id]['series'][$faction] = $ids;
+                    if (!in_array($id, $ids)) {
+                        continue;
                     }
+
+                    $units[$id]['series'][$faction] = $ids;
                 }
             }
         }
@@ -867,7 +847,7 @@ try {
 
             $traitData[] = [
                 'name' => $traitName,
-                'info' => $traitInfo
+                'info' => $traitInfo,
             ];
 
             $filterTraits[] = $traitName;
@@ -893,7 +873,7 @@ try {
             'options' => [
                 'default' => 0,
                 'min_range' => 0,
-            ]
+            ],
         ]);
     } else {
         $currentPage = 0;
@@ -917,7 +897,7 @@ try {
     if (!empty($_REQUEST['units-data'])) {
         header('Content-Type: application/json; charset=utf-8');
         echo $units;
-        exit();
+        exit;
     }
 
     sort($filterCategories, SORT_STRING);
