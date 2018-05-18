@@ -157,9 +157,6 @@ try {
 
     // process chassis
     foreach ($climates as $climate => $climateId) {
-        // arid chassis file is empty, falling back to dry chassis file
-        $climateId = ($climate !== 'arid') ? $climateId : $climates['dry'];
-
         $dataFile = file_get_contents('src/game_data/Data/chassis' . $climateId . '.csv');
         if ($dataFile === false) {
             throw new Exception('Failed to open chassis data file');
@@ -168,14 +165,14 @@ try {
         $dataFile = explode("\n", $dataFile);
         foreach ($dataFile as $lineNumber => $line) {
             $line = explode(";", $line);
-            $name = trim($line[0]);
+            $chassis = trim($line[0]);
 
             // skip heading line and empty lines
-            if (empty($name) || $lineNumber === 0) {
+            if (empty($chassis) || $lineNumber === 0) {
                 continue;
             }
 
-            $name = strtolower($name);
+            $chassis = strtolower($chassis);
             $fields = [
                 'open' => 2,
                 'farmland' => 3,
@@ -213,7 +210,7 @@ try {
                     continue;
                 }
 
-                $terrain[$climate][$terrainName]['movement'][$name]['points'] = (int) $lineValue;
+                $terrain[$climate][$terrainName]['movement'][$chassis]['points'] = (int) $lineValue;
             }
 
             // extract road factor value
@@ -228,22 +225,35 @@ try {
                 }
 
                 $factor = explode(', ', $factor);
-                $roadFactor[$climate][$name][$factorName] = (float) $factor[1];
+                $roadFactor[$climate][$chassis][$factorName] = (float) $factor[1];
             }
         }
     }
 
-    // add road factor to terrain
-    foreach ($terrain as $climate => $climateData) {
-        foreach ($climateData as $terrainName => $terrainData) {
-            $terrainData = $terrainData['movement'];
+    // add road factor to terrain and apply fallback to dry climate
+    $fallbackClimate = 'dry';
+    foreach ($climates as $climate => $climateId) {
+        foreach ($terrain[$fallbackClimate] as $terrainName => $defaultTerrain) {
+            $defaultTerrain = $defaultTerrain['movement'];
 
-            foreach ($terrainData as $itemId => $chassisData) {
-                if (empty($roadFactor[$climate][$itemId])) {
+            // inherit movement points from fallback climate
+            if ($climate !== $fallbackClimate) {
+                foreach ($defaultTerrain as $chassis => $chassisData) {
+                    if (!empty($terrain[$climate][$terrainName]['movement'][$chassis])) {
+                        continue;
+                    }
+
+                    $terrain[$climate][$terrainName]['movement'][$chassis] = $chassisData;
+                }
+            }
+
+            // add road factor
+            foreach ($terrain[$climate][$terrainName]['movement'] as $chassis => $chassisData) {
+                if (empty($roadFactor[$climate][$chassis])) {
                     continue;
                 }
 
-                $terrain[$climate][$terrainName]['movement'][$itemId] = $chassisData + $roadFactor[$climate][$itemId];
+                $terrain[$climate][$terrainName]['movement'][$chassis] = $chassisData + $roadFactor[$climate][$chassis];
             }
         }
     }
