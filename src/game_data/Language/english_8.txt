@@ -180,7 +180,7 @@ spec_destroyer_tender_title = Destroyer Tender
 spec_destroyer_tender_descr = Specialized auxiliary ships providing maintenance support to destroyers or other small warships can significantly increase the operational range and durability of the latter.
 spec_destroyer_tender_effect = • Support Ships will instantly reset the torpedo cooldown of adjacent warships
 
-trait_24_title = Limitess Fuel
+trait_24_title = Limitless Fuel
 trait_24_descr = Aircraft is designed for long range operations and does not require regular refueling.
 trait_43_title = Carrier Plane
 trait_43_descr = Unit can be landed on and supplied from aircraft carriers.

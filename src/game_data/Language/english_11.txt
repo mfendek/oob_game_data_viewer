@@ -65,14 +65,14 @@ unit_1338 = Cannone da 75/50
 unit_2154 = Cannone da 75/50
 unit_2158 = Re.2001
 unit_2178 = P-40 Kittyhawk
-unit_2179 = Oerlikon 20mm Portree 
+unit_2179 = Oerlikon 20mm Portee 
 unit_2180 = British Paratroopers '40
 unit_2181 = British Paratroopers '41
 unit_2182 = British Paratroopers '42
 unit_2183 = British Paratroopers '43
 unit_2184 = British Paratroopers '44
 unit_2185 = British Paratroopers '45
-unit_2186 = Oerlikon 20mm Portree
+unit_2186 = Oerlikon 20mm Portee
 unit_2187 = 2 Pounder Portee
 unit_2188 = Cannone da 75/32 Mod.37
 unit_2189 = Cannone da 75/32 Mod.37
@@ -85,6 +85,7 @@ unit_5038 = CA Bolzano
 unit_5039 = DD Soldati
 unit_2193 = Fi 156 Storch
 unit_2194 = Carro Armato M16/43
+unit_2195 = SdKfz. 135/1
 
 trigger_event_6 = Construct/Purchase/Upgrade
 

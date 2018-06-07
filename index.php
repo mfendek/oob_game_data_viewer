@@ -6,7 +6,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-05-17';
+    $version = '2018-06-07';
 
     // configuration
 
@@ -80,7 +80,7 @@ try {
         'hexRepairer' => 'Infrastructural Repairs',
         'heavyTreaded' => 'Heavy Treading',
         'quickEntrench' => 'Quick Entrenchment',
-        'limitlessFuel' => 'Limitess Fuel',
+        'limitlessFuel' => 'Limitless Fuel',
         'carrierPlane' => 'Carrier Plane',
         'noEntrench' => 'No Entrenchment',
         'noCapture' => 'Fleeting Presence',

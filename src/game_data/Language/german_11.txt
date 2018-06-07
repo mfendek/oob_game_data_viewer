@@ -85,6 +85,7 @@ unit_5038 = Kreuzer Bolzano
 unit_5039 = Zerstörer (Soldati-Klasse)
 unit_2193 = Fi 156 Storch
 unit_2194 = Carro Armato M16/43
+unit_2195 = SdKfz. 135/1
 
 trigger_event_6 = Bauen/Kaufen/Upgraden
 

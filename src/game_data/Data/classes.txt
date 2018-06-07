@@ -16,6 +16,7 @@ noCapture
 noSupply
 armoured
 noEntrench
+radar
 
 [INFANTRY]
 id = 0
@@ -68,6 +69,7 @@ id = 7
 category = air
 stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
 bombingRun
+radar
 
 [STRATEGIC_BOMBER]
 id = 8
@@ -76,6 +78,7 @@ stats = 6, 7, 13, 3, 2, 4, 17, 10, 15, 14
 defensiveFire
 strategicAttack
 bombingRun
+radar
 
 [TRANSPORT_AIR]
 id = 19
