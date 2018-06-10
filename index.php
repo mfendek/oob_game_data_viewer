@@ -30,7 +30,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-06-10';
+    $version = '2018-06-08';
 
     // configuration
 

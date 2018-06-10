@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 import DataCache from '../utils/DataCache';
 import UrlParams from '../utils/UrlParams';
 import ListManipulation from '../utils/ListManipulation';
@@ -80,38 +81,35 @@ class UnitNavigator extends Component {
     localStorage.clear();
 
     // fetch fresh data
-    fetch('?units-data=1')
-      .then(res => res.json())
-      .then(
-        (result) => {
-          const data = result;
-          const { filtersInit } = this.state;
+    axios.get('?units-data=1')
+      .then((result) => {
+        const data = result.data;
+        const { filtersInit } = this.state;
 
-          // add initial filter values to filter data
-          const filterKeys = Object.keys(filtersInit);
-          if (filterKeys.length > 0) {
-            for (let i = 0; i < filterKeys.length; i += 1) {
-              const filterName = filterKeys[i];
-              data.filters[filterName].value = filtersInit[filterName];
-            }
+        // add initial filter values to filter data
+        const filterKeys = Object.keys(filtersInit);
+        if (filterKeys.length > 0) {
+          for (let i = 0; i < filterKeys.length; i += 1) {
+            const filterName = filterKeys[i];
+            data.filters[filterName].value = filtersInit[filterName];
           }
+        }
 
-          this.setState({
-            ...data,
-            dataLoaded: true,
-          });
+        this.setState({
+          ...data,
+          dataLoaded: true,
+        });
 
-          // store unit data for future use
-          const cacheKey = this.getCacheKey('unit-nav');
-          DataCache.setCachedItem(cacheKey, JSON.stringify(result));
-        },
-        (error) => {
-          this.setState({
-            loadFailure: true,
-            errorMessage: error,
-          });
-        },
-      );
+        // store unit data for future use
+        const cacheKey = this.getCacheKey('unit-nav');
+        DataCache.setCachedItem(cacheKey, JSON.stringify(data));
+      })
+      .catch((error) => {
+        this.setState({
+          loadFailure: true,
+          errorMessage: error,
+        });
+      });
   }
 
   /**
