@@ -1007,53 +1007,46 @@ try {
 
     header('Content-Type: text/html;charset=UTF-8');
 
-    $html = '<!DOCTYPE html>';
-    $html.= '<html lang="en" xml:lang="en">';
-    $html.= '<head>';
-    $html.= '<meta charset="UTF-8" />';
-    $html.= '<meta name="viewport" content="width=device-width, initial-scale=1.0" />';
-    $html.= '<meta name="description" content="Unit Navigator Order of Battle - game data viewer" />';
-    $html.= '<meta name="author" content="Mojmír Fendek" />';
-    $html.= '<meta name="keywords" content="Unit Navigator, Order of Battle" />';
-    $html.= '<link rel="icon" href="src/game_data/Graphics/UI/resource_specs.png?v=' . $version . '" type="image/png" />';
-    $html.= '<link rel="stylesheet" href="src/dist/css/main.css?v=' . $version . '" type="text/css" title="standard style" />';
-    $html.= '<title>Unit Navigator - Order Of Battle</title>';
+    $html = ['<!DOCTYPE html>'];
+    $html[]= '<html lang="en" xml:lang="en">';
+    $html[]= '<head>';
+    $html[]= '<meta charset="UTF-8" />';
+    $html[]= '<meta name="viewport" content="width=device-width, initial-scale=1.0" />';
+    $html[]= '<meta name="description" content="Unit Navigator Order of Battle - game data viewer" />';
+    $html[]= '<meta name="author" content="Mojmír Fendek" />';
+    $html[]= '<meta name="keywords" content="Unit Navigator, Order of Battle" />';
+    $html[]= '<link rel="icon" href="src/game_data/Graphics/UI/resource_specs.png?v=' . $version . '" type="image/png" />';
+    $html[]= '<link rel="stylesheet" href="src/dist/css/main.css?v=' . $version . '" type="text/css" title="standard style" />';
+    $html[]= '<title>Unit Navigator - Order Of Battle</title>';
 
-    $html.= '</head>';
+    $html[]= '</head>';
 
-    $html.= '<body>';
+    $html[]= '<body>';
 
-    $html.= '<h1><a href="' . $baseUrl . '">Unit Navigator - Order Of Battle</a></h1>';
-    $html.= '<noscript>';
-    $html.= '<div class="no-script">This application requires JavaScript, please turn it on to use this application</div>';
-    $html.= '</noscript>';
+    $html[]= '<h1><a href="' . $baseUrl . '">Unit Navigator - Order Of Battle</a></h1>';
+    $html[]= '<noscript>';
+    $html[]= '<div class="no-script">This application requires JavaScript, please turn it on to use this application</div>';
+    $html[]= '</noscript>';
 
-    $html.= '<div id="unit-navigator-wrapper">';
-    $html.= '<div class="hidden">' . $navigatorInit . '</div>';
-    $html.= '<div class="spinner"><img src="src/img/spinner.gif" alt="spinner"/></div>';
-    $html.= '</div>';
+    $html[]= '<div id="unit-navigator-wrapper">';
+    $html[]= '<div class="hidden">' . $navigatorInit . '</div>';
+    $html[]= '<div class="spinner"><img src="src/img/spinner.gif" alt="spinner"/></div>';
+    $html[]= '</div>';
 
-    $html.= '<div class="version-info">Version: ' . $version . '</div>';
-    $html.= '<script src="src/dist/js/main.js?v=' . $version . '"></script>';
+    $html[]= '<div class="version-info">Version: ' . $version . '</div>';
+    $html[]= '<script src="src/dist/js/main.js?v=' . $version . '"></script>';
 
-    $html.= '</body>';
+    $html[]= '</body>';
 
-    $html.= '</html>';
-    $html.= sprintf(
+    $html[]= '</html>';
+    $html[]= sprintf(
         '<!-- Page generated in %.2f ms, memory used %.2f MB -->',
         (microtime(true) - $startTime),
         memory_get_usage() / (1024 * 1024)
     );
 
-    // WS formatting
-    $dom = new DOMDocument();
-    $dom->preserveWhiteSpace = false;
-    $dom->loadHTML($html);
-    $dom->formatOutput = true;
-    $html = $dom->saveHTML($dom);
-
     // output HTML
-    echo $html;
+    echo implode("\n", $html);
 }
 catch (Exception $e) {
     error_log('OOB viewer Fatal error: ' . $e->getMessage());
