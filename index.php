@@ -1034,7 +1034,7 @@ try {
     $html.= '</div>';
 
     $html.= '<div class="version-info">Version: ' . $version . '</div>';
-    $html.= '<script type="text/javascript" src="src/dist/js/main.js?v=' . $version . '"></script>';
+    $html.= '<script src="src/dist/js/main.js?v=' . $version . '"></script>';
 
     $html.= '</body>';
 
