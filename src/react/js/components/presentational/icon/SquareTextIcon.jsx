@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import ImagePath from '../../utils/ImagePath';
+import { getBackgroundImg } from '../../../utils/ImagePath';
 import ComparisonText from './ComparisonText';
 
 /**
@@ -27,7 +27,7 @@ const SquareTextIcon = (
             (breakLine) ? ' change-break-line' : '',
           )
         }
-        style={ImagePath.getBackgroundImg((imgName !== '' ? imgName : name), (imgValue !== '' ? imgValue : value))}
+        style={getBackgroundImg((imgName !== '' ? imgName : name), (imgValue !== '' ? imgValue : value))}
       >
         <ComparisonText
           base={compare(name)}

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import UrlParams from '../../utils/UrlParams';
+import { getUrlWithParams } from '../../../utils/UrlParams';
 import DropDownFilter from './DropDownFilter';
 import TextInputFilter from './TextInputFilter';
 import DateInputFilter from './DateInputFilter';
@@ -89,7 +89,7 @@ const FilterBar = (
           ?
             <a
               className="compare-label"
-              href={UrlParams.getUrlWithParams({ f: { id: compareId } })}
+              href={getUrlWithParams({ f: { id: compareId } })}
             >
               {compareName}
             </a>
@@ -100,7 +100,10 @@ const FilterBar = (
 );
 
 FilterBar.propTypes = {
-  filters: PropTypes.object.isRequired,
+  filters: PropTypes.objectOf(PropTypes.shape({
+    type: PropTypes.string,
+    label: PropTypes.string,
+  })).isRequired,
   selectFilter: PropTypes.func.isRequired,
   clearFilters: PropTypes.func.isRequired,
   clearCompare: PropTypes.func.isRequired,

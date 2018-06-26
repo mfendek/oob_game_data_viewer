@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import UrlParams from '../../utils/UrlParams';
-import ImagePath from '../../utils/ImagePath';
+import { getUrlWithParams } from '../../../utils/UrlParams';
+import { getBackgroundImg } from '../../../utils/ImagePath';
 
 /**
  * Link icon
@@ -17,12 +17,12 @@ const LinkIcon = ({ title, imgName, imgValue, link }) => (
   <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
     <div
       className="unit-item__content-icon unit-item__content-icon--rectangle-small"
-      style={ImagePath.getBackgroundImg(imgName, imgValue)}
+      style={getBackgroundImg(imgName, imgValue)}
     >
       {(link !== '')
         ? <a
           className="unit-item__image-link"
-          href={UrlParams.getUrlWithParams({ f: { id: link } })}
+          href={getUrlWithParams({ f: { id: link } })}
         />
         : ''
       }

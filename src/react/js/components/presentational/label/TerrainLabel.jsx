@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import GameMath from '../../utils/GameMath';
-import ImagePath from '../../utils/ImagePath';
+import { getTerrainPoints } from '../../../utils/GameMath';
+import { getImgUrl } from '../../../utils/ImagePath';
 import ComparisonText from '../icon/ComparisonText';
 
 /**
@@ -20,10 +20,10 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
     <div>{terrainName}</div>
     <div className="unit-item__label-terrain-item">
       <span>
-        <img src={ImagePath.getImgUrl('terrain', 'movement')} alt="movement" />
+        <img src={getImgUrl('terrain', 'movement')} alt="movement" />
       </span>
       <span>
-        <img src={ImagePath.getImgUrl('terrain', 'spotting')} alt="spotting" />
+        <img src={getImgUrl('terrain', 'spotting')} alt="spotting" />
       </span>
     </div>
     {
@@ -36,7 +36,7 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
           if (typeof terrainData.movement !== 'undefined'
             && typeof terrainData.movement[data.chassis] !== 'undefined') {
             const movementData = terrainData.movement[data.chassis];
-            movement = GameMath.getTerrainPoints(
+            movement = getTerrainPoints(
               data.movement,
               parseInt(movementData.points, 10),
               1,
@@ -45,7 +45,7 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
             if (typeof movementData.road_factor_dirt !== 'undefined') {
               extraMovementData = extraMovementData.concat(
                 ', with dirt road ',
-                GameMath.getTerrainPoints(
+                getTerrainPoints(
                   data.movement,
                   parseInt(movementData.points, 10),
                   movementData.road_factor_dirt,
@@ -57,7 +57,7 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
             if (typeof movementData.road_factor_normal !== 'undefined') {
               extraMovementData = extraMovementData.concat(
                 ', with normal road ',
-                GameMath.getTerrainPoints(
+                getTerrainPoints(
                   data.movement,
                   parseInt(movementData.points, 10),
                   movementData.road_factor_normal,
@@ -71,7 +71,7 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
           if (typeof terrainData.spotting !== 'undefined'
             && typeof terrainData.spotting[data.category] !== 'undefined') {
             spotting = terrainData.spotting[data.category];
-            spotting = GameMath.getTerrainPoints(data.spotting, spotting, 1);
+            spotting = getTerrainPoints(data.spotting, spotting, 1);
           }
 
           const title = terrainName.concat(
@@ -114,8 +114,18 @@ const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpot
 
 TerrainLabel.propTypes = {
   terrainName: PropTypes.string.isRequired,
-  data: PropTypes.object.isRequired,
-  terrain: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    movement: PropTypes.number.isRequired,
+    spotting: PropTypes.number.isRequired,
+  }).isRequired,
+  terrain: PropTypes.objectOf(PropTypes.objectOf(PropTypes.shape({
+    movement: PropTypes.objectOf(PropTypes.shape({
+      points: PropTypes.number.isRequired,
+      road_factor_dirt: PropTypes.number,
+      road_factor_normal: PropTypes.number,
+    })),
+    spotting: PropTypes.objectOf(PropTypes.number),
+  }))).isRequired,
   compareMovement: PropTypes.func.isRequired,
   compareSpotting: PropTypes.func.isRequired,
 };

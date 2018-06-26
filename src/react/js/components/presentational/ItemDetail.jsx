@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactImageFallback from 'react-image-fallback';
-import ImagePath from '../utils/ImagePath';
-import DateFormat from '../utils/DateFormat';
+import { getImgUrl } from '../../utils/ImagePath';
+import { formatDate } from '../../utils/DateFormat';
 import TitleLabel from './label/TitleLabel';
 import SquareImageIcon from './icon/SquareImageIcon';
 import SquareTextIcon from './icon/SquareTextIcon';
@@ -25,7 +25,7 @@ import TerrainLabel from './label/TerrainLabel';
  * @param {function} lookup
  * @param {function} startCompare
  * @param {function} toggleTerrain
- * @param {string} appVersion
+ * @param {string} imageKey
  * @constructor
  */
 const ItemDetail = (
@@ -39,7 +39,7 @@ const ItemDetail = (
       lookup,
       startCompare,
       toggleTerrain,
-      appVersion,
+      imageKey,
     },
   ) => (
     <div className="unit-item">
@@ -86,9 +86,9 @@ const ItemDetail = (
       <div className="unit-item__content-row">
         <div className="unit-item__unit-image">
           <ReactImageFallback
-            src={ImagePath.getImgUrl('unit_image', data.name).concat('?v=', appVersion)}
-            initialImage={ImagePath.getImgUrl('unit_image', 'placeholder')}
-            fallbackImage={ImagePath.getImgUrl('unit_image', 'no_image')}
+            src={getImgUrl('unit_image', data.name).concat('?v=', imageKey)}
+            initialImage={getImgUrl('unit_image', 'placeholder')}
+            fallbackImage={getImgUrl('unit_image', 'no_image')}
             alt=""
           />
         </div>
@@ -96,13 +96,13 @@ const ItemDetail = (
         <div className="unit-item__details-list">
           <TextLabel
             color="green"
-            text={(data.available !== '') ? DateFormat.formatDate(data.available) : 'always'}
+            text={(data.available !== '') ? formatDate(data.available) : 'always'}
             title="available on"
           />
 
           <TextLabel
             color="red"
-            text={(data.expire !== '') ? DateFormat.formatDate(data.expire) : 'never'}
+            text={(data.expire !== '') ? formatDate(data.expire) : 'never'}
             title="expires on"
           />
 
@@ -614,7 +614,7 @@ ItemDetail.propTypes = {
   lookup: PropTypes.func.isRequired,
   startCompare: PropTypes.func.isRequired,
   toggleTerrain: PropTypes.func.isRequired,
-  appVersion: PropTypes.string.isRequired,
+  imageKey: PropTypes.string.isRequired,
 };
 
 export default ItemDetail;

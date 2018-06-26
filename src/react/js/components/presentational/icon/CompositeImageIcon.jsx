@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import ImagePath from '../../utils/ImagePath';
-import UrlParams from '../../utils/UrlParams';
+import { getImgUrl, getBackgroundImg } from '../../../utils/ImagePath';
+import { getUrlWithParams } from '../../../utils/UrlParams';
 
 /**
  * Composite image icon
@@ -13,12 +13,12 @@ import UrlParams from '../../utils/UrlParams';
  */
 const CompositeImageIcon = ({ data, lookup }) => {
   // compose background image
-  const style = ImagePath.getBackgroundImg('switch_action', data.img);
+  const style = getBackgroundImg('switch_action', data.img);
   if (data.inner) {
     style.backgroundImage = 'url("'.concat(
-      ImagePath.getImgUrl('weapon_ability', data.action),
+      getImgUrl('weapon_ability', data.action),
       '"), url("',
-      ImagePath.getImgUrl('switch_action', data.img), '")',
+      getImgUrl('switch_action', data.img), '")',
     );
   }
 
@@ -29,7 +29,7 @@ const CompositeImageIcon = ({ data, lookup }) => {
 
   // create switch unit link
   const link = (data.id > -1)
-    ? <a className="unit-item__image-link" href={UrlParams.getUrlWithParams({ f: { id: data.id } })} /> : '';
+    ? <a className="unit-item__image-link" href={getUrlWithParams({ f: { id: data.id } })} /> : '';
 
   return (
     <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
@@ -44,7 +44,12 @@ const CompositeImageIcon = ({ data, lookup }) => {
 };
 
 CompositeImageIcon.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    action: PropTypes.string.isRequired,
+  }).isRequired,
   lookup: PropTypes.func.isRequired,
 };
 

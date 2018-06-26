@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import ImagePath from '../../utils/ImagePath';
+import { getBackgroundImg } from '../../../utils/ImagePath';
 import ComparisonText from './ComparisonText';
 
 /**
@@ -30,7 +30,7 @@ const RectangleTextIcon = (
         className="unit-item__content-icon
            unit-item__content-icon--rectangle-large
             unit-item__content-icon--text-stat"
-        style={ImagePath.getBackgroundImg(imgName, imgValue)}
+        style={getBackgroundImg(imgName, imgValue)}
       >
         <ComparisonText
           base={compare(name)}

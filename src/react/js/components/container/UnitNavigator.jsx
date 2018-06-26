@@ -1,27 +1,35 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import DataCache from '../utils/DataCache';
-import UrlParams from '../utils/UrlParams';
-import ListManipulation from '../utils/ListManipulation';
+import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../utils/DataCache';
+import { generatePermalink } from '../../utils/UrlParams';
+import { getNumberOfPages, getFilteredList } from '../../utils/ListManipulation';
+import { getLocalState } from '../../utils/ReduxState';
 import ItemList from './ItemList';
 import FilterBar from '../presentational/filter/FilterBar';
 import PaginationBar from '../presentational/PaginationBar';
+import {
+  filtersSelectFilter,
+  filtersClearFilters,
+  paginationFlipPage,
+  listStartCompare,
+  listClearCompare,
+  dataLoadedSuccess,
+  dataLoadedFailure,
+} from '../../actions';
 
 /**
  * Unit navigator
  */
 class UnitNavigator extends Component {
   /**
-   * @param props
-   * @constructor
+   * @returns {Object}
    */
-  constructor(props) {
-    super(props);
-
-    // initialise data
-    this.state = {
-      ...this.props.data,
+  static initialState() {
+    const staticData = JSON.parse(document.getElementById('unit-navigator-data').innerHTML);
+    const initialData = {
+      ...staticData,
       dataLoaded: false,
       loadFailure: false,
       errorMessage: '',
@@ -29,53 +37,31 @@ class UnitNavigator extends Component {
     };
 
     // attempt to load data from cache
-    const cacheKey = this.getCacheKey('unit-nav');
-    const cachedData = DataCache.getCachedItem(cacheKey);
+    const cacheKey = getCacheKey(initialData.appVersion, 'unit-nav');
+    const cachedData = getCachedItem(cacheKey);
     if (cachedData !== null) {
       // data is cached - use it
-      const data = JSON.parse(cachedData);
-      const { filtersInit } = this.props.data;
-
-      // add initial filter values to filter data
-      const filterKeys = Object.keys(filtersInit);
-      if (filterKeys.length > 0) {
-        for (let i = 0; i < filterKeys.length; i += 1) {
-          const filterName = filterKeys[i];
-          data.filters[filterName].value = filtersInit[filterName];
-        }
-      }
-
-      this.state = {
-        ...this.state,
-        ...data,
-        dataLoaded: true,
+      const data = {
+        ...initialData,
+        ...JSON.parse(cachedData),
       };
 
-      // validate current page
-      const pagesTotal = this.getPagesTotal();
-      this.state.pagination.currentPage = Math.min(this.state.pagination.currentPage, pagesTotal);
-
-      // validate compare id
-      const { unitsList, compareId } = this.state;
-      if (unitsList.indexOf(compareId) < 0) {
-        this.state.compareId = -1;
-      }
+      return {
+        ...sanitizeData(data),
+        dataLoaded: true,
+      };
     }
 
-    this.selectFilter = this.selectFilter.bind(this);
-    this.clearFilters = this.clearFilters.bind(this);
-    this.getCacheKey = this.getCacheKey.bind(this);
-    this.flipPage = this.flipPage.bind(this);
-    this.getPagesTotal = this.getPagesTotal.bind(this);
-    this.startCompare = this.startCompare.bind(this);
-    this.clearCompare = this.clearCompare.bind(this);
+    return initialData;
   }
 
   componentDidMount() {
-    // data is already loaded from cache
-    if (this.state.dataLoaded) {
+    // data is already loaded - no need to fetch fresh data
+    if (this.props.dataLoaded) {
       return;
     }
+
+    const cacheKey = getCacheKey(this.props.appVersion, 'unit-nav');
 
     // clear local storage
     localStorage.clear();
@@ -83,190 +69,26 @@ class UnitNavigator extends Component {
     // fetch fresh data
     axios.get('?units-data=1')
       .then((result) => {
-        const data = result.data;
-        const { filtersInit } = this.state;
-
-        // add initial filter values to filter data
-        const filterKeys = Object.keys(filtersInit);
-        if (filterKeys.length > 0) {
-          for (let i = 0; i < filterKeys.length; i += 1) {
-            const filterName = filterKeys[i];
-            data.filters[filterName].value = filtersInit[filterName];
-          }
-        }
-
-        this.setState({
-          ...data,
-          dataLoaded: true,
-        });
+        this.props.dataLoadedSuccess(result.data);
 
         // store unit data for future use
-        const cacheKey = this.getCacheKey('unit-nav');
-        DataCache.setCachedItem(cacheKey, JSON.stringify(data));
+        setCachedItem(cacheKey, JSON.stringify(result.data));
       })
       .catch((error) => {
-        this.setState({
-          loadFailure: true,
-          errorMessage: error,
-        });
+        this.props.dataLoadedFailure(error);
       });
-  }
-
-  /**
-   * @param {string} key
-   * @returns {string}
-   */
-  getCacheKey(key) {
-    return this.state.appVersion.concat('_', key);
-  }
-
-  /**
-   * @returns {number}
-   */
-  getPagesTotal() {
-    const list = ListManipulation.getFilteredList(
-      this.state.unitsData,
-      this.state.unitsList,
-      this.state.filters,
-    );
-
-    return ListManipulation.getNumberOfPages(list, this.state.pagination.itemsPerPage);
-  }
-
-  /**
-   * Select specified filter
-   *
-   * @param {string} name
-   * @param {Object} e
-   */
-  selectFilter(name, e) {
-    let value = e.target.value;
-
-    // remove unnecessary whitespace
-    value = (typeof value === 'string') ? value.trim() : value;
-
-    const filters = this.state.filters;
-    filters[name].value = value;
-
-    const pagination = this.state.pagination;
-    pagination.currentPage = 1;
-
-    this.setState({ filters, pagination });
-  }
-
-  /**
-   * Clear all filters
-   */
-  clearFilters() {
-    const filters = this.state.filters;
-    const types = Object.keys(filters);
-    for (let i = 0; i < types.length; i += 1) {
-      const name = types[i];
-      filters[name].value = '';
-    }
-
-    const pagination = this.state.pagination;
-    pagination.currentPage = 1;
-
-    this.setState({ filters, pagination });
-  }
-
-  /**
-   * @param {string} target
-   */
-  flipPage(target) {
-    const pagination = this.state.pagination;
-    const pagesTotal = this.getPagesTotal();
-
-    if (target === 'first') {
-      if (pagination.currentPage === 1 || pagesTotal === 0) {
-        return;
-      }
-
-      pagination.currentPage = 1;
-    } else if (target === 'previous') {
-      if (pagination.currentPage <= 1 || pagesTotal === 0) {
-        return;
-      }
-
-      pagination.currentPage -= 1;
-    } else if (target === 'next') {
-      if (pagination.currentPage >= pagesTotal || pagesTotal === 0) {
-        return;
-      }
-
-      pagination.currentPage += 1;
-    } else if (target === 'last') {
-      if (pagination.currentPage === pagesTotal || pagesTotal === 0) {
-        return;
-      }
-
-      pagination.currentPage = pagesTotal;
-    }
-
-    this.setState({ pagination });
-  }
-
-  /**
-   * Activate compare mode
-   *
-   * @param {number} unitId
-   */
-  startCompare(unitId) {
-    this.setState({ compareId: unitId });
-  }
-
-  /**
-   * Deactivate compare mode
-   */
-  clearCompare() {
-    this.setState({ compareId: -1 });
-  }
-
-  /**
-   * Generate permalink based on current filters and page
-   */
-  generatePermalink() {
-    const active = {};
-    const currentPage = this.state.pagination.currentPage;
-    const filters = this.state.filters;
-    const types = Object.keys(filters);
-
-    for (let i = 0; i < types.length; i += 1) {
-      const name = types[i];
-
-      if (filters[name].value !== '') {
-        active[name] = filters[name].value;
-      }
-    }
-
-    const params = {};
-
-    if (currentPage > 1) {
-      params.p = currentPage;
-    }
-
-    if (Object.keys(active).length > 0) {
-      params.f = active;
-    }
-
-    if (this.state.compareId > -1) {
-      params.c = this.state.compareId;
-    }
-
-    return UrlParams.getUrlWithParams(params);
   }
 
   render() {
     // failed to load data
-    if (this.state.loadFailure) {
+    if (this.props.loadFailure) {
       return (
-        <div className="text-center">Failed to load units data {this.state.errorMessage}</div>
+        <div className="text-center">Failed to load units data {this.props.errorMessage}</div>
       );
     }
 
     // data is not loaded yet - display loading screen
-    if (!this.state.dataLoaded) {
+    if (!this.props.dataLoaded) {
       return (
         <div id="spinner" className="spinner">
           <img src="src/img/spinner.gif" alt="spinner" />
@@ -274,45 +96,52 @@ class UnitNavigator extends Component {
       );
     }
 
-    const pagesTotal = this.getPagesTotal();
-    const permalink = this.generatePermalink();
-    const compareId = this.state.compareId;
+    const { filters, pagination, compareId, unitsData, unitsList } = this.props;
+
+    const list = getFilteredList(
+      unitsData,
+      unitsList,
+      filters,
+    );
+
+    const pagesTotal = getNumberOfPages(list, pagination.itemsPerPage);
+    const permalink = generatePermalink(pagination, filters, compareId);
 
     // display the app
     return (
       <div>
         <FilterBar
-          filters={this.state.filters}
-          selectFilter={this.selectFilter}
-          clearFilters={this.clearFilters}
-          clearCompare={this.clearCompare}
+          filters={filters}
+          selectFilter={this.props.selectFilter}
+          clearFilters={this.props.clearFilters}
+          clearCompare={this.props.clearCompare}
           compareId={compareId}
-          compareName={(compareId > -1) ? this.state.unitsData[compareId].name_real : ''}
+          compareName={(compareId > -1) ? unitsData[compareId].name_real : ''}
         />
 
         <PaginationBar
-          currentPage={this.state.pagination.currentPage}
+          currentPage={pagination.currentPage}
           pagesTotal={pagesTotal}
           permalink={permalink}
-          flipPage={this.flipPage}
+          flipPage={this.props.flipPage}
         />
 
         <ItemList
-          unitsData={this.state.unitsData}
-          unitsList={this.state.unitsList}
-          terrain={this.state.terrain}
-          pagination={this.state.pagination}
-          filters={this.state.filters}
-          compareId={this.state.compareId}
-          startCompare={this.startCompare}
-          appVersion={this.state.appVersion}
+          unitsData={unitsData}
+          unitsList={unitsList}
+          terrain={this.props.terrain}
+          pagination={pagination}
+          filters={filters}
+          compareId={compareId}
+          startCompare={this.props.startCompare}
+          imageKey={this.props.appVersion}
         />
 
         <PaginationBar
-          currentPage={this.state.pagination.currentPage}
+          currentPage={pagination.currentPage}
           pagesTotal={pagesTotal}
           permalink={permalink}
-          flipPage={this.flipPage}
+          flipPage={this.props.flipPage}
         />
       </div>
     );
@@ -320,15 +149,80 @@ class UnitNavigator extends Component {
 }
 
 UnitNavigator.propTypes = {
-  data: PropTypes.shape({
-    appVersion: PropTypes.string.isRequired,
-    compareId: PropTypes.number.isRequired,
-    pagination: PropTypes.shape({
-      currentPage: PropTypes.number.isRequired,
-      itemsPerPage: PropTypes.number.isRequired,
-    }).isRequired,
-    filtersInit: PropTypes.object.isRequired,
-  }).isRequired,
+  selectFilter: PropTypes.func.isRequired,
+  clearFilters: PropTypes.func.isRequired,
+  flipPage: PropTypes.func.isRequired,
+  startCompare: PropTypes.func.isRequired,
+  clearCompare: PropTypes.func.isRequired,
+  dataLoadedSuccess: PropTypes.func.isRequired,
+  dataLoadedFailure: PropTypes.func.isRequired,
+  dataLoaded: PropTypes.bool,
+  loadFailure: PropTypes.bool,
+  errorMessage: PropTypes.string,
+  unitsData: PropTypes.objectOf(PropTypes.shape({
+    id: PropTypes.number,
+    chassis: PropTypes.string,
+    category: PropTypes.string,
+  })),
+  unitsList: PropTypes.arrayOf(PropTypes.number),
+  terrain: PropTypes.objectOf(PropTypes.objectOf(PropTypes.shape({
+    movement: PropTypes.objectOf(PropTypes.shape({
+      points: PropTypes.number,
+      road_factor_dirt: PropTypes.number,
+      road_factor_normal: PropTypes.number,
+    })),
+    spotting: PropTypes.objectOf(PropTypes.number),
+  }))),
+  pagination: PropTypes.shape({
+    currentPage: PropTypes.number,
+    itemsPerPage: PropTypes.number,
+  }),
+  filters: PropTypes.objectOf(PropTypes.shape({
+    type: PropTypes.string,
+    label: PropTypes.string,
+  })),
+  compareId: PropTypes.number,
+  appVersion: PropTypes.string,
 };
 
-export default UnitNavigator;
+UnitNavigator.defaultProps = {
+  dataLoaded: false,
+  loadFailure: false,
+  errorMessage: '',
+  unitsData: {},
+  unitsList: [],
+  terrain: {},
+  filters: {},
+  pagination: {},
+  compareId: -1,
+  appVersion: '',
+};
+
+const mapStateToProps = (globalState) => {
+  const state = getLocalState(globalState, 'reducerUnitNavigator');
+
+  return {
+    pagination: state.pagination,
+    filters: state.filters,
+    unitsData: state.unitsData,
+    unitsList: state.unitsList,
+    terrain: state.terrain,
+    compareId: state.compareId,
+    appVersion: state.appVersion,
+    loadFailure: state.loadFailure,
+    errorMessage: state.errorMessage,
+    dataLoaded: state.dataLoaded,
+  };
+};
+
+const mapDispatchToProps = dispatch => ({
+  selectFilter: (name, e) => dispatch(filtersSelectFilter(name, e)),
+  clearFilters: () => dispatch(filtersClearFilters()),
+  flipPage: target => dispatch(paginationFlipPage(target)),
+  startCompare: unitId => dispatch(listStartCompare(unitId)),
+  clearCompare: () => dispatch(listClearCompare()),
+  dataLoadedSuccess: data => dispatch(dataLoadedSuccess(data)),
+  dataLoadedFailure: error => dispatch(dataLoadedFailure(error)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(UnitNavigator);

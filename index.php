@@ -6,11 +6,11 @@
  */
 function sanitiseArrayJSON(array $array)
 {
-    return ((count($array) > 0) ? $array : new stdClass());
+    return (count($array) > 0) ? $array : new stdClass();
 }
 
 /**
- * @param $path
+ * @param string $path
  * @return array
  * @throws Exception
  */
@@ -136,9 +136,11 @@ try {
         $filters = json_decode($_GET['f'], true);
         if (!is_null($filters)) {
             foreach ($filters as $name => $value) {
-                if (in_array($name, $validFilters) && mb_strlen($value) < 500) {
-                    $selectedFilters[$name] = $value;
+                if (in_array($name, $validFilters) && mb_strlen($value) >= 500) {
+                    continue;
                 }
+
+                $selectedFilters[$name] = $value;
             }
         }
     }
@@ -290,7 +292,8 @@ try {
                         continue;
                     }
 
-                    $terrain[$climate][$terrainName]['movement'][$chassis] = $chassisData + $roadFactor[$climate][$chassis];
+                    $points = $chassisData + $roadFactor[$climate][$chassis];
+                    $terrain[$climate][$terrainName]['movement'][$chassis] = $points;
                 }
             }
         }
@@ -695,7 +698,8 @@ try {
                     // remove garbage from unit name
                     $item = str_replace(',', '', $item);
 
-                    // there are upper case and lower case variants, also some unit names do not actually have a record yet
+                    // there are upper case and lower case variants
+                    // also some unit names do not actually have a record yet
                     $itemName = $item;
                     $item = strtolower($item);
 
@@ -775,7 +779,8 @@ try {
                         $extraTraits[] = 'Off-Rail Setup';
                     }
 
-                    // there are upper case and lower case variants, also some unit names do not actually have a record yet
+                    // there are upper case and lower case variants
+                    // also some unit names do not actually have a record yet
                     $itemName = $item;
                     $item = strtolower($item);
 
@@ -900,7 +905,8 @@ try {
 
         unset($unitUpgradeGroups);
 
-        // store ordered ids so we can use them to sort later, JS will change the order of the unit data when parsing JSON
+        // store ordered ids so we can use them to sort later
+        // JS will change the order of the unit data when parsing JSON
         $unitsOrdered = array_keys($units);
 
         sort($filterCategories, SORT_STRING);
@@ -1015,8 +1021,14 @@ try {
     $html[]= '<meta name="description" content="Unit Navigator Order of Battle - game data viewer" />';
     $html[]= '<meta name="author" content="Mojmír Fendek" />';
     $html[]= '<meta name="keywords" content="Unit Navigator, Order of Battle" />';
-    $html[]= '<link rel="icon" href="src/game_data/Graphics/UI/resource_specs.png?v=' . $version . '" type="image/png" />';
-    $html[]= '<link rel="stylesheet" href="src/dist/css/main.css?v=' . $version . '" type="text/css" title="standard style" />';
+    $html[]= sprintf(
+        '<link rel="icon" href="src/game_data/Graphics/UI/resource_specs.png?v=%s" type="image/png" />',
+        $version
+    );
+    $html[]= sprintf(
+        '<link rel="stylesheet" href="src/dist/css/main.css?v=%s" type="text/css" title="standard style" />',
+        $version
+    );
     $html[]= '<title>Unit Navigator - Order Of Battle</title>';
 
     $html[]= '</head>';
@@ -1025,11 +1037,13 @@ try {
 
     $html[]= '<h1><a href="' . $baseUrl . '">Unit Navigator - Order Of Battle</a></h1>';
     $html[]= '<noscript>';
-    $html[]= '<div class="no-script">This application requires JavaScript, please turn it on to use this application</div>';
+    $html[]= '<div class="no-script">';
+    $html[]= 'This application requires JavaScript, please turn it on to use this application';
+    $html[]= '</div>';
     $html[]= '</noscript>';
 
+    $html[]= '<div id="unit-navigator-data" class="hidden">' . $navigatorInit . '</div>';
     $html[]= '<div id="unit-navigator-wrapper">';
-    $html[]= '<div class="hidden">' . $navigatorInit . '</div>';
     $html[]= '<div class="spinner"><img src="src/img/spinner.gif" alt="spinner"/></div>';
     $html[]= '</div>';
 
@@ -1047,8 +1061,7 @@ try {
 
     // output HTML
     echo implode("\n", $html);
-}
-catch (Exception $e) {
+} catch (Exception $e) {
     error_log('OOB viewer Fatal error: ' . $e->getMessage());
 
     while (ob_get_level()) {
