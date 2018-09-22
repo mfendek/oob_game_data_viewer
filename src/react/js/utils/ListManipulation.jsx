@@ -41,9 +41,14 @@ export const getFilteredList = (unitsData, unitsList, filters) => {
     }
 
     // name filter
-    if (typeof filters.name !== 'undefined' && filters.name.value !== '') {
-      if (unitData.name_real.toLowerCase().indexOf(filters.name.value.toLowerCase()) < 0) {
-        continue;
+    if (typeof filters.name !== 'undefined') {
+      // remove unnecessary whitespace
+      const nameFilter = filters.name.value.toString().trim();
+
+      if (nameFilter !== '') {
+        if (unitData.name_real.toLowerCase().indexOf(nameFilter.toLowerCase()) < 0) {
+          continue;
+        }
       }
     }
 

@@ -23,7 +23,7 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
       let value = e.target.value;
 
       // remove unnecessary whitespace
-      value = (typeof value === 'string') ? value.trim() : value;
+      value = (typeof value === 'string' && name !== 'name') ? value.trim() : value;
 
       filters = { ...state.filters };
       filters[name].value = value;
