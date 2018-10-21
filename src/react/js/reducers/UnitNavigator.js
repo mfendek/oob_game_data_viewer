@@ -9,6 +9,8 @@ import {
   LIST_CLEAR_COMPARE,
   DATA_LOADED_SUCCESS,
   DATA_LOADED_FAILURE,
+  MOD_UPDATE_URL,
+  MOD_LOAD_START,
 } from '../actions';
 
 const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
@@ -123,6 +125,21 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
         loadFailure: true,
         errorMessage: action.error,
       };
+    case MOD_UPDATE_URL: {
+      const e = action.e;
+      const modUrl = e.target.value;
+
+      return {
+        ...state,
+        modUrl,
+      };
+    }
+    case MOD_LOAD_START: {
+      return {
+        ...state,
+        dataLoaded: false,
+      };
+    }
     default:
       return state;
   }

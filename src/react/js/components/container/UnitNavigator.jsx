@@ -3,12 +3,13 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../utils/DataCache';
-import { generatePermalink } from '../../utils/UrlParams';
+import { queryString, generatePermalink } from '../../utils/UrlParams';
 import { getNumberOfPages, getFilteredList } from '../../utils/ListManipulation';
 import { getLocalState } from '../../utils/ReduxState';
 import ItemList from './ItemList';
 import FilterBar from '../presentational/filter/FilterBar';
 import PaginationBar from '../presentational/PaginationBar';
+import ModLoader from '../presentational/ModLoader';
 import {
   filtersSelectFilter,
   filtersClearFilters,
@@ -17,6 +18,8 @@ import {
   listClearCompare,
   dataLoadedSuccess,
   dataLoadedFailure,
+  modUpdateUrl,
+  modLoad,
 } from '../../actions';
 
 /**
@@ -33,6 +36,7 @@ class UnitNavigator extends Component {
       dataLoaded: false,
       loadFailure: false,
       errorMessage: '',
+      modUrl: '',
       unitsData: {},
     };
 
@@ -67,7 +71,7 @@ class UnitNavigator extends Component {
     localStorage.clear();
 
     // fetch fresh data
-    axios.get('?units-data=1')
+    axios.get(queryString({ 'units-data': 1 }))
       .then((result) => {
         this.props.dataLoadedSuccess(result.data);
 
@@ -143,6 +147,12 @@ class UnitNavigator extends Component {
           permalink={permalink}
           flipPage={this.props.flipPage}
         />
+
+        <ModLoader
+          url={this.props.modUrl}
+          updateUrl={this.props.modUpdateUrl}
+          loadMod={this.props.modLoad}
+        />
       </div>
     );
   }
@@ -154,6 +164,8 @@ UnitNavigator.propTypes = {
   flipPage: PropTypes.func.isRequired,
   startCompare: PropTypes.func.isRequired,
   clearCompare: PropTypes.func.isRequired,
+  modUpdateUrl: PropTypes.func.isRequired,
+  modLoad: PropTypes.func.isRequired,
   dataLoadedSuccess: PropTypes.func.isRequired,
   dataLoadedFailure: PropTypes.func.isRequired,
   dataLoaded: PropTypes.bool,
@@ -183,6 +195,7 @@ UnitNavigator.propTypes = {
   })),
   compareId: PropTypes.number,
   appVersion: PropTypes.string,
+  modUrl: PropTypes.string,
 };
 
 UnitNavigator.defaultProps = {
@@ -196,6 +209,7 @@ UnitNavigator.defaultProps = {
   pagination: {},
   compareId: -1,
   appVersion: '',
+  modUrl: '',
 };
 
 const mapStateToProps = (globalState) => {
@@ -212,6 +226,7 @@ const mapStateToProps = (globalState) => {
     loadFailure: state.loadFailure,
     errorMessage: state.errorMessage,
     dataLoaded: state.dataLoaded,
+    modUrl: state.modUrl,
   };
 };
 
@@ -223,6 +238,8 @@ const mapDispatchToProps = dispatch => ({
   clearCompare: () => dispatch(listClearCompare()),
   dataLoadedSuccess: data => dispatch(dataLoadedSuccess(data)),
   dataLoadedFailure: error => dispatch(dataLoadedFailure(error)),
+  modUpdateUrl: e => dispatch(modUpdateUrl(e)),
+  modLoad: () => dispatch(modLoad()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(UnitNavigator);

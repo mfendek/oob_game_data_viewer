@@ -3,6 +3,37 @@
  */
 
 /**
+ * Check if url is valid
+ *
+ * @param {string} url
+ * @returns {boolean}
+ */
+export const isUrlValid = (url) => {
+  const regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+
+  return regexp.test(url);
+};
+
+/**
+ * Generate query string form params
+ *
+ * @param {Object} params
+ * @returns {string}
+ */
+export const queryString = (params) => {
+  if (Object.keys(params).length === 0) {
+    return '';
+  }
+
+  return '?'.concat(
+    Object
+      .keys(params)
+      .map(name => ''.concat(encodeURIComponent(name), '=', encodeURIComponent(params[name])))
+      .join('&'),
+  );
+};
+
+/**
  * Generate url with provided params
  *
  * @param {Object} data
@@ -30,12 +61,7 @@ export const getUrlWithParams = (data) => {
     return '';
   }
 
-  return '?'.concat(
-    Object
-      .keys(params)
-      .map(name => ''.concat(encodeURIComponent(name), '=', encodeURIComponent(params[name])))
-      .join('&'),
-  );
+  return queryString(params);
 };
 
 /**
@@ -76,4 +102,4 @@ export const generatePermalink = (pagination, filters, compareId) => {
   return getUrlWithParams(params);
 };
 
-export default { getUrlWithParams, generatePermalink };
+export default { isUrlValid, queryString, getUrlWithParams, generatePermalink };

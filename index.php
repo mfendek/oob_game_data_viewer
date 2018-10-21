@@ -10,18 +10,31 @@ function sanitiseArrayJSON(array $array)
 }
 
 /**
- * @param string $path
+ * @param string $sourcePath
+ * @param string $filePath
+ * @param string $url external source url
  * @return array
  * @throws Exception
  */
-function openDataFile($path)
+function openDataFile($sourcePath, $filePath, $url = '')
 {
+    $path = $sourcePath . $filePath;
     $file = file_get_contents($path);
     if ($file === false) {
         throw new Exception('Failed to open data file ' . $path);
     }
 
-    return explode("\n", $file);
+    $lines = explode("\n", $file);
+
+    // add data from external source
+    if ($url !== '') {
+        $file = @file_get_contents($url . $filePath);
+        if ($file !== false) {
+            $lines = array_merge($lines, explode("\n", $file));
+        }
+    }
+
+    return $lines;
 }
 
 try {
@@ -30,9 +43,10 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-09-23';
+    $version = '2018-10-21';
 
     // configuration
+    $dataPath = 'src/game_data/Data/';
 
     $validFilters = [
         'id',
@@ -168,8 +182,11 @@ try {
     $currentPage = ($currentPage > 0) ? $currentPage : 1;
 
     if (!empty($_REQUEST['units-data'])) {
+        $modUrl = (!empty($_REQUEST['mod'])) ? $_REQUEST['mod'] : '';
+        $modUrl = (filter_var($modUrl, FILTER_VALIDATE_URL)) ? $modUrl : '';
+
         // process unit type specific traits
-        $dataFile = openDataFile('src/game_data/Data/classes.txt');
+        $dataFile = openDataFile($dataPath, 'classes.txt', $modUrl);
         $currentId = '';
         $typeTraits = [];
         foreach ($dataFile as $line) {
@@ -179,6 +196,11 @@ try {
                 $itemId = strtolower($itemId);
                 $itemId = trim($itemId);
                 $currentId = $itemId;
+
+                // reset data for current id (this is used when modded file overrides the original one)
+                if (array_key_exists($currentId, $typeTraits)) {
+                    $typeTraits[$currentId] = [];
+                }
             } elseif (strpos($line, '=') === false && $currentId != '' && !empty(trim($line))) {
                 $line = trim($line);
                 if (array_key_exists($currentId, $typeTraits)) {
@@ -201,13 +223,14 @@ try {
 
         // process chassis
         foreach ($climates as $climate => $climateId) {
-            $dataFile = openDataFile('src/game_data/Data/chassis' . $climateId . '.csv');
+            $dataFile = openDataFile($dataPath, 'chassis' . $climateId . '.csv', $modUrl);
             foreach ($dataFile as $lineNumber => $line) {
                 $line = explode(";", $line);
                 $chassis = trim($line[0]);
+                $chassisId = trim($line[1]);
 
                 // skip heading line and empty lines
-                if (empty($chassis) || $lineNumber === 0) {
+                if (empty($chassis) || $chassisId === 'id') {
                     continue;
                 }
 
@@ -301,13 +324,14 @@ try {
 
         // process spotting
         foreach ($climates as $climate => $climateId) {
-            $dataFile = openDataFile('src/game_data/Data/terrain' . $climateId . '.csv');
+            $dataFile = openDataFile($dataPath, 'terrain' . $climateId . '.csv', $modUrl);
             foreach ($dataFile as $line) {
                 $line = explode(";", $line);
-                $name = $line[0];
+                $name = trim($line[0]);
+                $terrainId = trim($line[1]);
 
                 // skip heading line and empty lines
-                if (empty($name) || $name === 'name') {
+                if (empty($name) || $terrainId === 'id') {
                     continue;
                 }
 
@@ -331,7 +355,7 @@ try {
                 continue;
             }
 
-            $dataFile = openDataFile('src/game_data/Language/' . $fileName);
+            $dataFile = openDataFile('src/game_data/Language/', $fileName);
             foreach ($dataFile as $line) {
                 // detect unit name
                 if (strpos($line, 'unit_') === 0) {
@@ -377,7 +401,7 @@ try {
         }
 
         // process units
-        $dataFile = openDataFile('src/game_data/Data/units.csv');
+        $dataFile = openDataFile($dataPath, 'units.csv', $modUrl);
 
         $filterCategories = [];
         $filterTypes = [];
@@ -403,7 +427,7 @@ try {
             }
 
             // check for valid ID, ignore empty lines and comments
-            if (filter_var($line[1], FILTER_VALIDATE_INT) === false) {
+            if (empty($line[1]) || filter_var($line[1], FILTER_VALIDATE_INT) === false) {
                 continue;
             }
 
@@ -421,6 +445,9 @@ try {
             $name = strtolower($name);
             if (array_key_exists($name, $unitNames)) {
                 $unitNames[$name][] = $id;
+
+                // make sure we don't get duplicates (modded files may add extra entries)
+                $unitNames[$name] = array_unique($unitNames[$name]);
             } else {
                 $unitNames[$name] = [$id];
             }
@@ -487,7 +514,7 @@ try {
 
             // torpedo attack, range and cool-down
             $torpedo = (strpos($line[39], ',') !== false) ? explode(', ', $line[39]) : [];
-            if (count($torpedo) > 0) {
+            if (count($torpedo) >= 3) {
                 $torpedoCoolDown = (int) $torpedo[0];
                 $torpedoRange = (int) $torpedo[1];
                 $torpedoAttack = (int) $torpedo[2];
@@ -824,7 +851,6 @@ try {
 
                     $filterSwitch[] = $action;
                 }
-
 
                 $filterSwitch = array_unique($filterSwitch);
                 $units[$id]['switch'] = $switch;
