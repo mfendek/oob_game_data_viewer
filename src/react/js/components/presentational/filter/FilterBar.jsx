@@ -70,31 +70,24 @@ const FilterBar = (
         Clear filters
       </button>
 
-      {
-        (compareId > -1)
-          ?
-            <button
-              type="button"
-              name="clear-compare"
-              className="btn btn-warning"
-              onClick={clearCompare}
-            >
-              Clear compare
-            </button>
-          : ''
+      {compareId > -1 &&
+        <button
+          type="button"
+          name="clear-compare"
+          className="btn btn-warning"
+          onClick={clearCompare}
+        >
+          Clear compare
+        </button>
       }
 
-      {
-        (compareId > -1)
-          ?
-            <a
-              className="compare-label"
-              href={getUrlWithParams({ f: { id: compareId } })}
-            >
-              {compareName}
-            </a>
-          : ''
-
+      {compareId > -1 &&
+        <a
+          className="compare-label"
+          href={getUrlWithParams({ f: { id: compareId } })}
+        >
+          {compareName}
+        </a>
       }
     </div>
 );

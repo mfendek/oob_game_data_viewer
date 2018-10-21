@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../utils/DataCache';
-import { queryString, generatePermalink } from '../../utils/UrlParams';
-import { getNumberOfPages, getFilteredList } from '../../utils/ListManipulation';
-import { getLocalState } from '../../utils/ReduxState';
-import ItemList from './ItemList';
-import FilterBar from '../presentational/filter/FilterBar';
-import PaginationBar from '../presentational/PaginationBar';
-import ModLoader from '../presentational/ModLoader';
+import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../../utils/DataCache';
+import { queryString, generatePermalink } from '../../../utils/UrlParams';
+import { getNumberOfPages, getFilteredList } from '../../../utils/ListManipulation';
+import { getLocalState } from '../../../utils/ReduxState';
+import ItemList from '../ItemList/ItemList';
+import FilterBar from '../../presentational/filter/FilterBar';
+import PaginationBar from '../../presentational/PaginationBar';
+import ModLoader from '../../presentational/ModLoader';
 import {
   filtersSelectFilter,
   filtersClearFilters,
@@ -21,7 +21,7 @@ import {
   modToggleLog,
   modUpdateUrl,
   modLoad,
-} from '../../actions';
+} from './actions';
 
 /**
  * Unit navigator

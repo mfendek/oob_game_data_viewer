@@ -442,63 +442,79 @@ const ItemDetail = (
         />
       </div>
 
-      {(data.traits.length > 0) ? <div className="unit-item__content-row">{
-        data.traits.map(
-          item =>
-            <TextLabel
-              key={item.name}
-              color="gray"
-              text={item.name}
-              title={(item.info !== '') ? item.info : 'unit has '.concat(item.name, ' trait')}
-            />,
-        )
-      }</div> : ''}
+      {data.traits.length > 0 &&
+        <div className="unit-item__content-row">
+          {
+            data.traits.map(
+              item =>
+                <TextLabel
+                  key={item.name}
+                  color="gray"
+                  text={item.name}
+                  title={(item.info !== '') ? item.info : 'unit has '.concat(item.name, ' trait')}
+                />,
+            )
+          }
+        </div>
+      }
 
-      {(data.transport.length > 0) ? <div className="unit-item__content-row">{
-        data.transport.map(
-          item =>
-            <LinkLabel
-              key={item.name}
-              color="gray"
-              title="unit may use $s as transport"
-              altTitle={'unit may use '.concat(item.name, ' as transport (transport unit missing)')}
-              data={item}
-              lookup={lookup}
-            />,
-        )
-      }</div> : ''}
+      {data.transport.length > 0 &&
+        <div className="unit-item__content-row">
+          {
+            data.transport.map(
+              item =>
+                <LinkLabel
+                  key={item.name}
+                  color="gray"
+                  title="unit may use $s as transport"
+                  altTitle={'unit may use '.concat(item.name, ' as transport (transport unit missing)')}
+                  data={item}
+                  lookup={lookup}
+                />,
+            )
+          }
+        </div>
+      }
 
-      {(data.unit_carrier.length > 0) ? <div className="unit-item__content-row">{
-        data.unit_carrier.map(
-          item =>
-            <LinkLabel
-              key={item.name}
-              color="gray"
-              title="unit can land on $s and be carried inside as a cargo"
-              altTitle={'unit can land on '.concat(item.name, ' and be carried inside as a cargo (carrier unit missing)')}
-              data={item}
-              lookup={lookup}
-            />,
-        )
-      }</div> : ''}
+      {data.unit_carrier.length > 0 &&
+        <div className="unit-item__content-row">
+          {
+            data.unit_carrier.map(
+              item =>
+                <LinkLabel
+                  key={item.name}
+                  color="gray"
+                  title="unit can land on $s and be carried inside as a cargo"
+                  altTitle={'unit can land on '.concat(item.name, ' and be carried inside as a cargo (carrier unit missing)')}
+                  data={item}
+                  lookup={lookup}
+                />,
+            )
+          }
+        </div>
+      }
 
-      {(data.factions.length > 0) ? <div className="unit-item__content-row">{
-        data.factions.map(
-          faction =>
-            <LinkIcon
-              key={faction}
-              title={
-                'available for '.concat(
-                  faction, ' faction',
-                  (typeof data.series[faction] !== 'undefined') ? ' (click to see unit upgrade group)' : '',
-                )
-              }
-              imgName="faction"
-              imgValue={faction}
-              link={(typeof data.series[faction] !== 'undefined') ? data.series[faction].join(',') : ''}
-            />,
-        )
-      }</div> : ''}
+      {data.factions.length > 0 &&
+        <div className="unit-item__content-row">
+          {
+            data.factions.map(
+              faction =>
+                <LinkIcon
+                  key={faction}
+                  title={
+                    'available for '.concat(
+                      faction, ' faction',
+                      (typeof data.series[faction] !== 'undefined') ? ' (click to see unit upgrade group)' : '',
+                    )
+                  }
+                  imgName="faction"
+                  imgValue={faction}
+                  link={(typeof data.series[faction] !== 'undefined') ? data.series[faction].join(',') : ''}
+                />,
+            )
+          }
+        </div>
+      }
 
       <div className="unit-item__content-row">
         <button
@@ -518,20 +534,24 @@ const ItemDetail = (
         </button>
       </div>
 
-      {(terrainOpen && Object.keys(terrain).length > 0) ? <div className="unit-item__content-row">{
-        Object.keys(terrain).map(
-          terrainName => (
-            <TerrainLabel
-              key={terrainName}
-              terrainName={terrainName}
-              data={data}
-              terrain={terrain[terrainName]}
-              compareMovement={compareTerrainMovement}
-              compareSpotting={compareTerrainSpotting}
-            />
-          ),
-        )
-        }</div> : ''}
+      {terrainOpen && Object.keys(terrain).length > 0 &&
+        <div className="unit-item__content-row">
+          {
+            Object.keys(terrain).map(
+              terrainName => (
+                <TerrainLabel
+                  key={terrainName}
+                  terrainName={terrainName}
+                  data={data}
+                  terrain={terrain[terrainName]}
+                  compareMovement={compareTerrainMovement}
+                  compareSpotting={compareTerrainSpotting}
+                />
+              ),
+            )
+          }
+        </div>
+      }
     </div>
 );
 

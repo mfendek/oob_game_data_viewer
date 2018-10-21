@@ -19,12 +19,11 @@ const LinkIcon = ({ title, imgName, imgValue, link }) => (
       className="unit-item__content-icon unit-item__content-icon--rectangle-small"
       style={getBackgroundImg(imgName, imgValue)}
     >
-      {(link !== '')
-        ? <a
+      {link !== '' &&
+        <a
           className="unit-item__image-link"
           href={getUrlWithParams({ f: { id: link } })}
         />
-        : ''
       }
     </div>
   </OverlayTrigger>

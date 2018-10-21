@@ -1,8 +1,7 @@
 import axios from 'axios';
-import { getLocalState } from '../utils/ReduxState';
-import { isUrlValid, queryString } from '../utils/UrlParams';
+import { getLocalState } from '../../../utils/ReduxState';
+import { isUrlValid, queryString } from '../../../utils/UrlParams';
 
-export const LIST_TOGGLE_TERRAIN = 'LIST_TOGGLE_TERRAIN';
 export const FILTERS_SELECT_FILTER = 'FILTERS_SELECT_FILTER';
 export const FILTERS_CLEAR_FILTERS = 'FILTERS_CLEAR_FILTERS';
 export const PAGINATION_FLIP_PAGE = 'PAGINATION_FLIP_PAGE';
@@ -13,11 +12,6 @@ export const DATA_LOADED_FAILURE = 'DATA_LOADED_FAILURE';
 export const MOD_TOGGLE_LOG = 'MOD_TOGGLE_LOG';
 export const MOD_UPDATE_URL = 'MOD_UPDATE_URL';
 export const MOD_LOAD_START = 'MOD_LOAD_START';
-
-export const listToggleTerrain = unitId => ({
-  type: LIST_TOGGLE_TERRAIN,
-  unitId,
-});
 
 export const filtersSelectFilter = (name, e) => ({
   type: FILTERS_SELECT_FILTER,

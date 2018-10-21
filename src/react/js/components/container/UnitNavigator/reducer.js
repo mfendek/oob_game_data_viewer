@@ -1,6 +1,6 @@
-import UnitNavigator from '../components/container/UnitNavigator';
-import { getNumberOfPages, getFilteredList } from '../utils/ListManipulation';
-import { sanitizeData } from '../utils/DataCache';
+import UnitNavigator from './UnitNavigator';
+import { getNumberOfPages, getFilteredList } from '../../../utils/ListManipulation';
+import { sanitizeData } from '../../../utils/DataCache';
 import {
   FILTERS_SELECT_FILTER,
   FILTERS_CLEAR_FILTERS,
@@ -12,7 +12,7 @@ import {
   MOD_TOGGLE_LOG,
   MOD_UPDATE_URL,
   MOD_LOAD_START,
-} from '../actions';
+} from './actions';
 
 const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
   let filters;

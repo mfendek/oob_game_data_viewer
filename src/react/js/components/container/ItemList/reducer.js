@@ -1,6 +1,6 @@
 import {
   LIST_TOGGLE_TERRAIN,
-} from '../actions';
+} from './actions';
 
 const reducerItemList = (state = { terrainToggle: [] }, action) => {
   switch (action.type) {

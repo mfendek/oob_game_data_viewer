@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { getTerrainPoints } from '../../utils/GameMath';
-import { getFilteredList } from '../../utils/ListManipulation';
-import { getLocalState } from '../../utils/ReduxState';
-import ItemDetail from '../presentational/ItemDetail';
-import { listToggleTerrain } from '../../actions';
+import { getTerrainPoints } from '../../../utils/GameMath';
+import { getFilteredList } from '../../../utils/ListManipulation';
+import { getLocalState } from '../../../utils/ReduxState';
+import ItemDetail from '../../presentational/ItemDetail';
+import { listToggleTerrain } from './actions';
 
 /**
  * Item list (filtering and pagination)

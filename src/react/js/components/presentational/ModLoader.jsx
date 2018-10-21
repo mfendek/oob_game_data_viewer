@@ -40,25 +40,23 @@ const ModLoader = ({ url, showLog, files, updateUrl, loadMod, toggleLog }) => (
         {(showLog) ? 'Hide log' : 'Show log'}
       </button>
     </div>
-    {
-      (showLog) ?
-        <div className="mod-bar__log">
-          {
-            (files.length > 0) ?
-              <ul>
-                {
-                  files.map(
-                    modFile => (
-                      <li key={modFile}>{modFile}</li>
-                    ),
-                  )
-                }
-              </ul>
-              :
-              <p>No mod files in use</p>
-          }
-        </div>
-        : ''
+    {showLog &&
+      <div className="mod-bar__log">
+        {files.length > 0 &&
+          <ul>
+            {
+              files.map(
+                modFile => (
+                  <li key={modFile}>{modFile}</li>
+                ),
+              )
+            }
+          </ul>
+        }
+        {files.length === 0 &&
+          <p>No mod files in use</p>
+        }
+      </div>
     }
   </div>
 );

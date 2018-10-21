@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import rootReducer from './js/reducers';
-import UnitNavigator from './js/components/container/UnitNavigator';
+import UnitNavigator from './js/components/container/UnitNavigator/UnitNavigator';
 
 // bootstrap Unit Navigator
 const wrapper = document.getElementById('unit-navigator-wrapper');
