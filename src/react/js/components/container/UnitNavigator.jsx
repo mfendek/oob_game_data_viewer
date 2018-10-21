@@ -18,6 +18,7 @@ import {
   listClearCompare,
   dataLoadedSuccess,
   dataLoadedFailure,
+  modToggleLog,
   modUpdateUrl,
   modLoad,
 } from '../../actions';
@@ -37,6 +38,8 @@ class UnitNavigator extends Component {
       loadFailure: false,
       errorMessage: '',
       modUrl: '',
+      modFiles: [],
+      modShowLog: false,
       unitsData: {},
     };
 
@@ -150,8 +153,11 @@ class UnitNavigator extends Component {
 
         <ModLoader
           url={this.props.modUrl}
+          showLog={this.props.modShowLog}
+          files={this.props.modFiles}
           updateUrl={this.props.modUpdateUrl}
           loadMod={this.props.modLoad}
+          toggleLog={this.props.modToggleLog}
         />
       </div>
     );
@@ -165,7 +171,10 @@ UnitNavigator.propTypes = {
   startCompare: PropTypes.func.isRequired,
   clearCompare: PropTypes.func.isRequired,
   modUpdateUrl: PropTypes.func.isRequired,
+  modFiles: PropTypes.arrayOf(PropTypes.string).isRequired,
+  modShowLog: PropTypes.bool.isRequired,
   modLoad: PropTypes.func.isRequired,
+  modToggleLog: PropTypes.func.isRequired,
   dataLoadedSuccess: PropTypes.func.isRequired,
   dataLoadedFailure: PropTypes.func.isRequired,
   dataLoaded: PropTypes.bool,
@@ -227,6 +236,8 @@ const mapStateToProps = (globalState) => {
     errorMessage: state.errorMessage,
     dataLoaded: state.dataLoaded,
     modUrl: state.modUrl,
+    modFiles: state.modFiles,
+    modShowLog: state.modShowLog,
   };
 };
 
@@ -238,6 +249,7 @@ const mapDispatchToProps = dispatch => ({
   clearCompare: () => dispatch(listClearCompare()),
   dataLoadedSuccess: data => dispatch(dataLoadedSuccess(data)),
   dataLoadedFailure: error => dispatch(dataLoadedFailure(error)),
+  modToggleLog: () => dispatch(modToggleLog()),
   modUpdateUrl: e => dispatch(modUpdateUrl(e)),
   modLoad: () => dispatch(modLoad()),
 });

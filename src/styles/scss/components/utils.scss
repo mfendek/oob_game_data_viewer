@@ -15,14 +15,34 @@ body {
   text-align: center;
 }
 
-.filter-bar,
-.mod-bar {
+.filter-bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   &> * {
     margin: 0.5ex;
+  }
+}
+
+.mod-bar {
+  &__loader,
+  &__log {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &> * {
+      margin: 0.5ex;
+    }
+  }
+
+  &__log {
+    background-color: $white;
+    border: thin solid $gray;
+    border-radius: 4px;
+    margin: 0.5ex;
+    padding: 0.5ex;
   }
 }
 

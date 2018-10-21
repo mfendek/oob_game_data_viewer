@@ -10,6 +10,7 @@ export const LIST_START_COMPARE = 'LIST_START_COMPARE';
 export const LIST_CLEAR_COMPARE = 'LIST_CLEAR_COMPARE';
 export const DATA_LOADED_SUCCESS = 'DATA_LOADED_SUCCESS';
 export const DATA_LOADED_FAILURE = 'DATA_LOADED_FAILURE';
+export const MOD_TOGGLE_LOG = 'MOD_TOGGLE_LOG';
 export const MOD_UPDATE_URL = 'MOD_UPDATE_URL';
 export const MOD_LOAD_START = 'MOD_LOAD_START';
 
@@ -50,6 +51,10 @@ export const dataLoadedSuccess = data => ({
 export const dataLoadedFailure = error => ({
   type: DATA_LOADED_FAILURE,
   error,
+});
+
+export const modToggleLog = () => ({
+  type: MOD_TOGGLE_LOG,
 });
 
 export const modUpdateUrl = e => ({

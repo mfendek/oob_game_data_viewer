@@ -13,10 +13,11 @@ function sanitiseArrayJSON(array $array)
  * @param string $sourcePath
  * @param string $filePath
  * @param string $url external source url
+ * @param array $files list of all mod files in use
  * @return array
  * @throws Exception
  */
-function openDataFile($sourcePath, $filePath, $url = '')
+function openDataFile($sourcePath, $filePath, $url = '', array &$files = [])
 {
     $path = $sourcePath . $filePath;
     $file = file_get_contents($path);
@@ -28,9 +29,11 @@ function openDataFile($sourcePath, $filePath, $url = '')
 
     // add data from external source
     if ($url !== '') {
-        $file = @file_get_contents($url . $filePath);
+        $path = $url . $filePath;
+        $file = @file_get_contents($path);
         if ($file !== false) {
             $lines = array_merge($lines, explode("\n", $file));
+            $files[]= $path;
         }
     }
 
@@ -43,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2018-10-21';
+    $version = '2018-10-22';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -182,11 +185,12 @@ try {
     $currentPage = ($currentPage > 0) ? $currentPage : 1;
 
     if (!empty($_REQUEST['units-data'])) {
+        $modFiles = [];
         $modUrl = (!empty($_REQUEST['mod'])) ? $_REQUEST['mod'] : '';
         $modUrl = (filter_var($modUrl, FILTER_VALIDATE_URL)) ? $modUrl : '';
 
         // process unit type specific traits
-        $dataFile = openDataFile($dataPath, 'classes.txt', $modUrl);
+        $dataFile = openDataFile($dataPath, 'classes.txt', $modUrl, $modFiles);
         $currentId = '';
         $typeTraits = [];
         foreach ($dataFile as $line) {
@@ -223,7 +227,7 @@ try {
 
         // process chassis
         foreach ($climates as $climate => $climateId) {
-            $dataFile = openDataFile($dataPath, 'chassis' . $climateId . '.csv', $modUrl);
+            $dataFile = openDataFile($dataPath, 'chassis' . $climateId . '.csv', $modUrl, $modFiles);
             foreach ($dataFile as $lineNumber => $line) {
                 $line = explode(";", $line);
                 $chassis = trim($line[0]);
@@ -324,7 +328,7 @@ try {
 
         // process spotting
         foreach ($climates as $climate => $climateId) {
-            $dataFile = openDataFile($dataPath, 'terrain' . $climateId . '.csv', $modUrl);
+            $dataFile = openDataFile($dataPath, 'terrain' . $climateId . '.csv', $modUrl, $modFiles);
             foreach ($dataFile as $line) {
                 $line = explode(";", $line);
                 $name = trim($line[0]);
@@ -401,7 +405,7 @@ try {
         }
 
         // process units
-        $dataFile = openDataFile($dataPath, 'units.csv', $modUrl);
+        $dataFile = openDataFile($dataPath, 'units.csv', $modUrl, $modFiles);
 
         $filterCategories = [];
         $filterTypes = [];
@@ -1018,6 +1022,7 @@ try {
             'unitsList' => $unitsOrdered,
             'terrain' => $terrain,
             'unitsData' => $units,
+            'modFiles' => $modFiles,
         ];
 
         // unit data only request via AJAX
