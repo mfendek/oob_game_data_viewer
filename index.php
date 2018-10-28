@@ -649,7 +649,6 @@ try {
 
             // process localised name, fall back to internal name if missing
             $nameLocalised = (array_key_exists($id, $unitNamesLocalised)) ? $unitNamesLocalised[$id] : $line[0];
-            $nameLocalised = htmlspecialchars($nameLocalised);
 
             $units[$id] = [
                 'id' => (int) $id,
