@@ -265,6 +265,12 @@ independent = CannonSmokeLarge 1.0
 sfx = 203mm_01 1.0
 recoil
 
+[AT_283mm_01]
+attached = CannonFlash 1.0
+independent = CannonSmokeLarge 1.0
+sfx = 11Inches_[2] 1.0
+recoil
+
 [MG]
 attached = MGFlash 0.2
 sfx = M1917Browning_[2] 1.0
@@ -661,6 +667,10 @@ sfx = Rocket_[4] 0.7
 independent = T34Rocket 1.0
 sfx = Rocket_[4] 1.0
 
+[Rocket_380mm]
+independent = Rocket_380mm 1.0
+sfx = Rocket_[4] 1.0
+
 [KatyushaVolleySFX]
 audio = KatyushaVolley_[2]
 
@@ -1020,7 +1030,11 @@ sfx = AxB_RadTwin_[3] 1.0
 
 [AxF_Jet]
 attached = AirMove 1.0
-sfx = AxF_Jet_[2] 1.0
+sfx = AlF_Jet_[2] 1.0
+
+[AxB_Jet]
+attached = AirMove 1.0
+sfx = AxF_Jet_01 1.0
 
 [AxF_RadSin]
 attached = AirMove 1.0

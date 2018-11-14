@@ -5,7 +5,7 @@ name;id;category;factions;date;requires;unlocks;cost;effects;skirmish
 Boot_Camp;1;land;all;/;/;;5;infantry_experience;yes
 Tank_School;5;land;all;1939;/;;5;tank_experience;yes
 Field_Medics;31;land;usa, marine_corps;/;/;;10;Field_Medics;yes
-Nuclear_Bomb;11;land;usa;1945;Tizard_Mission;;10;nuke;yes
+Nuclear_Bomb;11;land;usa;1945;Tizard_Mission;;15;nuke;yes
 Landing_Craft_Tank;35;land;usa, marine_corps;1943;Landing_Craft_Infantry;;7;landing_craft_tank;no
 Auftragstaktik;3;land;germany;1940;Boot_Camp;;10;Auftragstaktik;no
 Beutepanzer;4;land;germany;1941;/;;5;Beutepanzer;no
@@ -14,10 +14,14 @@ Goliath_Mine;84;land;germany;3/1942;/;;5;goliath;no
 PaK_Front;8;land;germany, ussr;1943;/;;5;PaK_Front;no
 Panzer_Keil;9;land;germany;1943;Tank_School;;5;Panzer_Keil;no
 Panzer_Fibel;7;land;germany;1943;Panzer_Fibel;;5;Panzer_Fibel;no
+Panzer_Lehr;63;land;germany;1/1944;Tank_School;;10;Panzer_Lehr;no
 Waffen_SS;10;land;germany;8/1940;/;;10;Waffen_SS;no
 Waffen_SS_II;56;land;germany;6/1942;Waffen_SS;;15;Waffen_SS_II;no
-Waffen_SS_III;57;land;germany;10/1943;Waffen_SS_II;;20;Waffen_SS_III;no
+Waffen_SS_III;57;land;germany;10/1943;Waffen_SS_II;;15;Waffen_SS_III;no
 Organisation_Todt;85;land;germany;1941;/;;5;Arbeitnehmer;yes
+Entwicklung_Series;87;land;germany;7/1945;War_Economy;;5;e_series;no
+Vampir_Nachtjaeger;89;land;germany;11/1944;/;;5;infrared;no
+Uranprojekt;88;land;germany;1945;/;;20;nuke;no
 Banzai_Charge;2;land;japan;1940;/;;5;Banzai_Charge;no
 Bushido_Code;6;land;japan;1940;/;;5;bushido_code;no
 Forced_Labour;73;land;japan, germany;6/1941;/;;7;forced_labour;no
@@ -62,6 +66,7 @@ Elite_Air_Groups;67;air;japan;4/1941;/;;5;Elite_Air_Groups;no
 Scrambling;68;air;all;5/1940;Radar_I;;10;scrambling;yes
 Bomber_Stream;83;air;britain;5/1942;/;;3;bomber_stream;yes
 Synthetic_Fuel_Plants;48;air;germany;1943;/;;5;air_cp_bonus;no
+Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
 ;;;;;;;;;
 // GENERAL & SHARED;;;;;;;;;
 ;;;;;;;;;

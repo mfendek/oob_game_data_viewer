@@ -1,0 +1,93 @@
+﻿unit_2200 = SU-100
+unit_2201 = SU-85
+unit_2202 = La-7
+unit_2203 = KV-85
+unit_2204 = ISU-152
+unit_2205 = ISU-122
+unit_2206 = IS-2
+unit_2207 = IS-1
+unit_2208 = Il-10
+unit_2209 = T-34 Mod. 1943
+unit_2210 = Meteor
+unit_2211 = Cromwell
+unit_2212 = Cromwell CS
+unit_2213 = Typhoon Mk.IB
+unit_2214 = Tempest Mk.V
+unit_2215 = Mosquito FB Mk.VI
+unit_2216 = Comet
+unit_2217 = Challenger
+unit_2218 = Ta 152
+unit_2219 = FW 190 D
+unit_2220 = PzKw. E-100
+unit_2221 = Ar 234
+unit_2222 = Me 262 Schwalbe
+unit_2223 = FW 190 G
+unit_2224 = Jagdtiger
+unit_2225 = Jagdpanther
+unit_2226 = Sturmtiger
+unit_2227 = SdKfz. 234 Puma
+unit_2228 = Ostwind
+unit_2229 = Ostwind
+unit_2230 = Jagdpanzer IV 70
+unit_2231 = Jagdpanzer IV 48
+unit_2232 = Jagdpanzer 38 Hetzer
+unit_2233 = ISU-152
+unit_2234 = ISU-122
+unit_2235 = Sturmtiger
+unit_2236 = Infanterie française '44
+unit_2237 = Infanterie française '45
+unit_2238 = Résistants français
+unit_2239 = Canon 57mm M1
+unit_2240 = Volkssturm
+unit_2241 = Marder I
+unit_2242 = Wirbelwind
+unit_2243 = Wirbelwind
+unit_2244 = Infanterie polonaise '44
+unit_2245 = Infanterie polonaise '45
+unit_2246 = Parachutistes polonais '44
+unit_2247 = Parachutistes polonais '45
+unit_2248 = Infanterie canadienne '44
+unit_2249 = Infanterie canadienne '45
+unit_2250 = C47 Skytrain
+unit_2251 = Infanterie lourde canadienne '44
+unit_2252 = Infanterie lourde canadienne '45
+unit_2253 = Infanterie canadienne avec mortiers
+unit_2254 = T-34 Mod. 1943
+unit_2255 = SU-85
+unit_2256 = KV-85
+unit_2257 = M4A2 Sherman
+unit_2258 = Bombardier atomique
+unit_2259 = AB 43
+unit_2260 = Carro Armato P26/40
+unit_2261 = Semovente M43 da 105/25
+unit_2262 = SdKfz. 251/20 Uhu
+unit_2263 = 283mm Krupp K5
+
+spec_entwicklung_series_title = Séries Entwicklung 
+spec_entwicklung_series_descr = Les séries E consistent en différentes classes de poids et se focalise sur  la normalisation de la conception de véhicules blindés, les rendant plus simples, mois coûteux et plus rapides à produire.
+spec_entwicklung_series_effect = • Les chars lourds Pzkw E-100 peuvent être achetés |• L'achat et la réparation des chars Panther et Tiger II est 10% moins cher
+
+spec_uranprojekt_title = Uranprojekt
+spec_uranprojekt_descr = Basé sur la science atomique moderne, un vaste projet de recherche et développement peut produire l'arme ultime : une arme nucléaire.
+spec_uranprojekt_effect = • Ajoute un bombardier nucléaire à usage unique dans notre force aérienne |• Des bombardiers nucléaires supplémentaires peuvent être achetés
+
+spec_vampir_nachtjaeger_title = Vampir Nachtjäger
+spec_vampir_nachtjaeger_descr = La lumière infrarouge est seulement visible à travers des dispositifs de visée spéciaux. Quand ils sont attachés à des véhicules de combat, ils peuvent être utilisés pour détecter et détruire l'ennemi lors d'attaques nocturnes.
+spec_vampir_nachtjaeger_effect = • Ajoute un Sdkfz 251/20 Uhu au coeur de notre armée, qui fournit un bonus offensif de combat aux chars adjacents.
+
+spec_waffen_ss_iii_title = Waffen SS III
+spec_waffen_ss_iii_descr = Un autre programme de développement, acceptant des volontaires depuis tous les territoires conquis par l'armée allemande ou affiliés à sa cause, qui va améliorer la Waffen SS en une puissante et indépendante force de combat.
+spec_waffen_ss_iii_effect = • +6 PC terrestre pour la faction Waffen SS |• +5 PR par tour sont transférés depuis l'Allemagne à la faction Waffen SS
+
+starting_date = Date de début
+ending_date = DAte de fin
+
+editor_importable_core_name = <nom coeur importé>
+tooltip_import_target_core = Les unités importées iront dans ce coeur.
+tooltip_add_importable_core = Définissez quels coeurs peuvent être importés depuis quelles campagnes
+tooltip_add_imported_bonus_resources = Ajoute des ressources bonus pour une nation importée
+
+faction_czechoslovakia = Tchécoslovaquie
+
+tutorial_content_endsieg_title = [Nouveau contenu] Endsieg
+tutorial_content_endsieg = Dans ce dernier chapitre sur la campagne allemande, le sort de la guerre en Europe sera décidé. A la suite de la bataille de Kursk, la Wehrmacht peut-elle retenir les contre-offensives soviétiques, faire face à la menace à l'ouest de l'invasion des Alliés et ultimement l'emporter ?

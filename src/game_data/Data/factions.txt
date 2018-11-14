@@ -6,7 +6,7 @@ skirmish = blitzkrieg, panzerkrieg, kriegsmarine, volkskrieg, afrika
 [USA]
 id = 1
 theme = usa
-skirmish = pacificUS, marineCorps, endkrieg, afrika, pacificJapan, 
+skirmish = pacificUS, marineCorps, endsieg, afrika, pacificJapan, 
 
 [BRITAIN]
 id = 2
@@ -179,4 +179,8 @@ theme = france
 
 [SOUTH_AFRICA]
 id = 41
+theme = britain
+
+[CZECHOSLOVAKIA]
+id = 42
 theme = britain

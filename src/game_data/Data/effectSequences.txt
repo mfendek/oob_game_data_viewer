@@ -424,6 +424,12 @@
 2.5 BarrelSmoke 0
 1.0 damage
 
+[AT_75mm_09]
+0.0 AT_Shell 0
+0.0 AT_75mm_09 0
+0.7 BarrelSmoke 0
+1.0 damage
+
 [AT_75mm_09_Case]
 0.0 AT_Shell 0
 0.0 AT_75mm_09 0
@@ -508,6 +514,29 @@
 1.0 damage
 
 [AT_76.2mm_01]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_76.2mm_01_Case]
+0.0 AT_Shell 0
+0.0 AT_76.2mm_01 0
+0.5 ShellCaseSmall 1
+0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_76.2mm_01]
+0.0 ART_Shell_Light 0
+0.0 AT_76mm_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell_Light 0
+1.4 AT_76mm_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
+[ART_76.2mm_01_CASE]
 0.0 ART_Shell_Light 0
 0.0 AT_76mm_01 0
 0.7 ShellCaseSmall 1
@@ -517,12 +546,6 @@
 1.4 AT_76mm_01 0
 2.3 ShellCaseSmall 1
 2.5 BarrelSmoke 0
-1.0 damage
-
-[ART_76.2mm_01]
-0.0 ART_Shell_Light 0
-0.0 AT_76.2mm_01 0
-0.7 BarrelSmoke 0
 1.0 damage
 
 [AT_76.2mm_01_MG]
@@ -602,6 +625,13 @@
 [AT_105mm_01]
 0.0 AT_Shell 0
 0.0 AT_105mm_01 0
+0.7 BarrelSmoke 0
+1.0 damage
+
+[AT_105mm_01_MG]
+0.0 AT_Shell 0
+0.0 AT_105mm_01 0
+0.5 MG 1
 0.7 BarrelSmoke 0
 1.0 damage
 
@@ -733,6 +763,16 @@
 0.0 AT_Shell 0
 0.0 AT_105mm_06 0
 0.7 BarrelSmoke 0
+1.0 damage
+
+[ART_105mm_06]
+0.0 ART_Shell 0
+0.0 AT_105mm_06 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_105mm_06 0
+2.5 BarrelSmoke 0
 1.0 damage
 
 [ART_105mm_06_Case]
@@ -918,6 +958,16 @@
 2.5 BarrelSmoke 0
 1.0 damage
 
+[ART_283mm_01]
+0.0 ART_Shell 0
+0.0 AT_283mm_01 0
+0.9 BarrelSmoke 0
+1.0 hit
+1.4 ART_Shell 0
+1.4 AT_283mm_01 0
+2.5 BarrelSmoke 0
+1.0 damage
+
 [Mortar_300mm]
 0.0 Mortar_300mm 0
 0.5 BarrelSmoke 0
@@ -982,6 +1032,22 @@
 2.0 damage
 2.0 hit
 2.2 BarrelSmoke 1
+
+[Maus]
+0.0 AT_Shell 1
+0.0 AT_75mm_03 1
+1.0 AT_Shell 0
+1.0 AT_105mm_06 0
+0.7 BarrelSmoke 1
+1.7 BarrelSmoke 0
+2.0 damage
+2.0 hit
+
+[Rocket_380mm]
+0.0 Rocket_380mm 0
+0.0 LauncherBarrelSmoke 0
+0.5 BarrelSmoke 0
+1.0 damage
 
 [Matilda_II_Hedgehog]
 0.0 AT_37mm_01 7
@@ -1795,19 +1861,6 @@
 0.0 GrenadeIdle 1 -1
 0.0 RifleIdle 2 -1
 
-[ConscriptsMove]
-0.0 InfantryMove
-0.0 RifleMove 0 -1
-0.0 RifleMove 1 -1
-0.0 RifleMove 2 -1
-0.0 RifleMove 3 -1
-
-[ConscriptsIdle]
-0.0 RifleIdleKneeled 0 -1
-0.0 GrenadeIdle 1 -1
-0.0 RifleIdleKneeled 2 -1
-0.0 RifleIdle 3 -1
-
 [SwordAttack]
 0.0 SwordAttack 0 -1
 0.0 Sword 0 -1
@@ -2047,6 +2100,19 @@
 0.0 RifleIdle 1 -1
 0.0 RifleIdle 2 -1
 
+[ConscriptsMove]
+0.0 InfantryMove
+0.0 RifleMove 0 -1
+0.0 RifleMove 1 -1
+0.0 RifleMove 2 -1
+0.0 RifleMove 3 -1
+
+[ConscriptsIdle]
+0.0 RifleIdleKneeled 0 -1
+0.0 GrenadeIdle 1 -1
+0.0 RifleIdleKneeled 2 -1
+0.0 RifleIdle 3 -1
+
 [ConscriptsAttack]
 0.0 RifleAim 2 -1
 0.0 RifleFireKneeled 0 -1
@@ -2206,6 +2272,40 @@
 2.0 MortarRound 0 0
 1.5 damage
 1.5 hit
+
+[VolkssturmIdle]
+0.0 RifleIdle 0 -1
+0.0 BazookaAim 1 -1
+0.0 RifleIdleKneeled 2 -1
+0.0 RifleIdle 3 -1
+
+[VolkssturmAttack]
+0.0 RifleAim 0 -1
+0.0 BazookaAim 1 -1
+0.0 RifleIdleKneeled 2 -1
+0.0 RifleAim 3 -1
+0.2 RifleFire 0 -1
+0.2 Rifle 0 0
+0.3 BulletImpact1x
+0.7 RifleFireKneeled 2 -1
+0.7 Rifle 2 0
+0.8 BulletImpact1x
+1.0 RifleIdle 0 -1
+1.2 BazookaFire 1 -1
+1.2 M18RecRifle 1 0
+1.2 BazookaExhaust 1 1
+1.5 BazookaAim 1 -1
+1.7 RifleIdleKneeled 2 -1
+1.7 RifleFire 3 -1
+1.7 Rifle 3 0
+1.8 BulletImpact1x
+2.2 RifleFire 0 -1
+2.2 Rifle 0 0
+2.3 BulletImpact1x
+2.7 RifleIdle 3 -1
+2.7 RifleIdle 0 -1
+2.0 damage
+2.0 hit
 
 
 // CAVALRY SEQUENCES
@@ -2674,7 +2774,7 @@
 1.0 damage
 1.0 hit
 
-[JetAttackJapan]
+[JetAttackCanon]
 0.0 AlF_Jet
 0.5 AircraftMG 0
 0.5 AircraftMG 1
@@ -2843,6 +2943,16 @@
 
 [Bombs]
 0.0 Bomber_FlyBy
+0.5 BombLight
+1.0 BombLight
+1.5 BombLight
+2.0 BombLight
+2.5 BombLight
+3.5 hit
+3.5 damage
+
+[JetBombs]
+0.0 AlF_Jet
 0.5 BombLight
 1.0 BombLight
 1.5 BombLight
@@ -3074,9 +3184,6 @@
 [AlB_VeeSin]
 0.0 AlB_VeeSin
 
-[AlF_Jet]
-0.0 AlF_Jet
-
 [AlF_RadSin]
 0.0 AlF_RadSin
 
@@ -3088,6 +3195,9 @@
 
 [AlF_VeeTw]
 0.0 AlF_VeeTw
+
+[AlF_Jet]
+0.0 AlF_Jet
 
 [Ax_EarlyFast_RadSin]
 0.0 Ax_EarlyFast_RadSin
@@ -3116,9 +3226,6 @@
 [AxB_RadTwin]
 0.0 AxB_RadTwin
 
-[AxF_Jet]
-0.0 AxF_Jet
-
 [AxF_RadSin]
 0.0 AxF_RadSin
 
@@ -3128,8 +3235,11 @@
 [AxF_VeeSin]
 0.0 AxF_VeeSin
 
-[JetMove]
-0.0 JetMove
+[AxF_Jet]
+0.0 AxF_Jet
+
+[AxB_Jet]
+0.0 AxB_Jet
 
 [AirDef30M1919_01]
 0.0 AirDef30M1919_01 0

@@ -66,7 +66,7 @@ spec_radar_ii_effect = • Adds a Radar range of 12 to all warships|• Adds a R
 
 spec_nuclear_bomb_title = Nuclear Fission Bomb
 spec_nuclear_bomb_descr = Based on modern atomic science, a massive research and development project can produce the ultimate weapon: a nuclear bomb.
-spec_nuclear_bomb_effect = • Nuclear Bombers can be purchased, capable of dealing a single but devastating attack to the target and adjacent hexes
+spec_nuclear_bomb_effect = • Adds 1 single-use nuclear bomber to our air force|• Additional nuclear bombers can be purchased
 
 spec_winter_gear_title = Winter Gear
 spec_winter_gear_descr = Equipping an army for severe winter weather requires an extensive commitment of resources, ranging from warm uniforms and adapted camouflage to special engine maintainance and widened tank tracks.
@@ -110,7 +110,7 @@ spec_panzer_keil_effect = • When attacking, tanks gain a defensive bonus from 
 
 spec_panzer_lehr_title = Panzer Lehr
 spec_panzer_lehr_descr = Concentrating various elite demonstration and training units will provide a new panzer division composed of the cream of Germany's armoured forces.
-spec_panzer_lehr_effect = • Grants a Panther D tank with 4 experience stars|• Disables the Tank School specialisation effect
+spec_panzer_lehr_effect = • Grants a Panther G tank with 4 experience stars|• Disables the Tank School specialisation effect
 
 spec_waffen_ss_title = Waffen SS
 spec_waffen_ss_descr = After serving under the OKW, the Waffen-SS will form its own command structure. To further expand this fanatic fighting force, volunteers are now recruited from conquered territories.

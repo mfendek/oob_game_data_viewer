@@ -82,7 +82,7 @@ spec_flight_school_effect = • Las nuevas unidades aéreas adquiridas empiezan 
 
 spec_tank_school_title = Escuela de Tanques
 spec_tank_school_descr = Un Amplio programa de entrenamientos para comandantes y tripulación de tanques les permitirá ser mas eficaces en armamento, comunicaciones, maniobras y la toma de decisiones tácticas.
-spec_tank_school_effect = • Nuevas unidades de tanques adquiridas empiezan con 1 estrella de experiencia
+spec_tank_school_effect = • Nuevas unidades de tanques adquiridas empiezan con +1 estrella de experiencia
 
 spec_naval_academy_title = Academia Naval
 spec_naval_academy_descr = Los cadetes navales deben obtener las requeridas calificaciones teóricas y prácticas en marinería, navegación, armamento y comportamiento correcto en servicio activo.
@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Unidades de infantería realizan +1 daño a tod
 
 spec_panzer_fibel_title = Panzer Fibel
 spec_panzer_fibel_descr = Los nuevos manuales de entrenamiento para tanques están diseñados para llamar la atención de los reclutas jovenes, usando ilustraciones con humor y atrevidas acompañadas de una jerga con la que las tropas se identificarán con facilidad.
-spec_panzer_fibel_effect = • Nuevos tanques adquiridos empiezan con 2 estrellas de experiencia|• Deshabilita la especialización Escuela de Tanques
+spec_panzer_fibel_effect = • Nuevos tanques adquiridos empiezan con +1 estrella de experiencia
 
 spec_pak_front_title = PaK Front
 spec_pak_front_descr = Al agrupar varias armas AT bajo un solo oficial, las armas pueden disparar al mismo tiempo contra varios objetivos, maximizando el elemento sorpresa y minimizando la posibilidad de haya un fuego de respuesta.
@@ -110,7 +110,7 @@ spec_panzer_4_effect = • Cuando atacan, los tanques ganan un bonus defensivo a
 
 spec_panzer_lehr_title = Panzer Lehr
 spec_panzer_lehr_descr = Concentrando varias unidades de demostración élite y entrenamiento proporcionará una nueva división panzer compuesta por lo mejor de las fuerzas blindadas de Alemania.
-spec_panzer_lehr_effect = • Proporciona un tanque Panther D con 4 estrellas de experiencia|• Deshabilita la especialización Escuela de Tanques
+spec_panzer_lehr_effect = • Proporciona un tanque Panther G con 4 estrellas de experiencia|• Deshabilita la especialización Escuela de Tanques
 
 spec_waffen_ss_title = Waffen SS
 spec_waffen_ss_descr = Después de servir bajo el OKW, la Waffen-SS formará su propia estructura de mando. Para expandir más allá esta fuerza fanática, voluntarios están siendo reclutados de los territorios conquistados.

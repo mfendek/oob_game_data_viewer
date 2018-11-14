@@ -82,11 +82,11 @@ spec_flight_school_effect = • Les unités aériennes nouvellement acquisent d�
 
 spec_tank_school_title = École de chars
 spec_tank_school_descr = Des programmes d'entraînement intensifs pour les équipages de chars et les commandants leur permettent d'être plus efficaces au tir ,en communication, pour les manœuvres et pour la prise de décision tactique.
-spec_tank_school_effect = • Les blindés nouvellement achetés débutent avec 1 étoile d'expérience. 
+spec_tank_school_effect = • Les blindés nouvellement achetés débutent avec +1 étoile d'expérience. 
 
 spec_naval_academy_title = Académie navale
 spec_naval_academy_descr = Les cadets de la Marine doivent obtenir les qualifications théoriques et pratiques nécessaires en navigation, artillerie et comportement correct en service actif dans la flotte.
-spec_naval_academy_effect = • Les unités navales nouvellement acquisent débutent avec 1 étoile d'expérience.
+spec_naval_academy_effect = • Les unités navales nouvellement acquisent débutent avec +1 étoile d'expérience.
 
 spec_damage_control_title = Contrôle des dégâts
 spec_damage_control_descr = Pour garantir la meilleure gestion possible des dégâts critiques subis au combat, des mesures importantes de contrôle – et un entraînement constant dans leur exécution – sont essentielles.
@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Les unités d'infanterie font +1 dégât aux ci
 
 spec_panzer_fibel_title = Panzer Fibel
 spec_panzer_fibel_descr = Les nouveaux manuels d'entraînement aux blindés sont conçus pour retenir l'attention des jeunes hommes, utilisant des dessins humoristiques et des illustrations sur les risques avec l'argot des troupes de combat. 
-spec_panzer_fibel_effect = • Les blindés nouvellement achetés débutent avec 2 étoiles d'expérience |• Désactive l'effet de la spécialisation École de chars
+spec_panzer_fibel_effect = • Les blindés nouvellement achetés débutent avec +1 étoile d'expérience
 
 spec_pak_front_title = Front PaK2
 spec_pak_front_descr = Grouper plusieurs canons AC sous un unique officier, les canons peuvent alors tirer ensemble avec un ciblage sélectif, maximisant l'effet de surprise et minimisant les chances de ripostes.
@@ -110,7 +110,7 @@ spec_panzer_keil_effect = • Lors d'une attaque, les chars gagnent un bonus dé
 
 spec_panzer_lehr_title = Panzer Lehr
 spec_panzer_lehr_descr = Concentrer divers unités d'élites fournira une nouvelle division de panzer s composée de la crème des forces armées allemandes.
-spec_panzer_lehr_effect = • Offre un char Panther D avec 4 étoiles d'expérience|• Désactive l'effet de la spécialisation École de chars
+spec_panzer_lehr_effect = • Offre un char Panther G avec 4 étoiles d'expérience|• Désactive l'effet de la spécialisation École de chars
 
 spec_waffen_ss_title = Waffen SS
 spec_waffen_ss_descr = Après avoir servi sous l'OKW, la Waffen-SS formera sa propre structure de commandement. Pour développer encore plus cette force de combattants fanatiques, des voluntaires sont maintenant recrutés dans les territoires conquis.

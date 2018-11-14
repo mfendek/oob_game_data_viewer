@@ -82,7 +82,7 @@ spec_flight_school_effect = • Neu gekaufte Lufteinheiten haben bereits 1 Erfah
 
 spec_tank_school_title = Panzerschule
 spec_tank_school_descr = Umfassende Ausbildungsprogramme für Panzerbesatzungen und -kommandanten verbessern ihre Fähigkeiten beim Schießen, bei der Kommunikation, bei Manövern und bei der taktischen Entscheidungsfindung.
-spec_tank_school_effect = • Neu gekaufte Panzer haben bereits 1 Erfahrungsstern.
+spec_tank_school_effect = • Neu gekaufte Panzer haben bereits +1 Erfahrungsstern.
 
 spec_naval_academy_title = Marineakademie
 spec_naval_academy_descr = Marinekadetten müssen die erforderliche theoretische und praktische Qualifikation in den Bereichen Seefahrtskunst, Navigation, Geschützhandhabung und Benehmen im aktiven Dienst bei der Flotte erlangen.
@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Infanterieeinheiten verursachen bei allen Boden
 
 spec_panzer_fibel_title = Panzerfibel
 spec_panzer_fibel_descr = Für die Ausbildung werden neue Panzerhandbücher gestaltet, damit die jungen Rekruten einen besseren Zugang zu den Inhalten finden. Dabei wird auf humorvolle, karikaturartige und erotische Illustrationen sowie auf umgangssprachliche Formulierungen zurückgegriffen.
-spec_panzer_fibel_effect = • Neu gekaufte Panzer haben bereits 2 Erfahrungssterne.|• Setzt den Effekt der Spezialisierung "Panzerschule" außer Kraft.
+spec_panzer_fibel_effect = • Neu gekaufte Panzer haben bereits +1 Erfahrungsstern.
 
 spec_pak_front_title = Pakfront
 spec_pak_front_descr = Mehrere Panzerabwehrkanonen werden einem einzelnen Offizier unterstellt, wodurch sie gleichzeitig auf bestimmte Ziele feuern können. Das Überraschungselement wird dadurch maximiert, während gleichzeitig die Wahrscheinlichkeit, dass der Feind das Feuer erwidert, minimiert wird.
@@ -110,7 +110,7 @@ spec_panzer_4_effect = • Beim Angriff erhalten Panzer einen Verteidigungsbonus
 
 spec_panzer_lehr_title = Panzer-Lehr-Division
 spec_panzer_lehr_descr = Mehrere Einheiten aus Panzertruppenschulen werden zusammengelegt und bilden eine neue Panzerdivision bestehend aus den besten gepanzerten Verbänden des Deutschen Reiches.
-spec_panzer_lehr_effect = • Sie erhalten einen Panzer des Typs Panther D mit 4 Erfahrungssternen.|• Setzt den Effekt der Spezialisierung "Panzerschule" außer Kraft.
+spec_panzer_lehr_effect = • Sie erhalten einen Panzer des Typs Panther G mit 4 Erfahrungssternen.|• Setzt den Effekt der Spezialisierung "Panzerschule" außer Kraft.
 
 spec_waffen_ss_title = Waffen-SS
 spec_waffen_ss_descr = Nachdem die Waffen-SS dem OKW unterstellt war, ist sie nun organisatorisch eigenständig. Zur Verstärkung dieser fanatischen Verbände werden in eroberten Gebieten Freiwillige rekrutiert.

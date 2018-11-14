@@ -123,10 +123,6 @@ spec_rocket_balistics_title = Rocket Ballistics
 spec_rocket_balistics_descr = ?
 spec_rocket_balistics_effect = •
 
-spec_waffen_ss_iii_title = Waffen SS III
-spec_waffen_ss_iii_descr = ?
-spec_waffen_ss_iii_effect = •
-
 spec_volkssturm_title = Volkssturm
 spec_volkssturm_descr = ?
 spec_volkssturm_effect = •

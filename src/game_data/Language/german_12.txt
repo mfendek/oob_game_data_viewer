@@ -1,0 +1,93 @@
+﻿﻿unit_2200 = SU-100
+unit_2201 = SU-85
+unit_2202 = La-7
+unit_2203 = KW-85
+unit_2204 = ISU-152
+unit_2205 = ISU-122
+unit_2206 = IS-2
+unit_2207 = IS-1
+unit_2208 = Il-10
+unit_2209 = T-34 Modell 1943
+unit_2210 = Meteor
+unit_2211 = Cromwell
+unit_2212 = Cromwell CS
+unit_2213 = Typhoon Mk. IB
+unit_2214 = Tempest Mk. V
+unit_2215 = Mosquito FB Mk. VI
+unit_2216 = Comet
+unit_2217 = Challenger
+unit_2218 = Ta 152
+unit_2219 = Fw 190 D
+unit_2220 = PzKpfw E-100
+unit_2221 = Ar 234
+unit_2222 = Me 262 Schwalbe
+unit_2223 = Fw 190 G
+unit_2224 = Jagdtiger
+unit_2225 = Jagdpanther
+unit_2226 = Sturmtiger
+unit_2227 = Sd.Kfz. 234 Puma
+unit_2228 = Ostwind
+unit_2229 = Ostwind
+unit_2230 = Jagdpanzer IV 70
+unit_2231 = Jagdpanzer IV 48
+unit_2232 = Jagdpanzer 38 Hetzer
+unit_2233 = ISU-152
+unit_2234 = ISU-122
+unit_2235 = Sturmtiger
+unit_2236 = Französische Infanterie '44
+unit_2237 = Französische Infanterie '45
+unit_2238 = Französische Partisanen
+unit_2239 = 57mm Gun M1
+unit_2240 = Volkssturm
+unit_2241 = Marder I
+unit_2242 = Wirbelwind
+unit_2243 = Wirbelwind
+unit_2244 = Polnische Infanterie '44
+unit_2245 = Polnische Infanterie '45
+unit_2246 = Polnische Fallschirmjäger '44
+unit_2247 = Polnische Fallschirmjäger '45
+unit_2248 = Kanadische Infanterie '44
+unit_2249 = Kanadische Infanterie '45
+unit_2250 = C-47 Skytrain
+unit_2251 = Schwere Kanadische Infanterie '44
+unit_2252 = Schwere Kanadische Infanterie '45
+unit_2253 = Kanadische Mörserinfanterie
+unit_2254 = T-34 Modell 1943
+unit_2255 = SU-85
+unit_2256 = KW-85
+unit_2257 = M4A2 Sherman
+unit_2258 = Atombomber
+unit_2259 = AB 43
+unit_2260 = Carro Armato P26/40
+unit_2261 = Semovente M43 da 105/25
+unit_2262 = Sd.Kfz. 251/20 Uhu
+unit_2263 = 283mm Krupp K5
+
+spec_entwicklung_series_title = Entwicklungsserie
+spec_entwicklung_series_descr = Die E-Serie umfasst verschiedene Gewichtsklassen und fokussiert sich auf die Standardisierung der Entwicklung von Fahrzeugen, womit sie einfacher, günstiger und schneller herzustellen sind.
+spec_entwicklung_series_effect = • Schwere Panzer des Typs PzKpfw E-100 stehen zum Kauf bereit.|• Der Kaufpreis und die Reparaturkosten der Panzer des Typs Panther und Tiger II sinken um 10%.
+
+spec_uranprojekt_title = Uranprojekt
+spec_uranprojekt_descr = Auf Basis moderner Kernforschung kann ein großangelegtes Forschungs- und Entwicklungsprojekt die ultimative Waffe hervorbringen: die Atombombe.
+spec_uranprojekt_effect = • Fügt unserer Luftwaffe 1 Atombomber hinzu, der ein Mal eingesetzt werden kann.|• Weitere Atombomber stehen zum Kauf bereit.
+
+spec_vampir_nachtjaeger_title = Nachtjäger Vampir
+spec_vampir_nachtjaeger_descr = Infrarotlicht kann nur mit speziellen Sichtgeräten gesehen werden. Wenn diese an Kampffahrzeugen angebracht werden, können sie eingesetzt werden, um feindliche Truppen in der Nacht zu entdecken und auszuschalten.
+spec_vampir_nachtjaeger_effect = • Fügt unserer Kernarmee ein Sd.Kfz. 251/20 Uhu hinzu, das angrenzenden Panzern einen Angriffsbonus gewährt.
+
+spec_waffen_ss_iii_title = Waffen-SS III
+spec_waffen_ss_iii_descr = Ein weiteres Erweiterungsprogramm, in dem auch Freiwillige aus allen Gebieten willkommen sind, die entweder von der deutschen Armee erobert wurden oder sich der deutschen Sache gewidmet haben. Durch das Programm wird die Waffen-SS zu einer starken und unabhängigen Kampfeinheit.
+spec_waffen_ss_iii_effect = • +6 Landbefehlspunkte für die Waffen-SS|• +5 Ressourcenpunkte pro Runde werden von Deutschland an die Waffen-SS transferiert.
+
+starting_date = Startdatum
+ending_date = Enddatum
+
+editor_importable_core_name = <Name der importierten Kernarmee>
+tooltip_import_target_core = Importierte Einheiten landen in dieser Kernarmee.
+tooltip_add_importable_core = Festlegen, welche Kernarmeen aus welchen Kampagnen importiert werden können
+tooltip_add_imported_bonus_resources = Bonusressourcen für eine importierte Nation festlegen
+
+faction_czechoslovakia = Tschechoslowakei
+
+tutorial_content_endsieg_title = [Neuer Inhalt] Endsieg
+tutorial_content_endsieg = In diesem finalen Kapitel der Deutschen Kampagnen-Trilogie wird der Ausgang des Krieges in Europa entschieden. Kann die Wehrmacht, kurz nach dem Kampf bei Kursk, die sowjetische Offensive aufhalten, der Gefahr der Alliierten Invasion im Westen trotzen und endgültig bestehen?

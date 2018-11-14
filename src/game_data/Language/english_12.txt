@@ -1,0 +1,93 @@
+﻿unit_2200 = SU-100
+unit_2201 = SU-85
+unit_2202 = La-7
+unit_2203 = KV-85
+unit_2204 = ISU-152
+unit_2205 = ISU-122
+unit_2206 = IS-2
+unit_2207 = IS-1
+unit_2208 = Il-10
+unit_2209 = T-34 Mod. 1943
+unit_2210 = Meteor
+unit_2211 = Cromwell
+unit_2212 = Cromwell CS
+unit_2213 = Typhoon Mk.IB
+unit_2214 = Tempest Mk.V
+unit_2215 = Mosquito FB Mk.VI
+unit_2216 = Comet
+unit_2217 = Challenger
+unit_2218 = Ta 152
+unit_2219 = FW 190 D
+unit_2220 = PzKw. E-100
+unit_2221 = Ar 234
+unit_2222 = Me 262 Schwalbe
+unit_2223 = FW 190 G
+unit_2224 = Jagdtiger
+unit_2225 = Jagdpanther
+unit_2226 = Sturmtiger
+unit_2227 = SdKfz. 234 Puma
+unit_2228 = Ostwind
+unit_2229 = Ostwind
+unit_2230 = Jagdpanzer IV 70
+unit_2231 = Jagdpanzer IV 48
+unit_2232 = Jagdpanzer 38 Hetzer
+unit_2233 = ISU-152
+unit_2234 = ISU-122
+unit_2235 = Sturmtiger
+unit_2236 = French Infantry '44
+unit_2237 = French Infantry '45
+unit_2238 = French Partisans
+unit_2239 = 57mm Gun M1
+unit_2240 = Volkssturm
+unit_2241 = Marder I
+unit_2242 = Wirbelwind
+unit_2243 = Wirbelwind
+unit_2244 = Polish Infantry '44
+unit_2245 = Polish Infantry '45
+unit_2246 = Polish Paratroopers '44
+unit_2247 = Polish Paratroopers '45
+unit_2248 = Canadian Infantry '44
+unit_2249 = Canadian Infantry '45
+unit_2250 = C47 Skytrain
+unit_2251 = Canadian Heavy Infantry '44
+unit_2252 = Canadian Heavy Infantry '45
+unit_2253 = Canadian Mortar Infantry
+unit_2254 = T-34 Mod. 1943
+unit_2255 = SU-85
+unit_2256 = KV-85
+unit_2257 = M4A2 Sherman
+unit_2258 = Atombomber
+unit_2259 = AB 43
+unit_2260 = Carro Armato P26/40
+unit_2261 = Semovente M43 da 105/25
+unit_2262 = SdKfz. 251/20 Uhu
+unit_2263 = 283mm Krupp K5
+
+spec_entwicklung_series_title = Entwicklung Series
+spec_entwicklung_series_descr = The E-series consists of different weight classes and focuses on standardization of armoured vehicle design, making them simpler, cheaper, and faster to produce.
+spec_entwicklung_series_effect = • Pzkw E-100 heavy tanks can be purchased |• Panther and Tiger II tanks purchase and repair costs becomes 10% cheaper
+
+spec_uranprojekt_title = Uranprojekt
+spec_uranprojekt_descr = Based on modern atomic science, a massive research and development project can produce the ultimate weapon: a nuclear bomb.
+spec_uranprojekt_effect = • Adds 1 single-use nuclear bomber to our air force |• Additional nuclear bombers can be purchased
+
+spec_vampir_nachtjaeger_title = Vampir Nachtjäger
+spec_vampir_nachtjaeger_descr = Infrared light is only visible through special sighting devices. When attached to combat vehicles, it can thus be used to detect and destroy the enemy during night attacks.
+spec_vampir_nachtjaeger_effect = • Adds an Sdkfz 251/20 Uhu to our army core, which provides an offensive combat bonus to adjacent tanks.
+
+spec_waffen_ss_iii_title = Waffen SS III
+spec_waffen_ss_iii_descr = Another expansion program, accepting volunteers from all territories conquered by the German army or affiliated to its cause, will increase the Waffen SS to a powerful and independent fighting force.
+spec_waffen_ss_iii_effect = • +6 Ground CP for the Waffen SS faction|• +5 RP per turn are transferred from Germany to the Waffen SS faction
+
+starting_date = Start date
+ending_date = End date
+
+editor_importable_core_name = <imported core name>
+tooltip_import_target_core = Imported units will go into this core.
+tooltip_add_importable_core = Define which cores can be imported from which campaigns
+tooltip_add_imported_bonus_resources = Add bonus resources for an imported nation
+
+faction_czechoslovakia = Czechoslovakia
+
+tutorial_content_endsieg_title = [New content] Endsieg
+tutorial_content_endsieg = In this final chapter of the German campaign trilogy, the outcome of the war in Europe will be decided. Following the struggle at Kursk, can the Wehrmacht hold back the Soviet counter offensives, deal with the threat of Allied invasion in the west and ultimately prevail?

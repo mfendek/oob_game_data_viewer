@@ -47,6 +47,7 @@ category = land
 stats = 12, 13, 1, 3, 2, 16, 17, 5, 15, 14
 transportable
 bombard
+strategicAttack
 
 [ANTI_AIR]
 id = 5
