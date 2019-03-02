@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Infantry units deal +1 damage to all ground tar
 
 spec_panzer_fibel_title = Panzerfibel
 spec_panzer_fibel_descr = The new tank training manuals are designed to catch the attention of the young men, using humorous and risque cartoon illustrations along with slang the combat troops would identify with. 
-spec_panzer_fibel_effect = • Newly purchased tanks start with 2 experience stars|• Disables the Tank School specialisation effect
+spec_panzer_fibel_effect = • Newly purchased tanks start with 1 additional experience star
 
 spec_pak_front_title = Pakfront
 spec_pak_front_descr = Grouping several AT guns under a single officer, the guns can all fire at once against selective targets, maximizing the element of surprise and minimizing the chance for return fire.

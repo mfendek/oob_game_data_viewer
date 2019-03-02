@@ -2061,6 +2061,7 @@ pbem_open_challenges = Offene Herausforderungen
 pbem_my_matches = Meine Partien
 pbem_my_challenges = Meine Herausforderungen
 pbem_all_games = Alle Partien
+pbem_tournament_games = Tournament
 pbem_game_name = Name der Partie
 pbem_players = Verbündete & Gegner
 pbem_date = Erstellungsdatum

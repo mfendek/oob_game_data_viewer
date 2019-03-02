@@ -91,3 +91,6 @@ faction_czechoslovakia = Tschechoslowakei
 
 tutorial_content_endsieg_title = [Neuer Inhalt] Endsieg
 tutorial_content_endsieg = In diesem finalen Kapitel der Deutschen Kampagnen-Trilogie wird der Ausgang des Krieges in Europa entschieden. Kann die Wehrmacht, kurz nach dem Kampf bei Kursk, die sowjetische Offensive aufhalten, der Gefahr der Alliierten Invasion im Westen trotzen und endgültig bestehen?
+
+trait_76_title = Direkter Feuermodus
+trait_76_descr = Die Einheit kann in den direkten Feuermodus wechseln.

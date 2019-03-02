@@ -1998,6 +1998,7 @@ pbem_open_challenges = Открытый вызов
 pbem_my_matches = Мои матчи
 pbem_my_challenges = Мои вызовы
 pbem_all_games = Все игры
+pbem_tournament_games = турнир
 pbem_game_name = Имя игры
 pbem_players = Союзники & Противники
 pbem_date = Дата публикации

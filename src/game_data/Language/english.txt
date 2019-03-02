@@ -1991,6 +1991,7 @@ pbem_open_challenges = Open Challenges
 pbem_my_matches = My Matches
 pbem_my_challenges = My Challenges
 pbem_all_games = All Games
+pbem_tournament_games = Tournament
 pbem_game_name = Game Name
 pbem_players = Allies & Opponents
 pbem_date = Date Issued

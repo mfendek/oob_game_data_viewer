@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Unidades de infantería realizan +1 daño a tod
 
 spec_panzer_fibel_title = Panzer Fibel
 spec_panzer_fibel_descr = Los nuevos manuales de entrenamiento para tanques están diseñados para llamar la atención de los reclutas jovenes, usando ilustraciones con humor y atrevidas acompañadas de una jerga con la que las tropas se identificarán con facilidad.
-spec_panzer_fibel_effect = • Nuevos tanques adquiridos empiezan con +1 estrella de experiencia
+spec_panzer_fibel_effect = • Nuevos tanques adquiridos empiezan con +1 estrella de experiencia adicional
 
 spec_pak_front_title = PaK Front
 spec_pak_front_descr = Al agrupar varias armas AT bajo un solo oficial, las armas pueden disparar al mismo tiempo contra varios objetivos, maximizando el elemento sorpresa y minimizando la posibilidad de haya un fuego de respuesta.

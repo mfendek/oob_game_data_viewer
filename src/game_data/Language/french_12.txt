@@ -91,3 +91,7 @@ faction_czechoslovakia = Tchécoslovaquie
 
 tutorial_content_endsieg_title = [Nouveau contenu] Endsieg
 tutorial_content_endsieg = Dans ce dernier chapitre sur la campagne allemande, le sort de la guerre en Europe sera décidé. A la suite de la bataille de Kursk, la Wehrmacht peut-elle retenir les contre-offensives soviétiques, faire face à la menace à l'ouest de l'invasion des Alliés et ultimement l'emporter ?
+
+trait_76_title = Mode tir direct
+
+trait_76_descr = L'unité peut passer en configuration tir direct

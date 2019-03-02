@@ -2060,6 +2060,7 @@ pbem_open_challenges  = オープンチャレンジ
 pbem_my_matches  = 自分の対戦
 pbem_my_challenges  = 自分のチャレンジ
 pbem_all_games  = 全てのゲーム
+pbem_tournament_games  = トーナメント
 pbem_game_name  = ゲームの名前
 pbem_players  = 味方と対戦者
 pbem_date  = 発行日

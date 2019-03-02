@@ -98,7 +98,7 @@ spec_auftragstaktik_effect = • Infanterieeinheiten verursachen bei allen Boden
 
 spec_panzer_fibel_title = Panzerfibel
 spec_panzer_fibel_descr = Für die Ausbildung werden neue Panzerhandbücher gestaltet, damit die jungen Rekruten einen besseren Zugang zu den Inhalten finden. Dabei wird auf humorvolle, karikaturartige und erotische Illustrationen sowie auf umgangssprachliche Formulierungen zurückgegriffen.
-spec_panzer_fibel_effect = • Neu gekaufte Panzer haben bereits +1 Erfahrungsstern.
+spec_panzer_fibel_effect = • Neu gekaufte Panzer haben bereits +1 zusätzlicher Erfahrungsstern.
 
 spec_pak_front_title = Pakfront
 spec_pak_front_descr = Mehrere Panzerabwehrkanonen werden einem einzelnen Offizier unterstellt, wodurch sie gleichzeitig auf bestimmte Ziele feuern können. Das Überraschungselement wird dadurch maximiert, während gleichzeitig die Wahrscheinlichkeit, dass der Feind das Feuer erwidert, minimiert wird.

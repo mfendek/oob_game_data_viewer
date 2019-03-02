@@ -19,7 +19,7 @@ Waffen_SS;10;land;germany;8/1940;/;;10;Waffen_SS;no
 Waffen_SS_II;56;land;germany;6/1942;Waffen_SS;;15;Waffen_SS_II;no
 Waffen_SS_III;57;land;germany;10/1943;Waffen_SS_II;;15;Waffen_SS_III;no
 Organisation_Todt;85;land;germany;1941;/;;5;Arbeitnehmer;yes
-Entwicklung_Series;87;land;germany;7/1945;War_Economy;;5;e_series;no
+Entwicklung_Series;87;land;germany;1/1945;War_Economy;;5;e_series;no
 Vampir_Nachtjaeger;89;land;germany;11/1944;/;;5;infrared;no
 Uranprojekt;88;land;germany;1945;/;;20;nuke;no
 Banzai_Charge;2;land;japan;1940;/;;5;Banzai_Charge;no

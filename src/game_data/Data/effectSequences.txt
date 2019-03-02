@@ -1449,6 +1449,7 @@
 0.7 Rifle 2 0
 0.8 BulletImpact1x
 1.2 BazookaFire 1 -1
+1.2 Bazooka 1 0
 1.2 M18RecRifle 1 0
 1.2 BazookaExhaust 1 1
 1.5 Rifle 0 0
@@ -2281,7 +2282,6 @@
 
 [VolkssturmAttack]
 0.0 RifleAim 0 -1
-0.0 BazookaAim 1 -1
 0.0 RifleIdleKneeled 2 -1
 0.0 RifleAim 3 -1
 0.2 RifleFire 0 -1
@@ -2291,10 +2291,8 @@
 0.7 Rifle 2 0
 0.8 BulletImpact1x
 1.0 RifleIdle 0 -1
-1.2 BazookaFire 1 -1
-1.2 M18RecRifle 1 0
+1.2 Bazooka 1 0
 1.2 BazookaExhaust 1 1
-1.5 BazookaAim 1 -1
 1.7 RifleIdleKneeled 2 -1
 1.7 RifleFire 3 -1
 1.7 Rifle 3 0

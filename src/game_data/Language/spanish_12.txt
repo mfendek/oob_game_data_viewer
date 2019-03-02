@@ -91,3 +91,7 @@ faction_czechoslovakia = Checoslovaquia
 
 tutorial_content_endsieg_title = [Nuevo contenido] Endsieg
 tutorial_content_endsieg = En este capítulo final de la trilogía de la campaña alemana, se decidirá el resultado de la guerra en Europa. Después de la batalla de Kursk, ¿podrá la Wehrmacht frenar las contraofensivas soviéticas y lidiar con la amenaza de invasión aliada en el oeste?
+
+trait_76_title = Modo de Fuego Directo
+
+trait_76_descr = La unidad puede cambiar a Fuego Directo

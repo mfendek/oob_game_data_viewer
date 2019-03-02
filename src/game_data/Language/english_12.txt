@@ -91,3 +91,6 @@ faction_czechoslovakia = Czechoslovakia
 
 tutorial_content_endsieg_title = [New content] Endsieg
 tutorial_content_endsieg = In this final chapter of the German campaign trilogy, the outcome of the war in Europe will be decided. Following the struggle at Kursk, can the Wehrmacht hold back the Soviet counter offensives, deal with the threat of Allied invasion in the west and ultimately prevail?
+
+trait_76_title = Direct Fire Mode
+trait_76_descr = Unit can switch to direct fire setup
