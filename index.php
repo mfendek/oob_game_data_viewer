@@ -46,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2019-03-02';
+    $version = '2019-03-11';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -61,6 +61,7 @@ try {
         'available',
         'trait',
         'switch',
+        'supply',
     ];
 
     // number of items per one page
@@ -413,6 +414,7 @@ try {
         $filterTraits = [];
         $filterSwitch = [];
         $filterFactions = [];
+        $filterSupply = [];
         $filterAvailable = '';
         $filterExpire = '';
         $units = [];
@@ -440,10 +442,11 @@ try {
             $category = $line[3];
             $type = $line[4];
             $chassis = $line[15];
-            $cargo = (!empty($line[34])) ? (int) $line[34] : 0;
+            $supply = (int) $line[20];
+            $steps = (int) $line[24];
             $fuel = (!empty($line[25])) ? (int) $line[25] : 0;
             $blast = (!empty($line[33])) ? (int) $line[33] : 0;
-            $steps = (int) $line[24];
+            $cargo = (!empty($line[34])) ? (int) $line[34] : 0;
 
             // collect all ids that belong to specific unit name
             $name = strtolower($name);
@@ -456,6 +459,8 @@ try {
                 $unitNames[$name] = [$id];
             }
 
+            $supplyFilterValue = (string) $supply;
+            $filterSupply[$supplyFilterValue] = $supplyFilterValue;
             $filterCategories[$category] = $category;
             $filterTypes[$type] = $type;
             $filterChassis[$chassis] = $chassis;
@@ -662,7 +667,7 @@ try {
                 'expire' => $expire,
                 'series' => $series,
                 'cost' => (!empty($line[19])) ? (int) $line[19] : 0,
-                'supply' => (int) $line[20],
+                'supply' => $supply,
                 'movement' => (int) $line[22],
                 'actions' => (int) $line[23],
                 'steps' => $steps,
@@ -944,6 +949,7 @@ try {
         sort($filterFactions, SORT_STRING);
         sort($filterTraits, SORT_STRING);
         sort($filterSwitch, SORT_STRING);
+        sort($filterSupply, SORT_STRING);
 
         // sort terrain data
         foreach ($terrain as $climate => $climateData) {
@@ -992,6 +998,11 @@ try {
                 'type' => 'drop-down',
                 'label' => 'chassis',
                 'list' => $filterChassis,
+            ],
+            'supply' => [
+                'type' => 'drop-down',
+                'label' => 'supply',
+                'list' => $filterSupply,
             ],
             'trait' => [
                 'type' => 'drop-down',

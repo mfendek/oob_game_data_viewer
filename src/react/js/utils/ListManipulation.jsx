@@ -73,6 +73,13 @@ export const getFilteredList = (unitsData, unitsList, filters) => {
       }
     }
 
+    // supply filter
+    if (typeof filters.supply !== 'undefined' && filters.supply.value !== '') {
+      if (unitData.supply !== parseInt(filters.supply.value)) {
+        continue;
+      }
+    }
+
     // trait filter
     if (typeof filters.trait !== 'undefined' && filters.trait.value !== '') {
       let itemFound = false;
