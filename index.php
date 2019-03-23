@@ -46,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2019-03-23';
+    $version = '2019-03-24';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -433,7 +433,7 @@ try {
             }
 
             // check for valid ID, ignore empty lines and comments
-            if (empty($line[1]) || filter_var($line[1], FILTER_VALIDATE_INT) === false) {
+            if (filter_var($line[1], FILTER_VALIDATE_INT) === false) {
                 continue;
             }
 
