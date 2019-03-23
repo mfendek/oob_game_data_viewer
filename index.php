@@ -46,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2019-03-11';
+    $version = '2019-03-23';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -483,13 +483,13 @@ try {
 
             $filterFactions = array_unique($filterFactions);
 
-            $available = DateTime::createFromFormat('j/n/Y', $line[16]);
+            $available = DateTime::createFromFormat('j/n/Y', trim($line[16]));
             $available = ($available) ? $available->format('U') : '';
             if ($available !== '' && ($filterAvailable === '' || $filterAvailable > $available)) {
                 $filterAvailable = $available;
             }
 
-            $expire = DateTime::createFromFormat('j/n/Y', $line[17]);
+            $expire = DateTime::createFromFormat('j/n/Y', trim($line[17]));
             $expire = ($expire) ? $expire->format('U') : '';
             if ($expire !== '' && ($filterExpire === '' || $filterExpire < $expire)) {
                 $filterExpire = $expire;
