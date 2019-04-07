@@ -46,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2019-03-24';
+    $version = '2019-04-07';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -133,6 +133,8 @@ try {
         'hardToHit' => 'Difficult Target',
         'slowRepair' => 'Limited Replacements',
         'supplyResilient' => 'Supply Resilient',
+        'noEditor' => 'No Editor',
+        'noPurchase' => 'No Purchase',
     ];
 
     $customTraits = [
@@ -404,6 +406,8 @@ try {
         foreach ($traitsLocalisedData as $item) {
             $traitsLocalised[$item['title']] = $item['desc'];
         }
+        $traitsLocalised['No Editor'] = 'Not available in editor';
+        $traitsLocalised['No Purchase'] = 'Not available for purchase';
 
         // process units
         $dataFile = openDataFile($dataPath, 'units.csv', $modUrl, $modFiles);
