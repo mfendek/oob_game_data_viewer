@@ -515,6 +515,46 @@ range = 0
 camouflaged
 undetachable
 
+[SOVIET_LAND_1]
+id = 121
+category = land
+faction = ussr
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 1
+defense = infantry_defense, -2
+defense = vehicle_defense, -2
+range = 0
+
+[SOVIET_LAND_2]
+id = 122
+category = land
+faction = ussr
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 1
+defense = infantry_defense, -2
+defense = vehicle_defense, -2
+range = 0
+
+[SOVIET_LAND_3]
+id = 123
+category = land
+faction = ussr
+weapon = infantry_attack, 2
+weapon = vehicle_attack, 1
+defense = infantry_defense, -2
+defense = vehicle_defense, -2
+range = 0
+
+[NVKD]
+id = 124
+category = land
+faction = ussr
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+range = 4
+generic
+noRetreat
+
 
 //////////////////////////
 //	    CHINA	//

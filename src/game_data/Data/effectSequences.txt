@@ -1043,9 +1043,29 @@
 2.0 damage
 2.0 hit
 
+[E-100]
+0.0 AT_Shell 1
+0.0 AT_75mm_03 1
+0.5 MG 2
+0.5 hit
+1.0 AT_Shell 0
+1.0 AT_105mm_06 0
+0.7 BarrelSmoke 1
+1.7 BarrelSmoke 0
+2.0 damage
+2.0 hit
+
 [Rocket_380mm]
 0.0 Rocket_380mm 0
 0.0 LauncherBarrelSmoke 0
+0.5 BarrelSmoke 0
+1.0 damage
+
+[Rocket_380mm_MG]
+0.0 Rocket_380mm 0
+0.0 LauncherBarrelSmoke 0
+0.5 MG 1
+0.5 hit
 0.5 BarrelSmoke 0
 1.0 damage
 

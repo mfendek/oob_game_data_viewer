@@ -19,16 +19,16 @@ Waffen_SS;10;land;germany;8/1940;/;;10;Waffen_SS;no
 Waffen_SS_II;56;land;germany;6/1942;Waffen_SS;;15;Waffen_SS_II;no
 Waffen_SS_III;57;land;germany;10/1943;Waffen_SS_II;;15;Waffen_SS_III;no
 Organisation_Todt;85;land;germany;1941;/;;5;Arbeitnehmer;yes
-Entwicklung_Series;87;land;germany;1/1945;War_Economy;;5;e_series;no
+Entwicklung_Series;87;land;germany;7/1945;War_Economy;;5;e_series;no
 Vampir_Nachtjaeger;89;land;germany;11/1944;/;;5;infrared;no
 Uranprojekt;88;land;germany;1945;/;;20;nuke;no
 Banzai_Charge;2;land;japan;1940;/;;5;Banzai_Charge;no
 Bushido_Code;6;land;japan;1940;/;;5;bushido_code;no
-Forced_Labour;73;land;japan, germany;6/1941;/;;7;forced_labour;no
+Forced_Labour;73;land;japan, germany, ussr;6/1941;/;;7;forced_labour;no
 Super_Sensha;72;land;japan;1943;/;;10;super_sensha;no
 Landing_Craft_Infantry;34;land;japan, britain, usa, marine_corps;6/1941;/;;7;landing_craft_infantry;no
 Defensive_Doctrine;69;land;japan;/;/;;5;build_bunkers;no
-Lend_Lease_Act;59;land;britain, ussr, china;10/1941;/;;3;lend_lease;no
+Lend_Lease_Act;59;land;britain, china;10/1941;/;;3;lend_lease;no
 Home_Guard;;land;britain;1940;/;;5;home_guard;no
 Metal_Detector;42;land;britain;7/1942;/;;3;metal_detector;no
 Hobarts_Funnies;49;land;britain;5/1944;/;;3;hobarts_funnies;no
@@ -36,6 +36,10 @@ Free_French;;land;britain;8/1940;/;;4;free_french;no
 Resistance_Fighters;;land;britain;8/1941;Free_French;;3;resistance_fighters;no
 Special_Services;61;land;britain;7/1940;/;;3;special_services;no
 Carri_Armati_Avanzati;86;land;italy;6/1942;/;;10;super_sensha;no
+Order_No227 ;92;land;ussr;8/1941;/;;5;order_no227;no
+Arctic_Convoy;93;land;ussr;9/1941;/;;10;arctic_convoy;no
+Guard_Infantry;94;land;ussr;10/1941;/;;5;guard_infantry;no
+Lend_Lease_USSR;;land;ussr;2/1942;/;;10;lend_lease_ussr;no
 ;;;;;;;;;
 ;;;;;;;;;
 // NAVAL;;;;;;;;;
@@ -73,6 +77,7 @@ Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
 Radar_I;25;naval, air;usa, britain, germany, japan, ussr, kriegsmarine;1940;/;;5;Radar_I;no
 Radar_II;26;naval, air;usa, britain, germany, kriegsmarine;1942;Radar_I, Tizard_Mission;;5;Radar_II;no
 Proximity_Fuse;28;land, naval;usa, britain, ussr, germany, kriegsmarine;1943;Radar_I;;5;Proximity_Fuse;no
+Molotov–Ribbentrop_Pact;91;land, air;ussr;8/1939;/;;5;molotov–ribbentrop_pact;no
 Tokyo_Express;40;land, naval;japan;1942;/;;7;destroyer_supply_bonus;no
 Kamikaze;66;all;japan;1944;Bushido_Code;;5;kamikaze;yes
 Yanagi_Missions;70;land, air;japan;1943;/;;10;yanagi_missions;no

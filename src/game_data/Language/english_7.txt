@@ -166,7 +166,7 @@ spec_unrestricted_submarines_effect = • Submarines gain +3 attack against tran
 
 spec_scrambling_title = Scrambling
 spec_scrambling_descr = As radar observations detect enemy aircraft, fighter pilots receive the order to "scramble" by a loud alarm. A rapid response from these air crews will allow them to take a more advantageous position over the incoming enemy formations.
-spec_scrambling_effect = • Land-based fighter aircraft can take off, move, and attack during the same turn |• Land-based fighter aircraft lose less efficiency during the turn of their take off.
+spec_scrambling_effect = • Fighter aircraft can take off, move, and attack during the same turn |• Fighter aircraft lose less efficiency during the turn of their take off.
 
 spec_field_camouflage_title = Field Camouflage
 spec_field_camouflage_descr = Besides the use of regulated camouflage netting and colour patterns, skilled use of terrain features and available materials can help conceal military assets from aerial and ground reconnaissance.
