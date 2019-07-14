@@ -515,35 +515,33 @@ range = 0
 camouflaged
 undetachable
 
-[SOVIET_LAND_1]
+// SOVIET_LAND_1
+[FEDIR_BABACHENKO]
 id = 121
 category = land
 faction = ussr
-weapon = infantry_attack, 2
-weapon = vehicle_attack, 1
-defense = infantry_defense, -2
-defense = vehicle_defense, -2
+weapon = infantry_attack, 1
+defense = bombard_defense, 1
 range = 0
 
-[SOVIET_LAND_2]
+// SOVIET_LAND_2
+[GEORGY_ZHUKOV]
 id = 122
 category = land
 faction = ussr
-weapon = infantry_attack, 2
-weapon = vehicle_attack, 1
-defense = infantry_defense, -2
-defense = vehicle_defense, -2
-range = 0
+weapon = vehicle_attack, 2
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+range = 3
 
-[SOVIET_LAND_3]
+// SOVIET_LAND_3 
+[MIKHAIL_KATUKOV]
 id = 123
 category = land
 faction = ussr
-weapon = infantry_attack, 2
-weapon = vehicle_attack, 1
-defense = infantry_defense, -2
-defense = vehicle_defense, -2
-range = 0
+weapon = vehicle_attack, 2
+defense = vehicle_defense, 1
+range = 1
 
 [NVKD]
 id = 124
@@ -551,7 +549,7 @@ category = land
 faction = ussr
 weapon = infantry_attack, 1
 weapon = vehicle_attack, 1
-range = 4
+range = 1
 generic
 noRetreat
 

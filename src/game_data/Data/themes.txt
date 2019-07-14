@@ -31,7 +31,7 @@ ui = ussr
 video = ussr
 music = usa
 turn = ussr
-difficulty = usa
+difficulty = soviet
 
 [FINLAND]
 ui = finland
