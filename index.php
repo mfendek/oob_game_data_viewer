@@ -46,7 +46,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2019-07-14';
+    $version = '2019-08-13';
 
     // configuration
     $dataPath = 'src/game_data/Data/';

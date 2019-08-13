@@ -1,9 +1,9 @@
 ﻿tooltip_torpedo_launch_disabled_7 = Torpedoes can't be launched until the aircraft is deployed.
 tooltip_torpedo_launch_disabled_6 = Torpedoes can only be fired if the aircraft is airborne
 
-commander_121 = Soviet General 1
-commander_122 = Soviet General 2
-commander_123 = Soviet General 3
+commander_121 = Fedir Babachenko
+commander_122 = Georgy Zhukov
+commander_123 = Mikhail Katukov
 commander_124 = NKVD Commander
 
 unit_2264 = 122mm A19
@@ -18,11 +18,11 @@ unit_2272 = SU-1-12
 unit_2273 = R-10
 unit_2274 = Su-2
 unit_2275 = Matilda Mk.II
-unit_2276 = Guard Infantry '41
-unit_2277 = Guard Infantry '42
-unit_2278 = Guard Infantry '43
-unit_2279 = Guard Infantry '44
-unit_2280 = Guard Infantry '45
+unit_2276 = Guards Infantry '41
+unit_2277 = Guards Infantry '42
+unit_2278 = Guards Infantry '43
+unit_2279 = Guards Infantry '44
+unit_2280 = Guards Infantry '45
 unit_2281 = BT-7 A
 
 difficulty_soviet_0 = Lieutenant
@@ -30,6 +30,9 @@ difficulty_soviet_1 = Captain
 difficulty_soviet_2 = Major
 difficulty_soviet_3 = Colonel
 difficulty_soviet_4 = General
+
+tutorial_content_soviet_title = [New content] Red Star
+tutorial_content_soviet = Red Star ---
 
 spec_molotov–ribbentrop_pact_title = Molotov–Ribbentrop Pact
 spec_molotov–ribbentrop_pact_descr = Signing the "Treaty of Non-aggression" with Germany will secure peace along our western borders, which in turn allows the Red Army to concentrate more strength in other sectors.
@@ -40,7 +43,7 @@ spec_order_no227_effect = • Allocates an NKVD commander to our army, instructe
 spec_arctic_convoy_title = Arctic Convoy
 spec_arctic_convoy_descr = British and Americn supply convoys can sail through the Artic waters and reach the Soviet ports of Arkhangelsk and Murmansk in Northern Russia.
 spec_arctic_convoy_effect = • Free Valentine tank|• Allows the purchase of Valentine and Matilda tanks
-spec_guard_infantry_title = Guard Infantry
+spec_guard_infantry_title = Guards Infantry
 spec_guard_infantry_descr = The title of Soviet Guards will be introduced to reward the distinguished service of selected Rifle Divisions. This great honor will further encourage the 
 spec_guard_infantry_effect = • 4 star Soviet Infantry can be upgraded to Guard Infantry
 spec_lend_lease_ussr_title = Lend Lease Act
