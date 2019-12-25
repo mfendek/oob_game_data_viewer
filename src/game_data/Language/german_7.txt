@@ -106,7 +106,7 @@ spec_pak_front_effect = • Panzerabwehrkanonen verursachen bei Panzern +2 Schad
 
 spec_panzer_keil_title = Panzerkeil
 spec_panzer_keil_descr = Bei dieser offensiven Panzerformation nehmen die Panzer eine keilförmige Aufstellung ein. Die schwersten Panzer bilden die Spitze und schützen damit die verwundbareren Panzer vor feindlichem Beschuss.
-spec_panzer_4_effect = • Beim Angriff erhalten Panzer einen Verteidigungsbonus von verbündeten Panzern, die an sie und das Angriffsziel angrenzen und die Eigenschaft "Schwergewicht" aufweisen.
+spec_panzer_keil_effect = • Beim Angriff erhalten Panzer einen Verteidigungsbonus von verbündeten Panzern, die an sie und das Angriffsziel angrenzen und die Eigenschaft "Schwergewicht" aufweisen.
 
 spec_panzer_lehr_title = Panzer-Lehr-Division
 spec_panzer_lehr_descr = Mehrere Einheiten aus Panzertruppenschulen werden zusammengelegt und bilden eine neue Panzerdivision bestehend aus den besten gepanzerten Verbänden des Deutschen Reiches.

@@ -141,6 +141,10 @@ hotkey_18 = Noms des lieux
 
 map_location_names = Afficher les noms des lieux sur la carte
 
+change_map_mode_title = Changer le mode d'affichage de la carte
+change_map_mode_text = Changer le mode d'affichage de la carte nécessite de recharger le scénario. Voulez-vous faire cela maintenant ?
+change_map_mode_fail_text = Vous pouvez seulement changer le mode d'affichage de la carte durant votre propre tour.
+
 low_spec_mode_title = Mode basse configuration
 low_spec_mode_text = Activer le mode basse configuration nécessite de recharger le scénario. Voulez-vous le faire maintenant ?
 low_spec_mode = Mode basse configuration

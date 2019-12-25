@@ -24,6 +24,7 @@ unit_2278 = Guards Infantry '43
 unit_2279 = Guards Infantry '44
 unit_2280 = Guards Infantry '45
 unit_2281 = BT-7 A
+unit_2300 = GAZ-AAA 4M Maxim
 
 difficulty_soviet_0 = Lieutenant
 difficulty_soviet_1 = Captain
@@ -32,20 +33,20 @@ difficulty_soviet_3 = Colonel
 difficulty_soviet_4 = General
 
 tutorial_content_soviet_title = [New content] Red Star
-tutorial_content_soviet = Red Star ---
+tutorial_content_soviet = This new campaign puts you in command of the Red Army 1938 - 1941 to fight battles against Imperial Japan, Finlannd, and finally Germany.
 
 spec_molotov–ribbentrop_pact_title = Molotov–Ribbentrop Pact
 spec_molotov–ribbentrop_pact_descr = Signing the "Treaty of Non-aggression" with Germany will secure peace along our western borders, which in turn allows the Red Army to concentrate more strength in other sectors.
 spec_molotov–ribbentrop_pact_effect = • Adds 1 land and 1 air CP
 spec_order_no227_title = Order No.227
-spec_order_no227_descr = All Red Army personnel must now "fight to the last", while deserters should to be shot on the spot. The decree aims to raise troop morale and effectiveness through brutality and coercion.
+spec_order_no227_descr = All Red Army personnel must now "fight to the last", while deserters are to be shot on the spot. The decree aims to raise troop morale and effectiveness through brutality and coercion.
 spec_order_no227_effect = • Allocates an NKVD commander to our army, instructed to enforce the order. He prevents units from retreating, but increases their risk of getting annihilated.
 spec_arctic_convoy_title = Arctic Convoy
-spec_arctic_convoy_descr = British and Americn supply convoys can sail through the Artic waters and reach the Soviet ports of Arkhangelsk and Murmansk in Northern Russia.
-spec_arctic_convoy_effect = • Free Valentine tank|• Allows the purchase of Valentine and Matilda tanks
+spec_arctic_convoy_descr = British and American supply convoys can sail through the Artic waters and reach the Soviet ports of Arkhangelsk and Murmansk in Northern Russia.
+spec_arctic_convoy_effect = • Free Valentine tank|• Allows the purchase of British tanks and Hurricane fighters
 spec_guard_infantry_title = Guards Infantry
-spec_guard_infantry_descr = The title of Soviet Guards will be introduced to reward the distinguished service of selected Rifle Divisions. This great honor will further encourage the 
-spec_guard_infantry_effect = • 4 star Soviet Infantry can be upgraded to Guard Infantry
+spec_guard_infantry_descr = The title of Soviet Guards will be introduced to reward the distinguished service of selected Rifle Divisions.
+spec_guard_infantry_effect = • 3 star Soviet Infantry can be upgraded to Guard Infantry
 spec_lend_lease_ussr_title = Lend Lease Act
-spec_lend_lease_ussr_descr = Taking part in the Lend Lease policy established by the United States allows is to obtain supplies of food, oil, material and weapons.
-spec_lend_lease_ussr_effect = • Adds a US tank to our army core|• Allows the production of US tanks|• Trucks become cheaper to purchase
+spec_lend_lease_ussr_descr = Taking part in the Lend-Lease policy established by the United States allows it to obtain supplies of food, oil, material and weapons.
+spec_lend_lease_ussr_effect = • Allows the purchase of US tanks and other mechanized combat vehicles

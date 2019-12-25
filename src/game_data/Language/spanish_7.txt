@@ -106,7 +106,7 @@ spec_pak_front_effect = • Armas anti-tanque ganan +2 ataque contra tanques.•
 
 spec_panzer_keil_title = Panzer Keil
 spec_panzer_keil_descr = Esta formación ofensiva de tanques agrupa los vehículos en una formación de cuña. Los tanques más pesados se sitúan en la punta, dejando a los vehículos más vulnerables a salvo de fuego enemigo.
-spec_panzer_4_effect = • Cuando atacan, los tanques ganan un bonus defensivo al estar adyacentes entre si, y poseen el atributo "Heavy Treading".
+spec_panzer_keil_effect = • Cuando atacan, los tanques ganan un bonus defensivo al estar adyacentes entre si, y poseen el atributo "Heavy Treading".
 
 spec_panzer_lehr_title = Panzer Lehr
 spec_panzer_lehr_descr = Concentrando varias unidades de demostración élite y entrenamiento proporcionará una nueva división panzer compuesta por lo mejor de las fuerzas blindadas de Alemania.

@@ -2099,6 +2099,7 @@ ai_task_15 = Salir del mapa
 ai_progress_title = Turno de la IA en progreso
 ai_progress_default = Pensando...
 ai_progress_executing = Ejecutando acciones...
+ai_progress_paused = Pausado
 
 
 // PBEM ERRORS
@@ -2162,3 +2163,4 @@ language_tooltip_french = Changer la langue du jeu en Français
 language_tooltip_italian = Passa alla lingua italiana
 language_tooltip_japanese = ゲームの言語を日本語に切り替える
 language_tooltip_spanish = Cambia el idioma a español
+language_tooltip_russian = Переключение игры на русский язык

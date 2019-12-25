@@ -18,6 +18,7 @@ unit_1085 = Typ 2 Ka-Mi
 unit_1086 = Typ 2 Ka-Mi
 unit_1087 = Sowj. Mörserinfanterie
 unit_1091 = Jap. Scharfschützen
+unit_1092 = P-47D Thunderbolt
 
 editor_aggression = Aggression
 

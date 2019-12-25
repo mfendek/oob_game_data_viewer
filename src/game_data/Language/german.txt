@@ -2099,7 +2099,7 @@ ai_task_15 = Karte verlassen
 ai_progress_title = KI-Zug läuft 
 ai_progress_default = KI denkt nach...
 ai_progress_executing = Aktionen werden ausgeführt...
-
+ai_progress_paused = Pausiert
 
 // PBEM ERRORS
 pbem_error_title = Verbindungsfehler

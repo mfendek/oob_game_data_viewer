@@ -36,10 +36,13 @@ Free_French;;land;britain;8/1940;/;;4;free_french;no
 Resistance_Fighters;;land;britain;8/1941;Free_French;;3;resistance_fighters;no
 Special_Services;61;land;britain;7/1940;/;;3;special_services;no
 Carri_Armati_Avanzati;86;land;italy;6/1942;/;;10;super_sensha;no
-//Order_No227 ;92;land;ussr;8/1942;/;;5;order_no227;no
+Order_No227;92;land;ussr;8/1942;/;;5;order_no227;no
 Arctic_Convoy;93;land;ussr;9/1941;/;;5;arctic_convoy;no
 Guard_Infantry;94;land;ussr;10/1941;/;;10;guard_infantry;no
-Lend_Lease_USSR;;land;ussr;2/1942;/;;10;lend_lease_ussr;no
+Lend_Lease_USSR;95;land;ussr;2/1942;Arctic_Convoy;;10;lend_lease_ussr;no
+LL_USSR_Logistics;96;land;ussr;5/1942;Lend_Lease_USSR;;5;ll_ussr_logistics;no
+Shock_Army;97;land;ussr;1/1942;/;;7;shock_army;no
+Guards_Army;98;land;ussr;10/1942;Guard_Infantry;;7;guards_army;no
 ;;;;;;;;;
 ;;;;;;;;;
 // NAVAL;;;;;;;;;
@@ -71,6 +74,8 @@ Scrambling;68;air;all;5/1940;Radar_I;;10;scrambling;yes
 Bomber_Stream;83;air;britain;5/1942;/;;3;bomber_stream;yes
 Synthetic_Fuel_Plants;48;air;germany;1943;/;;5;air_cp_bonus;no
 Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
+LL_USSR_Aircraft;99;air;ussr;3/1942;Lend_Lease_USSR;;7;ll_ussr_air;no
+Kuban_Shelves;;air;ussr;1/1943;;;5;kuban_shelves;no
 ;;;;;;;;;
 // GENERAL & SHARED;;;;;;;;;
 ;;;;;;;;;

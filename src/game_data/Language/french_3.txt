@@ -18,6 +18,7 @@ unit_1085 = Ka-Mi Type 2
 unit_1086 = Ka-Mi Type 2
 unit_1087 = Infanterie de Mortier soviétique
 unit_1091 = Tireurs d'élite japonais
+unit_1092 = P47D Thunderbolt
 
 editor_aggression = Agression
 

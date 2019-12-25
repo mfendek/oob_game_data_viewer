@@ -548,10 +548,54 @@ id = 124
 category = land
 faction = ussr
 weapon = infantry_attack, 1
-weapon = vehicle_attack, 1
+defense = infantry_defense, 1
 range = 1
 generic
 noRetreat
+
+[VASILY_CHUIKOV]
+id = 125
+category = land
+faction = ussr
+weapon = infantry_attack, 2
+defense = infantry_defense, 1
+entrenchment = 1
+range = 2
+
+[ANATOLY_BALASHOV]
+id = 126
+category = land
+faction = ussr
+weapon = vehicle_attack, 1
+defense = vehicle_defense, 1
+range = 0
+
+[VLADIMIR_ETUSH]
+id = 127
+category = land
+faction = ussr
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+assault = 1
+range = 0
+
+[ANNA_YEGOROVA]
+id = 128
+category = air
+faction = ussr
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+defense = air_defense, 1
+range = 0
+
+[ALEXANDER_POKRYSHKIN]
+id = 129
+category = air
+faction = ussr
+weapon = air_small_attack, 2
+weapon = air_large_attack, 1
+defense = air_defense, 1
+range = 1
 
 
 //////////////////////////

@@ -18,6 +18,7 @@ unit_1085 = Type 2 Ka-Mi
 unit_1086 = Type 2 Ka-Mi
 unit_1087 = Inf. con Morteros Soviética
 unit_1091 = Francotiradores japoneses
+unit_1092 = P47D Thunderbolt
 
 editor_aggression = Agresión
 

@@ -52,7 +52,7 @@ unit_1180 = 76mm M1927
 unit_1181 = Finn. Infanterie '38
 unit_1182 = PzKpfw IV F2
 unit_1183 = PzKpfw IV H
-unit_1183 = PzKpfw IV H
+unit_1184 = PzKpfw. 38(t) E
 
 faction_sweden = Schweden
 faction_norway = Norwegen
