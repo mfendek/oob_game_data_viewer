@@ -1,4 +1,4 @@
-﻿tooltip_torpedo_launch_disabled_7 = Torpedos können erst abgefeuert werden, wenn das Flugzeug aufgestellt wurde.
+﻿﻿tooltip_torpedo_launch_disabled_7 = Torpedos können erst abgefeuert werden, wenn das Flugzeug aufgestellt wurde.
 tooltip_torpedo_launch_disabled_6 = Torpedos können nur abgefeuert werden, wenn das Flugzeug in der Luft ist.
 
 commander_121 = Fedir Babatschenko
@@ -35,18 +35,18 @@ difficulty_soviet_4 = General
 tutorial_content_soviet_title = [Neuer Inhalt] Red Star
 tutorial_content_soviet = In dieser neuen Kampagne erhalten Sie den Oberbefehl über die Rote Armee in den Jahren 1938 bis 1941 und schlagen Schlachten gegen das Japanische Kaiserreich, Finnland und schließlich Deutschland.
 
-spec_molotov–ribbentrop_pact_title = Molotow-Ribbentrop-Pakt
-spec_molotov–ribbentrop_pact_descr = Die Unterzeichnung des deutsch-sowjetischen Nichtangriffspakts wird an unseren westlichen Grenzen den Frieden gewährleisten. Dies ermöglicht es der Roten Armee, ihr Hauptaugenmerk auf andere Sektoren zu verlagern.
-spec_molotov–ribbentrop_pact_effect = • Fügt 1 Land- und 1 Luftbefehlspunkt hinzu.
+spec_molotov_ribbentrop_pact_title = Molotow-Ribbentrop-Pakt
+spec_molotov_ribbentrop_pact_descr = Die Unterzeichnung des deutsch-sowjetischen Nichtangriffspakts wird an unseren westlichen Grenzen den Frieden gewährleisten. Dies ermöglicht es der Roten Armee, ihr Hauptaugenmerk auf andere Sektoren zu verlagern.
+spec_molotov_ribbentrop_pact_effect = • Fügt 1 Land- und 1 Luftbefehlspunkt hinzu.
 spec_order_no227_title = Befehl Nr. 227
 spec_order_no227_descr = Für alle Soldaten der Roten Armee gilt das Motto "Nicht einen Schritt zurück!" und Deserteure werden sofort erschossen. Mithilfe von Zwang und Einschüchterung soll das Dekret die Moral und Effektivität der Truppen erhöhen.
 spec_order_no227_effect = • Ein NKWD-Kommandeur wird unserer Armee zugeteilt und muss dafür sorgen, dass das Dekret umgesetzt wird. Er verhindert, dass sich Einheiten zurückziehen, allerdings erhöht sich ihr Risiko, ausgeschaltet zu werden.
 spec_arctic_convoy_title = Nordmeergeleitzug
 spec_arctic_convoy_descr = Britische und amerikanische Versorgungskonvois können arktische Gewässer durchqueren und die sowjetischen Häfen von Archangelsk und Murmansk in Nordrussland erreichen.
-spec_arctic_convoy_effect = • Kostenloser Valentine-Panzer|• Ermöglicht den Erwerb von Panzern des Typs Valentine und Matilda.
+spec_arctic_convoy_effect = • Kostenloser Valentine-Panzer|• Ermöglicht den Erwerb von britischen Panzern und Jagdflugzeugen des Typs Hurricane.
 spec_guard_infantry_title = Gardeinfanterie
 spec_guard_infantry_descr = Die Bezeichnung "Sowjetische Garde" wird eingeführt, um Schützendivisionen auszuzeichnen, die sich besonders um die Sowjetunion verdient gemacht haben.
 spec_guard_infantry_effect = • Sowjetische Infanterieeinheiten mit 3 Sternen können zu Gardeinfanterie aufgewertet werden.
 spec_lend_lease_ussr_title = Leih- und Pachtgesetz
 spec_lend_lease_ussr_descr = Durch die Teilnahme am Leih- und Pachtprogramm, das von den Vereinigten Staaten ins Leben gerufen wurde, erhält die Sowjetunion Lebensmittel, Öl, Waffen und andere Güter.
-spec_lend_lease_ussr_effect = • Fügt unserer Kernarmee einen US-Panzer hinzu.|• Ermöglicht die Produktion von US-Panzern.|• LKW können kostengünstiger erworben werden.
+spec_lend_lease_ussr_effect = • Ermöglicht den Erwerb von Panzern und anderen mechanisierten Kampffahrzeugen aus amerikanischer Produktion.

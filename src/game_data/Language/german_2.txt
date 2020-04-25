@@ -182,12 +182,12 @@ tooltip_change_skin = Anpassen des Aussehens dieser Einheit.
 select_skin = Wählen Sie das Aussehen
 skin = Skin
 
-skin_0 = Autumn Patches
-skin_1 = Autumn Strokes
-skin_2 = Outlined Patches
-skin_3 = Green-Olive Patches
-skin_4 = Sand-Olive Patches
-skin_5 = Bronze-Olive Patches
+skin_0 = Herbstflecken
+skin_1 = Herbststreifen
+skin_2 = Umrandete Flecken
+skin_3 = Grün-Olive Flecken
+skin_4 = Sand-Olive Flecken
+skin_5 = Bronze-Olive Flecken
 skin_6 = Sand Storm
 
 map_mode_1 = 3D Weltkarte

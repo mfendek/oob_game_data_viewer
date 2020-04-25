@@ -35,9 +35,9 @@ difficulty_soviet_4 = General
 tutorial_content_soviet_title = [New content] Red Star
 tutorial_content_soviet = This new campaign puts you in command of the Red Army 1938 - 1941 to fight battles against Imperial Japan, Finlannd, and finally Germany.
 
-spec_molotov–ribbentrop_pact_title = Molotov–Ribbentrop Pact
-spec_molotov–ribbentrop_pact_descr = Signing the "Treaty of Non-aggression" with Germany will secure peace along our western borders, which in turn allows the Red Army to concentrate more strength in other sectors.
-spec_molotov–ribbentrop_pact_effect = • Adds 1 land and 1 air CP
+spec_molotov_ribbentrop_pact_title = Molotov-Ribbentrop Pact
+spec_molotov_ribbentrop_pact_descr = Signing the "Treaty of Non-aggression" with Germany will secure peace along our western borders, which in turn allows the Red Army to concentrate more strength in other sectors.
+spec_molotov_ribbentrop_pact_effect = • Adds 1 land and 1 air CP
 spec_order_no227_title = Order No.227
 spec_order_no227_descr = All Red Army personnel must now "fight to the last", while deserters are to be shot on the spot. The decree aims to raise troop morale and effectiveness through brutality and coercion.
 spec_order_no227_effect = • Allocates an NKVD commander to our army, instructed to enforce the order. He prevents units from retreating, but increases their risk of getting annihilated.

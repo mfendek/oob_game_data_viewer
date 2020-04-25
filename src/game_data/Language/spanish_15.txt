@@ -35,9 +35,9 @@ difficulty_soviet_4 = General
 tutorial_content_soviet_title = [Nuevo Contenido] Red Star
 tutorial_content_soviet = Esta nueva campaña te pone al mando del Ejército Rojo 1938 - 1941 en su lucha contra el imperio japones, Finlandia y finalmente Alemania.
 
-spec_molotov–ribbentrop_pact_title = Pacto Molotov–Ribbentrop
-spec_molotov–ribbentrop_pact_descr = Firmar el "Tratado de No Agresión" con Alemania asegurará la paz a lo largo de nuestras fronteras occidentales, lo que permite al Ejército Rojo concentrar más fuerzas en otros sectores.
-spec_molotov–ribbentrop_pact_effect = • Añade 1 PM (CP) terrestre y 1 aéreo
+spec_molotov_ribbentrop_pact_title = Pacto Molotov_Ribbentrop
+spec_molotov_ribbentrop_pact_descr = Firmar el "Tratado de No Agresión" con Alemania asegurará la paz a lo largo de nuestras fronteras occidentales, lo que permite al Ejército Rojo concentrar más fuerzas en otros sectores.
+spec_molotov_ribbentrop_pact_effect = • Añade 1 PM (CP) terrestre y 1 aéreo
 spec_order_no227_title = Orden No.227
 spec_order_no227_descr = Todo el personal del Ejército Rojo debe "luchar hasta el final", mientras que los desertores serán fusilados en el acto. El decreto tiene como objetivo elevar la moral y la efectividad de las tropas a través de la brutalidad y la coerción.
 spec_order_no227_effect = • Asigna un comandante del NKVD a nuestro ejército, instruido para hacer cumplir la orden. Evita que las unidades se retiren, pero aumenta el riesgo de ser aniquiladas.

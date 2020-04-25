@@ -82,7 +82,7 @@ Kuban_Shelves;;air;ussr;1/1943;;;5;kuban_shelves;no
 Radar_I;25;naval, air;usa, britain, germany, japan, ussr, kriegsmarine;1940;/;;5;Radar_I;no
 Radar_II;26;naval, air;usa, britain, germany, kriegsmarine;1942;Radar_I, Tizard_Mission;;5;Radar_II;no
 Proximity_Fuse;28;land, naval;usa, britain, ussr, germany, kriegsmarine;1943;Radar_I;;5;Proximity_Fuse;no
-Molotov–Ribbentrop_Pact;91;land, air;ussr;8/1939;/;;5;molotov_ribbentrop_pact;no
+Molotov_Ribbentrop_Pact;91;land, air;ussr;8/1939;/;;5;molotov_ribbentrop_pact;no
 Tokyo_Express;40;land, naval;japan;1942;/;;7;destroyer_supply_bonus;no
 Kamikaze;66;all;japan;1944;Bushido_Code;;5;kamikaze;yes
 Yanagi_Missions;70;land, air;japan;1943;/;;10;yanagi_missions;no

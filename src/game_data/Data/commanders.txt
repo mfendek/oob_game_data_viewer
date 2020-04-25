@@ -6,7 +6,9 @@
 id = 0
 category = land
 faction = usa, usarmy, marine_corps
-range = 1
+range = 0
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
 
 [PETE_SIMPSON]
 id = 1
@@ -42,6 +44,7 @@ id = 5
 category = land
 faction = usa, usarmy, marine_corps
 range = 2
+defense = infantry_defense, 1
 
 // Given at okinawa for taking Shuri castle
 [WILLIAM_DAVIES]
@@ -63,13 +66,18 @@ range = 1
 id = 8
 category = land
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
 
 [CHARLES_SMITH]
 id = 9
 category = land
 faction = usa, usarmy, marine_corps
-range = 2
+assault = 1
+range = 0
+weapon = infantry_attack, 1
+defense = bombard_defense, 2
 
 [JOSEPH_WRIGHT]
 id = 10
@@ -82,13 +90,15 @@ range = 2
 id = 11
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+defense = air_defense, 1
 
 [DANIEL_MORRIS]
 id = 12
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+weapon = naval_small_attack, 1
 
 [PAUL_CLARK]
 id = 13
@@ -102,13 +112,16 @@ weapon = air_large_attack, 1
 id = 14
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+weapon = naval_small_attack, 1
 
 [GEORGE_ALLEN]
 id = 15
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+defense = naval_defense, 1
+defense = air_defense, 1
 
 // Midway: Do not lose warships
 [STEVEN_COX]
@@ -123,19 +136,24 @@ range = 0
 id = 17
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+weapon = naval_small_attack, 1
+defense = air_defense, 1
 
 [BRIAN_HARRIS]
 id = 18
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+defense = air_defense, 1
 
 [RONALD_PARKER]
 id = 19
 category = naval
 faction = usa, usarmy, marine_corps
-range = 2
+range = 0
+defense = naval_defense, 1
+weapon = naval_large_attack, 1
 
 // Guadalcanal for 5 air kills
 [ANTHONY_HUGHES]
@@ -181,12 +199,16 @@ range = 0
 id = 25
 category = air
 faction = usa, usarmy, marine_corps
+weapon = air_small_attack, 1
+defense = air_defense, 1
 range = 1
 
 [ARTHUR_DOYLE]
 id = 26
 category = air
 faction = usa, usarmy, marine_corps
+defense = air_defense, 1
+weapon = air_large_attack, 1
 range = 1
 
 [VIRGIL_DRAKE]
@@ -202,13 +224,18 @@ range = 1
 id = 28
 category = air
 faction = usa, usarmy, marine_corps
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+
 range = 1
 
 [JOSPEH_DORRIS]
 id = 29
 category = air
 faction = usa, usarmy, marine_corps
-range = 1
+weapon = infantry_attack, 1
+weapon = naval_large_attack, 1
+range = 0
 
 
 
@@ -247,12 +274,15 @@ id = 33
 category = land
 faction = japan, ijn
 range = 2
+weapon = vehicle_attack, 1
+defense = vehicle_defense, 1
 
 [YASUHIKO_MORINIO]
 id = 34
 category = land
 faction = japan, ijn
-range = 2
+weapon = infantry_attack, 1
+range = 1
 
 // New Zealand, keeping general aramaki alive
 [KEISAKU_ARAMAKI]
@@ -293,7 +323,9 @@ range = 2
 id = 39
 category = land
 faction = japan, ijn
-range = 2
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+range = 1
 
 [KENISHI_HINOKI]
 id = 40
@@ -314,19 +346,21 @@ defense = naval_defense, 2
 id = 42
 category = naval
 faction = japan, ijn
-range = 2
+defense = air_defense, 1
+range = 0
 
 [TOMIO_INAYAMA]
 id = 43
 category = naval
 faction = japan, ijn
-range = 2
+defense = naval_defense, 1
+range = 0
 
 [MASOA_SUGIYAMA]
 id = 44
 category = naval
 faction = japan, ijn
-range = 2
+range = 0
 
 [MITZUSO_ISHIKAMA]
 id = 45
@@ -340,13 +374,15 @@ weapon = air_large_attack, 2
 id = 46
 category = naval
 faction = japan, ijn
-range = 2
+weapon = naval_small_attack, 1
+range = 0
 
 [YONISUKE_YAMOTO]
 id = 47
 category = naval
 faction = japan, ijn
-range = 2
+weapon = naval_large_attack, 1
+range = 0
 
 [KENSUI_TANAKA]
 id = 48
@@ -400,6 +436,7 @@ id = 54
 category = air
 faction = japan, ijn
 range = 1
+defense = air_defense, 1
 
 // used in Sino-Japanese DLC
 [GITARO_SHIBUKAWA]
@@ -413,13 +450,17 @@ weapon = air_large_attack, 1
 id = 56
 category = air
 faction = japan, ijn
-range = 1
+defense = air_defense, 2
+range = 0
 
 [TOMOJI_NEGISHI]
 id = 57
 category = air
 faction = japan, ijn
-range = 1
+weapon = infantry_attack, 1
+weapon = vehicle_attack, 1
+defense = air_defense, 1
+range = 0
 
 // Used in Morning Sun
 [HIDEO_FUKUYAMA]
