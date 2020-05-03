@@ -122,7 +122,12 @@ function parseLocalisationData()
                 } else {
                     $localisationTraits[$traitId][$type] = $value;
                 }
-            } elseif (mb_strpos($line, 'commander_') === 0) {
+            } elseif (mb_strpos($line, 'commander_') !== false) {
+                // get rid of garbage WS prefix in the commander name
+                $line = explode('commander_', $line);
+                array_shift($line);
+                $line = array_shift($line);
+
                 $line = explode(LIST_SEPARATOR, $line);
                 $unitId = str_replace('commander_', '', $line[0]);
 
@@ -172,7 +177,7 @@ function getDefaultCommanderUnitData()
         'cost' => 0,
         'supply' => 0,
         'movement' => 0,
-        'actions' => 1,
+        'actions' => 0,
         'steps' => 0,
         'fuel' => 0,
         'range' => 0,
@@ -245,7 +250,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2020-05-03';
+    $version = '2020-05-04';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
