@@ -1,5 +1,10 @@
 <?php
 
+const LIST_SEPARATOR = ' = ';
+const VALUE_SEPARATOR = ', ';
+const COMMANDER_ID_OFFSET = 100000;
+const COMMANDER_TYPE = 'commander';
+
 /**
  * @param array $array
  * @return array|stdClass
@@ -7,6 +12,29 @@
 function sanitiseArrayJSON(array $array)
 {
     return (count($array) > 0) ? $array : new stdClass();
+}
+
+/**
+ * @param string $factions
+ * @return array
+ */
+function parseFactions($factions)
+{
+    // reformat list so we could easily search in it later
+    $listData = explode(',', $factions);
+    $factions = [];
+
+    foreach ($listData as $item) {
+        // clean item (same data is malformed)
+        $item = trim($item);
+        if (empty($item)) {
+            continue;
+        }
+
+        $factions[] = $item;
+    }
+
+    return array_values($factions);
 }
 
 /**
@@ -40,13 +68,184 @@ function openDataFile($sourcePath, $filePath, $url = '', array &$files = [])
     return $lines;
 }
 
+/**
+ * @return array
+ */
+function parseLocalisationData()
+{
+    $localisationFiles = scandir('src/game_data/Language');
+    $localisationUnits = [];
+    $localisationTraits = [];
+    $localisationCommanders = [];
+    $nextTraitIdTitle = 1;
+    $nextTraitIdDesc = 1;
+
+    foreach ($localisationFiles as $fileName) {
+        if (mb_strpos($fileName, 'english') !== 0) {
+            continue;
+        }
+
+        $dataFile = openDataFile('src/game_data/Language/', $fileName);
+        foreach ($dataFile as $line) {
+            if (mb_strpos($line, 'unit_') === 0) {
+                // unit name
+                $line = explode(LIST_SEPARATOR, $line);
+                $unitId = str_replace('unit_', '', $line[0]);
+                if (filter_var($unitId, FILTER_VALIDATE_INT) === false) {
+                    continue;
+                }
+
+                $unitId = (int) $unitId;
+                $unitName = $line[1];
+                $localisationUnits[$unitId] = $unitName;
+            } elseif (mb_strpos($line, 'trait_') === 0
+                && (mb_strpos($line, 'title') !== false || mb_strpos($line, 'descr') !== false)
+            ) {
+                // trait name
+                $line = explode(LIST_SEPARATOR, $line);
+                $value = trim($line[1]);
+                $line = explode('_', $line[0]);
+                $type = ($line[2] == 'title') ? 'title' : 'desc';
+
+                // provided ids seem to have conflicts, create new set of ids that are unique
+                // this isn't an issue because we don't have the id mapping to traits anyway
+                $traitId = (int) $line[1];
+                if (!empty($localisationTraits[$traitId][$type])) {
+                    $newTraitId = ($type == 'title') ? $nextTraitIdTitle : $nextTraitIdDesc;
+                    $localisationTraits[$traitId . '-' . $newTraitId][$type] = $value;
+
+                    if ($type == 'title') {
+                        $nextTraitIdTitle+= 1;
+                    } else {
+                        $nextTraitIdDesc+= 1;
+                    }
+                } else {
+                    $localisationTraits[$traitId][$type] = $value;
+                }
+            } elseif (mb_strpos($line, 'commander_') === 0) {
+                $line = explode(LIST_SEPARATOR, $line);
+                $unitId = str_replace('commander_', '', $line[0]);
+
+                if (filter_var($unitId, FILTER_VALIDATE_INT) === false) {
+                    continue;
+                }
+
+                $unitId = (int) $unitId;
+                $unitName = $line[1];
+                $localisationCommanders[$unitId] = $unitName;
+            }
+        }
+    }
+
+    $traitsLocalised = [];
+
+    foreach ($localisationTraits as $item) {
+        $traitsLocalised[$item['title']] = $item['desc'];
+    }
+
+    $traitsLocalised['No Editor'] = 'Not available in editor';
+    $traitsLocalised['No Purchase'] = 'Not available for purchase';
+
+    return [
+        'units' => $localisationUnits,
+        'traits' => $traitsLocalised,
+        'commanders' => $localisationCommanders,
+    ];
+}
+
+/**
+ * @return array
+ */
+function getDefaultCommanderUnitData()
+{
+    return [
+        'id' => 0,
+        'name' => '',
+        'name_real' => '',
+        'factions' => [],
+        'category' => '',
+        'type' => COMMANDER_TYPE,
+        'chassis' => 'foot',
+        'available' => '',
+        'expire' => '',
+        'series' => sanitiseArrayJSON([]),
+        'cost' => 0,
+        'supply' => 0,
+        'movement' => 0,
+        'actions' => 1,
+        'steps' => 0,
+        'fuel' => 0,
+        'range' => 0,
+        'spotting' => 0,
+        'radar' => 0,
+        'shock' => 0,
+        'assault' => 0,
+        'bombardment' => 0,
+        'blast' => 0,
+        'cargo' => 0,
+        'carrier' => [],
+        'unit_carrier' => [],
+        'transport' => [],
+        'switch' => [],
+        'torpedo_attack' => 0,
+        'torpedo_range' => 0,
+        'torpedo_cool_down' => 0,
+        'attack_type' => 'infantry',
+        'defense_type' => 'infantry',
+        'infantry_attack' => 0,
+        'infantry_close_attack' => 0,
+        'vehicle_attack' => 0,
+        'vehicle_close_attack' => 0,
+        'air_attack_small' => 0,
+        'air_attack_large' => 0,
+        'naval_attack_small' => 0,
+        'naval_attack_small_pg' => 0,
+        'naval_attack_large' => 0,
+        'naval_attack_large_pg' => 0,
+        'submarine_attack' => 0,
+        'infantry_defense' => 0,
+        'vehicle_defense' => 0,
+        'artillery_defense' => 0,
+        'air_defense' => 0,
+        'naval_defense' => 0,
+        'torpedo_defense' => 0,
+        'land_defense' => 0,
+        'traits' => [],
+        'specialisation' => '',
+        'switch_type' => [],
+    ];
+}
+
+function commandersToUnits(array $commanders)
+{
+    $units = [];
+    $defaults = getDefaultCommanderUnitData();
+
+    foreach ($commanders as $id => $item) {
+        foreach ($defaults as $name => $value) {
+            if (array_key_exists($name, $item)) {
+                continue;
+            }
+
+            $item[$name] = $value;
+        }
+
+        // assign a unit id
+        $unitId = $id + COMMANDER_ID_OFFSET;
+        $item['id'] = $unitId;
+        $units[$unitId] = $item;
+    }
+
+    return $units;
+}
+
 try {
     $startTime = microtime(true);
 
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2020-04-25';
+    $version = '2020-05-03';
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -145,7 +344,7 @@ try {
 
     // determine base url
     $baseUrl = (!empty($_SERVER['REQUEST_URI'])) ? $_SERVER['REQUEST_URI'] : '';
-    if (strpos($baseUrl, '?') !== false) {
+    if (mb_strpos($baseUrl, '?') !== false) {
         $baseUrl = explode('?', $baseUrl);
         $baseUrl = $baseUrl[0];
     }
@@ -197,7 +396,7 @@ try {
         $currentId = '';
         $typeTraits = [];
         foreach ($dataFile as $line) {
-            if (strpos($line, '[') !== false) {
+            if (mb_strpos($line, '[') !== false) {
                 // retrieve item name
                 $itemId = str_replace(['[', ']'], ['', ''], $line);
                 $itemId = strtolower($itemId);
@@ -208,7 +407,7 @@ try {
                 if (array_key_exists($currentId, $typeTraits)) {
                     $typeTraits[$currentId] = [];
                 }
-            } elseif (strpos($line, '=') === false && $currentId != '' && !empty(trim($line))) {
+            } elseif (mb_strpos($line, '=') === false && $currentId != '' && !empty(trim($line))) {
                 $line = trim($line);
                 if (array_key_exists($currentId, $typeTraits)) {
                     $typeTraits[$currentId][] = $line;
@@ -289,11 +488,11 @@ try {
                 ];
 
                 foreach ($factors as $factorName => $factor) {
-                    if (strpos($factor, ', ') === false) {
+                    if (mb_strpos($factor, VALUE_SEPARATOR) === false) {
                         continue;
                     }
 
-                    $factor = explode(', ', $factor);
+                    $factor = explode(VALUE_SEPARATOR, $factor);
                     $roadFactor[$climate][$chassis][$factorName] = (float) $factor[1];
                 }
             }
@@ -352,62 +551,11 @@ try {
         }
 
         // process unit names localisation
-        $localisationFiles = scandir('src/game_data/Language');
-        $unitNamesLocalised = [];
-        $traitsLocalisedData = [];
-        $nextTraitIdTitle = 1;
-        $nextTraitIdDesc = 1;
-        foreach ($localisationFiles as $fileName) {
-            if (strpos($fileName, 'english') !== 0) {
-                continue;
-            }
-
-            $dataFile = openDataFile('src/game_data/Language/', $fileName);
-            foreach ($dataFile as $line) {
-                // detect unit name
-                if (strpos($line, 'unit_') === 0) {
-                    $line = explode(' = ', $line);
-                    $unitId = str_replace('unit_', '', $line[0]);
-                    if (filter_var($unitId, FILTER_VALIDATE_INT) === false) {
-                        continue;
-                    }
-
-                    $unitId = (int) $unitId;
-                    $unitName = $line[1];
-                    $unitNamesLocalised[$unitId] = $unitName;
-                } elseif (strpos($line, 'trait_') === 0
-                    && (strpos($line, 'title') !== false || strpos($line, 'descr') !== false)
-                ) {
-                    $line = explode(' = ', $line);
-                    $value = trim($line[1]);
-                    $line = explode('_', $line[0]);
-                    $type = ($line[2] == 'title') ? 'title' : 'desc';
-
-                    // provided ids seem to have conflicts, create new set of ids that are unique
-                    // this isn't an issue because we don't have the id mapping to traits anyway
-                    $traitId = (int) $line[1];
-                    if (!empty($traitsLocalisedData[$traitId][$type])) {
-                        $newTraitId = ($type == 'title') ? $nextTraitIdTitle : $nextTraitIdDesc;
-                        $traitsLocalisedData[$traitId . '-' . $newTraitId][$type] = $value;
-
-                        if ($type == 'title') {
-                            $nextTraitIdTitle+= 1;
-                        } else {
-                            $nextTraitIdDesc+= 1;
-                        }
-                    } else {
-                        $traitsLocalisedData[$traitId][$type] = $value;
-                    }
-                }
-            }
-        }
-
-        $traitsLocalised = [];
-        foreach ($traitsLocalisedData as $item) {
-            $traitsLocalised[$item['title']] = $item['desc'];
-        }
-        $traitsLocalised['No Editor'] = 'Not available in editor';
-        $traitsLocalised['No Purchase'] = 'Not available for purchase';
+        $localisation = parseLocalisationData();
+        $localisationUnits = $localisation['units'];
+        $localisationTraits = $localisation['traits'];
+        $localisationCommanders = $localisation['commanders'];
+        unset($localisation);
 
         // process units
         $dataFile = openDataFile($dataPath, 'units.csv', $modUrl, $modFiles);
@@ -437,7 +585,7 @@ try {
             }
 
             // check for valid ID, ignore empty lines and comments
-            if (filter_var($line[1], FILTER_VALIDATE_INT) === false) {
+            if (!array_key_exists(1, $line) || filter_var($line[1], FILTER_VALIDATE_INT) === false) {
                 continue;
             }
 
@@ -469,22 +617,8 @@ try {
             $filterTypes[$type] = $type;
             $filterChassis[$chassis] = $chassis;
 
-            // reformat list so we could easily search in it later
-            $listData = explode(',', $line[2]);
-
-            $factions = [];
-            foreach ($listData as $item) {
-                // clean item (same data is malformed)
-                $item = trim($item);
-                if (empty($item)) {
-                    continue;
-                }
-
-                $factions[] = $item;
-                $filterFactions[] = $item;
-            }
-            $factions = array_values($factions);
-
+            $factions = parseFactions($line[2]);
+            $filterFactions = array_merge($filterFactions, $factions);
             $filterFactions = array_unique($filterFactions);
 
             $available = DateTime::createFromFormat('j/n/Y', trim($line[16]));
@@ -526,7 +660,7 @@ try {
             $carrier = array_values($carrier);
 
             // torpedo attack, range and cool-down
-            $torpedo = (strpos($line[39], ',') !== false) ? explode(', ', $line[39]) : [];
+            $torpedo = (mb_strpos($line[39], ',') !== false) ? explode(VALUE_SEPARATOR, $line[39]) : [];
             if (count($torpedo) >= 3) {
                 $torpedoCoolDown = (int) $torpedo[0];
                 $torpedoRange = (int) $torpedo[1];
@@ -539,7 +673,7 @@ try {
 
             // infantry attack and close attack
             $attackData = $line[42];
-            if (strpos($attackData, '-') !== false) {
+            if (mb_strpos($attackData, '-') !== false) {
                 $attackData = explode('-', $attackData);
                 $infantryAttack = $attackData[0];
                 $infantryCloseAttack = $attackData[1];
@@ -550,7 +684,7 @@ try {
 
             // vehicle attack and close attack
             $attackData = $line[43];
-            if (strpos($attackData, '-') !== false) {
+            if (mb_strpos($attackData, '-') !== false) {
                 $attackData = explode('-', $attackData);
                 $vehicleAttack = $attackData[0];
                 $vehicleCloseAttack = $attackData[1];
@@ -626,7 +760,7 @@ try {
                 }
 
                 $traitName = $traitTrans[$item];
-                $traitInfo = $traitsLocalised[$traitName];
+                $traitInfo = $localisationTraits[$traitName];
 
                 $traitData[] = [
                     'name' => $traitName,
@@ -638,8 +772,8 @@ try {
 
             // process extra traits
             foreach ($extraTraits as $traitName) {
-                if (array_key_exists($traitName, $traitsLocalised)) {
-                    $traitInfo = $traitsLocalised[$traitName];
+                if (array_key_exists($traitName, $localisationTraits)) {
+                    $traitInfo = $localisationTraits[$traitName];
                 } elseif (array_key_exists($traitName, $customTraits)) {
                     $traitInfo = $customTraits[$traitName];
                 } else {
@@ -657,7 +791,7 @@ try {
             $filterTraits = array_unique($filterTraits);
 
             // process localised name, fall back to internal name if missing
-            $nameLocalised = (array_key_exists($id, $unitNamesLocalised)) ? $unitNamesLocalised[$id] : $line[0];
+            $nameLocalised = (array_key_exists($id, $localisationUnits)) ? $localisationUnits[$id] : $line[0];
 
             $units[$id] = [
                 'id' => (int) $id,
@@ -720,7 +854,7 @@ try {
             ];
         }
 
-        unset($unitNamesLocalised);
+        unset($localisationUnits);
 
         // second iteration processing (unit references)
         foreach ($units as $id => $data) {
@@ -729,7 +863,7 @@ try {
             // process transport
             if (!empty($data['transport'])) {
                 // reformat list
-                $listData = explode(', ', $data['transport']);
+                $listData = explode(VALUE_SEPARATOR, $data['transport']);
                 $listData = array_diff($listData, ['', ' ']);
 
                 $transport = [];
@@ -767,7 +901,7 @@ try {
                 foreach ($listData as $item) {
                     // remove garbage from unit name
                     $item = str_replace(',', '', $item);
-                    if (strpos($item, ':') === false) {
+                    if (mb_strpos($item, ':') === false) {
                         continue;
                     }
 
@@ -782,7 +916,7 @@ try {
                         ? $actionImgTrans[$actionImage] : $actionImage;
 
                     // remove extra param
-                    if (strpos($item, ' ') !== false) {
+                    if (mb_strpos($item, ' ') !== false) {
                         $item = explode(' ', $item);
                         $extraParams = $item;
                         $item = $item[0];
@@ -920,7 +1054,7 @@ try {
             // process extra traits
             $traitData = [];
             foreach ($extraTraits as $traitName) {
-                $traitInfo = (array_key_exists($traitName, $traitsLocalised)) ? $traitsLocalised[$traitName] : '';
+                $traitInfo = (array_key_exists($traitName, $localisationTraits)) ? $localisationTraits[$traitName] : '';
 
                 $traitData[] = [
                     'name' => $traitName,
@@ -942,6 +1076,120 @@ try {
         }
 
         unset($unitUpgradeGroups);
+
+        // process commanders
+        $dataFile = openDataFile($dataPath, 'commanders.txt', $modUrl, $modFiles);
+        $commanders = [];
+        $currentId = -1;
+
+        foreach ($dataFile as $line) {
+            if (mb_strpos($line, LIST_SEPARATOR) === false) {
+                continue;
+            }
+
+            // extract name value pair
+            $line = explode(LIST_SEPARATOR, $line);
+
+            if (count($line) !== 2) {
+                continue;
+            }
+
+            $name = trim(array_shift($line));
+            $value = trim(array_shift($line));
+
+            // set current id if found (0 is a valid id)
+            if ($name === 'id') {
+                $value = (int) $value;
+                $currentId = $value;
+                $commanderName = sprintf('commander_%d_unit', $currentId);
+                $nameLocalised = (array_key_exists($currentId, $localisationCommanders))
+                    ? $localisationCommanders[$currentId]
+                    : $commanderName;
+
+                $commanders[$currentId]['name'] = $commanderName;
+                $commanders[$currentId]['name_real'] = $nameLocalised;
+            }
+
+            // no id found yet, skip
+            if ($currentId < 0) {
+                continue;
+            }
+
+            if ($name === 'faction') {
+                $value = parseFactions($value);
+                $filterFactions = array_merge($filterFactions, $value);
+                $filterFactions = array_unique($filterFactions);
+            } elseif (in_array($name, ['weapon', 'defense'])) {
+                if (mb_strpos($value, VALUE_SEPARATOR) === false) {
+                    continue;
+                }
+
+                $value = explode(VALUE_SEPARATOR, $value);
+
+                if (count($value) !== 2) {
+                    continue;
+                }
+
+                $name = array_shift($value);
+                $value = array_shift($value);
+            } elseif ($name === 'entrenchment') {
+                $name = 'traits';
+                $traitName = 'Quick Entrenchment';
+                $value = [
+                    'name' => $traitName,
+                    'info' => $localisationTraits[$traitName],
+                ];
+
+                if (array_key_exists($name, $commanders[$currentId])) {
+                    $commanders[$currentId][$name][] = $value;
+                } else {
+                    $commanders[$currentId][$name] = [$value];
+                }
+
+                continue;
+            }
+
+            $commanderValues = [
+                'id' => 'id',
+                'category' => 'category',
+                'faction' => 'factions',
+                'range' => 'range',
+                'assault' => 'assault',
+                'shock' => 'shock',
+                'steps' => 'steps',
+                'fuel' => 'fuel',
+                'infantry_attack' => 'infantry_attack',
+                'infantry_defense' => 'infantry_defense',
+                'vehicle_attack' => 'vehicle_attack',
+                'vehicle_defense' => 'vehicle_defense',
+                'air_small_attack' => 'air_attack_small',
+                'air_large_attack' => 'air_attack_large',
+                'air_defense' => 'air_defense',
+                'naval_small_attack' => 'naval_attack_small',
+                'naval_large_attack' => 'naval_attack_large',
+                'naval_defense' => 'naval_defense',
+                'submarine_defense' => 'torpedo_defense',
+                'bombard_defense' => 'artillery_defense',
+            ];
+
+            if (!array_key_exists($name, $commanderValues)) {
+                continue;
+            }
+
+            $name = $commanderValues[$name];
+
+            // case to proper variable type
+            if (!in_array($name, ['category', 'factions'])) {
+                $value = (int) $value;
+            }
+
+            $commanders[$currentId][$name] = $value;
+        }
+
+        // add commanders as units to the unit list
+        $commanders = commandersToUnits($commanders);
+        $filterTypes[COMMANDER_TYPE] = COMMANDER_TYPE;
+        $units = $units + $commanders;
 
         // store ordered ids so we can use them to sort later
         // JS will change the order of the unit data when parsing JSON
@@ -1105,7 +1353,7 @@ try {
     );
 
     // output HTML
-    echo implode("\n", $html);
+    echo implode(PHP_EOL, $html);
 } catch (Exception $e) {
     error_log('OOB viewer Fatal error: ' . $e->getMessage());
 
@@ -1114,7 +1362,7 @@ try {
     }
 
     header('HTTP/1.1 500 Internal Server Error');
-    echo "Unexpected Error. Sorry, try again later.\n";
+    echo 'Unexpected Error. Sorry, try again later.' . PHP_EOL;
 
     // exit with error status
     exit(1);

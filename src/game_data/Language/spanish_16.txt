@@ -1,0 +1,67 @@
+﻿commander_125 = Vasily Chuikov
+commander_126 = Anatoly Balashov
+commander_127 = Vladimir Etush
+commander_128 = Anna Yegorova
+commander_129 = Alexander Pokryshkin
+
+unit_2301 = OT-34
+unit_2302 = KV-1 m1942
+unit_2303 = T-70
+unit_2304 = 45mm m1942
+unit_2305 = 76mm ZiS-3
+unit_2306 = 76mm ZiS-3
+unit_2307 = La-5 F
+unit_2308 = Yak-9 D
+unit_2309 = Pe-2 FT
+unit_2310 = Il-2 M
+unit_2311 = Pz III L
+unit_2312 = Marder III
+unit_2313 = Hurricane II
+unit_2314 = P40
+unit_2315 = P39 Airacobra
+unit_2316 = B-25C
+unit_2317 = A-20B
+unit_2318 = Camión Studebaker
+unit_2319 = M9 Halftrack
+unit_2320 = PzKW II F
+unit_2321 = PzKw. 38(t) G
+unit_2322 = Bf-110 G
+unit_2323 = PzKw. 38(t) G
+unit_2324 = 7,5cm Pak 40
+unit_2325 = MÁVAG Héja II
+unit_2326 = Infantería húngara '42
+unit_2327 = 40mm Bofors AA
+unit_2328 = Skoda R-2
+unit_2329 = Infantería rumana '42
+unit_2330 = Inf. de montaña rumana '42
+unit_2331 = IAR 80
+unit_2332 = PzKw. IV G
+unit_2333 = Inf. pesada húngara '42
+
+tutorial_content_soviet2_title = [Nuevo Contenido] Red Steel
+tutorial_content_soviet2 = Esta nueva campaña te pone al mando del Ejército Rojo desde 1942 hasta 1943 para continuar luchando contra las fuerzas alemanas y del resto del Eje en la Gran Guerra Patriótica.
+
+spec_ll_ussr_aircraft_title = Aviones de Préstamo y Arriendo
+spec_ll_ussr_aircraft_descr = La ayuda de los Estados Unidos a través de entregas de Préstamo y arriendo se ha expandido masivamente y ahora ofrece acceso a tipos seleccionados de aeronaves.
+spec_ll_ussr_aircraft_effect = • Los aviones de combate fabricados en EE. UU. se desbloquearán para la compra una vez que estén listos para el servicio
+spec_ll_ussr_logistics_title = Logística de Préstamo y Arriendo
+spec_ll_ussr_logistics_descr = Una expansión adicional del programa de Préstamo y Arriendo incluye transportes producidos en los Estados Unidos, y también ayuda sustancial en bienes, suministros, recursos y otros materiales necesarios para sostener el esfuerzo de guerra soviético.
+spec_ll_ussr_logistics_effect = • Los camiones y semiorugas fabricados en EE. UU. se desbloquearán para la compra
+spec_shock_army_title = Ejército de Choque
+spec_shock_army_descr = Equipado con un grandes cantidades de infantería, artillería y, a menudo, tanques pesados, los Ejércitos de Choque se crean para penetrar las líneas enemigas y que así más fuerzas móviles puedan explotar la penetración una vez conseguida.
+spec_shock_army_effect = • Concede una unidad de Fuerza Principal Katyusha BM-13 gratis|• Shturmoviki: Ingenieros soviéticos +1 asalto, +1 ataque en terreno de alta cobertura
+spec_guards_army_title = Ejército de la Guardia
+spec_guards_army_descr = Después de la introducción de unidades de la Guardia, ahora podemos formar Ejércitos de la Guardia completos, que generalmente tienen prioridad sobre los suministros o equipos para mantener la fuerza de combate.
+spec_guards_army_effect = • Concede una unidad de Fuerza Principal KV-1 m1942 gratis|• Toda la infantería de la Guardia +1 ataque en terreno de alta cobertura
+
+skin_9 = Invierno 1
+skin_10 = Invierno 2
+skin_11 = Invierno 3
+skin_12 = Verano 1
+skin_13 = Italia 1
+skin_14 = Italia 2
+skin_15 = Soviético 1
+skin_16 = Soviético 2
+
+
+

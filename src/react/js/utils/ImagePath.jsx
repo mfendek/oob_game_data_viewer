@@ -19,6 +19,10 @@ export const getImgUrl = (name, value) => {
   }
 
   if (name === 'type') {
+    if (value === 'commander') {
+      return 'src/img/commander.png';
+    }
+
     return 'src/game_data/Graphics/UI/ClassIcons/'.concat(value, '.png');
   }
 
@@ -61,6 +65,10 @@ export const getImgUrl = (name, value) => {
 
     if (value === 'no_image') {
       return 'src/img/no_image.png';
+    }
+
+    if (value.indexOf('commander_') >= 0) {
+      return 'src/game_data/Graphics/Commanders/'.concat(value.toLowerCase(), '.png');
     }
 
     return 'src/img/units/'.concat(value.toLowerCase(), '.png');

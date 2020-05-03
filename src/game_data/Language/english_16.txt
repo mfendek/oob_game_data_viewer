@@ -1,0 +1,65 @@
+﻿commander_125 = Vasily Chuikov
+commander_126 = Anatoly Balashov
+commander_127 = Vladimir Etush
+commander_128 = Anna Yegorova
+commander_129 = Alexander Pokryshkin
+
+unit_2301 = OT-34
+unit_2302 = KV-1 m1942
+unit_2303 = T-70
+unit_2304 = 45mm m1942
+unit_2305 = 76mm ZiS-3
+unit_2306 = 76mm ZiS-3
+unit_2307 = La-5 F
+unit_2308 = Yak-9 D
+unit_2309 = Pe-2 FT
+unit_2310 = Il-2 M
+unit_2311 = Pz III L
+unit_2312 = Marder III
+unit_2313 = Hurricane II
+unit_2314 = P-40
+unit_2315 = P-39 Airacobra
+unit_2316 = B-25C
+unit_2317 = A-20B
+unit_2318 = Studebaker Truck
+unit_2319 = M9 Halftrack
+unit_2320 = PzKW II F
+unit_2321 = PzKw. 38(t) G
+unit_2322 = Bf 110 G
+unit_2323 = PzKw. 38(t) G
+unit_2324 = 7,5cm Pak 40
+unit_2325 = MÁVAG Héja II
+unit_2326 = Hungarian Infantry '42
+unit_2327 = 40mm Bofors AA
+unit_2328 = Skoda R-2
+unit_2329 = Romanian Infantry '42
+unit_2330 = Romanian Mountain '42
+unit_2331 = IAR 80
+unit_2332 = PzKw. IV G
+unit_2333 = Hungarian Heavy Infantry '42
+
+tutorial_content_soviet2_title = [New content] Red Steel
+tutorial_content_soviet2 = This new campaign puts you in command of the Red Army 1942 - 1943 to continue fighting against German and other Axis forces in the Great Patriotic War.
+
+spec_ll_ussr_aircraft_title = Lend-Lease Aircraft
+spec_ll_ussr_aircraft_descr = US aid via Lend-Lease deliveries is massively expanded and does now offer access to selected types of aircraft.
+spec_ll_ussr_aircraft_effect = • US-made warplanes will be unlocked for purchase once they are ready for service
+spec_ll_ussr_logistics_title = Lend-Lease Logistics
+spec_ll_ussr_logistics_descr = A further expansion of the Lend-Lease program includes US-made transports, but also substantial help in goods, supplies, resources and other materials needed to sustain the Soviet war effort.
+spec_ll_ussr_logistics_effect = • US-made trucks and later halftracks will be unlocked for purchase
+spec_shock_army_title = Shock Army
+spec_shock_army_descr = Equipped with large numbers of infantry, artillery and often heavy tanks Shock Armies are created to penetrate enemy lines so that more mobile forces can easily exploit a breakthrough once achieved.
+spec_shock_army_effect = • Awards a free core Katyusha BM-13 unit|• Shturmoviki: Soviet Engineers +1 assault, +1 attack in high cover terrain
+spec_guards_army_title = Guards Army
+spec_guards_army_descr = After the introduction of Guards units we can now form complete Guards Armies which are usually given priority when it comes to supply or equipment to maintain combat strength.
+spec_guards_army_effect = • Awards a free core KV-1 m1942|• All Guards Infantry +1 attack in high cover terrain
+
+skin_9 = Winter 1
+skin_10 = Winter 2
+skin_11 = Winter 3
+skin_12 = Summer 1
+skin_13 = Italy 1
+skin_14 = Italy 2
+skin_15 = Soviet 1
+skin_16 = Soviet 2
+
