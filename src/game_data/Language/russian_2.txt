@@ -111,8 +111,8 @@ unit_1062 = He 111 H
 unit_1063 = L3/35
 unit_1064 = L3/33
 unit_1065 = M2 Легкий танк
-unit_1066 = DUWK
-unit_1067 = DUWK
+unit_1066 = DUKW
+unit_1067 = DUKW
 unit_1068 = BT-42
 unit_2035 = Ки-32
 

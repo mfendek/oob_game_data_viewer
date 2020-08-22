@@ -360,6 +360,8 @@ range = 0
 id = 44
 category = naval
 faction = japan, ijn
+weapon = naval_small_attack, 1
+defense = naval_defense, 1
 range = 0
 
 [MITZUSO_ISHIKAMA]
@@ -637,6 +639,41 @@ weapon = air_small_attack, 2
 weapon = air_large_attack, 1
 defense = air_defense, 1
 range = 1
+
+[IVAN_KOZHEDUB]
+id = 130
+category = air
+faction = ussr
+weapon = air_small_attack, 2
+weapon = air_large_attack, 2
+defense = air_defense, 1
+range = 0
+
+[IVAN_NIKITIN]
+id = 131
+category = land
+faction = ussr
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+entrenchment = 1
+range = 0
+
+[IVAN_KADOCHNIKOV]
+id = 132
+category = land
+faction = ussr
+assault = 1
+shock = 5
+defense = bombard_defense, 1
+range = 0
+
+[ALEKSANDRA_BOIKO]
+id = 133
+category = land
+faction = ussr
+weapon = vehicle_attack, 1
+defense = infantry_defense, 1
+range = 0
 
 
 //////////////////////////

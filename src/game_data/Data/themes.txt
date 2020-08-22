@@ -29,7 +29,7 @@ difficulty = usa
 [USSR]
 ui = ussr
 video = ussr
-music = usa
+music = ussr
 turn = ussr
 difficulty = soviet
 

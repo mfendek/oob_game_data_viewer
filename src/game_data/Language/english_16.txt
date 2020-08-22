@@ -63,3 +63,4 @@ skin_14 = Italy 2
 skin_15 = Soviet 1
 skin_16 = Soviet 2
 
+pbem_tournamenttime = Time Left

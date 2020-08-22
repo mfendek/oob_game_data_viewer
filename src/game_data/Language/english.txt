@@ -102,6 +102,7 @@ scenario_preview = Map Preview
 scenario_list = Scenario List
 players = Players
 back = Back
+unscale_ui_error = for resoultions > Full HD
 
 // UNIT NAMES
 unit_0 = Type 97 Shinhoto Chi-Ha

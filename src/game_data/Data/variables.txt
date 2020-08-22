@@ -11,6 +11,6 @@ largeScaleFactor = 1.3
 
 // Camera zoom limits
 defaultZoomLevel = 30
-defaultMinZoom = 20
-defaultMaxZoom = 37
+defaultMinZoom = 15
+defaultMaxZoom = 67
 defaultMaxZoomEditor = 100

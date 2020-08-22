@@ -1,0 +1,6 @@
+﻿pbem_turn = Turn
+
+commander_130 = Ivan Kozhedub
+commander_131 = Ivan Nikitin
+commander_132 = Ivan Kadochnikov
+commander_133 = Aleksandra Boiko

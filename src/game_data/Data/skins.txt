@@ -42,49 +42,49 @@ category = land
 [GERMAN_DESERT_1]
 id = 7
 texture = german_0
-factions = germany, waffen_ss, kriegsmarine
+factions = germany, waffenss, kriegsmarine
 category = land
 
 [GREEN_BEIGE_WEB]
 id = 8
 texture = british_0
-factions = germany, waffen_ss, italy, usa, britain, canada
+factions = germany, waffenss, italy, usa, britain, canada
 category = land
 
 [WINTER_1]
 id = 9
 texture = general_1
-factions = germany, waffen_ss, italy, usa, britain, canada, ussr
+factions = germany, waffenss, italy, usa, britain, canada, ussr
 category = land
 
 [WINTER_2]
 id = 10
 texture = winter_dirt_1
-factions = germany, waffen_ss, italy, usa, britain, canada. ussr
+factions = germany, waffenss, italy, usa, britain, canada. ussr
 category = land
 
 [WINTER_3]
 id = 11
 texture = winter_dirt_2
-factions = germany, waffen_ss, italy, usa, britain, canada, ussr
+factions = germany, waffenss, italy, usa, britain, canada, ussr
 category = land
 
 [GERMAN_SUMMER_1]
 id = 12
 texture = german_2
-factions = germany, waffen_ss, italy
+factions = germany, waffenss, italy
 category = land
 
 [ITALY_1]
 id = 13
 texture = italy_1
-factions = germany, waffen_ss, italy
+factions = germany, waffenss, italy
 category = land
 
 [ITALY_2]
 id = 14
 texture = italy_2
-factions = germany, waffen_ss, italy
+factions = germany, waffenss, italy
 category = land
 
 [SOVIET_1]

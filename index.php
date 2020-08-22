@@ -1,5 +1,6 @@
 <?php
 
+const RELEASE_VERSION = '2020-08-23';
 const LIST_SEPARATOR = ' = ';
 const VALUE_SEPARATOR = ', ';
 const COMMANDER_ID_OFFSET = 100000;
@@ -250,7 +251,7 @@ try {
     error_reporting(-1);
     ini_set('error_log', 'logs/oobgdw-error-' . strftime('%Y%m%d') . '.log');
 
-    $version = '2020-05-04';
+    $version = RELEASE_VERSION;
 
     // configuration
     $dataPath = 'src/game_data/Data/';
@@ -436,7 +437,14 @@ try {
         foreach ($climates as $climate => $climateId) {
             $dataFile = openDataFile($dataPath, 'chassis' . $climateId . '.csv', $modUrl, $modFiles);
             foreach ($dataFile as $lineNumber => $line) {
-                $line = explode(";", $line);
+                $line = trim($line);
+
+                // skip empty lines
+                if (!$line) {
+                    continue;
+                }
+
+                $line = explode(';', $line);
                 $chassis = trim($line[0]);
                 $chassisId = trim($line[1]);
 
