@@ -54,19 +54,16 @@ category = land
 [WINTER_1]
 id = 9
 texture = general_1
-factions = germany, waffenss, italy, usa, britain, canada, ussr
 category = land
 
 [WINTER_2]
 id = 10
 texture = winter_dirt_1
-factions = germany, waffenss, italy, usa, britain, canada. ussr
 category = land
 
 [WINTER_3]
 id = 11
 texture = winter_dirt_2
-factions = germany, waffenss, italy, usa, britain, canada, ussr
 category = land
 
 [GERMAN_SUMMER_1]
@@ -98,4 +95,80 @@ id = 16
 texture = soviet_2
 factions = germany, ussr
 category = land
+
+[STRIPES_1]
+id = 17
+texture = stripes_1
+category = land
+
+[AUTUMN_1]
+id = 18
+texture = autumn_1
+factions = germany, waffenss, italy
+category = land
+
+[AUTUMN_2]
+id = 19
+texture = autumn_2
+factions = germany, waffenss, italy
+category = land
+
+[GERMAN_AMBUSH]
+id = 20
+texture = german_1
+factions = germany, waffenss
+category = land
+
+[WINTER_4]
+id = 21
+texture = winter_4
+category = land
+
+[WINTER_5]
+id = 22
+texture = winter_5
+category = land
+
+[AUTUMN_3]
+id = 23
+texture = autumn_3
+factions = germany, waffenss, italy, ussr
+category = land
+
+[FINLAND_1]
+id = 24
+texture = finland_1
+factions = finland, germany, ussr
+category = land
+
+[HUNGARY_1]
+id = 25
+texture = hungary_1
+factions = hungary, germany, ussr
+category = land
+
+[STRIPES_2]
+id = 26
+texture = stripes_2
+category = land
+
+[STRIPES_3]
+id = 27
+texture = stripes_3
+factions = germany, waffenss, italy, usa, britain
+category = land
+
+[WINTER_6]
+id = 29
+texture = winter_6
+factions = finland, germany, waffenss
+category = land
+
+[PATCHES_1]
+id = 31
+texture = patches_1
+factions = germany, waffenss, italy, ussr
+category = land
+
+
 

@@ -1,0 +1,58 @@
+﻿﻿pbem_turn = Runde
+
+commander_130 = Iwan Koschedub
+commander_131 = Iwan Nikitin
+commander_132 = Iwan Kadotschnikow
+commander_133 = Alexandra Bojko
+
+unit_2334 = BA-64 B
+unit_2335 = BS-3 100mm
+unit_2336 = Katjuscha BM-31
+unit_2337 = La-5FN
+unit_2338 = Jak-9T
+unit_2339 = Jak-3
+unit_2340 = Tu-2S
+unit_2341 = Jak-9U
+unit_2342 = G-5
+unit_2343 = Panther A
+unit_2344 = M17 MGMC
+unit_2345 = M17 MGMC
+unit_2346 = PzKpfw II L
+unit_2347 = Pak 43 88mm
+unit_2349 = He 162
+unit_2350 = 41M Turán II
+unit_2351 = Bf 109 G
+unit_2352 = Me 210
+unit_2353 = DD Regele Ferdinand
+unit_2354 = Ungar. Infanterie '43
+unit_2355 = Ungar. Infanterie '44
+unit_2356 = Ungar. Schw. Infanterie '43
+unit_2357 = Ungar. Schw. Infanterie '44
+unit_2358 = Rumän. Infanterie '43
+unit_2359 = Rumän. Gebirgsjäger '43
+unit_2360 = Poln. Infanterie '45
+unit_2361 = Churchill Mk. IV
+unit_2362 = 43M Zrinyi
+unit_2363 = Jer-2
+unit_2348 = Defiant Mk. I
+unit_2364 = He 59 SAR
+unit_2365 = Fabrik
+
+tutorial_content_soviet3_title = [Neuer Inhalt] Roter Sturm
+tutorial_content_soviet3 = In dieser neuen Kampagne haben Sie das Kommando über die Rote Armee in den Jahren 1943 bis 1945.
+
+spec_at_cluster_bomb_title = Panzerabwehr-Streubombe
+spec_at_cluster_bomb_descr = Das leichte PTAB-System mit Hohlladungsbomblets wurde zum ersten Mal in der Schlacht von Kursk eingesetzt und bietet für eine Reihe von sowjetischen Flugzeugen wirkungsvolle Panzerabwehr-Streumunition.
+spec_at_cluster_bomb_effect = • Taktische Bomber erhalten +1 Fahrzeugangriff
+
+spec_sov_fighter_tactics_title = Verbesserte Jägertaktiken
+spec_sov_fighter_tactics_descr = Die sowjetischen Jägertaktiken haben sich vor allem seit der Schlacht von Stalingrad und den Luftkämpfen über dem Kuban deutlich verbessert. Dies wiederum führte zu einer größeren Auswahl an erfahrenen Piloten.
+spec_sov_fighter_tactics_effect = • Neu gekaufte Jagdflugzeuge starten mit 1 zusätzlichen Erfahrungsstern
+
+spec_air_offensive_title = Luftoffensive
+spec_air_offensive_descr = Deutlich erhöhte Produktionskapazitäten, vor allem in den USA und der UdSSR, verbesserte Ausrüstung und Taktiken sowie die schwindende Luftmacht der Achsenmächte machten in den späteren Kriegsjahren immer größere Luftoperationen möglich.
+spec_air_offensive_effect = • +3 Luftbefehlspunkte
+
+spec_deep_operations_title = Tiefe Operation
+spec_deep_operations_descr = Ideen, die strategische Tiefe von Frontdurchbrüchen zu nutzen, wurden bereits in den 20er- und 30er-Jahren entwickelt. Doch Stalins Säuberungsoperationen sowie die hohen Verluste, die in den Jahren vor 1943 erlitten wurden, verzögerten die Umsetzung dieser Strategie - bis die Rote Armee schließlich in der Lage war, weitreichende Offensiven mit Erfolg durchzuführen.
+spec_deep_operations_effect = • Beim Angriff erhalten Panzer einen Verteidigungsbonus von verbündeten Panzern, die an sie und das Angriffsziel angrenzen und die Eigenschaft "Schwergewicht" aufweisen.

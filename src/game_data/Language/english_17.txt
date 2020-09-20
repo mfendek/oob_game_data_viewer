@@ -4,3 +4,55 @@ commander_130 = Ivan Kozhedub
 commander_131 = Ivan Nikitin
 commander_132 = Ivan Kadochnikov
 commander_133 = Aleksandra Boiko
+
+unit_2334 = Ba-64 B
+unit_2335 = 100mm BS-3
+unit_2336 = Katyuha BM-31
+unit_2337 = La-5 FN
+unit_2338 = Yak-9 T
+unit_2339 = Yak-3
+unit_2340 = Tu-2 S
+unit_2341 = Yak-9 U
+unit_2342 = G-5
+unit_2343 = Panther A
+unit_2344 = M17 MGMC AA
+unit_2345 = M17 MGMC AT
+unit_2346 = PzKW II L
+unit_2347 = 8,8cm Pak 43
+unit_2349 = He 162
+unit_2350 = 41M Turan II
+unit_2351 = Bf 109 G
+unit_2352 = Me 210
+unit_2353 = DD Regele Ferdinand 
+unit_2354 = Hungarian Infantry '43
+unit_2355 = Hungarian Infantry '44
+unit_2356 = Hungarian Heavy Infantry '43
+unit_2357 = Hungarian Heavy Infantry '44
+unit_2358 = Romanian Infantry '43
+unit_2359 = Romanian Mountain '43
+unit_2360 = Polish Infantry '45
+unit_2361 = Churchill Mk IV
+unit_2362 = 43M Zrinyi
+unit_2363 = Yer-2
+unit_2348 = Defiant Mk.I
+unit_2364 = He-59 SAR
+unit_2365 = Factory
+
+tutorial_content_soviet3_title = [New content] Red Storm
+tutorial_content_soviet3 = This new campaign puts you in command of the Red Army 1943 - 1945.
+
+spec_at_cluster_bomb_title = Anti-Tank Cluster Bomb
+spec_at_cluster_bomb_descr = The low-weight PTAB system with shaped charge bomblets was used first during the Battle of Kursk and provides effective anti-tank submunitions for a variety of Soviet aircraft.
+spec_at_cluster_bomb_effect = • Tactical Bombers gain +1 vehicle attack
+
+spec_sov_fighter_tactics_title = Improved Fighter Tactics
+spec_sov_fighter_tactics_descr =  Soviet fighter tactics improved especially since the battle of Stalingrad and the air battles over the Kuban, which led to a larger pool of experienced pilots.
+spec_sov_fighter_tactics_effect = • Newly purchased fighters start with 1 additional experience star
+
+spec_air_offensive_title = Air Offensive
+spec_air_offensive_descr = Significantly expanded production capacitiesin, especially in the US and USSR, improved equipment and tactis as well as diminishing Axis air power allowed for increasingly larger air operations in the later stages of World War 2. 
+spec_air_offensive_effect = • +3 Air Command Points
+
+spec_deep_operations_title = Deep Operations
+spec_deep_operations_descr = Ideas to exploit the strategic depth of frontline breakthroughs were developed in the 1930ies, but both Stalin's purges and heavy losses before 1943 delayed the practical implementation until the Red Army was able to conclude far-reaching offensives successfully. 
+spec_deep_operations_effect = • When attacking, tanks gain a defensive bonus from friendly tanks which are adjacent to themselves and the target, and possess the "Heavy Treading" trait.

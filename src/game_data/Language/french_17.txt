@@ -1,0 +1,58 @@
+﻿pbem_turn = Tour
+
+commander_130 = Ivan Kozhedub
+commander_131 = Ivan Nikitin
+commander_132 = Ivan Kadochnikov
+commander_133 = Aleksandra Boiko
+
+unit_2334 = Ba-64 B
+unit_2335 = BS-3 100mm
+unit_2336 = Katyuha BM-31
+unit_2337 = La-5 FN
+unit_2338 = Yak-9 T
+unit_2339 = Yak-3
+unit_2340 = Tu-2 S
+unit_2341 = Yak-9 U
+unit_2342 = G-5
+unit_2343 = Panther A
+unit_2344 = M17 MGMC
+unit_2345 = M17 MGMC
+unit_2346 = PzKW II L
+unit_2347 = Pak 43 8,8cm
+unit_2349 = He 162
+unit_2350 = 41M Turan II
+unit_2351 = Bf 109 G
+unit_2352 = Me 210
+unit_2353 = DD Regele Ferdinand 
+unit_2354 = Infanterie hongroise '43
+unit_2355 = Infanterie hongroise '44
+unit_2356 = Infanterie lourde hongroise '43
+unit_2357 = Infanterie lourde hongroise '44
+unit_2358 = Infanterie roumaine '43
+unit_2359 = Infanterie de montagne roumaine '43
+unit_2360 = Infanterie polonaise '45
+unit_2361 = Churchill Mk. IV
+unit_2362 = 43M Zrinyi
+unit_2363 = Yer-2
+unit_2348 = Defiant Mk.I
+unit_2364 = He-59 SAR
+unit_2365 = Usine
+
+tutorial_content_soviet3_title = [Nouveau contenu] Red Storm
+tutorial_content_soviet3 = Cette nouvelle campagne vous met au commandement de l'Armée rouge en 1943 - 1945.
+
+spec_at_cluster_bomb_title = Bombe à fragmentation anti-char
+spec_at_cluster_bomb_descr = Le système à faible poids PTAB avec des bombelettes à charge creuse fut utilisé en premier durant la bataille de Kursk et a fourni d'efficaces sous-munitions anti-char à toutes sortes d'avions.
+spec_at_cluster_bomb_effect = • Les bombardiers tactiques gagnent +1 attaque de véhicule
+
+spec_sov_fighter_tactics_title = Tactiques de chasse améliorées 
+spec_sov_fighter_tactics_descr =  Les tactiques des chasseurs soviétiques se sont améliorées particulièrement depuis la bataille de Stalingrad et les batailles aériennes au-dessus de Kuban, qui ont donné une plus grande réserve de pilotes expérimentés.
+spec_sov_fighter_tactics_effect = • Des chasseurs récemment achetés commencent avec 1 étoile d'expérience supplémentaire
+
+spec_air_offensive_title = Offensive aérienne 
+spec_air_offensive_descr = Des capacités de production considérablement développées, particulièrement aux USA et en URSS, ont amélioré l'équipement ainsi que les tactiques tout en diminuant la puissance aérienne de l'Axe, ce qui a permis de plus importantes opérations aériennes dans les étapes ultérieures de 39-45. 
+spec_air_offensive_effect = • +3 Points de commandement aérien
+
+spec_deep_operations_title = Opérations en profondeur
+spec_deep_operations_descr = Des idées pour exploiter la profondeur stratégique des percées des lignes de front furent développées dans les années 1930, mais tant les purges de Staline que les lourdes pertes avant 1943 ont retardé leur mises en œuvre jusqu'à ce que l'Armée rouge soit capable de mener avec succès des offensives d'une grande portée. 
+spec_deep_operations_effect = • Lors d'une attaque, les chars gagnent un bonus défensif grâce aux chars amis et à leurs cibles adjacentes, et ils possèdent le trait "Lourd piétinement".

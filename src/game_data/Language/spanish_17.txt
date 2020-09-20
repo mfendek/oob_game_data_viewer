@@ -1,0 +1,58 @@
+﻿pbem_turn = Turno
+
+commander_130 = Ivan Kozhedub
+commander_131 = Ivan Nikitin
+commander_132 = Ivan Kadochnikov
+commander_133 = Aleksandra Boiko
+
+unit_2334 = Ba-64 B
+unit_2335 = 100mm BS-3
+unit_2336 = Katyuha BM-31
+unit_2337 = La-5 FN
+unit_2338 = Yak-9 T
+unit_2339 = Yak-3
+unit_2340 = Tu-2 S
+unit_2341 = Yak-9 U
+unit_2342 = G-5
+unit_2343 = Panther A
+unit_2344 = M17 MGMC
+unit_2345 = M17 MGMC
+unit_2346 = PzKW II L
+unit_2347 = 8,8cm Pak 43
+unit_2349 = He 162
+unit_2350 = 41M Turan II
+unit_2351 = Bf 109 G
+unit_2352 = Me 210
+unit_2353 = DD Regele Ferdinand 
+unit_2354 = Infantería Húngara '43
+unit_2355 = Infantería Húngara '44
+unit_2356 = Infantería Pesada Húngara '43
+unit_2357 = Infantería Pesada Húngara '44
+unit_2358 = Infantería Rumana  '43
+unit_2359 = Rumana de Montaña '43
+unit_2360 = Infantería Polaca '45
+unit_2361 = Churchill Mk. IV
+unit_2362 = 43M Zrinyi
+unit_2363 = Yer-2
+unit_2348 = Defiant Mk.I
+unit_2364 = He-59 SAR
+unit_2365 = Factoría
+
+tutorial_content_soviet3_title = [Contenido nuevo] Red Storm
+tutorial_content_soviet3 = Esta nueva campaña te pone al mando del Ejército Rojo 1943 - 1945.
+
+spec_at_cluster_bomb_title = Bomba de Racimo Antitanque
+spec_at_cluster_bomb_descr = El sistema de bajo peso PTAB con bombas de carga con forma se utilizó por primera vez durante la Batalla de Kursk y proporciona munición antitanque eficaz para una variedad de aviones soviéticos.
+spec_at_cluster_bomb_effect = • Los Bombarderos Tácticos ganan +1 ataque contra vehículo
+
+spec_sov_fighter_tactics_title = Tácticas de Caza Mejoradas
+spec_sov_fighter_tactics_descr =  Las tácticas de caza soviéticas mejoraron especialmente desde la batalla de Stalingrado y las batallas aéreas sobre el Kuban, lo que desarrolló un grupo más grande de pilotos experimentados.
+spec_sov_fighter_tactics_effect = • Los cazas recién comprados comienzan con 1 estrella de experiencia adicional
+
+spec_air_offensive_title = Ofensiva Aérea
+spec_air_offensive_descr = La ampliación significativa de las capacidades de producción, especialmente en los EE.UU. y la URSS, la mejora de los equipos y tácticas, así como la disminución del poder aéreo del Eje, permitieron operaciones aéreas cada vez más grandes en las últimas fases de la Segunda Guerra Mundial.
+spec_air_offensive_effect = • +3 Puntos de Mando Aéreo
+
+spec_deep_operations_title = Operaciones en Profundidad
+spec_deep_operations_descr = En la década de 1930 se desarrollaron ideas para explotar estratégicamente la profundidad de las roturas de frente, pero tanto las purgas de Stalin como las grandes pérdidas antes de 1943 retrasaron su implementación hasta que el Ejército Rojo pudo concluir con éxito ofensivas de largo alcance.
+spec_deep_operations_effect = • Al atacar, los tanques obtienen una bonificación defensiva de los tanques amigos que están adyacentes a ellos mismos y al objetivo, y ganan el rasgo "Pisada pesada".

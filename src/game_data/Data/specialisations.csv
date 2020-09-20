@@ -43,7 +43,7 @@ Lend_Lease_USSR;95;land;ussr;2/1942;Arctic_Convoy;;10;lend_lease_ussr;no
 LL_USSR_Logistics;96;land;ussr;5/1942;Lend_Lease_USSR;;5;ll_ussr_logistics;no
 Shock_Army;97;land;ussr;1/1942;/;;7;shock_army;no
 Guards_Army;98;land;ussr;10/1942;Guard_Infantry;;7;guards_army;no
-;;;;;;;;;
+Deep_Operations;100;land;ussr;5/1944;Tank_School;;5;Panzer_Keil;no
 ;;;;;;;;;
 // NAVAL;;;;;;;;;
 ;;;;;;;;;
@@ -75,7 +75,10 @@ Bomber_Stream;83;air;britain;5/1942;/;;3;bomber_stream;yes
 Synthetic_Fuel_Plants;48;air;germany;1943;/;;5;air_cp_bonus;no
 Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
 LL_USSR_Aircraft;99;air;ussr;3/1942;Lend_Lease_USSR;;7;ll_ussr_air;no
-Kuban_Shelves;;air;ussr;1/1943;;;5;kuban_shelves;no
+AT_Cluster_Bomb;101;air;ussr;5/1943;;;5;at_cluster_bomb;no
+Sov_Fighter_Tactics;102;air;ussr;1/1944;Flight_School;;5;sov_fighter_tactics;no
+Air_Offensive;103;air;ussr;5/1944;Pilot_Rotation;;7;air_offensive;no
+;;;;;;;;;
 ;;;;;;;;;
 // GENERAL & SHARED;;;;;;;;;
 ;;;;;;;;;
