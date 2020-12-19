@@ -1,0 +1,91 @@
+commander_109 = William Vale
+commander_110 = Bernard Freyberg
+commander_111 = Bernard Montgomery
+commander_112 = Claude Auchinleck
+
+unit_4700 = Portee 6pdr	
+unit_4701 = Lysander
+unit_4702 = Pioneer
+unit_4703 = Skua
+unit_4704 = Hurricane IID
+unit_4705 = DD Oriani
+unit_4706 = CA Zara
+unit_4722 = Allied Truck
+unit_4723 = Daimler Mk.I
+unit_4724 = Fulmar
+unit_4725 = Stirling
+unit_4726 = Halifax				
+unit_4727 = StuG III D 
+unit_4728 = StuG III D 
+unit_4729 = Cannone 75 32
+unit_4730 = Cannone 75 32
+unit_4707 = Italian Infantry '40
+unit_4708 = Italian Heavy Infantry '40
+unit_4709 = Italian Engineers '40
+unit_4710 = Australian Engineers '40
+unit_4711 = Australian Engineers '42
+unit_4712 = Australian Infantry '42
+unit_4713 = Australian Heavy Infantry '42
+unit_4714 = New Zealand Engineers '41
+unit_4715 = New Zealand Infantry '41
+unit_4716 = New Zealand Infantry '42
+unit_4717 = SA Engineers '41
+unit_4718 = South African Infantry '41
+unit_4719 = South African Infantry '42
+unit_4720 = South African Heavy Infantry '42
+unit_4721 = Mortar Infantry '42
+unit_4731 = Gebirgsjäger '40
+unit_4732 = Sea Gladiator
+unit_4733 = BB Queen Elizabeth
+unit_4734 = Primary Guns
+unit_4735 = French Infantry '41
+unit_4736 = French Infantry '42
+
+tutorial_content_allied1_title = [New content] Allies Defiant
+tutorial_content_allied1 = This new campaign puts you in command of British and Allied forces to battle Axis troops in Europe, the Mediterranean Sea and in the North African desert from 1940 - 1942.
+
+console_legend_enableTutorial = Enable tutorial
+console_legend_disableTutorial = Disable tutorial
+console_legend_objective_details = Objective details
+console_legend_close_objective = Close Objective
+console_legend_startbriefing = Start Briefing
+console_legend_disband = Disband
+console_legend_revive = Revive
+console_legend_compare = Compare
+console_legend_move_map = Move Map
+console_legend_toggle_pins = Toggle Pins
+
+skin_17 = Stripes 1
+skin_18 = Autumn 1
+skin_19 = Autumn 2
+skin_20 = Ambush
+skin_21 = Winter 4
+skin_22 = Winter 5
+skin_23 = Autumn 3
+skin_24 = Finland 1
+skin_25 = Hungary 1
+skin_26 = Stripes 2
+skin_27 = Stripes 3
+skin_29 = Winter 6
+skin_31 = Patches 1
+skin_32 = France 1
+skin_33 = France 2
+skin_34 = Desert Rats 1
+skin_35 = Desert Rats 2
+
+sell_unit = Sell unit ?
+sell_confirm = Are you sure you want to sell this unit ?
+console_legend_movemap = Move Map
+console_legend_changeTab = Change tab
+console_legend_campaignPins = Toggle Pins
+console_legend_nap = Nap 
+console_legend_awake = Awake
+console_legend_sleep = Sleep
+console_legend_centerCamera = Center camera
+console_legend_supplyMode = Toggle supply mode
+console_legend_airGround = Toggle Air/Ground
+
+
+
+
+

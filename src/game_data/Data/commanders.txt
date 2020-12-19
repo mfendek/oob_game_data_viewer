@@ -1027,3 +1027,37 @@ category = air
 faction = italy
 weapon = air_small_attack, 1
 defense = air_defense, 2
+
+//////////////////////
+//   Allies ETO1   //
+/////////////////////
+
+[WILLIAM_VALE]
+id = 109
+category = air
+faction = britain
+weapon = air_small_attack, 2
+range = 1
+
+[BERNARD_FREYBERG]
+id = 110
+category = land
+faction = britain, new_zealand
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+
+[BERNARD_MONTGOMERY]
+id = 111
+category = land
+faction = britain
+weapon = vehicle_attack, 2
+weapon = infantry_attack, 2
+assault = 2
+range = 3
+
+[CLAUDE_AUCHINLECK]
+id = 112
+category = land
+faction = britain
+weapon = infantry_attack, 1
+defense = infantry_defense, 1

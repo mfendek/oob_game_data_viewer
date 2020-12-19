@@ -143,23 +143,19 @@ theme = germany
 [IJN]
 id = 13
 theme = japan
-noEditor
 
 [REDUSA]
 id = 14
 theme = usa
-noEditor
 skirmish = free
 
 [USARMY]
 id = 17
 theme = usa
-noEditor
 
 [RAF]
 id = 24
 theme = britain
-noEditor
 
 [KRIEGSMARINE]
 id = 37

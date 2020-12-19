@@ -170,5 +170,27 @@ texture = patches_1
 factions = germany, waffenss, italy, ussr
 category = land
 
+[FRANCE_1]
+id = 32
+texture = france1
+factions = france
+category = land
 
+[FRANCE_2]
+id = 33
+texture = france2
+factions = france
+category = land
+
+[DESERT_RATS_1]
+id = 34
+texture = desert_rats1
+factions = britain
+category = land
+
+[DESERT_RATS_2]
+id = 35
+texture = desert_rats2
+factions = britain
+category = land
 

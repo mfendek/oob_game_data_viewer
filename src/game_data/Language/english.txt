@@ -1453,9 +1453,11 @@ tooltip_minimap = Right-click the minimap to display the Strategic Map
 tooltip_objectives = Click here to display the current mission objectives [@]
 tooltip_select_next = Select next active unit [@]
 tooltip_select_previous = Select previous active unit [@]
+
 tooltip_nap = Putting a unit to nap will exclude it from the Next/Previous selection cycle until the next turn.
 tooltip_sleep = Putting a unit to sleep will exclude it from the Next/Previous selection cycle until it is awoken or used.
 tooltip_awake = Awake the unit to add it back to the Next/Previous selection cycle.
+
 tooltip_purchase = Purchase the selected unit.
 tooltip_purchase_insufficient_supply = Not enough Command Points to deploy this unit.
 tooltip_upgrade_insufficient_supply = Not enough Command Points to upgrade this unit.
