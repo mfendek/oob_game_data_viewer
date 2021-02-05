@@ -1,0 +1,91 @@
+commander_109 = William Vale
+commander_110 = Bernard Freyberg
+commander_111 = Bernard Montgomery
+commander_112 = Claude Auchinleck
+
+unit_4700 = Portée 6pdr	
+unit_4701 = Lysander
+unit_4702 = Scammell Pioneer
+unit_4703 = Skua
+unit_4704 = Hurricane IID
+unit_4705 = DD Oriani
+unit_4706 = CA Zara
+unit_4722 = Camion allié
+unit_4723 = Daimler Mk.I
+unit_4724 = Fulmar
+unit_4725 = Stirling
+unit_4726 = Halifax				
+unit_4727 = StuG III D 
+unit_4728 = StuG III D 
+unit_4729 = Cannone 75 32
+unit_4730 = Cannone 75 32
+unit_4707 = Infanterie italienne de 40
+unit_4708 = Infanterie lourde italienne de 40
+unit_4709 = Génie italien de 40
+unit_4710 = Génie australien de 40
+unit_4711 = Génie australien de 42
+unit_4712 = Infanterie australienne de 42
+unit_4713 = Infanterie lourde australienne de 42
+unit_4714 = Génie néozélandais de 41
+unit_4715 = Infanterie néozélandaise de 41
+unit_4716 = Infanterie néozélandaise de 42
+unit_4717 = Génie sudafricain de 41
+unit_4718 = Infanterie sudafricaine de 41
+unit_4719 = Infanterie sudafricaine de 42
+unit_4720 = Infanterie lourde sudafricaine de 42
+unit_4721 = Infanterie avec mortier de 42
+unit_4731 = Gebirgsjäger de 40
+unit_4732 = Sea Gladiator
+unit_4733 = BB Queen Elizabeth
+unit_4734 = Canons principaux
+unit_4735 = Infanterie française de 41
+unit_4736 = Infanterie française de 42
+
+tutorial_content_allied1_title = [Nouveau contenu] Allies Defiant
+tutorial_content_allied1 = Cette nouvelle campagne vous place aux commandes des forces britanniques et alliées pour combattre les troupes de l'Axe en Europe, en Méditerranée et dans le désert d'Afrique du Nord entre 1940 et 1942.
+
+console_legend_enableTutorial = Activer le didacticiel
+console_legend_disableTutorial = Désactiver le didacticiel
+console_legend_objective_details = Détails sur l'objectif
+console_legend_close_objective = Objectif rapproché
+console_legend_startbriefing = Lancer le briefing
+console_legend_disband = Démanteler
+console_legend_revive = Ressusciter
+console_legend_compare = Comparer
+console_legend_move_map = Déplacer la carte
+console_legend_toggle_pins = Activer/désactiver les épingles
+
+skin_17 = Rayures 1
+skin_18 = Automne 1
+skin_19 = Automne 2
+skin_20 = Embuscade
+skin_21 = Hiver 4
+skin_22 = Hiver 5
+skin_23 = Automne 3
+skin_24 = Finlande 1
+skin_25 = Hongrie 1
+skin_26 = Rayures 2
+skin_27 = Rayures 3
+skin_29 = Hiver 6
+skin_31 = Patchs 1
+skin_32 = France 1
+skin_33 = France 2
+skin_34 = Rats du désert 1
+skin_35 = Rats du désert 2
+
+sell_unit = Vendre l'unité ?
+sell_confirm = Voulez-vous vraiment vendre cette unité ?
+console_legend_movemap = Déplacer la carte
+console_legend_changeTab = Changer d'onglet
+console_legend_campaignPins = Activer/désactiver les épingles
+console_legend_nap = Sieste 
+console_legend_awake = Réveil
+console_legend_sleep = Repos
+console_legend_centerCamera = Centrer la caméra
+console_legend_supplyMode = Activer/désactiver le mode approvisionnement
+console_legend_airGround = Changer air/sol
+
+
+
+
+

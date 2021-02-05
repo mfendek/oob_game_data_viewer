@@ -1,0 +1,3 @@
+console_legend_navigate_classes_up = Navigate classes up
+console_legend_navigate_classes_down = Navigate classes down
+deployment_phase_save = End Deployment Save

@@ -1,0 +1,91 @@
+﻿commander_109 = Уильям Вейл
+commander_110 = Бернард Фрейберг
+commander_111 = Бернард Монтгомери
+commander_112 = Клод Окинлек
+
+unit_4700 = 6-ти фунтовка
+unit_4701 = Лайсандер
+unit_4702 = Скаммелл Пионер
+unit_4703 = Скьюа
+unit_4704 = Харрикейн IID
+unit_4705 = DD Ориани
+unit_4706 = CA Зара
+unit_4722 = Грузовик
+unit_4723 = Даймлер Mk.I
+unit_4724 = Фулмар
+unit_4725 = Стирлинг
+unit_4726 = Галифакс				
+unit_4727 = StuG III D 
+unit_4728 = StuG III D 
+unit_4729 = Cannone 75 32
+unit_4730 = Cannone 75 32
+unit_4707 = Итал. пехота '40
+unit_4708 = Итал. тяж. пехота '40
+unit_4709 = Итал. инженеры '40
+unit_4710 = Австрал. инженеры '40
+unit_4711 = Австрал. инженеры '42
+unit_4712 = Австрал. пехота '42
+unit_4713 = Австрал. тяж. пехота '42
+unit_4714 = Нов. Зеланд. инженеры '41
+unit_4715 = Нов. Зеланд. пехота '41
+unit_4716 = Нов. Зеланд. пехота '42
+unit_4717 = Юж. Африк. инженеры '41
+unit_4718 = Юж. Африк. пехота '41
+unit_4719 = Юж. Африк. пехота '42
+unit_4720 = Юж. Африк. тяж. пехота '42
+unit_4721 = Минометчики '42
+unit_4731 = Горная пехота '40
+unit_4732 = Си Гладиатор
+unit_4733 = BB Куин Элизабет
+unit_4734 = Основные пушки
+unit_4735 = Французская пехота '41
+unit_4736 = Французская пехота '42
+
+tutorial_content_allied1_title = [Новый контент] Дерзкие Союзники
+tutorial_content_allied1 = В этой новой кампании вам предстоит командовать британскими и союзными подразделениями, которые будут сражаться с войсками Оси в Европе, на Средиземном море и в пустынях Северной Африки с 1940 по 1942 годы.
+
+console_legend_enableTutorial = Включить учебник
+console_legend_disableTutorial = Отключить учебник
+console_legend_objective_details = Подробности задач
+console_legend_close_objective = Закрыть задачи
+console_legend_startbriefing = Старт Брифинга
+console_legend_disband = Расформировать
+console_legend_revive = Возродить
+console_legend_compare = Сравнить
+console_legend_move_map = Передвинуть карту
+console_legend_toggle_pins = Переключить булавки
+
+skin_17 = Полосы 1
+skin_18 = Осень 1
+skin_19 = Осень 2
+skin_20 = Засада
+skin_21 = Зима 4
+skin_22 = Зима 5
+skin_23 = Осень 3
+skin_24 = Финляндия 1
+skin_25 = Венгрия 1
+skin_26 = Полосы 2
+skin_27 = Полосы 3
+skin_29 = Зима 6
+skin_31 = Заплатки 1
+skin_32 = Франция 1
+skin_33 = Франция 2
+skin_34 = Крысы пустыни 1
+skin_35 = Крысы пустыни 2
+
+sell_unit = Продать подразделение?
+sell_confirm = Вы уверены, что хотите продать это подразделение?
+console_legend_movemap = Передвинуть карту
+console_legend_changeTab = Изменить tab
+console_legend_campaignPins = Булавки
+console_legend_nap = Короткий сон
+console_legend_awake = Проснуться
+console_legend_sleep = Спать
+console_legend_centerCamera = Центр камеры
+console_legend_supplyMode = Переключить в режим снабжения
+console_legend_airGround = Переключить в режим воздух / земля
+
+
+
+
+

@@ -1,0 +1,91 @@
+commander_109 = William Vale
+commander_110 = Bernard Freyberg
+commander_111 = Bernard Montgomery
+commander_112 = Claude Auchinleck
+
+unit_4700 = Portee 6pdr	
+unit_4701 = Lysander
+unit_4702 = Pioneer
+unit_4703 = Skua
+unit_4704 = Hurricane IID
+unit_4705 = DD Oriani
+unit_4706 = CA Zara
+unit_4722 = Camión aliado
+unit_4723 = Daimler Mk.I
+unit_4724 = Fulmar
+unit_4725 = Stirling
+unit_4726 = Halifax				
+unit_4727 = StuG III D 
+unit_4728 = StuG III D 
+unit_4729 = Cannone 75 32
+unit_4730 = Cannone 75 32
+unit_4707 = Inf. italiana '40
+unit_4708 = Inf. pesada italiana '40
+unit_4709 = Ing. italianos '40
+unit_4710 = Ing. australianos '40
+unit_4711 = Ing. australianos '42
+unit_4712 = Inf. australiana '42
+unit_4713 = Inf. pesada australiana '42
+unit_4714 = Ing. neozelandeses '41
+unit_4715 = Inf. neozelandesa '41
+unit_4716 = Inf. neozelandesa '42
+unit_4717 = Ingenieros SA '41
+unit_4718 = Inf. sudafricana '41
+unit_4719 = Inf. sudafricana '42
+unit_4720 = Inf. pesada sudafricana '42
+unit_4721 = Inf. de morteros '42
+unit_4731 = Gebirgsjäger '40
+unit_4732 = Sea Gladiator
+unit_4733 = BB Queen Elizabeth
+unit_4734 = Cañones principales
+unit_4735 = Inf. francesa '41
+unit_4736 = Inf. francesa '42
+
+tutorial_content_allied1_title = [Nuevo contenido] Aliados desafiantes
+tutorial_content_allied1 = Esta nueva campaña te pone al mando de las fuerzas británicas y aliadas para luchar contra las tropas del Eje en Europa, el mar Mediterráneo y el desierto del norte de África desde 1940 hasta 1942.
+
+console_legend_enableTutorial = Tutorial activado
+console_legend_disableTutorial = Tutorial desactivado
+console_legend_objective_details = Detalles de Objetivos
+console_legend_close_objective = Cerrar Objetivos
+console_legend_startbriefing = Iniciar sesión informativa
+console_legend_disband = Disolver
+console_legend_revive = Restablecer
+console_legend_compare = Comparar
+console_legend_move_map = Mover Mapa
+console_legend_toggle_pins = Ver pins
+
+skin_17 = Rayado 1
+skin_18 = Otoño 1
+skin_19 = Otoño 2
+skin_20 = Emboscada
+skin_21 = Invierno 4
+skin_22 = Invierno 5
+skin_23 = Otoño 3
+skin_24 = Finlandia 1
+skin_25 = Hungría 1
+skin_26 = Galones 2
+skin_27 = Galones 3
+skin_29 = Invierno 6
+skin_31 = Parches 1
+skin_32 = Francia 1
+skin_33 = Francia 2
+skin_34 = Ratas del desierto 1
+skin_35 = Ratas del desierto 2
+
+sell_unit = ¿Vender unidad?
+sell_confirm = ¿Estás seguro de que quieres vender esta unidad?
+console_legend_movemap = Mover Mapa
+console_legend_changeTab = Cambiar pestaña
+console_legend_campaignPins = Alternar Pins
+console_legend_nap = Siesta 
+console_legend_awake = Despertar
+console_legend_sleep = Dormir
+console_legend_centerCamera = Centrar cámara
+console_legend_supplyMode = Alternar modo de suministro
+console_legend_airGround = Alternar Aire/Tierra
+
+
+
+
+
