@@ -110,17 +110,23 @@ class UnitNavigator extends Component {
 
     // data is not loaded yet - display loading screen
     if (!this.props.dataLoaded) {
-      return (
-        <div id="spinner" className="spinner">
-          <Circle
-            percent={this.props.loadProgress}
-            strokeColor="#636363"
-            strokeWidth="11"
-            trailColor="#eaeaea"
-            trailWidth="11"
-          />
-        </div>
-      );
+      return this.props.loadProgress > 0
+        ? (
+          <div id="spinner" className="spinner">
+            <Circle
+              percent={this.props.loadProgress}
+              strokeColor="#636363"
+              strokeWidth="11"
+              trailColor="#eaeaea"
+              trailWidth="11"
+            />
+          </div>
+        )
+        : (
+          <div id="spinner" className="spinner">
+            <img src="src/img/spinner.gif" alt="spinner" />
+          </div>
+        );
     }
 
     const { filters, pagination, compareId, unitsData, unitsList } = this.props;
