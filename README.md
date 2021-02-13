@@ -15,8 +15,8 @@ Checkout GIT repository from `https://github.com/mfendek/oob_game_data_viewer.gi
  
  ## Development
  
- Run `yarn install` to update frontend libraries. Run `yarn watch` as a preprocessor watcher and `yarn build` if you want a one time build.
- Run `yarn package` before committing your changes. In case libraries were updated you need to commit both `package.json` and `yarn.lock` files.
+ Run `yarn install` to update frontend libraries. Run `yarn watch` as a preprocessor watcher and `yarn dev` if you want a one time build.
+ Run `yarn build` before committing your changes. In case libraries were updated via `yarn upgrade` you need to commit both `package.json` and `yarn.lock` files.
  
  ## Coding standards
  

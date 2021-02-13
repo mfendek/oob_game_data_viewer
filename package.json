@@ -1,44 +1,51 @@
 {
   "name": "OOB_game_viewer_theme",
-  "version": "0.0.1",
-  "description": "Order of Battle game viewer.",
+  "version": "1.0.0",
+  "description": "Unit Navigator Order Of Battle.",
   "repository": {
     "url": "https://github.com/mfendek/oob_game_data_viewer.git",
     "type": "git"
   },
   "scripts": {
-    "watch": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
-    "build": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "package": "webpack -p --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "cross-env NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "build": "cross-env NODE_ENV=production webpack -p --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "license": "GPL-3.0",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap-sass": "^3.3.7",
-    "expose-loader": "^0.7.4",
-    "laravel-mix": "^1.7.2",
-    "prop-types": "^15.6.1",
-    "rc-progress": "^3.1.3",
-    "react": "^16.3.2",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.3.2",
-    "react-image-fallback": "^7.0.1",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0",
-    "webpack": "^3.10.0"
+    "axios": "^0.21.0",
+    "bootstrap-sass": "^3",
+    "expose-loader": "^2",
+    "laravel-mix": "^2",
+    "prop-types": "^15",
+    "rc-progress": "^3",
+    "react": "^17",
+    "react-bootstrap": "^1",
+    "react-dom": "^17",
+    "react-image-fallback": "^8",
+    "react-redux": "^7",
+    "redux": "^4",
+    "redux-thunk": "^2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^3.13.1",
-    "eslint-config-airbnb": "^14.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0",
-    "webpack": "^3.10.0"
+    "babel-core": "^6",
+    "babel-eslint": "^7",
+    "babel-loader": "^7",
+    "babel-plugin-transform-class-properties": "^6",
+    "babel-plugin-transform-decorators": "^6",
+    "babel-plugin-transform-react-constant-elements": "^6",
+    "babel-plugin-transform-react-inline-elements": "^6",
+    "babel-preset-env": "^1",
+    "babel-preset-react": "^6",
+    "babel-preset-stage-0": "^6",
+    "cross-env": "^7",
+    "eslint": "^7",
+    "eslint-config-airbnb": "^18",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7"
+  },
+  "engines": {
+    "node": "^10"
   }
 }
