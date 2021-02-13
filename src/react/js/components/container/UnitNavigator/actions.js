@@ -7,6 +7,7 @@ export const FILTERS_CLEAR_FILTERS = 'FILTERS_CLEAR_FILTERS';
 export const PAGINATION_FLIP_PAGE = 'PAGINATION_FLIP_PAGE';
 export const LIST_START_COMPARE = 'LIST_START_COMPARE';
 export const LIST_CLEAR_COMPARE = 'LIST_CLEAR_COMPARE';
+export const DATA_LOADED_PROGRESS = 'DATA_LOADED_PROGRESS';
 export const DATA_LOADED_SUCCESS = 'DATA_LOADED_SUCCESS';
 export const DATA_LOADED_FAILURE = 'DATA_LOADED_FAILURE';
 export const MOD_TOGGLE_LOG = 'MOD_TOGGLE_LOG';
@@ -35,6 +36,11 @@ export const listStartCompare = unitId => ({
 
 export const listClearCompare = () => ({
   type: LIST_CLEAR_COMPARE,
+});
+
+export const dataLoadedProgress = progress => ({
+  type: DATA_LOADED_PROGRESS,
+  progress,
 });
 
 export const dataLoadedSuccess = data => ({

@@ -9,6 +9,7 @@ import {
   LIST_CLEAR_COMPARE,
   DATA_LOADED_SUCCESS,
   DATA_LOADED_FAILURE,
+  DATA_LOADED_PROGRESS,
   MOD_TOGGLE_LOG,
   MOD_UPDATE_URL,
   MOD_LOAD_START,
@@ -108,6 +109,11 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
       return {
         ...state,
         compareId: -1,
+      };
+    case DATA_LOADED_PROGRESS:
+      return {
+        ...state,
+        loadProgress: action.progress,
       };
     case DATA_LOADED_SUCCESS: {
       const data = {

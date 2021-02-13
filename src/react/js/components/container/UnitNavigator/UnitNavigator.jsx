@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import { Circle } from 'rc-progress';
 import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../../utils/DataCache';
 import { queryString, generatePermalink } from '../../../utils/UrlParams';
 import { getNumberOfPages, getFilteredList } from '../../../utils/ListManipulation';
@@ -16,6 +17,7 @@ import {
   paginationFlipPage,
   listStartCompare,
   listClearCompare,
+  dataLoadedProgress,
   dataLoadedSuccess,
   dataLoadedFailure,
   modToggleLog,
@@ -36,6 +38,7 @@ class UnitNavigator extends Component {
       ...staticData,
       dataLoaded: false,
       loadFailure: false,
+      loadProgress: 0,
       errorMessage: '',
       modUrl: '',
       modFiles: [],
@@ -74,7 +77,18 @@ class UnitNavigator extends Component {
     localStorage.clear();
 
     // fetch fresh data
-    axios.get(queryString({ 'units-data': 1 }))
+    axios.get(queryString({ 'units-data': 1 }), {
+      onDownloadProgress: (progressEvent) => {
+        const loaded = parseInt(progressEvent.loaded, 10);
+        const total = parseInt(progressEvent.total, 10);
+
+        let progress = Math.round((loaded * 100) / total);
+        progress = Math.max(0, progress);
+        progress = Math.min(100, progress);
+
+        this.props.dataLoadedProgress(progress);
+      },
+    })
       .then((result) => {
         this.props.dataLoadedSuccess(result.data);
 
@@ -98,7 +112,13 @@ class UnitNavigator extends Component {
     if (!this.props.dataLoaded) {
       return (
         <div id="spinner" className="spinner">
-          <img src="src/img/spinner.gif" alt="spinner" />
+          <Circle
+            percent={this.props.loadProgress}
+            strokeColor="#636363"
+            strokeWidth="11"
+            trailColor="#eaeaea"
+            trailWidth="11"
+          />
         </div>
       );
     }
@@ -175,10 +195,12 @@ UnitNavigator.propTypes = {
   modShowLog: PropTypes.bool.isRequired,
   modLoad: PropTypes.func.isRequired,
   modToggleLog: PropTypes.func.isRequired,
+  dataLoadedProgress: PropTypes.func.isRequired,
   dataLoadedSuccess: PropTypes.func.isRequired,
   dataLoadedFailure: PropTypes.func.isRequired,
   dataLoaded: PropTypes.bool,
   loadFailure: PropTypes.bool,
+  loadProgress: PropTypes.number,
   errorMessage: PropTypes.string,
   unitsData: PropTypes.objectOf(PropTypes.shape({
     id: PropTypes.number,
@@ -210,6 +232,7 @@ UnitNavigator.propTypes = {
 UnitNavigator.defaultProps = {
   dataLoaded: false,
   loadFailure: false,
+  loadProgress: 0,
   errorMessage: '',
   unitsData: {},
   unitsList: [],
@@ -233,6 +256,7 @@ const mapStateToProps = (globalState) => {
     compareId: state.compareId,
     appVersion: state.appVersion,
     loadFailure: state.loadFailure,
+    loadProgress: state.loadProgress,
     errorMessage: state.errorMessage,
     dataLoaded: state.dataLoaded,
     modUrl: state.modUrl,
@@ -247,6 +271,7 @@ const mapDispatchToProps = dispatch => ({
   flipPage: target => dispatch(paginationFlipPage(target)),
   startCompare: unitId => dispatch(listStartCompare(unitId)),
   clearCompare: () => dispatch(listClearCompare()),
+  dataLoadedProgress: progress => dispatch(dataLoadedProgress(progress)),
   dataLoadedSuccess: data => dispatch(dataLoadedSuccess(data)),
   dataLoadedFailure: error => dispatch(dataLoadedFailure(error)),
   modToggleLog: () => dispatch(modToggleLog()),

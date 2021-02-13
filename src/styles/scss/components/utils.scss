@@ -9,6 +9,17 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+
+  img,
+  svg {
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  svg {
+    padding: 10px;
+  }
 }
 
 .navigation-bar {

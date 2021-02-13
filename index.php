@@ -1,6 +1,6 @@
 <?php
 
-const RELEASE_VERSION = '2021-02-06';
+const RELEASE_VERSION = '2021-02-13';
 const LIST_SEPARATOR = ' = ';
 const VALUE_SEPARATOR = ', ';
 const COMMANDER_ID_OFFSET = 100000;
@@ -1301,8 +1301,10 @@ try {
         ];
 
         // unit data only request via AJAX
+        $output = json_encode($navigatorState);
         header('Content-Type: application/json; charset=utf-8');
-        echo json_encode($navigatorState);
+        header('Content-Length: ' . mb_strlen($output));
+        echo $output;
         exit;
     }
 
