@@ -12,7 +12,9 @@ import PropTypes from 'prop-types';
  * @param {function} toggleLog
  * @constructor
  */
-const ModLoader = ({ url, showLog, files, updateUrl, loadMod, toggleLog }) => (
+const ModLoader = ({
+  url, showLog, files, updateUrl, loadMod, toggleLog,
+}) => (
   <div className="mod-bar">
     <div className="mod-bar__loader">
       <input
@@ -20,7 +22,7 @@ const ModLoader = ({ url, showLog, files, updateUrl, loadMod, toggleLog }) => (
         name="mod-url"
         className="form-control"
         value={url}
-        onChange={e => updateUrl(e)}
+        onChange={(e) => updateUrl(e)}
         placeholder="Mod url"
       />
       <button
@@ -40,23 +42,32 @@ const ModLoader = ({ url, showLog, files, updateUrl, loadMod, toggleLog }) => (
         {(showLog) ? 'Hide log' : 'Show log'}
       </button>
     </div>
-    {showLog &&
-      <div className="mod-bar__log">
-        {files.length > 0 &&
-          <ul>
-            {
-              files.map(
-                modFile => (
-                  <li key={modFile}>{modFile}</li>
-                ),
-              )
-            }
-          </ul>
-        }
-        {files.length === 0 &&
-          <p>No mod files in use</p>
-        }
-      </div>
+    {
+      showLog
+      && (
+        <div className="mod-bar__log">
+          {
+            files.length > 0
+            && (
+              <ul>
+                {
+                  files.map(
+                    (modFile) => (
+                      <li key={modFile}>{modFile}</li>
+                    ),
+                  )
+                }
+              </ul>
+            )
+          }
+          {
+            files.length === 0
+            && (
+              <p>No mod files in use</p>
+            )
+          }
+        </div>
+      )
     }
   </div>
 );

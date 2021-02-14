@@ -10,7 +10,9 @@ import PropTypes from 'prop-types';
  * @param {function} selectFilter
  * @constructor
  */
-const TextInputFilter = ({ name, label, value, selectFilter }) => (
+const TextInputFilter = ({
+  name, label, value, selectFilter,
+}) => (
   <input
     type="text"
     name={'filter-'.concat(name)}

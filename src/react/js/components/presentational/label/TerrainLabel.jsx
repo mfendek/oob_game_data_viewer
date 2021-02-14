@@ -15,7 +15,9 @@ import ComparisonText from '../icon/ComparisonText';
  * @param {function} compareSpotting
  * @constructor
  */
-const TerrainLabel = ({ terrainName, data, terrain, compareMovement, compareSpotting }) => (
+const TerrainLabel = ({
+  terrainName, data, terrain, compareMovement, compareSpotting,
+}) => (
   <div className="unit-item__label-terrain">
     <div>{terrainName}</div>
     <div className="unit-item__label-terrain-item">

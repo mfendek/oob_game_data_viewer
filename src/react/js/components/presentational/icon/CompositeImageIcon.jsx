@@ -29,7 +29,7 @@ const CompositeImageIcon = ({ data, lookup }) => {
 
   // create switch unit link
   const link = (data.id > -1)
-    ? <a className="unit-item__image-link" href={getUrlWithParams({ f: { id: data.id } })} /> : '';
+    ? <a className="unit-item__image-link" href={getUrlWithParams({ f: { id: data.id } })} aria-label="Switch" /> : '';
 
   return (
     <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>

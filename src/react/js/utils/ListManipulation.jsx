@@ -75,7 +75,7 @@ export const getFilteredList = (unitsData, unitsList, filters) => {
 
     // supply filter
     if (typeof filters.supply !== 'undefined' && filters.supply.value !== '') {
-      if (unitData.supply !== parseInt(filters.supply.value)) {
+      if (unitData.supply !== parseInt(filters.supply.value, 10)) {
         continue;
       }
     }

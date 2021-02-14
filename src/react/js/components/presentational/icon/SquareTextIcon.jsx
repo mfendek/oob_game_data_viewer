@@ -18,24 +18,26 @@ import ComparisonText from './ComparisonText';
  * @constructor
  */
 const SquareTextIcon = (
-    { name, value, title, compare, imgName, imgValue, reversedCompare, breakLine },
-  ) => (
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
-      <div
-        className={
-          'unit-item__content-icon unit-item__content-icon--square-small unit-item__content-icon--text-center'.concat(
-            (breakLine) ? ' change-break-line' : '',
-          )
-        }
-        style={getBackgroundImg((imgName !== '' ? imgName : name), (imgValue !== '' ? imgValue : value))}
-      >
-        <ComparisonText
-          base={compare(name)}
-          value={value}
-          reversed={reversedCompare}
-        />
-      </div>
-    </OverlayTrigger>
+  {
+    name, value, title, compare, imgName, imgValue, reversedCompare, breakLine,
+  },
+) => (
+  <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+    <div
+      className={
+        'unit-item__content-icon unit-item__content-icon--square-small unit-item__content-icon--text-center'.concat(
+          (breakLine) ? ' change-break-line' : '',
+        )
+      }
+      style={getBackgroundImg((imgName !== '' ? imgName : name), (imgValue !== '' ? imgValue : value))}
+    >
+      <ComparisonText
+        base={compare(name)}
+        value={value}
+        reversed={reversedCompare}
+      />
+    </div>
+  </OverlayTrigger>
 );
 
 SquareTextIcon.propTypes = {

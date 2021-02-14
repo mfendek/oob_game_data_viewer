@@ -13,17 +13,23 @@ import { getBackgroundImg } from '../../../utils/ImagePath';
  * @param {string} imgValue
  * @constructor
  */
-const LinkIcon = ({ title, imgName, imgValue, link }) => (
+const LinkIcon = ({
+  title, imgName, imgValue, link,
+}) => (
   <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
     <div
       className="unit-item__content-icon unit-item__content-icon--rectangle-small"
       style={getBackgroundImg(imgName, imgValue)}
     >
-      {link !== '' &&
-        <a
-          className="unit-item__image-link"
-          href={getUrlWithParams({ f: { id: link } })}
-        />
+      {
+        link !== ''
+        && (
+          <a
+            className="unit-item__image-link"
+            href={getUrlWithParams({ f: { id: link } })}
+            aria-label={title}
+          />
+        )
       }
     </div>
   </OverlayTrigger>
@@ -33,7 +39,7 @@ LinkIcon.propTypes = {
   title: PropTypes.string.isRequired,
   imgName: PropTypes.string.isRequired,
   imgValue: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string,
 };
 
 LinkIcon.defaultProps = {

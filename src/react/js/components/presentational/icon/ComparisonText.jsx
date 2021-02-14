@@ -29,7 +29,9 @@ const ComparisonText = ({ base, value, reversed }) => {
         <span>{' -'.concat(diff.toString())}</span>
       </span>
     );
-  } else if (baseValue < value) {
+  }
+
+  if (baseValue < value) {
     const diff = value - baseValue;
 
     return (

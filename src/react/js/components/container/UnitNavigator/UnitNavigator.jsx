@@ -3,7 +3,9 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { Circle } from 'rc-progress';
-import { getCachedItem, setCachedItem, getCacheKey, sanitizeData } from '../../../utils/DataCache';
+import {
+  getCachedItem, setCachedItem, getCacheKey, sanitizeData,
+} from '../../../utils/DataCache';
 import { queryString, generatePermalink } from '../../../utils/UrlParams';
 import { getNumberOfPages, getFilteredList } from '../../../utils/ListManipulation';
 import { getLocalState } from '../../../utils/ReduxState';
@@ -17,12 +19,12 @@ import {
   paginationFlipPage,
   listStartCompare,
   listClearCompare,
-  dataLoadedProgress,
-  dataLoadedSuccess,
-  dataLoadedFailure,
-  modToggleLog,
-  modUpdateUrl,
-  modLoad,
+  dataLoadProgress,
+  dataLoadSuccess,
+  dataLoadFailure,
+  modLoaderToggleLog,
+  modLoaderUpdateUrl,
+  modLoadInit,
 } from './actions';
 
 /**
@@ -66,12 +68,16 @@ class UnitNavigator extends Component {
   }
 
   componentDidMount() {
+    const {
+      dataLoaded, appVersion, dataLoadedProgress, dataLoadedSuccess, dataLoadedFailure,
+    } = this.props;
+
     // data is already loaded - no need to fetch fresh data
-    if (this.props.dataLoaded) {
+    if (dataLoaded) {
       return;
     }
 
-    const cacheKey = getCacheKey(this.props.appVersion, 'unit-nav');
+    const cacheKey = getCacheKey(appVersion, 'unit-nav');
 
     // clear local storage
     localStorage.clear();
@@ -86,35 +92,42 @@ class UnitNavigator extends Component {
         progress = Math.max(0, progress);
         progress = Math.min(100, progress);
 
-        this.props.dataLoadedProgress(progress);
+        dataLoadedProgress(progress);
       },
     })
       .then((result) => {
-        this.props.dataLoadedSuccess(result.data);
+        dataLoadedSuccess(result.data);
 
         // store unit data for future use
         setCachedItem(cacheKey, JSON.stringify(result.data));
       })
       .catch((error) => {
-        this.props.dataLoadedFailure(error);
+        dataLoadedFailure(error);
       });
   }
 
   render() {
+    const {
+      loadFailure, errorMessage, dataLoaded, loadProgress,
+    } = this.props;
+
     // failed to load data
-    if (this.props.loadFailure) {
+    if (loadFailure) {
       return (
-        <div className="text-center">Failed to load units data {this.props.errorMessage}</div>
+        <div className="text-center">
+          Failed to load units data
+          {errorMessage}
+        </div>
       );
     }
 
     // data is not loaded yet - display loading screen
-    if (!this.props.dataLoaded) {
-      return this.props.loadProgress > 0
+    if (!dataLoaded) {
+      return loadProgress > 0
         ? (
           <div id="spinner" className="spinner">
             <Circle
-              percent={this.props.loadProgress}
+              percent={loadProgress}
               strokeColor="#636363"
               strokeWidth="11"
               trailColor="#eaeaea"
@@ -129,7 +142,26 @@ class UnitNavigator extends Component {
         );
     }
 
-    const { filters, pagination, compareId, unitsData, unitsList } = this.props;
+    const {
+      filters,
+      pagination,
+      compareId,
+      unitsData,
+      unitsList,
+      selectFilter,
+      clearFilters,
+      clearCompare,
+      flipPage,
+      terrain,
+      startCompare,
+      appVersion,
+      modUrl,
+      modShowLog,
+      modFiles,
+      modUpdateUrl,
+      modLoad,
+      modToggleLog,
+    } = this.props;
 
     const list = getFilteredList(
       unitsData,
@@ -145,9 +177,9 @@ class UnitNavigator extends Component {
       <div>
         <FilterBar
           filters={filters}
-          selectFilter={this.props.selectFilter}
-          clearFilters={this.props.clearFilters}
-          clearCompare={this.props.clearCompare}
+          selectFilter={selectFilter}
+          clearFilters={clearFilters}
+          clearCompare={clearCompare}
           compareId={compareId}
           compareName={(compareId > -1) ? unitsData[compareId].name_real : ''}
         />
@@ -156,34 +188,34 @@ class UnitNavigator extends Component {
           currentPage={pagination.currentPage}
           pagesTotal={pagesTotal}
           permalink={permalink}
-          flipPage={this.props.flipPage}
+          flipPage={flipPage}
         />
 
         <ItemList
           unitsData={unitsData}
           unitsList={unitsList}
-          terrain={this.props.terrain}
+          terrain={terrain}
           pagination={pagination}
           filters={filters}
           compareId={compareId}
-          startCompare={this.props.startCompare}
-          imageKey={this.props.appVersion}
+          startCompare={startCompare}
+          imageKey={appVersion}
         />
 
         <PaginationBar
           currentPage={pagination.currentPage}
           pagesTotal={pagesTotal}
           permalink={permalink}
-          flipPage={this.props.flipPage}
+          flipPage={flipPage}
         />
 
         <ModLoader
-          url={this.props.modUrl}
-          showLog={this.props.modShowLog}
-          files={this.props.modFiles}
-          updateUrl={this.props.modUpdateUrl}
-          loadMod={this.props.modLoad}
-          toggleLog={this.props.modToggleLog}
+          url={modUrl}
+          showLog={modShowLog}
+          files={modFiles}
+          updateUrl={modUpdateUrl}
+          loadMod={modLoad}
+          toggleLog={modToggleLog}
         />
       </div>
     );
@@ -271,18 +303,18 @@ const mapStateToProps = (globalState) => {
   };
 };
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   selectFilter: (name, e) => dispatch(filtersSelectFilter(name, e)),
   clearFilters: () => dispatch(filtersClearFilters()),
-  flipPage: target => dispatch(paginationFlipPage(target)),
-  startCompare: unitId => dispatch(listStartCompare(unitId)),
+  flipPage: (target) => dispatch(paginationFlipPage(target)),
+  startCompare: (unitId) => dispatch(listStartCompare(unitId)),
   clearCompare: () => dispatch(listClearCompare()),
-  dataLoadedProgress: progress => dispatch(dataLoadedProgress(progress)),
-  dataLoadedSuccess: data => dispatch(dataLoadedSuccess(data)),
-  dataLoadedFailure: error => dispatch(dataLoadedFailure(error)),
-  modToggleLog: () => dispatch(modToggleLog()),
-  modUpdateUrl: e => dispatch(modUpdateUrl(e)),
-  modLoad: () => dispatch(modLoad()),
+  dataLoadedProgress: (progress) => dispatch(dataLoadProgress(progress)),
+  dataLoadedSuccess: (data) => dispatch(dataLoadSuccess(data)),
+  dataLoadedFailure: (error) => dispatch(dataLoadFailure(error)),
+  modToggleLog: () => dispatch(modLoaderToggleLog()),
+  modUpdateUrl: (e) => dispatch(modLoaderUpdateUrl(e)),
+  modLoad: () => dispatch(modLoadInit()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(UnitNavigator);

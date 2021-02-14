@@ -54,7 +54,9 @@ export const getCacheKey = (appVersion, key) => (
  * @returns {Object}
  */
 export const sanitizeData = (data) => {
-  const { unitsData, unitsList, filters, pagination, filtersInit, compareId } = data;
+  const {
+    unitsData, unitsList, filters, pagination, filtersInit, compareId,
+  } = data;
 
   // add initial filter values to filter data
   const filterKeys = Object.keys(filtersInit);
@@ -88,4 +90,6 @@ export const sanitizeData = (data) => {
   };
 };
 
-export default { getCachedItem, setCachedItem, getCacheKey, sanitizeData };
+export default {
+  getCachedItem, setCachedItem, getCacheKey, sanitizeData,
+};

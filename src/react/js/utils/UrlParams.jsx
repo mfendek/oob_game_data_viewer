@@ -28,7 +28,7 @@ export const queryString = (params) => {
   return '?'.concat(
     Object
       .keys(params)
-      .map(name => ''.concat(encodeURIComponent(name), '=', encodeURIComponent(params[name])))
+      .map((name) => ''.concat(encodeURIComponent(name), '=', encodeURIComponent(params[name])))
       .join('&'),
   );
 };
@@ -74,7 +74,7 @@ export const getUrlWithParams = (data) => {
  */
 export const generatePermalink = (pagination, filters, compareId) => {
   const active = {};
-  const currentPage = pagination.currentPage;
+  const { currentPage } = pagination;
   const types = Object.keys(filters);
 
   for (let i = 0; i < types.length; i += 1) {
@@ -102,4 +102,6 @@ export const generatePermalink = (pagination, filters, compareId) => {
   return getUrlWithParams(params);
 };
 
-export default { isUrlValid, queryString, getUrlWithParams, generatePermalink };
+export default {
+  isUrlValid, queryString, getUrlWithParams, generatePermalink,
+};

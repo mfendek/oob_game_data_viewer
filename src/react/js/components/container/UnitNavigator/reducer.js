@@ -7,12 +7,12 @@ import {
   PAGINATION_FLIP_PAGE,
   LIST_START_COMPARE,
   LIST_CLEAR_COMPARE,
-  DATA_LOADED_SUCCESS,
-  DATA_LOADED_FAILURE,
-  DATA_LOADED_PROGRESS,
-  MOD_TOGGLE_LOG,
-  MOD_UPDATE_URL,
-  MOD_LOAD_START,
+  DATA_LOAD_SUCCESS,
+  DATA_LOAD_FAILURE,
+  DATA_LOAD_PROGRESS,
+  MOD_LOADER_TOGGLE_LOG,
+  MOD_LOADER_UPDATE_URL,
+  MOD_LOADER_START,
 } from './actions';
 
 const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
@@ -21,16 +21,13 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
 
   switch (action.type) {
     case FILTERS_SELECT_FILTER: {
-      const name = action.name;
-      const e = action.e;
-
-      let value = e.target.value;
+      const { name, e: { target: { value } } } = action;
 
       // remove unnecessary whitespace
-      value = (typeof value === 'string' && name !== 'name') ? value.trim() : value;
+      const cleanValue = (typeof value === 'string' && name !== 'name') ? value.trim() : value;
 
       filters = { ...state.filters };
-      filters[name].value = value;
+      filters[name].value = cleanValue;
 
       pagination = { ...state.pagination };
       pagination.currentPage = 1;
@@ -59,7 +56,7 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
       };
     }
     case PAGINATION_FLIP_PAGE: {
-      const target = action.target;
+      const { target } = action;
       pagination = { ...state.pagination };
       const list = getFilteredList(
         state.unitsData,
@@ -110,12 +107,12 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
         ...state,
         compareId: -1,
       };
-    case DATA_LOADED_PROGRESS:
+    case DATA_LOAD_PROGRESS:
       return {
         ...state,
         loadProgress: action.progress,
       };
-    case DATA_LOADED_SUCCESS: {
+    case DATA_LOAD_SUCCESS: {
       const data = {
         ...state,
         ...action.data,
@@ -126,13 +123,13 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
         dataLoaded: true,
       };
     }
-    case DATA_LOADED_FAILURE:
+    case DATA_LOAD_FAILURE:
       return {
         ...state,
         loadFailure: true,
         errorMessage: action.error,
       };
-    case MOD_TOGGLE_LOG: {
+    case MOD_LOADER_TOGGLE_LOG: {
       const modShowLog = !state.modShowLog;
 
       return {
@@ -140,19 +137,19 @@ const reducerUnitNavigator = (state = UnitNavigator.initialState(), action) => {
         modShowLog,
       };
     }
-    case MOD_UPDATE_URL: {
-      const e = action.e;
-      const modUrl = e.target.value;
+    case MOD_LOADER_UPDATE_URL: {
+      const { e: { target: { value: modUrl } } } = action;
 
       return {
         ...state,
         modUrl,
       };
     }
-    case MOD_LOAD_START: {
+    case MOD_LOADER_START: {
       return {
         ...state,
         dataLoaded: false,
+        loadProgress: 0,
       };
     }
     default:

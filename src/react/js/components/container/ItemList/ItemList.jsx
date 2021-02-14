@@ -40,7 +40,8 @@ const ItemList = (
     compareTerrainSpotting,
     findUnitProperty,
     toggleTerrain,
-  }) => {
+  },
+) => {
   const list = getFilteredList(
     unitsData,
     unitsList,
@@ -55,7 +56,7 @@ const ItemList = (
     <div className="units-list">
       {
         list.slice(pageStart, pageEnd).map(
-          unitId => (
+          (unitId) => (
             <ItemDetail
               key={unitId}
               data={unitsData[unitId]}
@@ -113,7 +114,7 @@ const mapStateToProps = (globalState, ownProps) => {
   const state = getLocalState(globalState, 'reducerItemList');
 
   return {
-    isTerrainDisplayed: unitId => (state.terrainToggle.indexOf(unitId) >= 0),
+    isTerrainDisplayed: (unitId) => (state.terrainToggle.indexOf(unitId) >= 0),
     compareUnitAttribute: (property) => {
       const { compareId, unitsData } = ownProps;
       const baseValue = (compareId >= 0) ? unitsData[compareId][property] : 0;
@@ -156,7 +157,7 @@ const mapStateToProps = (globalState, ownProps) => {
       return { compareId, baseValue };
     },
     findUnitProperty: (id, property) => {
-      const unitsData = ownProps.unitsData;
+      const { unitsData } = ownProps;
       if (typeof unitsData[id] === 'undefined') {
         return null;
       }
@@ -171,8 +172,8 @@ const mapStateToProps = (globalState, ownProps) => {
   };
 };
 
-const mapDispatchToProps = dispatch => ({
-  toggleTerrain: unitId => dispatch(listToggleTerrain(unitId)),
+const mapDispatchToProps = (dispatch) => ({
+  toggleTerrain: (unitId) => dispatch(listToggleTerrain(unitId)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ItemList);

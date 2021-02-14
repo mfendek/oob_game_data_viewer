@@ -13,7 +13,9 @@ import { getUrlWithParams } from '../../../utils/UrlParams';
  * @param {function} lookup
  * @constructor
  */
-const LinkLabel = ({ color, data, lookup, title, altTitle }) => {
+const LinkLabel = ({
+  color, data, lookup, title, altTitle,
+}) => {
   const realName = (data.id > -1) ? lookup(data.id, 'name_real') : '';
   const titleParsed = (data.id > -1) ? title.replace('$s', realName) : altTitle;
 
@@ -22,8 +24,7 @@ const LinkLabel = ({ color, data, lookup, title, altTitle }) => {
       <div className={'unit-item__label-'.concat(color)}>
         {(data.id > -1)
           ? <a href={getUrlWithParams({ f: { id: data.id } })}>{realName}</a>
-          : <span>{data.name}</span>
-        }
+          : <span>{data.name}</span>}
       </div>
     </OverlayTrigger>
   );

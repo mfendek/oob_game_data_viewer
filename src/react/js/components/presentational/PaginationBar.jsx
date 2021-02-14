@@ -10,14 +10,18 @@ import PropTypes from 'prop-types';
  * @param {function} flipPage
  * @constructor
  */
-const PaginationBar = ({ currentPage, pagesTotal, permalink, flipPage }) => (
+const PaginationBar = ({
+  currentPage, pagesTotal, permalink, flipPage,
+}) => (
   <div className="navigation-bar">
     <ul className="pagination">
       <li><a href="" onClick={(e) => { e.preventDefault(); flipPage('previous'); }}>Previous</a></li>
       <li><a href="" onClick={(e) => { e.preventDefault(); flipPage('first'); }}>First</a></li>
       <li className="active">
         <a href="">
-          <span>{currentPage}</span> / <span>{pagesTotal}</span>
+          <span>{currentPage}</span>
+          <span> / </span>
+          <span>{pagesTotal}</span>
         </a>
       </li>
       <li><a href={permalink}>Permalink</a></li>

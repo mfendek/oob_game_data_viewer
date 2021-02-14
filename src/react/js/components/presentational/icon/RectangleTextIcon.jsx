@@ -18,8 +18,10 @@ import ComparisonText from './ComparisonText';
  * @constructor
  */
 const RectangleTextIcon = (
-    { name, value, title, compare, imgName, imgValue, reversedCompare, allowZeroValue },
-  ) => {
+  {
+    name, value, title, compare, imgName, imgValue, reversedCompare, allowZeroValue,
+  },
+) => {
   if (!allowZeroValue && value === 0) {
     return '';
   }

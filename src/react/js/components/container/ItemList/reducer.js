@@ -5,8 +5,8 @@ import {
 const reducerItemList = (state = { terrainToggle: [] }, action) => {
   switch (action.type) {
     case LIST_TOGGLE_TERRAIN: {
-      const unitId = action.unitId;
-      const terrainToggle = state.terrainToggle;
+      const { unitId } = action;
+      const { terrainToggle } = state;
       const position = terrainToggle.indexOf(unitId);
 
       if (position >= 0) {
