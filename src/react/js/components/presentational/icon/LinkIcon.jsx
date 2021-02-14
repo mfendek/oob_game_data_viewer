@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getUrlWithParams } from '../../../utils/UrlParams';
 import { getBackgroundImg } from '../../../utils/ImagePath';
 
@@ -16,7 +15,7 @@ import { getBackgroundImg } from '../../../utils/ImagePath';
 const LinkIcon = ({
   title, imgName, imgValue, link,
 }) => (
-  <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+  <div data-tip={title}>
     <div
       className="unit-item__content-icon unit-item__content-icon--rectangle-small"
       style={getBackgroundImg(imgName, imgValue)}
@@ -32,7 +31,7 @@ const LinkIcon = ({
         )
       }
     </div>
-  </OverlayTrigger>
+  </div>
 );
 
 LinkIcon.propTypes = {

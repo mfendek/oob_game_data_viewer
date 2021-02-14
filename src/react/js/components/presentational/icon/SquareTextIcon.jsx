@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getBackgroundImg } from '../../../utils/ImagePath';
 import ComparisonText from './ComparisonText';
 
@@ -22,7 +21,7 @@ const SquareTextIcon = (
     name, value, title, compare, imgName, imgValue, reversedCompare, breakLine,
   },
 ) => (
-  <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+  <div data-tip={title}>
     <div
       className={
         'unit-item__content-icon unit-item__content-icon--square-small unit-item__content-icon--text-center'.concat(
@@ -37,7 +36,7 @@ const SquareTextIcon = (
         reversed={reversedCompare}
       />
     </div>
-  </OverlayTrigger>
+  </div>
 );
 
 SquareTextIcon.propTypes = {

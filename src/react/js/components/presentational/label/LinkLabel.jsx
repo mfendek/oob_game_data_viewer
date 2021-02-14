@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getUrlWithParams } from '../../../utils/UrlParams';
 
 /**
@@ -20,13 +19,13 @@ const LinkLabel = ({
   const titleParsed = (data.id > -1) ? title.replace('$s', realName) : altTitle;
 
   return (
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{titleParsed}</Tooltip>}>
+    <div data-tip={titleParsed}>
       <div className={'unit-item__label-'.concat(color)}>
         {(data.id > -1)
           ? <a href={getUrlWithParams({ f: { id: data.id } })}>{realName}</a>
           : <span>{data.name}</span>}
       </div>
-    </OverlayTrigger>
+    </div>
   );
 };
 

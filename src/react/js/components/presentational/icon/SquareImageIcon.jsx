@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getBackgroundImg } from '../../../utils/ImagePath';
 
 /**
@@ -17,12 +16,12 @@ const SquareImageIcon = ({ name, value, title }) => {
   }
 
   return (
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+    <div data-tip={title}>
       <div
         className="unit-item__content-icon unit-item__content-icon--square-small"
         style={getBackgroundImg(name, value)}
       />
-    </OverlayTrigger>
+    </div>
   );
 };
 

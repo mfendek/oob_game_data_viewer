@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getBackgroundImg } from '../../../utils/ImagePath';
 import ComparisonText from './ComparisonText';
 
@@ -27,7 +26,7 @@ const RectangleTextIcon = (
   }
 
   return (
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+    <div data-tip={title}>
       <div
         className="unit-item__content-icon
            unit-item__content-icon--rectangle-large
@@ -40,7 +39,7 @@ const RectangleTextIcon = (
           reversed={reversedCompare}
         />
       </div>
-    </OverlayTrigger>
+    </div>
   );
 };
 

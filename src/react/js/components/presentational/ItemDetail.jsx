@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactImageFallback from 'react-image-fallback';
+import ReactTooltip from 'react-tooltip';
 import { getImgUrl } from '../../utils/ImagePath';
 import { formatDate } from '../../utils/DateFormat';
 import TitleLabel from './label/TitleLabel';
@@ -570,9 +571,12 @@ const ItemDetail = (
               ),
             )
           }
+          <ReactTooltip type="dark" place="bottom" effect="solid" />
         </div>
       )
     }
+
+    <ReactTooltip type="dark" place="bottom" effect="solid" />
   </div>
 );
 

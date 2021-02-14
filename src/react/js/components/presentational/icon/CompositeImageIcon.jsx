@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getImgUrl, getBackgroundImg } from '../../../utils/ImagePath';
 import { getUrlWithParams } from '../../../utils/UrlParams';
 
@@ -32,14 +31,14 @@ const CompositeImageIcon = ({ data, lookup }) => {
     ? <a className="unit-item__image-link" href={getUrlWithParams({ f: { id: data.id } })} aria-label="Switch" /> : '';
 
   return (
-    <OverlayTrigger placement="bottom" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+    <div data-tip={title}>
       <div
         className="unit-item__content-icon unit-item__content-icon--square-small"
         style={style}
       >
         {link}
       </div>
-    </OverlayTrigger>
+    </div>
   );
 };
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { getTerrainPoints } from '../../../utils/GameMath';
 import { getImgUrl } from '../../../utils/ImagePath';
 import ComparisonText from '../icon/ComparisonText';
@@ -89,11 +88,7 @@ const TerrainLabel = ({
           );
 
           return (
-            <OverlayTrigger
-              placement="bottom"
-              overlay={<Tooltip id="tooltip">{title}</Tooltip>}
-              key={terrainName.concat(climate)}
-            >
+            <div data-tip={title}>
               <div className={'unit-item__label-terrain-item unit-item__label-terrain-item--'.concat(climate)}>
                 <ComparisonText
                   base={compareMovement(terrainName, climate)}
@@ -106,7 +101,7 @@ const TerrainLabel = ({
                   reversed={false}
                 />
               </div>
-            </OverlayTrigger>
+            </div>
           );
         },
       )
