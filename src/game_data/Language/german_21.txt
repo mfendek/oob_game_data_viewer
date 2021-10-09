@@ -1,0 +1,6 @@
+data_privacy_settings = Datenschutzeinstellungen 
+gameAnalytics_privacyPolicy = <link="https://gameanalytics.com/privacy/"><u>GameAnalytics Datenschutzregelung</u></link>
+opt_in_analytics = Ich willige ein, Daten zur Analyse zu senden.
+privacy_policy_text = Beim Spielen von Order of Battle werden spielrelevante Daten in anonymisierter Form erhoben, die dazu beitragen, dass das Spielerlebnis weiter verbessert werden kann. 
+
+

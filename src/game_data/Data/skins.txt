@@ -194,3 +194,16 @@ texture = desert_rats2
 factions = britain
 category = land
 
+[DESERT_PATCHES_1]
+id = 36
+texture = desert_patches1
+factions = germany, waffenss, italy
+category = land
+
+[DAZZLE_1]
+id = 37
+texture = dazzle1
+factions = usa, redusa, usarmy
+category = land
+
+

@@ -1,0 +1,44 @@
+enable_controller_controls = Controller aktivieren
+enable_mouse_controls = Maus aktivieren 
+deploymentMode = Aufstellungsmodus
+console_tabnavgation = Reiternavigation
+console_cursornavigation = Zeigernavigation
+console_unitSleepState = Wachzustand der Einheit ändern
+
+unit_4739 = Neuseel. Pioniere '42
+unit_4740 = Neuseel. Pioniere '43
+unit_4741 = Neuseel. Infanterie '43
+unit_4742 = Neuseel. Infanterie '44
+unit_4745 = Franz. Goumiers '43
+unit_4746 = Franz. Pioniere '43
+unit_4747 = Franz. Infanterie '43
+unit_4748 = Franz. Schw. Infanterie '43
+unit_4749 = Franz. Schw. Infanterie '44
+unit_4751 = Kan. Pioniere '43
+unit_4752 = Kan. Infanterie '43
+unit_4753 = Kan. Schw. Infanterie '43
+unit_4754 = US Rangers '42
+unit_4755 = US Rangers '43
+unit_4756 = US Rangers '44
+
+unit_4737 = Re.2002
+unit_4738 = Panzerwerfer 42
+unit_4743 = Zerstörer Bourrasque
+unit_4744 = Zerstörer L'Adroit
+unit_4750 = C15TA
+unit_4757 = L4 Grasshopper
+unit_4758 = M3 Spähwagen
+unit_4759 = T28E CGMC
+unit_4760 = T30 HMC
+unit_4761 = A-36 Apache
+unit_4762 = Lancaster
+unit_4763 = Spitfire Mk. V B
+
+tooltip_upgrade_console = Einheit zu anderem Einheitentyp aufwerten
+
+tooltip_repair_console = Die Stärke der Einheit mit frischen Truppen und neuer Ausrüstung wiederherstellen
+tooltip_elite_repair_console = Die Stärke der Einheit mit erfahrenen Truppen wiederherstellen
+tooltip_upgrade_console = Einheit zu anderem Einheitentyp aufwerten
+tooltip_upgrade_series_console = Einheit zu anderem Einheitentyp aufwerten (Vergünstigte Aufwertung verfügbar!)
+tooltip_attach_commander = Auswählen, um diesen Kommandanten einer Einheit zuzuweisen
+tooltip_detach_commander = Auswählen, um diesen Kommandanten von seiner aktuellen Einheit zu entfernen

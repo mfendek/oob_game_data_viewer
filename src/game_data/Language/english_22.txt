@@ -1,0 +1,26 @@
+no_free_space_tile = Free space not available
+no_free_space_text = You don't have enough free space on your HDD to save. Any progress will get lost.
+
+tutorial_content_allied2_title = [New content] Allies Resurgent
+tutorial_content_allied2 = This new campaign puts you in command of Allied forces to battle Axis troops in North Africa, the Mediterranean and in Europe from 1942 - 1944.
+
+unit_4764 = Do 217K-2
+
+skin_36 = Desert Patches 1
+skin_37 = Dazzle 1
+
+commander_113 = Harold Alexander
+commander_114 = George Patton
+commander_115 = Sidney Kirkman
+commander_116 = Reuben Tucker
+commander_117 = Lee Archer
+
+spec_combat_box_title = Combat Box
+spec_combat_box_descr = A combat box is a tactical formation developed by the USAAF to combine the firepower of the defensive machine guns of several groups of bombers flying in a box-like order. It also allows for a tighter bomb pattern when releasing the bombs on a target.
+spec_combat_box_effect = • Strategic bombers have increased air and ground defense when placed adjacent to other strategic bombers
+
+spec_red_tails_title = Tuskegee Airmen
+spec_red_tails_descr = The Tuskegee Airmen were the first African-American military aviators in the USAAF, serving in both fighter and bomber units. The fighter pilots became famous for bomber escort missions with the 332nd Fighter Group, known as Red Tails due to the red markings painted on their planes.
+spec_red_tails_effect = • Receive a new air commander boosting defensive stats of nearby aircraft. 
+
+

@@ -1,0 +1,44 @@
+enable_controller_controls = Habilitar mando
+enable_mouse_controls = Habilitar ratón
+deploymentMode = Modo de despliegue
+console_tabnavgation = Pestañas de navegación
+console_cursornavigation = Cursor de navegación
+console_unitSleepState = Cambiar el estado de hibernación
+
+unit_4739 = Ingenieros Nueva Zelanda 42
+unit_4740 = Ingenieros Nueva Zelanda 43
+unit_4741 = Infantería Nueva Zelanda 43
+unit_4742 = Infantería Nueva Zelanda 44
+unit_4745 = Goumiers franceses 43
+unit_4746 = Ingenieros franceses 43
+unit_4747 = Infantería francesa 43
+unit_4748 = Infantería pesada francesa 43
+unit_4749 = Infantería pesada francesa 44
+unit_4751 = Ingenieros canadienses 43
+unit_4752 = Infantería canadiense 43
+unit_4753 = Infantería pesada canadiense 43
+unit_4754 = US Rangers 42
+unit_4755 = US Rangers 43
+unit_4756 = US Rangers 44
+
+unit_4737 = Re 2002
+unit_4738 = PZW 42
+unit_4743 = DD Bourrasque
+unit_4744 = DD L'Adroit
+unit_4750 = C15 TA
+unit_4757 = L4 Grasshopper
+unit_4758 = M3 ScoutCar
+unit_4759 = T28E CGMC
+unit_4760 = T30 HMC
+unit_4761 = A36 Apache
+unit_4762 = Lancaster
+unit_4763 = Spitfire Mk.V B
+
+tooltip_upgrade_console = Mejorar la unidad a un tipo distinto
+
+tooltip_repair_console = Reforzar la unidad con tropas frescas y equipamiento para recuperar su fuerza
+tooltip_elite_repair_console = Usar tropas veteranas para reforzar la fuerza de esta unidad.
+tooltip_upgrade_console = Mejorar la unidad a un tipo distinto
+tooltip_upgrade_series_console = Mejorar la unidad a un tipo distinto (¡Disponible mejora con descuento!)
+tooltip_attach_commander = Selecciona para asignar este Comandante a una unidad.
+tooltip_detach_commander = Selecciona para desasignar este Comandante de la unidad actual.

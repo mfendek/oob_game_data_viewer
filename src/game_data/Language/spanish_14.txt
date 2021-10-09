@@ -10,7 +10,7 @@ tutorial_aircraft_cargo_console = Cuando un avión aterriza en un aeródromo, se
 tutorial_valid_targets_console = Esta unidad está en posición de atacar a uno o más objetivos enemigos. Estos están marcados con una cruz roja en el mapa.||Al resaltar una unidad con el cursor, se mostrará el pronóstico de combate.Se trata de un resultado estimado del ataque, que muestra la cantidad de daño que cada bando infligirá al otro.||Para ordenar un ataque, presiona <A> sobre un objetivo válido.
 tutorial_campaign_map_console = En el modo de campaña, puedes ver el estado actual de la guerra y, si hay varias opciones disponibles, elegir la siguiente misión.||Presiona <X> para iniciar la sesión informativa de la misión seleccionada actualmente.
 tutorial_torpedo_launch_2 = Después de que una unidad dispara un torpedo, tiene que esperar uno o más turnos para recargar. La cantidad de turnos se muestra en la esquina superior izquierda del icono de Habilidad.
-tutorial_supply_1_console = El modo de visualización de suministro está activado actualmente. Puedes habilitar este modo presionando hacia abajo en <Right-Stick>.||En este modo, las fuentes de suministro se indican en el mapa y las unidades muestran sus requisitos y tipo de costo de suministro.
+tutorial_supply_1_console = El modo de visualización de suministro está activado actualmente. Puedes habilitar este modo presionando hacia abajo en <R>.||En este modo, las fuentes de suministro se indican en el mapa y las unidades muestran sus requisitos y tipo de costo de suministro.
 tutorial_switch_layers_console = Cada hexágono puede contener tanto una unidad aérea como una terrestre (terrestre o naval). Solo la unidad enfocada se mostrará en escala completa con sus íconos de fuerza y estado.||Para cambiar el enfoque entre las capas de aire y tierra, presiona el botón <DPAD-UP>.
 tutorial_turn_report_console = Puedes volver a activar el panel de información general de turnos en cualquier momento presionando el botón <Y>. Te permite revisar los objetivos del escenario y su estado en cualquier punto del juego.
 tutorial_reviving_units_console = Cuando una unidad de la Fuerza Principal es destruida, puedes comprobar su historial en la lista de Fuerzas en la pestaña "Unidades destruidas". Al acceder al panel de información de la unidad a través del botón <DPAD- DOWN>, tendrás la opción de rehacer la unidad a su coste completo, pero manteniendo el 30% de su experiencia anterior.
@@ -26,7 +26,7 @@ tutorial_campaign_scenario_selected_console = El escenario que seleccionaste ya 
 // LOADING TIPS_CONSOLE
 loading_tip_12_console = Al mantener presionado el botón <A>, puedes asignar destinos de larga distancia a las unidades. La unidad se moverá automáticamente hacia esta posición durante los siguientes turnos.
 
-tutorial_supply_cut_2 = Para que la unidad vuelva a estar suministrada, debes capturar los hexágonos enemigos con objeto de volver a enlazar el territorio que ocupa la unidad con una de tus fuentes de suministro. Presiona <RIGHT-STICK> para ver qué hexágonos o barcos están aportando suministros.
+tutorial_supply_cut_2 = Para que la unidad vuelva a estar suministrada, debes capturar los hexágonos enemigos con objeto de volver a enlazar el territorio que ocupa la unidad con una de tus fuentes de suministro. Presiona <DPad_Up> para ver qué hexágonos o barcos están aportando suministros.
 
 tutorial_unit_skins = Puede personalizar la apariencia de tus vehículos terrestres presionando el botón <X> en el Panel de información y seleccionando un camuflaje personalizado.
 

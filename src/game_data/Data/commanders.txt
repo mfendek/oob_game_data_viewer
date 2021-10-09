@@ -1035,7 +1035,7 @@ defense = air_defense, 2
 [WILLIAM_VALE]
 id = 109
 category = air
-faction = britain
+faction = britain, raf
 weapon = air_small_attack, 2
 range = 1
 
@@ -1061,3 +1061,48 @@ category = land
 faction = britain
 weapon = infantry_attack, 1
 defense = infantry_defense, 1
+
+//////////////////////
+//   Allies ETO2   //
+/////////////////////
+
+[HAROLD_ALEXANDER]
+id = 113
+category = land
+faction = britain
+weapon = infantry_attack, 1
+defense = infantry_defense, 1
+
+[GEORGE_PATTON]
+id = 114
+category = land
+faction = usa
+weapon = vehicle_attack, 2
+weapon = infantry_attack, 2
+range = 2
+
+[SIDNEY_KIRKMAN]
+id = 115
+category = land
+faction = britain
+weapon = infantry_attack, 1
+defense = bombard_defense, 2
+assault = 1
+
+[REUBEN_TUCKER]
+id = 116
+category = land
+faction = usa
+weapon = infantry_attack, 2
+defense = infantry_defense, 1
+shock = 5
+
+[LEE_ARCHER]
+id = 117
+category = air
+faction = usa, usarmy
+weapon = air_small_attack, 1
+defense = air_defense, 2
+range = 2
+
+

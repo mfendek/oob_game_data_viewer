@@ -81,11 +81,6 @@ console_legend_campaignPins = Toggle Pins
 console_legend_nap = Nap 
 console_legend_awake = Awake
 console_legend_sleep = Sleep
-console_legend_centerCamera = Center camera
+console_legend_centerCamera = Center Cursor
 console_legend_supplyMode = Toggle supply mode
 console_legend_airGround = Toggle Air/Ground
-
-
-
-
-

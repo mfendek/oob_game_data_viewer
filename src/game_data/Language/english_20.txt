@@ -1,0 +1,44 @@
+enable_controller_controls = Enable Controller
+enable_mouse_controls = Enable Mouse 
+deploymentMode = Deployment Mode
+console_tabnavgation = Navigate Tabs
+console_cursornavigation = Navigate Cursor
+console_unitSleepState = Change Unit Sleep State
+
+unit_4739 = New Zealand Engineers 42
+unit_4740 = New Zealand Engineers 43
+unit_4741 = New Zealand Infantry 43
+unit_4742 = New Zealand Infantry 44
+unit_4745 = French Goumiers 43
+unit_4746 = French Engineers 43
+unit_4747 = French Infantry 43
+unit_4748 = French Heavy Infantry 43
+unit_4749 = French Heavy Infantry 44
+unit_4751 = Canadian Engineers 43
+unit_4752 = Canadian Infantry 43
+unit_4753 = Canadian Heavy Infantry 43
+unit_4754 = US Rangers 42
+unit_4755 = US Rangers 43
+unit_4756 = US Rangers 44
+
+unit_4737 = Re 2002
+unit_4738 = PZW 42
+unit_4743 = DD Bourrasque
+unit_4744 = DD L'Adroit
+unit_4750 = C15 TA
+unit_4757 = L4 Grasshopper
+unit_4758 = M3 ScoutCar
+unit_4759 = T28E CGMC
+unit_4760 = T30 HMC
+unit_4761 = A36 Apache
+unit_4762 = Lancaster
+unit_4763 = Spitfire Mk.V B
+
+tooltip_upgrade_console = Upgrade unit to different type
+
+tooltip_repair_console = Reinforce the unit with fresh troops and equipment to recover its strength
+tooltip_elite_repair_console = Use seasoned troops to reinforce this unit's strength.
+tooltip_upgrade_console = Upgrade unit to different type
+tooltip_upgrade_series_console = Upgrade unit to different type (Discounted upgrade available!)
+tooltip_attach_commander = Select to attach this Commander to a unit.
+tooltip_detach_commander = Select to detach this Commander from its current unit.

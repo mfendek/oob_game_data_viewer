@@ -28,7 +28,7 @@ Forced_Labour;73;land;japan, germany, ussr;6/1941;/;;7;forced_labour;no
 Super_Sensha;72;land;japan;1943;/;;10;super_sensha;no
 Landing_Craft_Infantry;34;land;japan, britain, usa, marine_corps;6/1941;/;;7;landing_craft_infantry;no
 Defensive_Doctrine;69;land;japan;/;/;;5;build_bunkers;no
-Lend_Lease_Act;59;land;britain, china;10/1941;/;;3;lend_lease;no
+Lend_Lease_Act;59;land;britain, canada, china;10/1941;/;;3;lend_lease;no
 Home_Guard;;land;britain;1940;/;;5;home_guard;no
 Metal_Detector;42;land;britain;7/1942;/;;3;metal_detector;no
 Hobarts_Funnies;49;land;britain;5/1944;/;;3;hobarts_funnies;no
@@ -71,13 +71,15 @@ Drop_Tank;19;air;all;7/1940;/;;7;Drop_Tank;no
 Advanced_Aeronautics;21;air;all;1944;Tizard_Mission;;7;Advanced_Aeronautics;no
 Elite_Air_Groups;67;air;japan;4/1941;/;;5;Elite_Air_Groups;no
 Scrambling;68;air;all;5/1940;Radar_I;;10;scrambling;yes
-Bomber_Stream;83;air;britain;5/1942;/;;3;bomber_stream;yes
+Bomber_Stream;83;air;britain;5/1942;/;;5;bomber_stream;yes
 Synthetic_Fuel_Plants;48;air;germany;1943;/;;5;air_cp_bonus;no
 Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
 LL_USSR_Aircraft;99;air;ussr;3/1942;Lend_Lease_USSR;;7;ll_ussr_air;no
 AT_Cluster_Bomb;101;air;ussr;5/1943;;;5;at_cluster_bomb;no
 Sov_Fighter_Tactics;102;air;ussr;1/1944;Flight_School;;5;sov_fighter_tactics;no
-Air_Offensive;103;air;ussr;5/1944;Pilot_Rotation;;7;air_offensive;no
+Air_Offensive;103;air;ussr, usa;5/1944;Pilot_Rotation;;7;air_offensive;no
+Combat_Box;104;air;usa;1/1944;/;;5;bomber_stream;no
+Red_Tails;105;air;usa;6/1943;Flight_School;;5;red_tails;no
 ;;;;;;;;;
 ;;;;;;;;;
 // GENERAL & SHARED;;;;;;;;;
