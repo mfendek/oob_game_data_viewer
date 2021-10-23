@@ -144,7 +144,7 @@ category = land
 [HUNGARY_1]
 id = 25
 texture = hungary_1
-factions = hungary, germany, ussr
+factions = hungary, germany, ussr, poland
 category = land
 
 [STRIPES_2]
@@ -173,7 +173,7 @@ category = land
 [FRANCE_1]
 id = 32
 texture = france1
-factions = france
+factions = france, poland
 category = land
 
 [FRANCE_2]
