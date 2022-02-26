@@ -4,9 +4,9 @@ name;id;category;factions;date;requires;unlocks;cost;effects;skirmish
 ;;;;;;;;;
 Boot_Camp;1;land;all;/;/;;5;infantry_experience;yes
 Tank_School;5;land;all;1939;/;;5;tank_experience;yes
-Field_Medics;31;land;usa, marine_corps;/;/;;10;Field_Medics;yes
+Field_Medics;31;land;usa, usarmy, marine_corps;/;/;;10;Field_Medics;yes
 Nuclear_Bomb;11;land;usa;1945;Tizard_Mission;;15;nuke;yes
-Landing_Craft_Tank;35;land;usa, marine_corps;1943;Landing_Craft_Infantry;;7;landing_craft_tank;no
+Landing_Craft_Tank;35;land;usa, usarmy, marine_corps;1943;Landing_Craft_Infantry;;7;landing_craft_tank;no
 Auftragstaktik;3;land;germany;1940;Boot_Camp;;10;Auftragstaktik;no
 Beutepanzer;4;land;germany;1941;/;;5;Beutepanzer;no
 Baukommando_Becker;52;land;germany;8/1942;Beutepanzer;;3;baukommando_becker;no
@@ -26,7 +26,7 @@ Banzai_Charge;2;land;japan;1940;/;;5;Banzai_Charge;no
 Bushido_Code;6;land;japan;1940;/;;5;bushido_code;no
 Forced_Labour;73;land;japan, germany, ussr;6/1941;/;;7;forced_labour;no
 Super_Sensha;72;land;japan;1943;/;;10;super_sensha;no
-Landing_Craft_Infantry;34;land;japan, britain, usa, marine_corps;6/1941;/;;7;landing_craft_infantry;no
+Landing_Craft_Infantry;34;land;japan, britain, usa, usarmy, marine_corps;6/1941;/;;7;landing_craft_infantry;no
 Defensive_Doctrine;69;land;japan;/;/;;5;build_bunkers;no
 Lend_Lease_Act;59;land;britain, canada, china;10/1941;/;;3;lend_lease;no
 Home_Guard;;land;britain;1940;/;;5;home_guard;no
@@ -49,17 +49,17 @@ Deep_Operations;100;land;ussr;5/1944;Tank_School;;5;Panzer_Keil;no
 ;;;;;;;;;
 Naval_Academy;12;naval;all;/;/;;5;naval_experience;no
 Damage_Control;13;naval;all;1942;/;;7;Damage_Control;no
-Wolfpack;14;naval;germany, usa, britain, japan, kriegsmarine;1941;/;;7;wolfpack;no
+Wolfpack;14;naval;germany, usa, usarmy, britain, japan, kriegsmarine;1941;/;;7;wolfpack;no
 Unrestricted_Submarines;60;naval;germany, kriegsmarine;/;/;;7;unrestricted_submarine_warfare;no
-Liberty_Ships;36;naval;usa;1942;/;;5;Liberty_Ships;no
-Block_Construction;64;naval;usa;1941;/;;3;block_construction;no
+Liberty_Ships;36;naval;usa, usarmy;1942;/;;5;Liberty_Ships;no
+Block_Construction;64;naval;usa, usarmy;1941;/;;3;block_construction;no
 Gruppe_Monsun;74;naval;japan;9/1943;/;;7;gruppe_monsun;no
-British_Pacific_Fleet;75;naval;usa;11/1944;/;;10;british_pacific_fleet;no
+British_Pacific_Fleet;75;naval;usa, usarmy;11/1944;/;;10;british_pacific_fleet;no
 Plan_Z;76;naval;kriegsmarine;1/1941;/;;20;plan_z;no
 Schlachtschiffe;79;naval;kriegsmarine;1/1944;Plan_Z;;10;schlachtschiffe;no
 Flugzeugtrager;77;naval;kriegsmarine;1/1942;Plan_Z;;10;flugzeugtrager;no
 Torpedo_Improvements;80;naval;germany, kriegsmarine;4/1942;/;;3;torpedo_improvements;no
-Torpedo_Improvements;81;naval;usa;7/1943;/;;3;torpedo_improvements;no
+Torpedo_Improvements;81;naval;usa, usarmy;7/1943;/;;3;torpedo_improvements;no
 Kleinkampfverbande;78;naval;kriegsmarine;1/1944;/;;3;kleinkampfverbande;no
 Destroyer_Tender;82;naval;all;1/2000;/;;5;destroyer_tender;no
 ;;;;;;;;;
@@ -77,16 +77,16 @@ Wire_Guided_Bomb;23;air;kriegsmarine, germany;1944;/;;10;Wire_Guided_Bomb;no
 LL_USSR_Aircraft;99;air;ussr;3/1942;Lend_Lease_USSR;;7;ll_ussr_air;no
 AT_Cluster_Bomb;101;air;ussr;5/1943;;;5;at_cluster_bomb;no
 Sov_Fighter_Tactics;102;air;ussr;1/1944;Flight_School;;5;sov_fighter_tactics;no
-Air_Offensive;103;air;ussr, usa;5/1944;Pilot_Rotation;;7;air_offensive;no
-Combat_Box;104;air;usa;1/1944;/;;5;bomber_stream;no
-Red_Tails;105;air;usa;6/1943;Flight_School;;5;red_tails;no
+Air_Offensive;103;air;ussr, usa, usarmy, ;5/1944;Pilot_Rotation;;7;air_offensive;no
+Combat_Box;104;air;usa, usarmy;1/1944;/;;5;bomber_stream;no
+Red_Tails;105;air;usa, usarmy;6/1943;Flight_School;;5;red_tails;no
 ;;;;;;;;;
 ;;;;;;;;;
 // GENERAL & SHARED;;;;;;;;;
 ;;;;;;;;;
-Radar_I;25;naval, air;usa, britain, germany, japan, ussr, kriegsmarine;1940;/;;5;Radar_I;no
-Radar_II;26;naval, air;usa, britain, germany, kriegsmarine;1942;Radar_I, Tizard_Mission;;5;Radar_II;no
-Proximity_Fuse;28;land, naval;usa, britain, ussr, germany, kriegsmarine;1943;Radar_I;;5;Proximity_Fuse;no
+Radar_I;25;naval, air;usa, usarmy, britain, germany, japan, ussr, kriegsmarine;1940;/;;5;Radar_I;no
+Radar_II;26;naval, air;usa, usarmy, britain, germany, kriegsmarine;1942;Radar_I, Tizard_Mission;;5;Radar_II;no
+Proximity_Fuse;28;land, naval;usa, usarmy, britain, ussr, germany, kriegsmarine;1943;Radar_I;;5;Proximity_Fuse;no
 Molotov_Ribbentrop_Pact;91;land, air;ussr;8/1939;/;;5;molotov_ribbentrop_pact;no
 Tokyo_Express;40;land, naval;japan;1942;/;;7;destroyer_supply_bonus;no
 Kamikaze;66;all;japan;1944;Bushido_Code;;5;kamikaze;yes

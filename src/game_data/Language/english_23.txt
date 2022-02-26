@@ -1,0 +1,10 @@
+console_legend_navigate_settings = Navigate Settings
+console_legend_navigate_scenarios = Navigate Scenarios
+console_legend_replay_camera = Toggle camera auto focus
+console_legend_replay_events = Toggle display of events
+console_legend_replay_turn = Toggle display of turn reports
+editor_block_cp_refund = Block CP refunding
+editor_block_cp_refund_next_turn = Block CP refunding till next round
+tooltip_import_triggers = Import triggers
+import = Import
+editor_kill_disband = Kill/Disband

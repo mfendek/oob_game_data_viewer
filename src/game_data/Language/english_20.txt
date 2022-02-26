@@ -1,5 +1,5 @@
-enable_controller_controls = Enable Controller
-enable_mouse_controls = Enable Mouse 
+enable_controller_controls = Switch to controller
+enable_mouse_controls =  Switch to mouse 
 deploymentMode = Deployment Mode
 console_tabnavgation = Navigate Tabs
 console_cursornavigation = Navigate Cursor

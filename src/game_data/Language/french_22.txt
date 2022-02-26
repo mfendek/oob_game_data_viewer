@@ -1,8 +1,8 @@
 no_free_space_tile = Espace libre non disponible
 no_free_space_text = Vous n'avez pas assez d'espace libre sur votre disque dur pour sauvegarder. Toute progression sera perdue.
 
-tutorial_content_allied2_title = [New content] Allies Resurgent
-tutorial_content_allied2 = This new campaign puts you in command of Allied forces to battle Axis troops in North Africa, the Mediterranean and in Europe from 1942 - 1944.
+tutorial_content_allied2_title = [Nouveau contenu] Allies Resurgent
+tutorial_content_allied2 = Cette nouvelle campagne vous place aux commandes des forces alliées pour combattre les troupes de l'Axe entre 1942 et 1944.
 
 unit_4764 = Do 217K-2
 

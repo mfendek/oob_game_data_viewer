@@ -1,8 +1,8 @@
 no_free_space_tile = Nicht genügend freier Speicher
 no_free_space_text = Auf Ihrer Festplatte steht nicht genügend freier Speicher zur Verfügung. Der Spielfortschritt kann nicht gesichert werden.
 
-tutorial_content_allied2_title = [New content] Allies Resurgent
-tutorial_content_allied2 = This new campaign puts you in command of Allied forces to battle Axis troops in North Africa, the Mediterranean and in Europe from 1942 - 1944.
+tutorial_content_allied2_title = [Neuer Inhalt] Allies Resurgent
+tutorial_content_allied2 = In dieser neue Kampagne erhält der Spieler das Kommando über alliierte Truppen in Afrika, im Mittelmeerraum und in Europa 1942 - 1944.
 
 unit_4764 = Do 217K-2
 

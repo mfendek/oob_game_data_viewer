@@ -14,7 +14,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.21",
-    "bootstrap-sass": "^3",
+    "bootstrap-sass": "3.4.1",
     "expose-loader": "^2",
     "laravel-mix": "^2",
     "prop-types": "^15",
