@@ -1,0 +1,10 @@
+console_legend_navigate_settings = Навигация по настройкам
+console_legend_navigate_scenarios = Навигация по сценариям
+console_legend_replay_camera = Переключить автофокус камеры
+console_legend_replay_events = Переключить отображение событий
+console_legend_replay_turn = Переключить отображение отчетов о ходах
+editor_block_cp_refund = Заблокировать возврат Командных очков
+editor_block_cp_refund_next_turn = Заблокировать возврат Командных очков до следующего раунда
+tooltip_import_triggers = Импорт триггеров
+import = Импорт
+editor_kill_disband = Убить/Расформировать

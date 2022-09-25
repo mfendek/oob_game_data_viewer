@@ -1,0 +1,26 @@
+pbem_register_passwords_dont_match = Die Passwörter stimmen nicht überein.
+write_message = Nachricht verfassen
+cycle_receivers = Empfänger durchschalten
+console_legend_navigate_units = Einheiten navigieren
+
+commander_118 = Glenn Emile Duncan
+commander_119 = Lafayette G. Pool
+commander_120 = Léo Major
+commander_135 = Dwight D. Eisenhower
+
+unit_4765 = Haubitze M115 203mm
+unit_4766 = SP Achilles 17-Pfünder
+unit_4767 = SP Archer 17-Pfünder
+unit_4768 = Ram Kangaroo
+unit_4769 = Flakpanzer IV
+unit_4770 = Flakpanzer IV
+unit_4771 = Me 163 "Komet"
+unit_4772 = V1-Rakete
+unit_4773 = V1-Rakete
+unit_4774 = PzKpfw VI Tiger E
+unit_4775 = FlaK 37 88mm
+unit_4776 = FlaK 37 88mm
+unit_4777 = Polnischer LKW
+unit_4778 = Französischer LKW
+unit_4779 = Kan. Pioniere '44
+unit_4780 = US Rangers 45

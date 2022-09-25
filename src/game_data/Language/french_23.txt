@@ -1,0 +1,10 @@
+console_legend_navigate_settings = Parcourir les paramètres
+console_legend_navigate_scenarios = Parcourir les scénarios
+console_legend_replay_camera = Basculez sur la mise au point automatique de la caméra
+console_legend_replay_events = Basculez sur l'affichage des événements
+console_legend_replay_turn = Basculez sur l'affichage des rapports de tour
+editor_block_cp_refund = Bloquez le remboursement CP
+editor_block_cp_refund_next_turn = Bloquez le remboursement CP jusqu'au prochain tour
+tooltip_import_triggers = Importer les déclencheurs
+import = Import
+editor_kill_disband = Tuer/Disperser

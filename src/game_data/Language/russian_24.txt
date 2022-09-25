@@ -1,0 +1,26 @@
+﻿pbem_register_passwords_dont_match = Пароли не совпадают
+write_message = Написать сообщение
+cycle_receivers = Круговой прием
+console_legend_navigate_units = Навигация подразделений
+
+commander_118 = Гленн Эмиль Дункан
+commander_119 = Лафайет Дж. Пул
+commander_120 = Лео Мажор
+commander_135 = Дуайт Д. Эйзенхауэр
+
+unit_4765 = 8 дюймовая гаубица M115
+unit_4766 = 17 фунтовый SP Ахилес
+unit_4767 = 17 фунтовый SP Арчер
+unit_4768 = Кенгуру
+unit_4769 = FlakPz IV
+unit_4770 = FlakPz IV
+unit_4771 = Me 163 Комет
+unit_4772 = ФАУ-1
+unit_4773 = ФАУ-1
+unit_4774 = PzKw. VI Тигр E
+unit_4775 = 8.8 cm FlaK 37
+unit_4776 = 8.8 cm FlaK 37
+unit_4777 = Польский грузовик
+unit_4778 = Французский грузовик
+unit_4779 = Канадские инженеры 44
+unit_4778 = US Рейнджеры 45

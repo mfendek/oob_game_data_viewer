@@ -26,11 +26,11 @@ Banzai_Charge;2;land;japan;1940;/;;5;Banzai_Charge;no
 Bushido_Code;6;land;japan;1940;/;;5;bushido_code;no
 Forced_Labour;73;land;japan, germany, ussr;6/1941;/;;7;forced_labour;no
 Super_Sensha;72;land;japan;1943;/;;10;super_sensha;no
-Landing_Craft_Infantry;34;land;japan, britain, usa, usarmy, marine_corps;6/1941;/;;7;landing_craft_infantry;no
+Landing_Craft_Infantry;34;land;japan, britain, canada, usa, usarmy, marine_corps;6/1941;/;;7;landing_craft_infantry;no
 Defensive_Doctrine;69;land;japan;/;/;;5;build_bunkers;no
 Lend_Lease_Act;59;land;britain, canada, china;10/1941;/;;3;lend_lease;no
 Home_Guard;;land;britain;1940;/;;5;home_guard;no
-Metal_Detector;42;land;britain;7/1942;/;;3;metal_detector;no
+Metal_Detector;42;land;britain, canada;7/1942;/;;3;metal_detector;no
 Hobarts_Funnies;49;land;britain;5/1944;/;;3;hobarts_funnies;no
 Free_French;;land;britain;8/1940;/;;4;free_french;no
 Resistance_Fighters;;land;britain;8/1941;Free_French;;3;resistance_fighters;no

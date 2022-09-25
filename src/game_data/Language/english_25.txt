@@ -1,0 +1,2 @@
+pbem_logout_confirm_title = Logging out!
+pbem_logout_confirm_text =  Are you sure you want to log out?

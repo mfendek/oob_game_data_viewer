@@ -1,0 +1,10 @@
+console_legend_navigate_settings = Durch Einstellungen navigieren
+console_legend_navigate_scenarios = Durch Szenarios navigieren
+console_legend_replay_camera = Autom. Kamera-Zentrierung aktivieren/deaktivieren
+console_legend_replay_events = Einblendung von Ereignismeldungen aktivieren/deaktivieren
+console_legend_replay_turn = Einblendung von Rundenberichten aktivieren/deaktivieren
+editor_block_cp_refund = BP-Erstattung blockieren
+editor_block_cp_refund_next_turn = BP-Erstattung bis zur nächsten Runde blockieren
+tooltip_import_triggers = Trigger importieren
+import = Importieren
+editor_kill_disband = Ausschalten/Auflösen

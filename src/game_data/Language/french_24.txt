@@ -1,0 +1,26 @@
+pbem_register_passwords_dont_match = Mots de passe ne correspondent pas
+write_message = Écrire un message
+cycle_receivers = Récepteurs de cycles
+console_legend_navigate_units = Naviguer dans les unités
+
+commander_118 = Glenn Emile Duncan
+commander_119 = Lafayette G. Pool
+commander_120 = Léo Major
+commander_135 = Dwight D. Eisenhower
+
+unit_4765 = Obusier M115 8 pouces
+unit_4766 = 17 livres SP Achilles
+unit_4767 = 17 livres SP Archer
+unit_4768 = Ram Kangaroo
+unit_4769 = FlakPz IV
+unit_4770 = FlakPz IV
+unit_4771 = Me 163 Komet
+unit_4772 = V-1
+unit_4773 = V-1
+unit_4774 = PzKw. VI Tiger E
+unit_4775 = 8.8 cm FlaK 37
+unit_4776 = 8.8 cm FlaK 37
+unit_4777 = Camion polonais
+unit_4778 = Camion français
+unit_4779 = Ingénieurs canadiens 44
+unit_4780 = Rangers américains 45

@@ -1,6 +1,6 @@
 <?php
 
-const RELEASE_VERSION = '9-1-4_2022-02-27';
+const RELEASE_VERSION = '9-2-2_2022-09-26';
 const LIST_SEPARATOR = ' = ';
 const VALUE_SEPARATOR = ', ';
 const COMMANDER_ID_OFFSET = 100000;

@@ -1106,3 +1106,38 @@ defense = air_defense, 2
 range = 2
 
 
+//////////////////////
+//   Allies ETO3   //
+/////////////////////
+
+
+[GLENN_E_DUNCAN]
+id = 118
+category = air
+faction = usa
+weapon = air_small_attack, 2
+weapon = air_large_attack, 1
+
+
+[LAFAYETTE_G_POOL]
+id = 119
+category = land
+faction = usa
+weapon = vehicle_attack, 2
+weapon = infantry_attack, 1
+
+
+[LÉO_MAJOR]
+id = 120
+category = land
+faction = canada
+weapon = infantry_attack, 1
+
+
+[DWIGHT_D_EISENHOWER]
+id = 135
+category = land
+faction = usa
+weapon = vehicle_attack, 1
+weapon = infantry_attack, 1
+range = 3

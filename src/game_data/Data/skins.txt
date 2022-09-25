@@ -207,3 +207,14 @@ factions = usa, redusa, usarmy
 category = land
 
 
+[CANADA_1]
+id = 38
+texture = canada1
+factions = britain, canada
+category = land
+
+[CANADA_2]
+id = 39
+texture = canada2
+factions = britain, canada
+category = land
