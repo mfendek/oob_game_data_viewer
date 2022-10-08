@@ -24,3 +24,6 @@ unit_4777 = Camion polonais
 unit_4778 = Camion français
 unit_4779 = Ingénieurs canadiens 44
 unit_4780 = Rangers américains 45
+
+tutorial_content_allied3_title = [Nouveau contenu] Allies Victorious
+tutorial_content_allied3 = Allies Victorious est le dernier chapitre de la trilogie alliée d'Order of Battle. Le nouveau DLC décrit les batailles qui se sont déroulées entre le débarquement allié en Normandie en juin 1944 et la fin de la guerre en Europe.
