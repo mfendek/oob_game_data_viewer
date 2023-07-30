@@ -17,7 +17,7 @@ commander_117 = Lee Archer
 
 spec_combat_box_title = Combat Box
 spec_combat_box_descr = Die sog. "Combat Box" ist eine Kampfformation, die von der USAAF entwickelt wurde, um die Feuerkraft der defensiven Maschinengewehre mehrerer ineinander verschachtelter Bomberstaffeln zu kombinieren. Zudem ist damit ein dichterer Bombenteppich möglich.
-spec_combat_box_effect = • Strategische Bomber erhalten eine erhöhte Luft- und Bodenverteidigung, wenn sie sich neben anderen strategischen Bombern befinden.
+spec_combat_box_effect = • Strategische Bomber erhalten eine erhöhte Luftverteidigung, wenn sie sich neben anderen strategischen Bombern befinden.
 
 spec_red_tails_title = Tuskegee Airmen
 spec_red_tails_descr = Die sog. "Tuskegee Airmen" waren die ersten afroamerikanischen Kampfpiloten der USAAF, die in Jäger- und Bombereinheiten dienten. Die wegen ihrer roten Heckbemalung auch "Red Tails" genannten Piloten wurden für ihre Geleitschutzeinsätze in der 332nd Fighter Group berühmt.

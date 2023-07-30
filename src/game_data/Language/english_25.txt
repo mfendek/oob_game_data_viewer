@@ -1,2 +1,13 @@
 pbem_logout_confirm_title = Logging out!
 pbem_logout_confirm_text =  Are you sure you want to log out?
+paired = Paired
+ranked = Ranked
+tooltip_ranked = Ranked challenge
+elo_score = Rating
+tooltip_paired = Paired challenge
+ps4_backup_popup_title = "Backing up save files..."
+ps4_backup_popup_description = Please wait for the backup process to finish!
+skin_40 = Desert Patches 2
+skin_41 = Greyish Stripes
+skin_42 = Brownish Stripes
+mouse_controller_switch_text = You can switch to mouse/keyboard controls by pressing "Y"

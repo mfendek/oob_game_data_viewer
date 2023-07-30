@@ -17,7 +17,7 @@ commander_117 = Lee Archer
 
 spec_combat_box_title = Bloc de combat
 spec_combat_box_descr = Un bloc de combat est une formation tactique développée par l'USAAF pour combiner la puissance de feu des mitrailleuses défensives de plusieurs groupes de bombardiers volant dans un ordre semblable à un bloc. Cette formation permet également d'obtenir un schéma de bombardement plus serré lors du largage des bombes sur une cible.
-spec_combat_box_effect = • Les bombardiers stratégiques ont une défense aérienne et terrestre accrue lorsqu'ils sont placés à proximité d'autres bombardiers stratégiques
+spec_combat_box_effect = • Les bombardiers stratégiques ont une défense aérienne accrue lorsqu'ils sont placés à proximité d'autres bombardiers stratégiques
 
 spec_red_tails_title = Aviateurs de Tuskegee
 spec_red_tails_descr = Les aviateurs de Tuskegee ont été les premiers aviateurs militaires afro-américains de l'USAAF, servant dans des unités de chasseurs et de bombardiers. Les pilotes de chasse sont devenus célèbres pour leurs missions d'escorte de bombardiers avec le 332e groupe de chasse, connu sous le nom de Red Tails en raison des marques rouges peintes sur leurs avions.

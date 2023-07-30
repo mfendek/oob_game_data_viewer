@@ -1,0 +1,13 @@
+pbem_logout_confirm_title = Выход из учётной записи!
+pbem_logout_confirm_text =  Вы хотите выйти из учётной записи?
+paired = Парная игра
+ranked = Ранговая игра
+tooltip_ranked = Ранговое испытание
+elo_score = Рейтинг
+tooltip_paired = Парное испытание
+ps4_backup_popup_title = "Резервирование сохранений..."
+ps4_backup_popup_description = Подождите, пока не завершится процесс создания резервной копии!
+skin_40 = Пустынные пятна 2
+skin_41 = Серые полосы
+skin_42 = Коричневые полосы
+mouse_controller_switch_text = Кнопка Y переключает на управление мышью/клавиатурой

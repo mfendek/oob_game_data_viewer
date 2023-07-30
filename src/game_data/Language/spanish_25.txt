@@ -1,0 +1,13 @@
+pbem_logout_confirm_title = ¡Cerrar sesión!
+pbem_logout_confirm_text =  ¿Estás seguro de que quieres cerrar sesión?
+paired = Igualada	
+ranked = Con ranking
+tooltip_ranked = Desafío con ranking
+elo_score = Marcador
+tooltip_paired = Desafío igualado
+ps4_backup_popup_title = "Copiando archivos guardados..."
+ps4_backup_popup_description = Por favor espera hasta que el proceso de copia termine.
+skin_40 = Parches del Desierto 2
+skin_41 = Barras grisáceas
+skin_42 = Barras marrones
+mouse_controller_switch_text = Puedes cambiar a control de ratón/teclado presionando la "Y"

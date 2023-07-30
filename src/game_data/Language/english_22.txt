@@ -17,7 +17,7 @@ commander_117 = Lee Archer
 
 spec_combat_box_title = Combat Box
 spec_combat_box_descr = A combat box is a tactical formation developed by the USAAF to combine the firepower of the defensive machine guns of several groups of bombers flying in a box-like order. It also allows for a tighter bomb pattern when releasing the bombs on a target.
-spec_combat_box_effect = • Strategic bombers have increased air and ground defense when placed adjacent to other strategic bombers
+spec_combat_box_effect = • Strategic bombers have increased air defense when placed adjacent to other strategic bombers
 
 spec_red_tails_title = Tuskegee Airmen
 spec_red_tails_descr = The Tuskegee Airmen were the first African-American military aviators in the USAAF, serving in both fighter and bomber units. The fighter pilots became famous for bomber escort missions with the 332nd Fighter Group, known as Red Tails due to the red markings painted on their planes.

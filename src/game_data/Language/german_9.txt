@@ -161,8 +161,8 @@ spec_special_services_title = Spezialeinheiten
 spec_special_services_descr = Spezialeinheiten werden für Attentate und Sabotageoperationen hinter feindlichen Linien ausgebildet und ausgerüstet, wodurch wir den Feind zermürben und seine Gebiete mit Terror überziehen können.
 spec_special_services_effect = • Ermöglicht den Kauf von Special Air Service- und Special Boat Service-Kommandotrupps.
 spec_bomber_stream_title = Bomberstrom
-spec_bomber_stream_descr = Dank der Entwicklung eines taktischen Luftangriffskonzepts fliegen Bomberverbände hintereinander gestaffelt und überfordern durch ihre konzentrierte Masse die feindliche Luft- und Bodenverteidigung.
-spec_bomber_stream_effect = • Strategische Bomber verfügen über eine erhöhte Luft- und Bodenverteidigung, wenn sie sich neben anderen strategischen Bombern befinden.
+spec_bomber_stream_descr = Dank der Entwicklung eines taktischen Luftangriffskonzepts fliegen Bomberverbände hintereinander gestaffelt und überfordern durch ihre konzentrierte Masse die feindliche Luftverteidigung.
+spec_bomber_stream_effect = • Strategische Bomber verfügen über eine erhöhte Luftverteidigung, wenn sie sich neben anderen strategischen Bombern befinden.
 
 difficulty_britain_0 = Second Lieutenant
 difficulty_britain_1 = First Lieutenant

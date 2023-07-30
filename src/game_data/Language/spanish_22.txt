@@ -17,7 +17,7 @@ commander_117 = Lee Archer
 
 spec_combat_box_title = Caja de Combate
 spec_combat_box_descr = Una caja de combate es una formación táctica desarrollada por la USAAF para combinar la potencia de fuego de las ametralladoras defensivas de varios bombarderos, volando en una disposición parecida a una caja. También permite una disposición más cerrada cuando se lanzan bombas sobre un blanco.
-spec_combat_box_effect = • Los bombarderos estratégicos ven aumentadas sus defensas contra unidades aéreas y terrestres cuando se sitúan al lado de otro bombardero estratégico.
+spec_combat_box_effect = • Los bombarderos estratégicos ven aumentadas sus defensas contra unidades aéreas cuando se sitúan al lado de otro bombardero estratégico.
 
 spec_red_tails_title = Los Aviadores de Tuskegee
 spec_red_tails_descr = Los Aviadores de Tuskegee fueron los primeros aviadores afroamericanos de la USAAF. Prestaron servicio tanto en unidades de caza como de bombardeo. Los pilotos de caza se hicieron famosos por sus misiones de escolta con el 332º Grupo de Cazas, conocidos como los Red Tails (Colas Rojas) debido a los emblemas de ese color pintados en sus aviones.

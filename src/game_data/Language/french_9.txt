@@ -161,8 +161,8 @@ spec_special_services_title = Service spécial
 spec_special_services_descr = Les commandos entraînés et équipés pour l'assassinat et les missions de sabotage derrière les lignes ennemies permettront d'user l'ennemi et de développer un régime de terreur à travers ses territoires.
 spec_special_services_effect = • Les commandos SAS et SBS deviennent disponible à l'achat
 spec_bomber_stream_title = Vague de bombardiers
-spec_bomber_stream_descr = Le développement des formations plus serrées des bombardiers augmente leur protection mutuelle en écrasant les défenses aériennes et terrestres de l'ennemi.
-spec_bomber_stream_effect = • Les bombardiers stratégiques ont augmenté la défense aérienne et terrestre, lorsqu'ils ont été placés à côté d'autres bombardiers stratégiques
+spec_bomber_stream_descr = Le développement des formations plus serrées des bombardiers augmente leur protection mutuelle en écrasant les défenses aériennes de l'ennemi.
+spec_bomber_stream_effect = • Les bombardiers stratégiques ont augmenté la défense aérienne, lorsqu'ils ont été placés à côté d'autres bombardiers stratégiques
 
 difficulty_britain_0 = Second Lieutenant
 difficulty_britain_1 = Premier Lieutenant

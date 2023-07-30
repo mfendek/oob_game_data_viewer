@@ -206,7 +206,6 @@ texture = dazzle1
 factions = usa, redusa, usarmy
 category = land
 
-
 [CANADA_1]
 id = 38
 texture = canada1
@@ -217,4 +216,21 @@ category = land
 id = 39
 texture = canada2
 factions = britain, canada
+category = land
+
+[DESERT_PATCHES_2]
+id = 40
+texture = desert_patches2
+category = land
+
+[GREY_1]
+id = 41
+texture = stripes_4
+factions = finland, germany, waffenss
+category = land
+
+[GREY_2]
+id = 42
+texture = stripes_5
+factions = finland, germany, waffenss
 category = land

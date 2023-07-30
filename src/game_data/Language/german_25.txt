@@ -1,0 +1,15 @@
+pbem_logout_confirm_title = Abmeldung erfolgt!
+pbem_logout_confirm_text = Sind Sie sicher, das Sie sich abmelden wollen?
+paired = Gepaart
+ranked = Rangliste
+tooltip_ranked = Rang
+elo_score = Wertung
+tooltip_paired = Gepaartes Spiel
+ps4_backup_popup_title = Sichere Spielstände...
+ps4_backup_popup_description = Bitten warten Sie, bis die Sicherung beendet ist!
+skin_40 = Wüstenflecken 2
+skin_41 = Graue Streifen
+skin_42 = Braune Streifen
+mouse_controller_switch_text = Sie können zu Maus/Tastaturkontrolle wechseln, wenn Sie "Y" pressen
+
+

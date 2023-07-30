@@ -162,7 +162,7 @@ spec_special_services_descr = Una unidad de Servicios Especiales entrenada y equ
 spec_special_services_effect = • se pueden comprar Comandos del SAS y del SBS
 spec_bomber_stream_title = Bomber Stream
 spec_bomber_stream_descr = Desarrollando la posibilidad de conformar sólidas formaciones de bombarderos que incrementen su protección mutua mediante la saturación de las defensas terrestres y aéreas del enemigo.
-spec_bomber_stream_effect = • Los bombarderos estratégicos han incrementado sus defensas ante amenazas aéreas y terrestres cuando se sitúan junto a otros bombarderos estratégicos
+spec_bomber_stream_effect = • Los bombarderos estratégicos han incrementado sus defensas ante amenazas aéreas cuando se sitúan junto a otros bombarderos estratégicos
 
 difficulty_britain_0 = Segundo Teniente
 difficulty_britain_1 = Primer Teniente

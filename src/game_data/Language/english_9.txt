@@ -161,8 +161,8 @@ spec_special_services_title = Special Services
 spec_special_services_descr = A special service force trained and equipped for assassination and sabotage missions behind enemy lines will allow us to wear down the enemy and develop a reign of terror across its territories.
 spec_special_services_effect = • SAS and SBS Commandos become available for purchase
 spec_bomber_stream_title = Bomber Stream
-spec_bomber_stream_descr = Developing the possiblities of tighter bomber formations increases their mutual protection by overwhelming the enemy's air and ground defenses.
-spec_bomber_stream_effect = • Strategic bombers have increased air and ground defense when placed adjacent to other strategic bombers
+spec_bomber_stream_descr = Developing the possiblities of tighter bomber formations increases their mutual protection by overwhelming the enemy's air defenses.
+spec_bomber_stream_effect = • Strategic bombers have increased air defense when placed adjacent to other strategic bombers
 
 difficulty_britain_0 = Second Lieutenant
 difficulty_britain_1 = First Lieutenant
